@@ -1,23 +1,29 @@
-import './App.css'
-import React, { useState, useRef, useEffect } from 
-import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom'
+import "./App.css";
+import React, { useState, useRef, useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  useLocation,
+} from "react-router-dom";
 
 const routes = [
   {
     path: "/",
     sidebar: () => <div>Table of Contents</div>,
-    main: () => <TableOfContents />
+    main: () => <TableOfContents />,
   },
   {
     path: "/BookMarks",
     sidebar: () => <div>Bookmarks</div>,
-    main: () => <BookMarks />
+    main: () => <BookMarks />,
   },
   {
     path: "/Book/:bookName",
     sidebar: () => <div>Book</div>,
-    main: () => <Book />
-  }
+    main: () => <Book />,
+  },
 ];
 
 const AppWrapper = () => {
@@ -60,28 +66,28 @@ const App = () => {
       </div>
 
       {isSidebarOpen && (
-      <div
-        ref={sidebarRef}
-        className={`sidebar ${isSidebarOpen ? "open" : ""}`}
-      >
-        <h1 className="sidebar-title">King James System Bible Study</h1>
-        <hr />
-        <h2 className="sidebar-subtitle">King James Bible</h2>
-        <ul className="sidebar-list">
-          {routes.map((route, index) => (
-            <li key={index} className="sidebar-item">
-              <Link
-                to={route.path}
-                className="sidebar-link"
-                onClick={handleLinkClick}
-              >
-                {route.sidebar().props.children}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
-        )}
+        <div
+          ref={sidebarRef}
+          className={`sidebar ${isSidebarOpen ? "open" : ""}`}
+        >
+          <h1 className="sidebar-title">King James System Bible Study</h1>
+          <hr />
+          <h2 className="sidebar-subtitle">King James Bible</h2>
+          <ul className="sidebar-list">
+            {routes.map((route, index) => (
+              <li key={index} className="sidebar-item">
+                <Link
+                  to={route.path}
+                  className="sidebar-link"
+                  onClick={handleLinkClick}
+                >
+                  {route.sidebar().props.children}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       <div className={`content ${isSidebarOpen ? "sidebar-open" : ""}`}>
         <Routes>
