@@ -1,9 +1,106 @@
 import './App.css'
+import React, { useState, useRef, useEffect } from 
+import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom'
 
-export default function App() {
+const routes = [
+  {
+    path: "/",
+    sidebar: () => <div>Table of Contents</div>,
+    main: () => <TableOfContents />
+  },
+  {
+    path: "/BookMarks",
+    sidebar: () => <div>Bookmarks</div>,
+    main: () => <BookMarks />
+  },
+  {
+    path: "/Book/:bookName",
+    sidebar: () => <div>Book</div>,
+    main: () => <Book />
+  }
+];
+
+const AppWrapper = () => {
+  const location = useLocation();
+  return <App location={location} />;
+};
+
+const App = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const sidebarRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
+        setIsSidebarOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen((prevState) => !prevState);
+  };
+
+  const handleLinkClick = () => {
+    setIsSidebarOpen(false);
+  };
+
   return (
-    <main>
-      React ⚛️ + Vite ⚡ + Replit
-    </main>
-  )
-}
+    <div className="app-wrapper">
+      <div className="header">
+        <button onClick={toggleSidebar} className="hamburger-icon">
+          &#9776; {/* Hamburger icon */}
+        </button>
+        <h1 className="app-title">System Bible Study</h1>
+      </div>
+
+      {isSidebarOpen && (
+      <div
+        ref={sidebarRef}
+        className={`sidebar ${isSidebarOpen ? "open" : ""}`}
+      >
+        <h1 className="sidebar-title">King James System Bible Study</h1>
+        <hr />
+        <h2 className="sidebar-subtitle">King James Bible</h2>
+        <ul className="sidebar-list">
+          {routes.map((route, index) => (
+            <li key={index} className="sidebar-item">
+              <Link
+                to={route.path}
+                className="sidebar-link"
+                onClick={handleLinkClick}
+              >
+                {route.sidebar().props.children}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+        )}
+
+      <div className={`content ${isSidebarOpen ? "sidebar-open" : ""}`}>
+        <Routes>
+          {routes.map((route, index) => (
+            <Route key={index} path={route.path} element={route.main()} />
+          ))}
+        </Routes>
+      </div>
+    </div>
+  );
+};
+
+// Main App Component with Router
+const MainApp = () => (
+  <Router>
+    <BookProvider>
+      <AppWrapper />
+    </BookProvider>
+  </Router>
+);
+
+export default MainApp;
