@@ -1,9 +1,9 @@
-import React, { useEffect, useRef, useState } from "https://esm.sh/react";
-import { useLocation } from "https://esm.sh/react-router-dom@6.14.0";
+import React, { useEffect, useRef, useState } from "react";
+import { useLocation } from "react-router-dom";
 import { useBook } from "../BookContext";
 import { initDB, saveBookmark, getSuggestions, getDistinctTopics} from '../DB';
 
-import RevelationJSON from "../books/Revelation.jsx";
+import RevelationJSON from "../books/Revelation.js";
 import JudeJSON from "../books/Jude.js";
 import IIIJohnJSON from "../books/3John.js";
 import IIJohnJSON from "../books/2John.js";
