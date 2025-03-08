@@ -7,7 +7,10 @@ const urlsToCache = [
   '/src/index.jsx',
   '/src/App.jsx',
   '/src/App.css',
-  '/favicon.svg'
+  '/favicon.svg',
+  '/manifest.json',
+  '/fonts/LibreBaskerville-Regular.ttf',
+  '/fonts/LibreBaskerville-Italic.ttf'
 ];
 
 // Install event - cache essential files

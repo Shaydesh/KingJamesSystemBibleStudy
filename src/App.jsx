@@ -12,6 +12,7 @@ import TableOfContents from "./pages/TableOfContents";
 import BookMarks from "./pages/BookMarks";
 import Book from "./pages/Book";
 import OfflineStatus from "./pages/OfflineStatus";
+import InstallPrompt from "./pages/InstallPrompt";
 
 const routes = [
   {
@@ -70,6 +71,7 @@ const App = () => {
         <h1 className="app-title">System Bible Study</h1>
       </div>
       <OfflineStatus />
+      <InstallPrompt />
 
       {isSidebarOpen && (
         <div
