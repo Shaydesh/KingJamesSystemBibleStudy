@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { useBook } from "../BookContext";
@@ -563,16 +562,15 @@ export default Book;
   justify-content: center;
   align-items: center;
   padding-left: 7px;
-  margin-bottom: -20px;
+  margin-bottom: 10px;
   font-size: 20px;
 }
 
 .bibleVerseContentDiv{
-  width: 500px;
-  background-color: 'lightblue'; 
-  text-align: left; 
-  padding: '20px'; 
-  border: '1px solid #000'; 
+  width: 100%;
+  max-width: 500px;
+  text-align: left;
+  padding: 10px;
 }
 
 @media (max-width: 600px) {
