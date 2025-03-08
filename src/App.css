@@ -281,19 +281,22 @@ body {
 }
 
 .bibleVerseDiv{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ display: flex; /* Add your flex properties here */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   padding-left: 7px;
-  margin-bottom: 10px;
+  margin-bottom: -20px;
   font-size: 20px;
+  
+
 }
 
 .bibleVerseContentDiv{
-  width: 100%;
-  max-width: 500px;
-  text-align: left;
-  padding: 10px;
+  width: 500px;
+  background-color: 'lightblue'; 
+  text-align: left; 
+  padding: '20px'; 
+  border: '1px solid #000'; 
 }
 
 .bibleVerseNumber {

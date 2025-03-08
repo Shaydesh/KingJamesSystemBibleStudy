@@ -557,4 +557,31 @@ const Book = () => {
 
 export default Book;
 
-/* CSS moved to App.css */
+.bibleVerseDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 7px;
+  margin-bottom: -20px;
+  font-size: 20px;
+}
+
+.bibleVerseContentDiv{
+  width: 500px;
+  background-color: 'lightblue'; 
+  text-align: left; 
+  padding: '20px'; 
+  border: '1px solid #000'; 
+}
+
+@media (max-width: 600px) {
+  .bibleVerseDiv {
+    padding: 0 10px;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .bibleVerseContentDiv {
+    padding: 5px;
+  }
+}
