@@ -3,7 +3,7 @@ import { useLocation } from "https://esm.sh/react-router-dom@6.14.0";
 import { useBook } from "../BookContext";
 import { initDB, saveBookmark, getSuggestions, getDistinctTopics} from '../DB';
 
-import RevelationJSON from "./books/Revelation.js";
+import RevelationJSON from "../books/Revelation.jsx";
 import JudeJSON from "../books/Jude.js";
 import IIIJohnJSON from "../books/3John.js";
 import IIJohnJSON from "../books/2John.js";
