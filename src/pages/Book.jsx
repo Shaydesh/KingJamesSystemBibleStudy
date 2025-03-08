@@ -556,3 +556,31 @@ const Book = () => {
 };
 
 export default Book;
+
+.bibleVerseDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 7px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.bibleVerseContentDiv{
+  width: 100%;
+  max-width: 500px;
+  text-align: left;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .bibleVerseDiv {
+    padding: 0 10px;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .bibleVerseContentDiv {
+    padding: 5px;
+  }
+}

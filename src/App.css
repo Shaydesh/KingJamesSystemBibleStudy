@@ -237,40 +237,47 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: sticky; /* Make it sticky */
-  top: 0;          /* Stick to the top */
-  background-color: #f5f5f5; /* Optional: to ensure 
-  padding: 20px;  /* Optional: add some padding */
- 
+  position: sticky;
+  top: 0;
+  background-color: #f5f5f5;
+  padding: 10px;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.nextChapterButton {
-  //background-color: #4CAF50; /* Green background */
-  color: black; /* White text */
-  padding: 10px 20px; /* Padding inside button */
-  //border: none; /* Remove border */
-  //border-radius: 5px; /* Rounded button corners */
-  cursor: pointer; /* Pointer cursor on hover */
+.nextChapterButton, .previousChapterButton {
+  color: black;
+  padding: 10px 15px;
+  cursor: pointer;
   font-family: 'LibreBaskerville-Regular';
   font-size: 17px;
-  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
-  margin: 10px; /* Spacing between buttons */
-  width: 100%; /* Full width on mobile */
-  max-width: 200px; 
+  transition: background-color 0.3s, transform 0.2s;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  max-width: 120px;
+  width: auto;
 }
-.previousChapterButton {
-   //background-color: #4CAF50; /* Green background */
-  color: black; /* White text */
-  padding: 10px 20px; /* Padding inside button */
-  //border: none; /* Remove border */
-  //border-radius: 5px; /* Rounded button corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  font-family: 'LibreBaskerville-Regular';
-  font-size: 17px;
-  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
-  margin: 5px; /* Spacing between buttons */
-  width: 100%; /* Full width on mobile */
-  max-width: 200px; 
+
+.nextChapterButton:active, .previousChapterButton:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 600px) {
+  .bibleChapterDiv {
+    padding: 8px 5px;
+  }
+  
+  .nextChapterButton, .previousChapterButton {
+    padding: 8px 12px;
+    font-size: 14px;
+    max-width: 90px;
+  }
+  
+  .bibleChapterHeader {
+    font-size: 16px;
+    margin: 0 5px;
+  }
 }
 
 .bibleVerseDiv{
@@ -312,25 +319,49 @@ body {
 }
 
 .modal-content {
-  background-color: white; /* White background */
-  border-radius: 8px; /* Rounded corners */
-  padding: 20px; /* Inner padding */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-  max-width: 500px; /* Max width for larger screens */
-  width: 100%; /* Responsive width */
-  text-align: center; /* Center text */
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  max-height: 90vh;
+  overflow-y: auto;
 }
 
 .modal-content h2 {
-  margin-top: 0; /* Remove top margin */
+  margin-top: 0;
+  font-size: 1.5rem;
 }
 
 .modal-content input {
-  width: 80%; /* Responsive width for input */
-  padding: 10px; /* Padding inside input */
-  margin: 15px 0; /* Spacing around input */
-  border: 1px solid #ccc; /* Light border */
-  border-radius: 5px; /* Rounded input corners */
+  width: 90%;
+  padding: 12px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .modal-content {
+    padding: 15px;
+    width: 95%;
+  }
+  
+  .modal-content h2 {
+    font-size: 1.2rem;
+  }
+  
+  .modal-content p {
+    font-size: 14px;
+  }
+  
+  .modal-content input {
+    padding: 10px;
+    font-size: 14px;
+  }
 }
 
 
@@ -481,17 +512,37 @@ body {
   max-height: 200px;
   overflow-y: auto;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 90%;
+  z-index: 1000;
 }
 
 .suggestions-list li {
-  padding: 10px;
+  padding: 12px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
+  font-size: 16px;
 }
 
-.suggestions-list li:hover {
+.suggestions-list li:hover, .suggestions-list li:active {
   background-color: #007bff;
   color: white;
+}
+
+@media (max-width: 600px) {
+  .suggestions-list {
+    width: 95%;
+  }
+  
+  .suggestions-list li {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .topic-search {
+    position: relative;
+    width: 100%;
+  }
 }
 
 .suggestions-list li.selected {
@@ -508,9 +559,12 @@ body {
 .header {
   background: #333;
   color: #fff;
-  
   display: flex;
- 
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .hamburger-icon {
@@ -518,11 +572,31 @@ body {
   border: none;
   color: #fff;
   font-size: 1.5em;
-  margin-right: 0px;
+  margin-right: 10px;
+  padding: 5px;
+  cursor: pointer;
 }
 
 .app-title {
-  margin-left: 10px;
+  margin: 0;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 8px;
+  }
+  
+  .hamburger-icon {
+    font-size: 1.3em;
+  }
+  
+  .app-title {
+    font-size: 1rem;
+  }
 }
 
 .sidebar {
