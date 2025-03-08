@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 
 const InstallPrompt = () => {
@@ -46,36 +45,9 @@ const InstallPrompt = () => {
   if (!showPrompt) return null;
 
   return (
-    <div 
-      style={{
-        position: 'fixed',
-        bottom: '20px',
-        left: '20px',
-        background: '#fff',
-        color: '#333',
-        padding: '15px',
-        borderRadius: '5px',
-        boxShadow: '0 2px 5px rgba(0,0,0,0.2)',
-        zIndex: 1000,
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center'
-      }}
-    >
-      <p style={{ margin: '0 0 10px 0' }}>Install Bible Study App for offline use</p>
-      <button 
-        onClick={handleInstallClick}
-        style={{
-          background: '#333',
-          color: '#fff',
-          border: 'none',
-          padding: '8px 15px',
-          borderRadius: '4px',
-          cursor: 'pointer'
-        }}
-      >
-        Install
-      </button>
+    <div className="install-prompt">
+      <p>Install this app on your device for offline use</p>
+      <button onClick={handleInstallClick}>Install</button>
     </div>
   );
 };
