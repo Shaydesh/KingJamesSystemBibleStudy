@@ -7,6 +7,10 @@ import {
   Link,
   useLocation,
 } from "react-router-dom";
+import { BookProvider } from "./BookContext";
+import TableOfContents from "./pages/TableOfContents";
+import BookMarks from "./pages/BookMarks";
+import Book from "./pages/Book";
 
 const routes = [
   {

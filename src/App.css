@@ -1,2 +1,631 @@
-main {
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+body {
+  background: #f5f5f5;
+  font-family: 'LibreBaskerville-Regular';
+   font-size: 100%;
 }
+
+@font-face {
+    font-family: 'LibreBaskerville-Regular'; /* Replace with a name of your choice */
+    src: url('../fonts/LibreBaskerville-Regular.ttf'); /* Adjust path if needed */
+    font-weight: nal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LibreBaskerville-Italic'; /* Replace with a name of your choice */
+    src: url('../fonts/LibreBaskerville-Italic.ttf'); /* Adjust path if needed */
+    font-weight: nal;
+    font-style: normal;
+}
+
+.tableOfContentsHeader {
+    font-family: 'LibreBaskerville-Italic';
+}
+
+
+
+* {
+    box-sizing: border-box; /* Include padding and border in width calculations */
+}
+
+.columns {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Distribute space evenly */
+    margin-top: 20px; /* Add some margin for spacing */
+  max-width: 100%;
+
+}
+
+.column {
+    flex: 1; /* Each column takes equal width */
+    margin: 0 10px; /* Add some margin between columns */
+    padding: 10px; /* Add some padding inside the column */
+    border: 1px solid #ccc; /* Optional: add a border */
+    border-radius: 5px; /* Optional: add border radius for rounded corners */
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+  width: 100%;
+
+}
+
+.two-column {
+  display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Distribute space evenly */
+    margin-top: 20px; /* Add some margin for spacing */
+  margin-left: 75px;
+  margin-right: 75px;
+  max-width: 100%;
+}
+
+.rev-column {
+  display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Distribute space evenly */
+    margin-top: 20px; /* Add some margin for spacing */
+  margin-left: 100px;
+  margin-right: 100px;
+  max-width: 100%;
+}
+
+
+
+.tblOfContentsBook {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap;
+   margin-bottom: 10px;
+  font-size: 20px; 
+}
+
+.tblOfContentsBook p {
+  margin: 0;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+
+}
+
+.link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent element */
+}
+
+.link:hover {
+    color: blue; /* Change color on hover if desired */
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) { /* Adjust the max-width as needed */
+    .columns {
+        flex-direction: column;
+       align-items: center;   
+    }
+  .column{
+    justify-content: center;
+      max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .two-column {
+    flex-direction: column;
+       align-items: center;  
+     margin-left: 0px;
+  margin-right: 0px;
+}
+  .rev-column {
+    flex-direction: column;
+       align-items: center;  
+     margin-left: 0px;
+  margin-right: 0px;
+}
+  .tableOfContentsHeader {
+  font-family: 'LibreBaskerville-Italic';
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  background: #f5f5f5; /* White background to make it visible */
+  z-index: 10;
+  padding: 5px;
+  margin: 0; /* Prevent margin collapse */
+  text-align: center;
+  font-size: 24px;
+   /* Optional: adds a small shadow */
+}
+}
+
+@media (max-width: 600px) {
+   .columns {
+        flex-direction: column;
+       align-items: center;   
+    }
+  .column{
+    justify-content: center;
+      max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .two-column {
+    flex-direction: column;
+       align-items: center;  
+     margin-left: 0px;
+  margin-right: 0px;
+}
+  .rev-column {
+    flex-direction: column;
+       align-items: center;  
+     margin-left: 0px;
+  margin-right: 0px;
+}
+  .tableOfContentsHeader {
+  font-family: 'LibreBaskerville-Italic';
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  background: #f5f5f5; /* White background to make it visible */
+  z-index: 10;
+  padding: 5px;
+  margin: 0; /* Prevent margin collapse */
+  text-align: center;
+  font-size: 24px;
+   /* Optional: adds a small shadow */
+}
+}
+
+
+.verse-list {
+  max-width: 100%; /* Responsive */
+  margin: 0 auto; /* Center the list */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.verse-item {
+  padding: 10px 15px; /* Padding for each verse */
+  border-bottom: 1px solid #e0e0e0; /* Divider between verses */
+  transition: background-color 0.3s; /* Smooth background change */
+  display: flex; /* Use flex to handle space */
+  flex-wrap: wrap; /* Allow wrapping */
+}
+
+.verse-item:last-child {
+  border-bottom: none; /* Remove border from last item */
+}
+
+.verse-item:hover {
+  background-color: #e6f7ff; /* Change background on hover */
+}
+
+/* Make sure the text is wrapped properly */
+.verse-item strong {
+  display: inline-block; /* Prevents overlap */
+  margin-right: 5px; /* Space between verse number and text */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .verse-list {
+    width: 95%; /* Make it narrower on small screens */
+  }
+  .verse-item {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+  .bibleVerseDiv{
+    font-size: 14px;
+  }
+  .tblOfContentsBook{
+     font-size: 20px;
+  }
+}
+
+.bibleBookHeader {
+  text-align : center
+}
+
+.bibleChapterHeader {
+  text-align : center;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.bibleChapterDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky; /* Make it sticky */
+  top: 0;          /* Stick to the top */
+  background-color: #f5f5f5; /* Optional: to ensure 
+  padding: 20px;  /* Optional: add some padding */
+ 
+}
+
+.nextChapterButton {
+  //background-color: #4CAF50; /* Green background */
+  color: black; /* White text */
+  padding: 10px 20px; /* Padding inside button */
+  //border: none; /* Remove border */
+  //border-radius: 5px; /* Rounded button corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-family: 'LibreBaskerville-Regular';
+  font-size: 17px;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+  margin: 10px; /* Spacing between buttons */
+  width: 100%; /* Full width on mobile */
+  max-width: 200px; 
+}
+.previousChapterButton {
+   //background-color: #4CAF50; /* Green background */
+  color: black; /* White text */
+  padding: 10px 20px; /* Padding inside button */
+  //border: none; /* Remove border */
+  //border-radius: 5px; /* Rounded button corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-family: 'LibreBaskerville-Regular';
+  font-size: 17px;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+  margin: 5px; /* Spacing between buttons */
+  width: 100%; /* Full width on mobile */
+  max-width: 200px; 
+}
+
+.bibleVerseDiv{
+ display: flex; /* Add your flex properties here */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding-left: 7px;
+  margin-bottom: -20px;
+  font-size: 20px;
+  
+
+}
+
+.bibleVerseContentDiv{
+  width: 500px;
+  background-color: 'lightblue'; 
+  text-align: left; 
+  padding: '20px'; 
+  border: '1px solid #000'; 
+}
+
+.bibleVerseNumber {
+  padding-left: 10px
+}
+
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+  display: flex; /* Flex to center */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  padding: 20px; /* Padding around modal */
+}
+
+.modal-content {
+  background-color: white; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  max-width: 500px; /* Max width for larger screens */
+  width: 100%; /* Responsive width */
+  text-align: center; /* Center text */
+}
+
+.modal-content h2 {
+  margin-top: 0; /* Remove top margin */
+}
+
+.modal-content input {
+  width: 80%; /* Responsive width for input */
+  padding: 10px; /* Padding inside input */
+  margin: 15px 0; /* Spacing around input */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded input corners */
+}
+
+
+.modal-content button {
+  //background-color: #4CAF50; /* Green background */
+  color: black; /* White text */
+  padding: 10px 20px; /* Padding inside button */
+  //border: none; /* Remove border */
+  //border-radius: 5px; /* Rounded button corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-family: 'LibreBaskerville-Regular';
+  font-size: 17px;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+  margin: 5px; /* Spacing between buttons */
+  width: 100%; /* Full width on mobile */
+  max-width: 200px; /* Max width on larger screens */
+}
+
+.modal-content button:hover {
+  //background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly grow on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .modal-content button {
+    width: 100%; /* Full width on mobile */
+    margin: 5px 0; /* Margin for spacing between buttons */
+  }
+}
+
+.modal-content button:hover {
+  //background-color: #45a049; /* Darker green on hover */
+}
+
+.close {
+  color: #aaa; /* Light grey */
+  float: right; /* Align to the right */
+  font-size: 28px; /* Font size */
+  font-weight: bold; /* Bold */
+}
+
+.close:hover,
+.close:focus {
+  color: black; /* Darker on hover */
+  text-decoration: none; /* No underline */
+  cursor: pointer; /* Pointer cursor */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .modal-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .modal-content input {
+    width: 100%; /* Full width on mobile */
+  }
+
+  .modal-content button {
+     width: auto; /* Reverts to default size on larger screens */
+    margin-top: 0;
+    margin-bottom: 0;
+   margin-right: 10px; /* Adds space between buttons */
+  }
+
+  .modal-content button:last-child {
+    margin-right: 0; /* Removes margin from the last button */
+  }
+}
+
+.bookmarks-container {
+   text-align: center; /* Center the text */
+}
+
+.bookmarks-title {
+  font-family: 'LibreBaskerville-Regular'; /* Use the italic font */
+  
+  margin-bottom: 20px; /* Space below the title */
+  margin-top: 20px;
+
+  justify-content: space-between;
+  position: sticky; /* Make it sticky */
+  top: 0;          /* Stick to the top */
+  background-color: #f5f5f5; /* Optional: to ensure readability */
+  
+  padding: 20px;  /* Optional: add some padding */
+}
+
+.bookmarks-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.bookmark-item {
+  padding: 10px ; /* Padding for each item */
+  
+  transition: background-color 0.3s; /* Smooth background change */
+}
+
+.bookmark-item:hover {
+  background-color: #e6f7ff; /* Change background on hover */
+}
+
+.no-bookmarks {
+  font-style: italic; /* Italic style for the message */
+  color: #888; /* Lighter color for the message */
+}
+
+.topic-search {
+  margin-top: 20px;
+  position: relative;
+}
+
+.topic-search label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.topic-search input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.topic-search input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Suggestions List Styles */
+.suggestions-list {
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.suggestions-list li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.suggestions-list li:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.suggestions-list li.selected {
+  background-color: #0056b3;
+  color: white;
+}
+
+
+/* General Styles */
+.app-wrapper {
+ 
+}
+
+.header {
+  background: #333;
+  color: #fff;
+  
+  display: flex;
+ 
+}
+
+.hamburger-icon {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5em;
+  margin-right: 0px;
+}
+
+.app-title {
+  margin-left: 10px;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  background: #f0f0f0;
+  z-index: 1000;
+  padding: 10px;
+  display: none; /* Hide sidebar by default */
+}
+
+.sidebar.open {
+  display: block; /* Show when open */
+}
+
+.sidebar-title, .sidebar-subtitle {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.sidebar-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-item {
+  padding: 5px 0;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: inherit;
+  padding-left: 10px;
+}
+
+.content {
+  padding: 10px;
+  transition: margin-left 0.3s;
+}
+
+.content.sidebar-open {
+  margin-left: 20%; /* Adjust content when sidebar is open */
+}
+
+/* Mobile Styles using Media Queries */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%; /* Make sidebar full width on mobile */
+  }
+
+  .sidebar.open {
+    display: block; /* Show sidebar on mobile when open */
+  }
+
+  .content.sidebar-open {
+    margin-left: 0; /* Full width content on mobile */
+  }
+
+  .hamburger-icon {
+    font-size: 2em;
+  }
+
+  .app-title {
+    font-size: 1.5em;
+
+
+  }
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    width: 100%; /* Make sidebar full width on mobile */
+  }
+
+  .sidebar.open {
+    display: block; /* Show sidebar on mobile when open */
+  }
+
+  .content.sidebar-open {
+    margin-left: 0; /* Full width content on mobile */
+  }
+
+  .hamburger-icon {
+    font-size: 2em;
+  }
+
+  .app-title {
+    font-size: 1.5em;
+
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
