@@ -14,6 +14,7 @@ const InstallPrompt = () => {
       setInstallPromptEvent(e);
       // Update UI to notify the user they can install the PWA
       setShowPrompt(true);
+      console.log('Install prompt event captured');
     });
 
     // Handle the installed event to hide prompt
