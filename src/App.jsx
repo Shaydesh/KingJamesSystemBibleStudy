@@ -11,6 +11,7 @@ import { BookProvider } from "./BookContext";
 import TableOfContents from "./pages/TableOfContents";
 import BookMarks from "./pages/BookMarks";
 import Book from "./pages/Book";
+import OfflineStatus from "./pages/OfflineStatus";
 
 const routes = [
   {
@@ -68,6 +69,7 @@ const App = () => {
         </button>
         <h1 className="app-title">System Bible Study</h1>
       </div>
+      <OfflineStatus />
 
       {isSidebarOpen && (
         <div
