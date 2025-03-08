@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import { useBook } from "../BookContext";
 import { initDB, saveBookmark, getSuggestions, getDistinctTopics} from '../DB';
 
-import RevelationJSON from "../books/Revelation.js";
+import RevelationJSON from "../books/Revelation.jsx";
 import JudeJSON from "../books/Jude.js";
 import IIIJohnJSON from "../books/3John.js";
 import IIJohnJSON from "../books/2John.js";
