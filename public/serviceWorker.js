@@ -1,9 +1,10 @@
-const CACHE_NAME = "bible-study-v4";
+
+const CACHE_NAME = "bible-study-v5";
 const urlsToCache = [
   "/",
   "/index.html",
   "/manifest.json",
-  "/apple-touch-icon",
+  "/apple-touch-icon.png",
   "/favicon.ico",
   "/android-chrome-192x192.png",
   "/android-chrome-512x512.png",
@@ -51,39 +52,51 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
-// Fetch event - serve from cache first, then network
+// Cache-first strategy fetch event handler
 self.addEventListener("fetch", (event) => {
   event.respondWith(
-    caches
-      .match(event.request)
-      .then((response) => {
-        // Cache hit - return response
-        if (response) {
-          return response;
+    caches.match(event.request)
+      .then((cachedResponse) => {
+        // Return cached response if found
+        if (cachedResponse) {
+          return cachedResponse;
         }
-        return fetch(event.request).then((response) => {
-          // Check if we received a valid response
-          if (
-            !response ||
-            response.status !== 200 ||
-            response.type !== "basic"
-          ) {
-            return response;
-          }
 
-          // Clone the response
-          const responseToCache = response.clone();
-
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, responseToCache);
+        // Otherwise try to fetch from network
+        return fetch(event.request)
+          .then((networkResponse) => {
+            // Check if we received a valid response
+            if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== "basic") {
+              return networkResponse;
+            }
+            
+            // Clone the response to cache it
+            const responseToCache = networkResponse.clone();
+            
+            caches.open(CACHE_NAME)
+              .then((cache) => {
+                cache.put(event.request, responseToCache);
+              });
+              
+            return networkResponse;
           });
-
-          return response;
-        });
       })
       .catch(() => {
-        // If both cache and network fail, show an offline fallback
-        // return new Response('You are offline. Please check your connection.');
-      }),
+        // If both fail, just return with no response
+        // The browser will show its default offline page
+      })
   );
+});
+
+// Handle navigations to return index.html for SPA routing
+self.addEventListener('fetch', (event) => {
+  if (event.request.mode === 'navigate') {
+    event.respondWith(
+      caches.match('/index.html')
+        .then((response) => {
+          return response || fetch(event.request);
+        })
+        .catch(() => caches.match('/index.html'))
+    );
+  }
 });
