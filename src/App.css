@@ -12,15 +12,15 @@ body {
 @font-face {
     font-family: 'LibreBaskerville-Regular'; /* Replace with a name of your choice */
     src: url('../fonts/LibreBaskerville-Regular.ttf'); /* Adjust path if needed */
-    font-weight: nal;
+    font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'LibreBaskerville-Italic'; /* Replace with a name of your choice */
     src: url('../fonts/LibreBaskerville-Italic.ttf'); /* Adjust path if needed */
-    font-weight: nal;
-    font-style: normal;
+    font-weight: normal;
+    font-style: italic;
 }
 
 .tableOfContentsHeader {
