@@ -7,11 +7,17 @@ import {
   Link,
   useLocation,
 } from "react-router-dom";
-import { BookProvider } from "./BookContext";
+import { BookProvider, useBook } from "./BookContext";
 import TableOfContents from "./pages/TableOfContents";
 import BookMarks from "./pages/BookMarks";
 import Book from "./pages/Book";
 import InstallPrompt from "./pages/InstallPrompt";
+
+// Component to display current book name in sidebar
+const BookSidebarLabel = () => {
+  const { book } = useBook();
+  return <div>Book: {book}</div>;
+};
 
 const routes = [
   {
@@ -26,7 +32,7 @@ const routes = [
   },
   {
     path: "/Book/:bookName",
-    sidebar: () => <div>Book</div>,
+    sidebar: () => <BookSidebarLabel />,
     main: () => <Book />,
   },
 ];
