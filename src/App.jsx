@@ -36,7 +36,7 @@ const AppWrapper = () => {
   return <App location={location} />;
 };
 
-const App = () => {
+const App = ({ location }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const sidebarRef = useRef(null);
 
@@ -60,7 +60,7 @@ const App = () => {
     } else {
       document.body.style.overflow = 'auto';
     }
-    
+
     return () => {
       document.body.style.overflow = 'auto';
     };
@@ -84,8 +84,6 @@ const App = () => {
          <InstallPrompt />
       </div>
 
-
-
       {isSidebarOpen && (
         <div
           ref={sidebarRef}
@@ -99,7 +97,7 @@ const App = () => {
               <li key={index} className="sidebar-item">
                 <Link
                   to={route.path}
-                  className="sidebar-link"
+                  className={`sidebar-link ${location.pathname === route.path ? 'active' : ''}`}
                   onClick={handleLinkClick}
                 >
                   {route.sidebar().props.children}
