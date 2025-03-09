@@ -79,31 +79,22 @@ const App = () => {
           ref={sidebarRef}
           className={`sidebar ${isSidebarOpen ? "open" : ""}`}
         >
-          <h1 className="sidebar-title">King James Bible Study</h1>
+          <h1 className="sidebar-title">King James System Bible Study</h1>
           <hr />
-          <div className="sidebar-menu">
-            <h2 className="sidebar-subtitle">Navigation</h2>
-            <ul className="sidebar-list">
-              <li className="sidebar-item">
+          <h2 className="sidebar-subtitle">King James Bible</h2>
+          <ul className="sidebar-list">
+            {routes.map((route, index) => (
+              <li key={index} className="sidebar-item">
                 <Link
-                  to="/"
+                  to={route.path}
                   className="sidebar-link"
                   onClick={handleLinkClick}
                 >
-                  Bible Contents
+                  {route.sidebar().props.children}
                 </Link>
               </li>
-              <li className="sidebar-item">
-                <Link
-                  to="/BookMarks"
-                  className="sidebar-link"
-                  onClick={handleLinkClick}
-                >
-                  My Bookmarks
-                </Link>
-              </li>
-            </ul>
-          </div>
+            ))}
+          </ul>
         </div>
       )}
 

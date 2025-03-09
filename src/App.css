@@ -241,7 +241,7 @@ body {
   top: 0;          /* Stick to the top */
   background-color: #f5f5f5; /* Optional: to ensure 
   padding: 20px;  /* Optional: add some padding */
-
+ 
 }
 
 .nextChapterButton {
@@ -280,7 +280,7 @@ body {
   padding-left: 7px;
   margin-bottom: -20px;
   font-size: 20px;
-
+  
 
 }
 
@@ -410,7 +410,7 @@ body {
 
 .bookmarks-title {
   font-family: 'LibreBaskerville-Regular'; /* Use the italic font */
-
+  
   margin-bottom: 20px; /* Space below the title */
   margin-top: 20px;
 
@@ -418,7 +418,7 @@ body {
   position: sticky; /* Make it sticky */
   top: 0;          /* Stick to the top */
   background-color: #f5f5f5; /* Optional: to ensure readability */
-
+  
   padding: 20px;  /* Optional: add some padding */
 }
 
@@ -430,7 +430,7 @@ body {
 
 .bookmark-item {
   padding: 10px ; /* Padding for each item */
-
+  
   transition: background-color 0.3s; /* Smooth background change */
 }
 
@@ -502,15 +502,15 @@ body {
 
 /* General Styles */
 .app-wrapper {
-
+ 
 }
 
 .header {
   background: #333;
   color: #fff;
-
+  
   display: flex;
-
+ 
 }
 
 .hamburger-icon {
@@ -541,62 +541,24 @@ body {
   display: block; /* Show when open */
 }
 
-.sidebar-title {
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
-  padding: 0.8rem;
+.sidebar-title, .sidebar-subtitle {
+  font-size: 1.5em;
   text-align: center;
-  font-family: 'LibreBaskerville-Regular', serif;
-}
-
-.sidebar-menu {
-  display: flex;
-  flex-direction: column;
-  padding: 0 0.5rem;
-}
-
-.sidebar-subtitle {
-  font-size: 1.1rem;
-  margin: 0.8rem 0 0.4rem 0;
-  padding-bottom: 0.3rem;
-  border-bottom: 1px solid #e0e0e0;
-  font-family: 'LibreBaskerville-Regular', serif;
 }
 
 .sidebar-list {
   list-style-type: none;
   padding: 0;
-  margin: 0 0 1rem 0;
 }
 
 .sidebar-item {
-  margin: 0.3rem 0;
+  padding: 5px 0;
 }
 
 .sidebar-link {
-  color: #333;
   text-decoration: none;
-  display: block;
-  padding: 0.6rem 0.8rem;
-  font-size: 1rem;
-  transition: background-color 0.3s;
-  border-radius: 4px;
-}
-
-.sidebar-link:hover {
-  background-color: #f0f0f0;
-}
-
-.sidebar-info {
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  font-size: 0.9rem;
-  color: #555;
-  line-height: 1.4;
-}
-
-.sidebar-info p {
-  margin: 0.3rem 0;
+  color: inherit;
+  padding-left: 10px;
 }
 
 .content {
@@ -623,28 +585,13 @@ body {
   }
 
   .hamburger-icon {
-    font-size: 1.8em;
+    font-size: 2em;
   }
 
   .app-title {
-    font-size: 1.3em;
-  }
-  
-  .sidebar-title {
-    font-size: 1.2rem;
-  }
-  
-  .sidebar-subtitle {
-    font-size: 1rem;
-  }
-  
-  .sidebar-link {
-    font-size: 0.95rem;
-    padding: 0.8rem 0.6rem;
-  }
-  
-  .sidebar-info {
-    font-size: 0.85rem;
+    font-size: 1.5em;
+
+
   }
 }
 
@@ -671,3 +618,14 @@ body {
 
   }
 }
+
+
+
+
+
+
+
+
+
+
+
