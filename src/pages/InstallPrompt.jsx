@@ -1,53 +1,60 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from "react";
 
 const InstallPrompt = () => {
-  const [installPromptEvent, setInstallPromptEvent] = useState(null);
-  const [showPrompt, setShowPrompt] = useState(false);
+  const [deferredPrompt, setDeferredPrompt] = useState(null);
+  const [isPromptVisible, setIsPromptVisible] = useState(false);
 
   useEffect(() => {
-    // Listen for the beforeinstallprompt event
-    window.addEventListener('beforeinstallprompt', (e) => {
-      // Prevent the mini-infobar from appearing on mobile
+    const handleBeforeInstallPrompt = (e) => {
+      // Prevent the default install prompt
       e.preventDefault();
-      // Stash the event so it can be triggered later
-      setInstallPromptEvent(e);
-      // Update UI to notify the user they can install the PWA
-      setShowPrompt(true);
-      console.log('Install prompt event captured');
-    });
+      setDeferredPrompt(e);
+      setIsPromptVisible(true); // Show the custom invite message
+    };
 
-    // Handle the installed event to hide prompt
-    window.addEventListener('appinstalled', () => {
-      // Log install to analytics
-      console.log('PWA was installed');
-      // Hide the install prompt
-      setShowPrompt(false);
-    });
+    window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+
+    return () => {
+      window.removeEventListener(
+        "beforeinstallprompt",
+        handleBeforeInstallPrompt,
+      );
+    };
   }, []);
 
   const handleInstallClick = () => {
-    // Hide our user interface that shows our install prompt
-    setShowPrompt(false);
-    // Show the install prompt
-    installPromptEvent.prompt();
-    // Wait for the user to respond to the prompt
-    installPromptEvent.userChoice.then((choiceResult) => {
-      if (choiceResult.outcome === 'accepted') {
-        console.log('User accepted the install prompt');
-      } else {
-        console.log('User dismissed the install prompt');
-      }
-      // We no longer need the prompt, clear it
-      setInstallPromptEvent(null);
-    });
+    if (deferredPrompt) {
+      // Show the install prompt when the user clicks the invite message
+      deferredPrompt.prompt();
+
+      deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === "accepted") {
+          console.log("User accepted the A2HS prompt");
+        } else {
+          console.log("User dismissed the A2HS prompt");
+        }
+        setDeferredPrompt(null);
+        setIsPromptVisible(false); // Hide the custom message after action
+      });
+    }
   };
 
-  if (!showPrompt) return null;
+  if (!isPromptVisible) return null; // Don't render anything if the prompt isn't visible
 
   return (
-    <div className="install-prompt">
-      <p>Install this app on your device for offline use</p>
-      <button onClick={handleInstallClick}>Install</button>
+    <div
+      style={{
+        background: "none",
+        border: "none",
+        color: "#fff",
+        fontSize: "1.5em",
+        marginRight: "20px",
+        marginTop: "12px",
+        marginLeft: "auto",
+      }}
+      onClick={handleInstallClick}
+    >
+      &#8595; {/* HTML entity for download */}
     </div>
   );
 };

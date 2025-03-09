@@ -69,9 +69,10 @@ const App = () => {
           &#9776; {/* Hamburger icon */}
         </button>
         <h1 className="app-title">System Bible Study</h1>
+         <InstallPrompt />
       </div>
 
-      <InstallPrompt />
+     
 
       {isSidebarOpen && (
         <div
