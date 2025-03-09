@@ -84,6 +84,17 @@ body {
   font-size: 20px; 
 }
 
+/* iOS-specific styling for table of contents book titles */
+@supports (-webkit-touch-callout: none) {
+  .tblOfContentsBook {
+    font-size: 24px; /* Larger font size for iOS devices */
+  }
+  
+  .tblOfContentsBook .book-name {
+    font-size: 24px; /* Ensure the book name is larger */
+  }
+}
+
 .tblOfContentsBook p {
   margin: 0;
   overflow: hidden; 
