@@ -449,14 +449,26 @@ const Book = () => {
 
   const onTouchStart = (e) => {
     setTouchEnd(null); // Reset each time
+    setTouchEndY(null); // Reset Y position too
     setTouchStart(e.targetTouches[0].clientX);
+    setTouchStartY(e.targetTouches[0].clientY);
   };
+
+  // Track vertical movement to distinguish between horizontal and vertical swipes
+  const [touchStartY, setTouchStartY] = useState(0);
+  const [touchEndY, setTouchEndY] = useState(0);
 
   const onTouchMove = (e) => {
     setTouchEnd(e.targetTouches[0].clientX);
+    setTouchEndY(e.targetTouches[0].clientY);
     
-    // Prevent browser back navigation when swiping horizontally
-    if (Math.abs(touchStart - e.targetTouches[0].clientX) > 10) {
+    // Calculate horizontal and vertical movement
+    const xDiff = touchStart - e.targetTouches[0].clientX;
+    const yDiff = touchStartY - e.targetTouches[0].clientY;
+    
+    // Only prevent default if horizontal swipe is more significant than vertical
+    // This allows for vertical scrolling while preventing horizontal browser navigation
+    if (Math.abs(xDiff) > Math.abs(yDiff) && Math.abs(xDiff) > 10) {
       e.preventDefault();
     }
   };
@@ -464,19 +476,25 @@ const Book = () => {
   const onTouchEnd = (e) => {
     if (!touchStart || !touchEnd) return;
     
-    // Prevent default browser behavior for swipe gestures
-    const distance = touchStart - touchEnd;
-    const isLeftSwipe = distance > minSwipeDistance;
-    const isRightSwipe = distance < -minSwipeDistance;
+    // Calculate distance for horizontal and vertical movement
+    const horizontalDistance = touchStart - touchEnd;
+    const verticalDistance = touchStartY - touchEndY;
+    
+    // Only handle swipe if the horizontal distance is greater than vertical
+    // This prevents chapter changes when user is trying to scroll up/down
+    if (Math.abs(horizontalDistance) > Math.abs(verticalDistance)) {
+      const isLeftSwipe = horizontalDistance > minSwipeDistance;
+      const isRightSwipe = horizontalDistance < -minSwipeDistance;
 
-    if (isLeftSwipe && currentChapter < bibleData.chapters.length - 1) {
-      // Swipe left to go to next chapter
-      e.preventDefault();
-      handleNextChapter();
-    } else if (isRightSwipe && currentChapter > 0) {
-      // Swipe right to go to previous chapter
-      e.preventDefault();
-      handlePreviousChapter();
+      if (isLeftSwipe && currentChapter < bibleData.chapters.length - 1) {
+        // Swipe left to go to next chapter
+        e.preventDefault();
+        handleNextChapter();
+      } else if (isRightSwipe && currentChapter > 0) {
+        // Swipe right to go to previous chapter
+        e.preventDefault();
+        handlePreviousChapter();
+      }
     }
   };
 
@@ -493,11 +511,18 @@ const Book = () => {
 
     // Add event listener to prevent browser back on swipe
     const preventBrowserBack = (e) => {
-      // Check if it's a horizontal swipe (more x movement than y movement)
+      // Track initial touch positions
       const touchStartX = e.touches[0].clientX;
+      const touchStartY = e.touches[0].clientY;
+      
       const touchMoveHandler = (moveEvent) => {
+        // Calculate both horizontal and vertical movements
         const xDiff = touchStartX - moveEvent.touches[0].clientX;
-        if (Math.abs(xDiff) > 30) {
+        const yDiff = touchStartY - moveEvent.touches[0].clientY;
+        
+        // Only prevent default for horizontal swipes where horizontal movement is greater than vertical
+        // This allows vertical scrolling to work normally
+        if (Math.abs(xDiff) > Math.abs(yDiff) && Math.abs(xDiff) > 30) {
           moveEvent.preventDefault();
         }
       };
