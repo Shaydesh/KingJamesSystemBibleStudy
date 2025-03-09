@@ -440,9 +440,57 @@ const Book = () => {
   setFilteredTopics([]);           // Clear the suggestions list
 };
 
+  // Touch handling for swipe gestures
+  const [touchStart, setTouchStart] = useState(null);
+  const [touchEnd, setTouchEnd] = useState(null);
+
+  // Required minimum distance between touch start and touch end to be detected as swipe
+  const minSwipeDistance = 50;
+
+  const onTouchStart = (e) => {
+    setTouchEnd(null); // Reset each time
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const onTouchMove = (e) => {
+    setTouchEnd(e.targetTouches[0].clientX);
+  };
+
+  const onTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    const distance = touchStart - touchEnd;
+    const isLeftSwipe = distance > minSwipeDistance;
+    const isRightSwipe = distance < -minSwipeDistance;
+
+    if (isLeftSwipe && currentChapter < bibleData.chapters.length - 1) {
+      // Swipe left to go to next chapter
+      handleNextChapter();
+    } else if (isRightSwipe && currentChapter > 0) {
+      // Swipe right to go to previous chapter
+      handlePreviousChapter();
+    }
+  };
+
+
+  useEffect(() => {
+    // Function to handle clicks outside the modal
+    const handleOverlayClick = (event) => {
+      if (event.target.classList.contains("modal")) {
+        closeModal();
+        closeBookmarkModal();
+        closeConfirmModal();
+      }
+    };
+
+    document.addEventListener("click", handleOverlayClick);
+
+    return () => {
+      document.removeEventListener("click", handleOverlayClick);
+    };
+  }, []);
 
   return (
-    <div>
+    <div onTouchStart={onTouchStart} onTouchMove={onTouchMove} onTouchEnd={onTouchEnd}> {/* Added touch event listeners */}
       <h1 className="bibleBookHeader">{book}</h1>
       {bibleData && bibleData.chapters && bibleData.chapters.length > 0 ? (
 
