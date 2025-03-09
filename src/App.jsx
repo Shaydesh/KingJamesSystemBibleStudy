@@ -70,7 +70,7 @@ const App = () => {
         </button>
         <h1 className="app-title">System Bible Study</h1>
       </div>
-      <OfflineStatus />
+
       <InstallPrompt />
 
       {isSidebarOpen && (
