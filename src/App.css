@@ -552,8 +552,8 @@ body {
 }
 
 .sidebar-item {
-  padding: 12px 0;
-  margin-bottom: 8px;
+  padding: 8px 0;
+  margin-bottom: 4px;
   border-radius: 6px;
   transition: background-color 0.3s;
 }
@@ -582,8 +582,8 @@ body {
 /* Mobile Styles using Media Queries */
 @media (max-width: 768px) {
   .sidebar {
-    width: 80%; /* Not quite full width for better aesthetics */
-    max-width: 300px;
+    width: 100%; /* Full width on mobile */
+    max-width: none;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
   }
 
@@ -605,11 +605,11 @@ body {
   }
   
   .sidebar-item {
-    padding: 15px 0;
+    padding: 8px 0;
   }
   
   .sidebar-link {
-    padding: 15px 20px;
+    padding: 8px 15px;
     font-size: 1.3em;
   }
 }
