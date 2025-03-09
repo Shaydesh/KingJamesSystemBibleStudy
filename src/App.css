@@ -552,13 +552,22 @@ body {
 }
 
 .sidebar-item {
-  padding: 5px 0;
+  padding: 12px 0;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.sidebar-item:hover {
+  background-color: #e6e6e6;
 }
 
 .sidebar-link {
   text-decoration: none;
   color: inherit;
-  padding-left: 10px;
+  padding: 12px 15px;
+  display: block;
+  font-size: 1.2em;
 }
 
 .content {
@@ -573,7 +582,9 @@ body {
 /* Mobile Styles using Media Queries */
 @media (max-width: 768px) {
   .sidebar {
-    width: 100%; /* Make sidebar full width on mobile */
+    width: 80%; /* Not quite full width for better aesthetics */
+    max-width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
   }
 
   .sidebar.open {
@@ -586,12 +597,20 @@ body {
 
   .hamburger-icon {
     font-size: 2em;
+    padding: 10px;
   }
 
   .app-title {
     font-size: 1.5em;
-
-
+  }
+  
+  .sidebar-item {
+    padding: 15px 0;
+  }
+  
+  .sidebar-link {
+    padding: 15px 20px;
+    font-size: 1.3em;
   }
 }
 
