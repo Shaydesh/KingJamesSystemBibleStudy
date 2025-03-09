@@ -40,6 +40,7 @@ const AppWrapper = () => {
 const App = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const sidebarRef = useRef(null);
+  const location = useLocation();
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -62,6 +63,22 @@ const App = () => {
     setIsSidebarOpen(false);
   };
 
+  const location = useLocation();
+
+  // Map routes to icons
+  const getRouteIcon = (path) => {
+    switch(path) {
+      case "/":
+        return "📚"; // Table of Contents icon
+      case "/BookMarks":
+        return "🔖"; // Bookmarks icon
+      case "/Book/:bookName":
+        return "📖"; // Book icon
+      default:
+        return "📄"; // Default icon
+    }
+  };
+
   return (
     <div className="app-wrapper">
       <div className="header">
@@ -69,34 +86,47 @@ const App = () => {
           &#9776; {/* Hamburger icon */}
         </button>
         <h1 className="app-title">System Bible Study</h1>
-         <InstallPrompt />
+        <InstallPrompt />
       </div>
 
-     
-
+      {/* Overlay when sidebar is open */}
       {isSidebarOpen && (
-        <div
-          ref={sidebarRef}
-          className={`sidebar ${isSidebarOpen ? "open" : ""}`}
-        >
-          <h1 className="sidebar-title">King James System Bible Study</h1>
-          <hr />
-          <h2 className="sidebar-subtitle">King James Bible</h2>
-          <ul className="sidebar-list">
-            {routes.map((route, index) => (
-              <li key={index} className="sidebar-item">
+        <div 
+          className={`sidebar-overlay ${isSidebarOpen ? "show" : ""}`}
+          onClick={toggleSidebar}
+        ></div>
+      )}
+
+      <div
+        ref={sidebarRef}
+        className={`sidebar ${isSidebarOpen ? "open" : ""}`}
+      >
+        <div className="sidebar-header">
+          <h1 className="sidebar-title">King James Bible</h1>
+          <button className="close-sidebar" onClick={toggleSidebar}>×</button>
+        </div>
+        <hr />
+        <h2 className="sidebar-subtitle">Navigation</h2>
+        <ul className="sidebar-list">
+          {routes.map((route, index) => {
+            const isActive = location.pathname === route.path || 
+              (route.path.includes(':') && location.pathname.includes(route.path.split('/:')[0]));
+            
+            return (
+              <li key={index} className={`sidebar-item ${isActive ? "active" : ""}`}>
                 <Link
                   to={route.path}
-                  className="sidebar-link"
+                  className={`sidebar-link ${isActive ? "active" : ""}`}
                   onClick={handleLinkClick}
                 >
+                  <span className="sidebar-link-icon">{getRouteIcon(route.path)}</span>
                   {route.sidebar().props.children}
                 </Link>
               </li>
-            ))}
-          </ul>
-        </div>
-      )}
+            );
+          })}
+        </ul>
+      </div>
 
       <div className={`content ${isSidebarOpen ? "sidebar-open" : ""}`}>
         <Routes>
