@@ -79,22 +79,37 @@ const App = () => {
           ref={sidebarRef}
           className={`sidebar ${isSidebarOpen ? "open" : ""}`}
         >
-          <h1 className="sidebar-title">King James System Bible Study</h1>
+          <h1 className="sidebar-title">King James Bible Study</h1>
           <hr />
-          <h2 className="sidebar-subtitle">King James Bible</h2>
-          <ul className="sidebar-list">
-            {routes.map((route, index) => (
-              <li key={index} className="sidebar-item">
+          <div className="sidebar-menu">
+            <h2 className="sidebar-subtitle">Navigation</h2>
+            <ul className="sidebar-list">
+              <li className="sidebar-item">
                 <Link
-                  to={route.path}
+                  to="/"
                   className="sidebar-link"
                   onClick={handleLinkClick}
                 >
-                  {route.sidebar().props.children}
+                  <span className="menu-icon">📖</span> Bible Contents
                 </Link>
               </li>
-            ))}
-          </ul>
+              <li className="sidebar-item">
+                <Link
+                  to="/BookMarks"
+                  className="sidebar-link"
+                  onClick={handleLinkClick}
+                >
+                  <span className="menu-icon">🔖</span> My Bookmarks
+                </Link>
+              </li>
+            </ul>
+            
+            <h2 className="sidebar-subtitle">About</h2>
+            <div className="sidebar-info">
+              <p>King James Version (KJV) Bible study tool with chapter navigation and bookmarking features.</p>
+              <p className="version-info">Version 3.0</p>
+            </div>
+          </div>
         </div>
       )}
 
