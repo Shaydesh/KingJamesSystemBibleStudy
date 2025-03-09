@@ -280,8 +280,17 @@ body {
   padding-left: 7px;
   margin-bottom: -20px;
   font-size: 20px;
+}
 
-
+/* Target iOS devices specifically */
+@supports (-webkit-touch-callout: none) {
+  .bibleVerseDiv {
+    font-size: 24px; /* Larger font size for iOS devices */
+  }
+  
+  .bibleVerseContentDiv p {
+    font-size: 24px; /* Make sure the text inside is also larger */
+  }
 }
 
 .bibleVerseContentDiv{
