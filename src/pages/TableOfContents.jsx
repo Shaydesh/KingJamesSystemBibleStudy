@@ -94,7 +94,9 @@ const TableOfContents = () => {
     setBookTheme(bookName); // Set the global context
     setSelectedChapter(0);
     setVerseContext(1);
-    navigate(`/Book/${bookName}`); // Navigate to the book page
+    
+    // Navigate to the book page and force the Book sidebar item to be highlighted
+    navigate(`/Book/${bookName}`);
   };
 
   return (
