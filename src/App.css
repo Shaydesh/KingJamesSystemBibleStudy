@@ -448,6 +448,7 @@ body {
   height: 100%;
   overflow-y: auto;
   touch-action: pan-y; /* Allow vertical scrolling but capture horizontal swipes */
+  overscroll-behavior-x: none; /* Prevent browser back/forward navigation on horizontal swipe */
 }
 
 /* Add visual feedback for swipe actions */

@@ -454,19 +454,28 @@ const Book = () => {
 
   const onTouchMove = (e) => {
     setTouchEnd(e.targetTouches[0].clientX);
+    
+    // Prevent browser back navigation when swiping horizontally
+    if (Math.abs(touchStart - e.targetTouches[0].clientX) > 10) {
+      e.preventDefault();
+    }
   };
 
-  const onTouchEnd = () => {
+  const onTouchEnd = (e) => {
     if (!touchStart || !touchEnd) return;
+    
+    // Prevent default browser behavior for swipe gestures
     const distance = touchStart - touchEnd;
     const isLeftSwipe = distance > minSwipeDistance;
     const isRightSwipe = distance < -minSwipeDistance;
 
     if (isLeftSwipe && currentChapter < bibleData.chapters.length - 1) {
       // Swipe left to go to next chapter
+      e.preventDefault();
       handleNextChapter();
     } else if (isRightSwipe && currentChapter > 0) {
       // Swipe right to go to previous chapter
+      e.preventDefault();
       handlePreviousChapter();
     }
   };
@@ -482,15 +491,34 @@ const Book = () => {
       }
     };
 
+    // Add event listener to prevent browser back on swipe
+    const preventBrowserBack = (e) => {
+      // Check if it's a horizontal swipe (more x movement than y movement)
+      const touchStartX = e.touches[0].clientX;
+      const touchMoveHandler = (moveEvent) => {
+        const xDiff = touchStartX - moveEvent.touches[0].clientX;
+        if (Math.abs(xDiff) > 30) {
+          moveEvent.preventDefault();
+        }
+      };
+      
+      document.addEventListener('touchmove', touchMoveHandler, { passive: false });
+      document.addEventListener('touchend', () => {
+        document.removeEventListener('touchmove', touchMoveHandler);
+      }, { once: true });
+    };
+    
     document.addEventListener("click", handleOverlayClick);
+    document.addEventListener('touchstart', preventBrowserBack, { passive: false });
 
     return () => {
       document.removeEventListener("click", handleOverlayClick);
+      document.removeEventListener('touchstart', preventBrowserBack);
     };
   }, []);
 
   return (
-    <div onTouchStart={onTouchStart} onTouchMove={onTouchMove} onTouchEnd={onTouchEnd}> {/* Added touch event listeners */}
+    <div className="swipe-container" onTouchStart={onTouchStart} onTouchMove={onTouchMove} onTouchEnd={onTouchEnd}>
       <h1 className="bibleBookHeader">{book}</h1>
       {bibleData && bibleData.chapters && bibleData.chapters.length > 0 ? (
 
