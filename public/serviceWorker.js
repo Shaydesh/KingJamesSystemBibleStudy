@@ -12,6 +12,8 @@ const urlsToCache = [
   "/src/App.css",
   "/fonts/LibreBaskerville-Regular.ttf",
   "/fonts/LibreBaskerville-Italic.ttf",
+  "fonts/LibreBaskerville-Regular.ttf",
+  "fonts/LibreBaskerville-Italic.ttf",
 ];
 
 // Install event - cache essential files

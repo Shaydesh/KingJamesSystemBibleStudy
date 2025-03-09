@@ -11,7 +11,9 @@ body {
 
 @font-face {
     font-family: 'LibreBaskerville-Regular';
-    src: url('/fonts/LibreBaskerville-Regular.ttf') format('truetype');
+    src: local('LibreBaskerville-Regular'),
+         url('fonts/LibreBaskerville-Regular.ttf') format('truetype'),
+         url('/fonts/LibreBaskerville-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -19,7 +21,9 @@ body {
 
 @font-face {
     font-family: 'LibreBaskerville-Italic';
-    src: url('/fonts/LibreBaskerville-Italic.ttf') format('truetype');
+    src: local('LibreBaskerville-Italic'),
+         url('fonts/LibreBaskerville-Italic.ttf') format('truetype'),
+         url('/fonts/LibreBaskerville-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
