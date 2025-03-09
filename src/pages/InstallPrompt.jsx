@@ -51,6 +51,7 @@ const InstallPrompt = () => {
         marginRight: "20px",
         marginTop: "12px",
         marginLeft: "auto",
+        cursor: "pointer", /* Changes cursor to a hand/pointer on hover */
       }}
       onClick={handleInstallClick}
     >
