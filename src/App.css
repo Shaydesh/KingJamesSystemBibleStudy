@@ -282,16 +282,16 @@ body {
   font-size: 20px;
 }
 
-/* Target iOS devices specifically */
+/* /* Target iOS devices specifically */
 @supports (-webkit-touch-callout: none) {
-  .bibleVerseDiv {
-    font-size: 24px; /* Larger font size for iOS devices */
-  }
+  /* .bibleVerseDiv {
+    font-size: 22px; 
+  } */
   
   .bibleVerseContentDiv p {
-    font-size: 24px; /* Make sure the text inside is also larger */
+    font-size: 24px; 
   }
-}
+} 
 
 .bibleVerseContentDiv{
   width: 500px;
