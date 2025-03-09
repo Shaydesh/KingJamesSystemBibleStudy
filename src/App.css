@@ -476,8 +476,22 @@ body {
 
 .bookmark-item {
   padding: 10px ; /* Padding for each item */
-
   transition: background-color 0.3s; /* Smooth background change */
+}
+
+/* iOS-specific styling for bookmarks */
+@supports (-webkit-touch-callout: none) {
+  .bookmarks-title {
+    font-size: 26px; /* Larger heading for iOS */
+  }
+  
+  .bookmark-item {
+    font-size: 22px; /* Larger text for bookmarks on iOS */
+  }
+  
+  .bookmarks-container p {
+    font-size: 22px; /* Larger text for any paragraphs in bookmarks container */
+  }
 }
 
 .bookmark-item:hover {
