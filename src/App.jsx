@@ -97,7 +97,13 @@ const App = ({ location }) => {
               <li key={index} className="sidebar-item">
                 <Link
                   to={route.path}
-                  className={`sidebar-link ${location.pathname === route.path ? 'active' : ''}`}
+                  className={`sidebar-link ${
+                    route.path === '/Book/:bookName' 
+                      ? location.pathname.startsWith('/Book/') 
+                      : location.pathname === route.path 
+                    ? 'active' 
+                    : ''
+                  }`}
                   onClick={handleLinkClick}
                 >
                   {route.sidebar().props.children}
