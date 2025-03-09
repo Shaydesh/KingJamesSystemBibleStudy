@@ -334,12 +334,38 @@ body {
   margin-top: 0; /* Remove top margin */
 }
 
+/* iOS-specific styling for modal content */
+@supports (-webkit-touch-callout: none) {
+  .modal-content h2 {
+    font-size: 24px; /* Larger heading for iOS */
+  }
+  
+  .modal-content p {
+    font-size: 20px; /* Larger text for iOS */
+  }
+  
+  .modal-content button {
+    font-size: 20px; /* Larger button text for iOS */
+  }
+}
+
 .modal-content input {
   width: 80%; /* Responsive width for input */
   padding: 10px; /* Padding inside input */
   margin: 15px 0; /* Spacing around input */
   border: 1px solid #ccc; /* Light border */
   border-radius: 5px; /* Rounded input corners */
+}
+
+/* iOS-specific styling for modal input */
+@supports (-webkit-touch-callout: none) {
+  .modal-content input {
+    font-size: 20px; /* Larger input text for iOS */
+  }
+  
+  .suggestions-list li {
+    font-size: 20px; /* Larger suggestions text for iOS */
+  }
 }
 
 
