@@ -11,7 +11,6 @@ import { BookProvider } from "./BookContext";
 import TableOfContents from "./pages/TableOfContents";
 import BookMarks from "./pages/BookMarks";
 import Book from "./pages/Book";
-import OfflineStatus from "./pages/OfflineStatus";
 import InstallPrompt from "./pages/InstallPrompt";
 
 const routes = [
