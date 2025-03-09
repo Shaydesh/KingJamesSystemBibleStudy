@@ -103,12 +103,6 @@ const App = () => {
                 </Link>
               </li>
             </ul>
-            
-            <h2 className="sidebar-subtitle">About</h2>
-            <div className="sidebar-info">
-              <p>King James Version (KJV) Bible study tool</p>
-              <p>With chapter navigation and bookmarking features</p>
-            </div>
           </div>
         </div>
       )}
