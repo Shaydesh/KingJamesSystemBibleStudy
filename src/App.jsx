@@ -98,11 +98,10 @@ const App = ({ location }) => {
                 <Link
                   to={route.path}
                   className={`sidebar-link ${
-                    route.path === '/Book/:bookName' 
-                      ? location.pathname.startsWith('/Book/') 
-                      : location.pathname === route.path 
-                    ? 'active' 
-                    : ''
+                    (route.path === '/Book/:bookName' && location.pathname.startsWith('/Book/')) ||
+                    (location.pathname === route.path)
+                      ? 'active' 
+                      : ''
                   }`}
                   onClick={handleLinkClick}
                 >
