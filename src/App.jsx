@@ -72,7 +72,7 @@ const App = () => {
          <InstallPrompt />
       </div>
 
-     
+
 
       {isSidebarOpen && (
         <div
@@ -94,6 +94,11 @@ const App = () => {
                 </Link>
               </li>
             ))}
+            <li className="sidebar-item">
+              <Link to="/donate" className="sidebar-link" onClick={handleLinkClick}>
+                Support This Project
+              </Link>
+            </li>
           </ul>
         </div>
       )}
