@@ -90,7 +90,7 @@ const App = () => {
                   className="sidebar-link"
                   onClick={handleLinkClick}
                 >
-                  <span className="menu-icon">📖</span> Bible Contents
+                  Bible Contents
                 </Link>
               </li>
               <li className="sidebar-item">
@@ -99,15 +99,15 @@ const App = () => {
                   className="sidebar-link"
                   onClick={handleLinkClick}
                 >
-                  <span className="menu-icon">🔖</span> My Bookmarks
+                  My Bookmarks
                 </Link>
               </li>
             </ul>
             
             <h2 className="sidebar-subtitle">About</h2>
             <div className="sidebar-info">
-              <p>King James Version (KJV) Bible study tool with chapter navigation and bookmarking features.</p>
-              <p className="version-info">Version 3.0</p>
+              <p>King James Version (KJV) Bible study tool</p>
+              <p>With chapter navigation and bookmarking features</p>
             </div>
           </div>
         </div>
