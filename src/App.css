@@ -10,17 +10,19 @@ body {
 }
 
 @font-face {
-    font-family: 'LibreBaskerville-Regular'; /* Replace with a name of your choice */
-    src: url('../fonts/LibreBaskerville-Regular.ttf'); /* Adjust path if needed */
+    font-family: 'LibreBaskerville-Regular';
+    src: url('/fonts/LibreBaskerville-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'LibreBaskerville-Italic'; /* Replace with a name of your choice */
-    src: url('../fonts/LibreBaskerville-Italic.ttf'); /* Adjust path if needed */
+    font-family: 'LibreBaskerville-Italic';
+    src: url('/fonts/LibreBaskerville-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
+    font-display: swap;
 }
 
 .tableOfContentsHeader {
