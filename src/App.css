@@ -530,7 +530,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  position: absolute;
+  position: fixed; /* Changed from absolute to fixed */
   top: 0;
   left: 0;
   width: 20%;
@@ -539,6 +539,8 @@ body {
   z-index: 1000;
   padding: 10px;
   display: none; /* Hide sidebar by default */
+  overflow-y: auto; /* Allow scrolling inside the sidebar */
+  overscroll-behavior: contain; /* Prevent scroll chaining */
 }
 
 .sidebar.open {

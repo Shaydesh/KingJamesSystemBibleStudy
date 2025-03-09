@@ -53,6 +53,19 @@ const App = () => {
     };
   }, []);
 
+  // Prevent scrolling on body when sidebar is open
+  useEffect(() => {
+    if (isSidebarOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+    
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [isSidebarOpen]);
+
   const toggleSidebar = () => {
     setIsSidebarOpen((prevState) => !prevState);
   };
