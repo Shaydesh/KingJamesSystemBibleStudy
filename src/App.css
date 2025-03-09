@@ -552,8 +552,8 @@ body {
 }
 
 .sidebar-item {
-  padding: 8px 0;
-  margin-bottom: 4px;
+  /* padding: 2px 0; */
+  margin-bottom: -10px;
   border-radius: 6px;
   transition: background-color 0.3s;
 }
