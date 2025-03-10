@@ -208,6 +208,34 @@ const data = {
       term: `ABISHALOM`,
       definition: `(my father is peace). Father of Maachah, wife of Jeroboam: in II Ch. 1:20, 21, the name is ABSALOM. I Ki 15:2, 10.`,
     },
+    {
+      term: `ABISHUA`,
+      definition: `(my father is wealth). 1. Son of Phinehas, grandson of Aaron. I Ch. 6:4, 5, 50; Ezra 7:5. 2. A son of Bela, son of Benjamin. I Ch. 8:4.`,
+    },
+    {
+      term: `ABISHUR`,
+      definition: `(my father is a wall). A son of Shammai, the grandson of Jerahmeel, the great-grandson of Judah. 1 Ch. 2:28, 29.`,
+    },
+    {
+      term: `ABITAL`,
+      definition: `(source of dew). A wife of David, and mother of his fourth son, Shephatiah. II Sa. 3:4; I Ch. 3:3.`,
+    },
+    {
+      term: `ABITUB`,
+      definition: `(my father is goodness). A son of Shahariam, a descendant of Benjamin. 1 Ch. 8:11.`,
+    },
+    {
+      term: `ABIUD`,
+      definition: `(father of honor). A son of Zerubbabel; omitted from the list in 1 Ch. 3:19. Mat. 1:13.`,
+    },
+    {
+      term: `ABNER, ABINER`,
+      definition: `(my father is light). The son of Ner and uncle of Saul (being the brother of his father, Kish), and the commander-in-chief of his army (I Sa. 14:50 sq.), in which role he appears several times during the early history of David (I Sa. 17:55; 20:25; 26:5 sq.). From his relationship to the king, and his force of character, he exercised great influence during Saul's reign, as well as afterwards. II Sa. 2-3; 4:1, 12; I Ki. 2:5, 32; I Ch. 26:28; 27:21.`,
+    },
+    {
+      term: `ABRAM`,
+      definition: `(a lofty father), ABRAHAM (father of a multitude). The founder of the Hebrew nation; born B. C. 1996. The story of his life is found in Gen. 9-25. In Gen. 10:21-31, the genealogy of the Shemites (Semites), of the sons of Shem, is given, bringing his line to Terah, the father of Abraham, Nahor, and Haran, their home being in Ur of the Chaldees, in S. Babylonia. Terah later moved to Harran, where he died, and Abram, then 75 years of age, with his wife Sarai, and nephew Lot, quit Babylonia and went to Canaan, via Damascus. He first stopped at Shechem and Bethel (Gen. 12), then proceeded to Egypt, where his wife's beauty, and the representation that she was his sister, brought confusion, causing Pharaoh to order him to quit Egypt—which he did, returning to Bethel. After differences with Lot, he moved to Hebron; pursued Chedorlaomer and others, who made raids on Canaan, to Dan; rescued Lot; and aided in restoring the kings of Sodom and Gomorrah, refusing compensation (Gen. 14). Hagar, his concubine, bore him a son, named Ishmael, and later his wife Sarai, aged 90, bore him Isaac, Abram then being 100 years of age (Gen. 17). After this, their names became "Abraham" and "Sarah," the former embodying the promise that he was to become "the father of a multitude of nations." Before the birth of Isaac, Abraham encountered King Abimelech at Gerar, and to him represented his wife as his sister, whereupon she was taken into the harem of the king, being released, however, when it became known that she was a wife (Gen. 20). In Gen. 22 is recorded the test of Abraham's faith, when he was commanded to sacrifice his son Isaac. Sarah died at the age of 127 (Gen. 23:1), and was buried in the cave of Machpelah, at Hebron, purchased from Ephron the Hittite. Abraham then married Keturah, who bore him Zimran, Jokshan, Medan, Midian, Ishbak, and Shuah. He died at the age of 175, and was buried by the side of Sarah in Machpelah. Abraham was greatly distinguished for his piety and wisdom; and is repeatedly called "the friend of God" in the Bible.`,
+    },
   ],
 };
 
