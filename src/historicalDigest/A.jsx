@@ -40,6 +40,26 @@ const data = {
       term: `ABBA (father).`,
       definition: `A Chaldee word corresponding to the Hebrew ab, meaning ’’father;” applied to God. Mark 14:36; Rom. 8:16; GaL 4:6.`,
     },
+    {
+      term: `ABDA (servant, slave)`,
+      definition: `1. Father of Adoniram, Solomon's tribute officer. 1 Ki. 4:6. 2. A chief Levite in Jerusalem after the Exile, and son of Shammua; called Ohadiah, son of Shemaiah, in 1 Ch. 9:16. Neh. 11:17.`,
+    },
+    {
+      term: `ABDEEL (servant of God)`,
+      definition: `The father of Shelemiah, whom Jehoiakim, king of Judah, ordered to apprehend Baruch the scribe and Jeremiah the prophet. Jer. 36:26.`,
+    },
+    {
+      term: `ABDI (my servant)`,
+      definition: `1. A Merarite, grandfather of Ethan, one of those whom David set over the song-service. 1 Ch. 6:44; 11 Ch. 29:12. 2. A descendant of one of the two Elams, and one of the Jews who had taken a "strange" (foreign) wife during the Exile, a thing forbidden by the Mosaic law. Ezra 10:26.`,
+    },
+    {
+      term: `ABDIEL (servant of God)`,
+      definition: `The ancestor of a family of Gadites dwelling in Gilead in Bashan in the days of Jotham and Jeroboam, kings of Judah and Israel. 1 Ch. 5:15.`,
+    },
+    {
+      term: `ABDON (service, servile)`,
+      definition: `1. A Levitical city in Asher; called HEBRON (Ebron) in Josh. 19:28, and now called Abdeh, at the N. of Acre, on the banks of the Wady Kurn. Josh. 21:30; 1 Ch. 6:74. 2. A son of Hillel the Pirathonite (perhaps the same as BEDAN, in 1 Sa. 12:11). He judged Israel eight years, B. C. 1120-1112, had forty sons and thirty grandsons, who rode on seventy ass colts; was buried in Pirathon, in the land of Ephraim, in what was called the "mount of the Amalekites." Judg. 12:13, 15. 3. A Benjamite in Jerusalem. 1 Ch. 8:23. 4. The first-born son of Jehiel, from Maachah, in Gibcon of Benjamin. 1 Ch. 8:30; 9:36. 5. A son of Micah; sent by King Josiah to Huldah the prophetess to inquire of Jehovah regarding the words of the Book of the Law found in the Temple, B. C. 624. He is called ACHBOR in II Ki. 22:12. II Ch. 34:20.`,
+    },
   ],
 };
 
