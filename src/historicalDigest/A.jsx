@@ -316,6 +316,22 @@ const data = {
       term: `ACTS OF THE APOSTLES`,
       definition: `See BIBLE, BOOKS OF THE.`,
     },
+    {
+      term: `ADADAH`,
+      definition: `(festival ?). A city in S. of Judah, near Dimonah. Josh. 15:21, 22.`,
+    },
+    {
+      term: `ADAH`,
+      definition: `(pleasure). 1. One of the wives of Lamech. Gen. 4:19, 20, 23. 2. One of the wives of Esau; called BASHEMATH in Gen. 26:34; Gen. 36:2, 4, 10, 12, 16.`,
+    },
+    {
+      term: `ADAIAH`,
+      definition: `(Jehovah hath adorned). 1. Maternal grandfather of King Josiah. II Ki. 22:1. 2. A Levite descended from Gershom. I Ch. 6:41. 3. A son of Shimhi the Benjamite. I Ch. 8:21. 4. A Levite of the family of Aaron, and head of a family in Jerusalem. 1 Ch. 9:12. 5. The father of a captain that aided Jehoiada to put Joash on the throne of Judah. II Ch. 23:1. 6. One of the family of Bani who took a "strange" (foreign) wife during the Exile. Ezra 10:29. 7. Another, of a different family of Bani, who had also taken a foreign wife. Ezra 10:39. 8. A descendant of Judah by Pharez. Neh. 11:5. 9. A Levite of the family of Aaron: probably the same as No. 4. Neh. 11:12.`,
+    },
+    {
+      term: `ADALIA`,
+      definition: `One of the ten sons of Haman who were hanged along with their father, B.C. 473 Esth. 9:8`,
+    },
   ],
 };
 
