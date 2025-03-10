@@ -80,6 +80,38 @@ const data = {
       term: `ABELMAIM`,
       definition: `(meadow of the waters) Apparently another name for ABELBETHMAACHAH; it was smitten by the armies of Benhadad, B.C. 940, in the days of Asa. II Ch. 16:4.`,
     },
+    {
+      term: `ABELMEHOLAH`,
+      definition: `(meadow of dancing) A city in Issachar, at the N. of the Jordan Valley, and ten or twelve miles S. of Beth-shean; the birth-place of Elisha the prophet, son of Shaphat. Judg. 7:22; I Ki. 4:12; 19:16.`,
+    },
+    {
+      term: `ABELMIZRAIM`,
+      definition: `(meadow of Egypt) A place at the threshing-floor of Atad, "beyond Jordan," probably on the W., between it and Hebron, at Beth-hogla, now Ain-Hajla; according to others, at El-Haram, near Hebron. See ATAD. Gen. 50:11.`,
+    },
+    {
+      term: `ABELSHITTIM`,
+      definition: `(meadow of acacia) A place in the plains (or deserts) of Moab E. of the Jordan, about seven miles off, opposite Jericho, and nearly W. of Heshbon. It was the extreme N. border of the last encampment of Israel before passing over the Jordan, B. C. 1451. See SHITTIM. Num. 33:49.`,
+    },
+    {
+      term: `ABEZ`,
+      definition: `(white, shining)—R. V., "Ebez." A city in Issachar, near Kishion or Remeth (perhaps the same as Thebez, now Tubas), near Engannin and Shunem. Josh. 19:20.`,
+    },
+    {
+      term: `ABI`,
+      definition: `(Jehovah is father) The daughter of Zechariah, wife of Ahaz and mother of Hezekiah, kings of Judah; called ABIJAH in II Ch. 29:1. II Ki. 18:2.`,
+    },
+    {
+      term: `ABIA, ABIAH`,
+      definition: `(Jehovah is father) 1. The second son of Samuel the prophet and judge of Israel. With his brother Joel or Vashni, he judged in Beersheba, and did wickedly, so that Israel desired and obtained a king. I Sa. 8:2; I Ch. 6:28. 2. The wife of Hezron, grandson of Judah by Pharez, and mother of Ashur, father of Tekoa. I Ch. 2:24. 3. A son of Rehoboam, called ABIJAM in I Ki. 14:31; 15:1, 7, 8. I Ch. 3:10—Mat. 1:7. 4. The seventh son of Becher, son of Benjamin. I Ch. 7:8. 5. A priest in the days of David, set over a particular course of service in the Tabernacle. Lu. 1:5.`,
+    },
+    {
+      term: `ABIALBON`,
+      definition: `(father of strength) One of David's mighty men, from Arabah or Beth-arabah, a city in the N. of the country of the tribe of Judah, adjacent to the territory of the tribe of Benjamin. He is called ABIEL in 1 Ch. 11:32. II Sa. 23:31.`,
+    },
+    {
+      term: `ABIASAPH`,
+      definition: `(father of gathering) The third son of Korah, first-born of Izhar, second son of Kohath, second son of Levi, third son of Jacob. See EBIASAPH. Ex. 6:24`,
+    },
   ],
 };
 
