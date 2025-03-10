@@ -372,6 +372,134 @@ const data = {
       term: `ADDER`,
       definition: `A common name given to the viper, a species of serpent. "Adder" is used in the Bible as a translation of four Hebrew words; and in the A. V. signifies four different serpents—viz., the cobra (Psa. 58:4; 91:13); the horned snake, or cerastes (Gen. 49:17); the viper (Psa. 140:3); and, in Prov. 23:32, a snake elsewhere called "cockatrice," and may refer indefinitely to different species of vipers. The horned snake, or cerastes, is about a foot long, and has black spots and two horns. It lies hidden in the sand, which it closely resembles in color, and darts upon the unsuspecting traveler. It has a very deadly bite, and is frequently found in the wilderness of Judea. See ASP.`,
     },
+    {
+      term: `ADDI`,
+      definition: `(perhaps ornament) Son of Cosam and father of Melchi (i.e., probably MAASEIAH, II Ch. 34:8), an ancestor of Jesus. Lu. 3:28.`,
+    },
+    {
+      term: `ADDON`,
+      definition: `(strong) Probably the same as ADDAN in Ezra 2:59. Neh. 7:61.`,
+    },
+    {
+      term: `ADER`,
+      definition: `(a flock) A son of Berah, grandson of Shaharaim, a Benjamite. I Ch. 8:15.`,
+    },
+    {
+      term: `ADIEL`,
+      definition: `(ornament of God) 1. A descendant of Simeon. I Ch. 4:36. 2. A descendant of Aaron. I Ch. 9:12. 3. Father of Asmaveth, David's treasurer; perhaps the same as No. 2. 1 Ch. 27:25.`,
+    },
+    {
+      term: `ADIN`,
+      definition: `(ornament) 1. One whose descendants returned from Babylon with Zerubbabel, B. C. 536. Ezra 2:15; Neh. 7:20. 2. One whose descendants returned from captivity with Ezra, B. C. 458. Ezra 8:6. 3. The name of a family who, with Nehemiah and the people, sealed the covenant. Neh. 10:14-16.`,
+    },
+    {
+      term: `ADINA`,
+      definition: `(ornament of God) A Reubenite captain of David's army. 1 Ch. 11:42.`,
+    },
+    {
+      term: `ADINO`,
+      definition: `(ornament) One of David's thirty valiant men. II Sa. 23:8.`,
+    },
+    {
+      term: `ADITHAIM`,
+      definition: `(two passages) A city in the plain of Judah. Josh. 15:36.`,
+    },
+    {
+      term: `ADLAI`,
+      definition: `(my righteousness) Father of Shaphat, who was David's overseer of the herds in the lowlands. 1 Ch. 27:29.`,
+    },
+    {
+      term: `ADMAH`,
+      definition: `(earthwork, fortress) A town in the vale of Siddim, near the Dead Sea, which was destroyed with Sodom, Gomorrah, and Zeboim, B. C. cir. 1897. Gen. 10:19; 14:2; Deut. 29:23; Hos. 11:8.`,
+    },
+    {
+      term: `ADMATHA`,
+      definition: `(God-given) One of the seven princes of Persia and Media in the reign of Ahasuerus, husband of Esther. Esth. 1:14.`,
+    },
+    {
+      term: `ADNA`,
+      definition: `(pleasure) 1. One of the family of Pahath-moab who had taken a foreign wife during the exile in Babylon. Ezra 10:30. 2. A priest in the time of Joiakim, grandson of Jozadak. Neh. 12:15.`,
+    },
+    {
+      term: `ADNAH`,
+      definition: `(pleasure) 1. A captain of Manasseh who joined David in Ziklag. 1 Ch. 12:20. 2. The chief captain of the army of Jehoshaphat. II Ch. 17:14.`,
+    },
+    {
+      term: `ADONIBEZEK`,
+      definition: `(lord of Bezek) A king of Bezek, captured by the men of Judah and Simeon and taken to Jerusalem, where he was mutilated, and died, B. C. 1449. Judg. 1:5-7.`,
+    },
+    {
+      term: `ADONIJAH`,
+      definition: `(Jehovah is my lord) 1. Fourth son of David, born in Hebron, and afterwards put to death by Solomon for aspiring to the throne, B. C. 1015. II Sa. 3:4; 1 Ki. 1:2. 2. One of the Levites sent by Jehoshaphat to teach the law, B. C. 914. II Ch. 17:8. 3. A chief of the people that sealed the covenant with Nehemiah, B. C. 445. Neh. 10:16.`,
+    },
+    {
+      term: `ADONIKAM`,
+      definition: `(my lord has risen) 1. An Israelite whose descendants came back from Babylon after the Exile, B. C. 536. Ezra 2:13; Neh. 7:18. 2. An Israelite, some of whose descendants returned from Babylon with Ezra, B. C. 458; perhaps the same as No. 1. Ezra 8:13.`,
+    },
+    {
+      term: `ADONIRAM`,
+      definition: `(my lord is high) A tribute officer of David and Solomon who superintended the 30,000 men sent by Solomon to cut timber for building the Temple. See ADORAM. 1 Ki. 4:6; 5:14.`,
+    },
+    {
+      term: `ADONIZEDEC`,
+      definition: `(lord of righteousness) A king of the Canaanites or Amorites in Jerusalem, and slain by Joshua. Josh. 10:1, 3.`,
+    },
+    {
+      term: `ADORAIM`,
+      definition: `(double honor) A city in the S. W. of Judah, built by Rehoboam, son of Solomon, and now called Dura, five miles S. W. of Hebron. II Ch. 11:9.`,
+    },
+    {
+      term: `ADORAM`,
+      definition: `(high honor) 1. An officer of David, set over the tribute; supposed to be the same as ADONIRAM. II Sa. 20:24. 2. An officer under Rehoboam. I Ki. 12:18.`,
+    },
+    {
+      term: `ADRAMMELECH`,
+      definition: `(honor of the king) 1. An idol of the Sepharvites, whom Shalmaneser brought to people the cities of Israel after he had carried their inhabitants to Assyria as captives. II Ki. 17:31. 2. A son of Sennacherib, king of Assyria, who, with his brother Sharezer, slew their father in the Temple of Nisroch, B. C. 696. II Ki. 19:37; Isa. 37:38.`,
+    },
+    {
+      term: `ADRAMYTTIUM`,
+      definition: `A large seaport of Mysia, in Asia Minor, colonized by the Athenians; now called Adramyti. Acts 27:2.`,
+    },
+    {
+      term: `ADRIA`,
+      definition: `The sea on the E. of Italy called the Adriatic, or Gulf of Venice. In the time of Paul, it embraced also the part of the Mediterranean between Greece and Sicily. Acts 27:27.`,
+    },
+    {
+      term: `ADRIEL`,
+      definition: `(honor of God) A man of Issachar to whom Merab (Saul's daughter) was given. I Sa. 18:19; II Sa. 21:8.`,
+    },
+    {
+      term: `ADULLAM`,
+      definition: `(resting-place) 1. A royal city S. W. of Jerusalem, situated in the "plain of Judah." Its king was slain by Joshua. It was rebuilt by Rehoboam and fortified, and was again occupied by the Jews after the Exile. Josh. 12:15; 15:35; II Ch. 11:7; Neh. 11:30; Mic. 1:15. 2. A large cave near the city of Adullam, to which David escaped. I Sa. 22:1; II Sa. 23:13; I Ch. 11:15.`,
+    },
+    {
+      term: `ADULLAMITE`,
+      definition: `An inhabitant of Adullam. Gen. 38:1.`,
+    },
+    {
+      term: `ADULTERY`,
+      definition: `As defined by the Jewish law, the unlawful intercourse of a man with a married or betrothed woman not his own—a crime forbidden in the seventh commandment. Adultery is the only offense mentioned by Christ as sufficient for divorce (Mat. 5:32). Ex. 20:14.`,
+    },
+    {
+      term: `ADUMMIM`,
+      definition: `(red places) A ridge of hills, between Judah and Benjamin, near Jericho, and on the road to Jerusalem. This wild and desolate rocky region was a famous hiding-place for robbers, and was the scene used by Christ in the parable of the Good Samaritan. It is still infested by robbers. Josh. 15:7; 18:17.`,
+    },
+    {
+      term: `ADVERSARY`,
+      definition: `See ACCUSER. Ex. 23:22.`,
+    },
+    {
+      term: `ADVOCATE`,
+      definition: `One that pleads the cause of another. In a technical sense, the office of advocate was unknown to the Jews until their subjection to the Romans. The word is applied to Christ as our Intercessor (I Jno. 2:1).`,
+    },
+    {
+      term: `AENEAS`,
+      definition: `See ENEAS. Acts 9:33.`,
+    },
+    {
+      term: `AENON`,
+      definition: `See ENON. Jno. 3:23.`,
+    },
   ],
 };
 
