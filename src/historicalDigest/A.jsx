@@ -236,6 +236,50 @@ const data = {
       term: `ABRAM`,
       definition: `(a lofty father), ABRAHAM (father of a multitude). The founder of the Hebrew nation; born B. C. 1996. The story of his life is found in Gen. 9-25. In Gen. 10:21-31, the genealogy of the Shemites (Semites), of the sons of Shem, is given, bringing his line to Terah, the father of Abraham, Nahor, and Haran, their home being in Ur of the Chaldees, in S. Babylonia. Terah later moved to Harran, where he died, and Abram, then 75 years of age, with his wife Sarai, and nephew Lot, quit Babylonia and went to Canaan, via Damascus. He first stopped at Shechem and Bethel (Gen. 12), then proceeded to Egypt, where his wife's beauty, and the representation that she was his sister, brought confusion, causing Pharaoh to order him to quit Egypt—which he did, returning to Bethel. After differences with Lot, he moved to Hebron; pursued Chedorlaomer and others, who made raids on Canaan, to Dan; rescued Lot; and aided in restoring the kings of Sodom and Gomorrah, refusing compensation (Gen. 14). Hagar, his concubine, bore him a son, named Ishmael, and later his wife Sarai, aged 90, bore him Isaac, Abram then being 100 years of age (Gen. 17). After this, their names became "Abraham" and "Sarah," the former embodying the promise that he was to become "the father of a multitude of nations." Before the birth of Isaac, Abraham encountered King Abimelech at Gerar, and to him represented his wife as his sister, whereupon she was taken into the harem of the king, being released, however, when it became known that she was a wife (Gen. 20). In Gen. 22 is recorded the test of Abraham's faith, when he was commanded to sacrifice his son Isaac. Sarah died at the age of 127 (Gen. 23:1), and was buried in the cave of Machpelah, at Hebron, purchased from Ephron the Hittite. Abraham then married Keturah, who bore him Zimran, Jokshan, Medan, Midian, Ishbak, and Shuah. He died at the age of 175, and was buried by the side of Sarah in Machpelah. Abraham was greatly distinguished for his piety and wisdom; and is repeatedly called "the friend of God" in the Bible.`,
     },
+    {
+      term: `ABSALOM`,
+      definition: `(father of peace). Son of David, and the only one by Maacah, daughter of Talmai, king of Geshur. He was noted for his personal beauty, and for his hair, which is said to have weighed 200 shekels (see WEIGHTS AND MEASURES) when cut off. He had a sister named Tamar, for the defiling of whom he slew his half-brother, Amnon. He then fled to the house of Talmai, his mother's father, at Geshur. Joab, commander of David's army, employed a woman of Tekoah to appear before David to lay a supposed case before him for judgement, and she applied the anticipated decision so adroitly to the case of Absalom, that the king discovered the object and detected the interposition of Joab. Regarding this as in some degree expressing the sanction of public opinion, David gladly commissioned Joab to bring his son back to Jerusalem. Absalom returned, after an absence of three years; but his father controlled his feelings, and declined to admit him to his presence. After two years, however, through the instrumentality of Joab, a complete reconciliation was effected, and the father once more indulged himself with the presence of his son (II Sa. 13:39; 14:33). Scarcely had Absalom returned, when he began to cherish aspirations to the throne, which he must have known was already pledged to another (see II Sa. 7:12). After gaining the favor of the people, he rebelled against his father and raised a large army, which was defeated by that of David. While he was retreating from battle, Absalom was killed by Joab, B. C. 1023, although David had ordered that his life be spared. The account of his ambition for his father's throne is found in II Sa. 15; of his conspiracy, 15-17; of his death and burial, 18:9-17; of David's mourning for him, 18:33; 19:1-8; of his children, 14:27; 18:18; 1 Ki. 15:2.`,
+    },
+    {
+      term: `ACCAD`,
+      definition: `(castle, fortress). One of the four cities built by Nimrod in the plain of Shinar; thought by some to be Nisibis, in Mesopotamia. In the LXX., it is called Archad, and in the Talmud, Bashkar. Gen. 10:10.`,
+    },
+    {
+      term: `ACCHO`,
+      definition: `(compressed). The city Ptolemais, in Asher, on the coast of the Mediterranean Sea; now called Akka and St. Jean d' Acre. Judg. 1:31.`,
+    },
+    {
+      term: `ACCUSER`,
+      definition: `An enemy or adversary, particularly in a court of law (Mat. 5:25). In Job 1:6; Zech. 3:1; Rev. 12:10, Satan is represented as the public accuser of the people of God.`,
+    },
+    {
+      term: `ACELDAMA`,
+      definition: `(field of blood). A small field S. of Jerusalem, purchased by the chief priests with the thirty pieces of silver which Judas received for betraying Jesus. Aceldama was the "potter's field" used for the burial-place of strangers. In Acts 1:18, Judas is said to have purchased the field, because it was bought with his money. Acts 1:19.`,
+    },
+    {
+      term: `ACHAIA`,
+      definition: `(land of Achaicus). A region of Greece, which, in the restricted sense, occupied the N. W. portion of the Peloponnesus, including Corinth and its isthmus. The name was often used by the poets to denote the whole of Greece. Under the Romans, Greece was divided into two provinces, Macedonia and Achaia, the former of which included Macedonia proper, with Illyricum, Epirus, and Thessaly; and the latter, all that lay S. of the former. It is in this latter acceptation that the name of Achaia is always employed in the N. T. In the time of Paul, it was governed by a pro-consul, called "deputy" by Luke in Acts 18:12. Acts 18:27; Rom. 15:26; I Co. 16:15; II Co. 1:1.`,
+    },
+    {
+      term: `ACHAICUS`,
+      definition: `(belonging to Achaia). A Christian of Corinth who visited Paul at Philippi. 1 Co. 16:17.`,
+    },
+    {
+      term: `ACHAN`,
+      definition: `(trouble). One of the tribe of Judah, who, at the destruction of Jericho by Joshua, stole part of the spoil and hid it, in disobedience to the command of the Lord. This action brought a curse and defeat upon the Israelites. He was discovered by lot, and stoned to death with all his family in the valley of Achor (Josh. 6:18; 7:18). He is called ACHAR in 1 Ch. 2:7.`,
+    },
+    {
+      term: `ACHAR`,
+      definition: `See ACHAN. I Ch. 2:7.`,
+    },
+    {
+      term: `ACHAZ`,
+      definition: `(he holds). The Greek form of AHAZ, the name of one of the kings of Judah. Mat. 1:9.`,
+    },
+    {
+      term: `ACHBOR`,
+      definition: `(a mouse). 1. Father of the seventh Edomite king. Gen. 36:38, 39; 1 Ch. 1:49. 2. One of Josiah's messengers sent to inquire concerning the denunciation of wrath against the national sins, as found recorded in the Book of the Law discovered by Hilkiah in the Temple, B. C. 641. In II Ch. 34:20, ABDON is named instead of Achbor. II Ki. 22:12, 14. 3. A Jew, whose son was sent by Jehoiakim to bring back Urijah the prophet out of Egypt, B. C. 600. Jer. 26:22; 36:12.`,
+    },
   ],
 };
 
