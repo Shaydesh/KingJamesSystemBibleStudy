@@ -828,6 +828,102 @@ const data = {
       term: `ALEXANDER THE GREAT`,
       definition: `King of Macedon; born B. C. 356, made king B. C. 336, succeeding his father, Philip. He was commander-in-chief of the army of Greece, B. C. 334, conquered most of the then known world, and died at Babylon, B. C. 323, at the age of thirty-three. Alexander the Great is not mentioned by name in the canonical books of the Bible, but is referred to in the prophecies of Daniel, where he is represented by the belly of brass in Nebuchadnezzar's dream of the colossal statue (Dan. 2:39), and in Daniel's vision (Dan. 7:6; 8:5-7; 11:3, 4). See ALEXANDRIA.`,
     },
+    {
+      term: `ALEXANDRIA`,
+      definition: `(of Alexander) An important city of Egypt, between the Mediterranean Sea and Lake Mareotis, twelve miles from the W. mouth of the Nile. It was founded by ALEXANDER THE GREAT (which see), B. C. 332, and derived its name from him. It was the birthplace of Apollos (Acts 18:24), first a disciple of John, and later of Christ. Alexandria became the capital of the Grecian kings reigning in Egypt, and was one of the largest and grandest cities in the world, the metropolis of Egypt as well as a great seat of commerce and wealth. It contained the greatest library of ancient times and a famous museum. In its best days, it is supposed to have had over 600,000 inhabitants, mostly Greeks and Jews. The modern city is built on the ruins of the ancient one, about 125 miles N. of Cairo. It is still the seat of extensive commerce, and has a population of about 60,000. Though not often mentioned in the Bible, Alexandria was in many ways closely connected with later Jewish history. Acts 6:9; 18:24; 27:6; 28:11.`,
+    },
+    {
+      term: `ALEXANDRIANS`,
+      definition: `Inhabitants of Alexandria. Acts 6:9.`,
+    },
+    {
+      term: `ALGUM or ALMUG`,
+      definition: `A kind of costly wood brought from Ophir by Hiram, king of Tyre, for Solomon, to be used for pillars in the Temple and for musical instruments; probably red sandal-wood. 1 Ki. 10:11, 12; II Ch. 2:8; 9:10, 11.`,
+    },
+    {
+      term: `ALIAH`,
+      definition: `(sublimity) A chief of Edom, descended from Esau; called ALVAH in Gen. 36:40. I Ch. 1:40.`,
+    },
+    {
+      term: `ALIAN`,
+      definition: `(sublime) A son of Shobal, a descendant of Seir; called ALVAN in Gen. 36:23. I Ch. 1:40.`,
+    },
+    {
+      term: `ALLEGORY`,
+      definition: `A story in which the literal or direct meaning is not the principal one, but which sets forth some important truth. In Gal. 4:24, "which things are an allegory" signifies that the events referred to concerning the life of Isaac and Ishmael have been applied allegorically.`,
+    },
+    {
+      term: `ALLELUIA`,
+      definition: `(Praise ye the Lord) A Graecized form of the Hebrew exclamation Hallelujah, which is translated in the Bible "Praise ye the Lord" (R. V., "Jehovah") or "Praise the Lord," and is found in many of the Psalms in this form (Psa. 106; 111; 112; 113; 117, etc.). Psalms 113-118 were called by the Jews the "Hallel," and were sung on the first of the month, at the Feast of Dedication, and the Feast of Tabernacles, the Feast of Weeks, and the Feast of the Passover. The hymn sung by Christ and his disciples after the last supper (Mat. 26:30) is supposed to have been a part of this Hallel, which seems to have varied according to the feast. In the great hymn of triumph in heaven over the destruction of "Babylon" (Rev. 19:1-6), as also in the offering of incense (Rev. 8), there is evident allusion to the service of the Temple, as the apostle John had often witnessed it in its fading grandeur.`,
+    },
+    {
+      term: `ALLIANCE`,
+      definition: `The Israelites were strictly forbidden to ally themselves with the heathen by family or by political ties, and alliances with the Canaanites were especially prohibited (Deut. 7:3-6). Hence the mourning and prayer of Ezra, and the subsequent separating of all "strangers" (foreigners) from the people of Israel (Ezra 9-10).`,
+    },
+    {
+      term: `ALLON`,
+      definition: `(an oak) 1. A place or tree near Kadesh, in Naphtali. Josh. 19:33 (R. V., "oak"). 2. The chief of a family in Simeon. I Ch. 4:37.`,
+    },
+    {
+      term: `ALLONBACHUTH`,
+      definition: `(oak of weeping)—R. V., "Allon-bacuth." A place near Bethel where Deborah was buried. Gen. 35:8.`,
+    },
+    {
+      term: `ALLOW`,
+      definition: `In Lu. 11:48, "Truly ye bear witness that ye allow the deeds of your fathers" is rendered "So ye are witnesses and consent unto the works of your fathers" in the R. V.`,
+    },
+    {
+      term: `ALL TO`,
+      definition: `An old English expression which gives additional force to a verb; in Judg. 9:53, it is omitted from the R. V. text.`,
+    },
+    {
+      term: `ALMODAD`,
+      definition: `(the agitator) Son of Joktan, of the family of Shem. Gen. 10:26; I Ch. 1:20.`,
+    },
+    {
+      term: `ALMON`,
+      definition: `(hiding-place) A Levitical town in Benjamin. Josh. 21:18.`,
+    },
+    {
+      term: `ALMONDIBLATHAIM`,
+      definition: `(hiding of the two cakes?) The 39th encampment of Israel after leaving Egypt, the 28th from Sinai, and the 8th from Eziongeber. It was in the territory of Sihon, and probably N. of the wilderness of Kedemoth. See BETH-DIBLATHAIM. Num. 33:46, 47.`,
+    },
+    {
+      term: `ALMONDS`,
+      definition: `Mentioned in Gen. 43:11, where Jacob desires his sons to take into Egypt of the best fruits of the land; and in Num. 17:8, where the rod of Aaron is described as having "brought forth buds, and bloomed blossoms, and yielded almonds." The almond-tree very closely resembles the peach-tree in form, blossoms, and fruit; the last, however, being destitute of the pulpy flesh covering the peach-nut. It is, in fact, only another species of the same genus. In Palestine, the almond-tree blossoms in January and bears fruit in March. The tree is mentioned in Ecc. 12:5; Jer. 1:11.`,
+    },
+    {
+      term: `ALMOND TREE`,
+      definition: `See ALMONDS. Ecc. 12:5; Jer. 1:11.`,
+    },
+    {
+      term: `ALMS`,
+      definition: `A charitable gift (Acts 3:3; 10:2). The word is not found in the O. T., but is frequently used in the N. T. The Jews were required by the law (Lev. 19:9, 10; Deut. 15:11, etc.) to provide for the poor. See POOR.`,
+    },
+    {
+      term: `ALMUG`,
+      definition: `See ALGUM. I Ki. 10:11, 12.`,
+    },
+    {
+      term: `ALOES`,
+      definition: `(1) A perfume spoken of in connection with "myrrh, cassia, and cinnamon," or a spice for embalming the dead (Jno. 19:39), in which case it was the gum of the eagle-tree of Cochin-China and North India. This perfume is not the modern aloes. (2) Lign-aloes, used by Balaam (Num. 24:6), with the cedars, as an illustration of the noble situation of Israel planted in a choice land. It has nothing in common with our bitter aloes.`,
+    },
+    {
+      term: `ALOTH`,
+      definition: `(ascents) A hilly region near Asher; but if the name is Bealoth, as some translate the original (making "in" a part of the root, instead of a preposition), then the name would be that of a town in the S. E. of Judah. 1 Ki. 4:16.`,
+    },
+    {
+      term: `ALPHA`,
+      definition: `The first letter of the Greek alphabet, of which Omega is the last. They thus signify "the beginning" and "the end," and in this sense are applied as a title to Christ. Rev. 1:8, 11 (omitted from R. V., in ver. 11); 21:6; 22:13.`,
+    },
+    {
+      term: `ALPHAEUS`,
+      definition: `(successor) 1. Father of James the Less, and possibly also of Jude. In Jno. 19:25, he is called CLEOPHAS, which is the same as CLEOPAS. Mat. 10:3; Mark 3:18; Lu. 6:15. 2. Father of Levi (later called MATTHEW), the apostle and evangelist. Perhaps the same as No. 1. Mark 2:14.`,
+    },
+    {
+      term: `ALTAR`,
+      definition: `A structure on which sacrifices of any kind are offered. In ancient times, this was always done by slaughter or by fire. The term is borrowed in modern times to signify a table or other erection in a church on which the sacraments are administered, or near which prayer is offered and other religious exercises performed (cp. Heb. 13:10). Altars were originally of earth (Ex. 20:24) or unhewn stone (20:25), erected on such spots as had been early held sacred (Gen. 12:7 sq.; 13:18; 26:25, etc.), especially hill-tops and eminences (Gen. 22:9); also house-tops (II Ki. 23:12), as being nearer the sky; and occasionally under remarkable trees (II Ki. 16:4). Altars were frequently erected at the gates of the city (II Ki. 23:8); accordingly, in Acts 14:13, the priest of Jupiter is said to have brought filleted oxen to the gates to perform sacrifice. The altar, among both the Jews and the heathen, was an asylum, a sanctuary, for such persons as fled to it for refuge (Ex. 21:14; I Ki. 1:50; 2:28, etc.). The Athenians erected an altar to "The Unknown God" (Acts 17:23). The altars in the Jewish Tabernacle and in the Temples at Jerusalem were as follows:— 1. The Altar of Burnt-Offerings, which, in the Tabernacle, was in a hollow box of shittim-wood about 7½x7½x4½ feet, covered with "brass" (copper or bronze) plates, and having a grate of the same material underneath. At the corners were elevations called "horns." It was movable, and had rings and staves for carrying it. The fire was miraculously kindled and carefully kept, burning perpetually (Lev. 6:12, 13; 9:24). On this altar, the lamb of the daily morning and evening sacrifice was offered; also other sacrifices. (In Solomon's Temple, the altar of burnt-offerings was much larger, being at least 30x30x15 feet; it is often called the "brazen altar.") Described in Ex. 27:1-8; 38:1-7. 2. The Altar of Incense, or Golden Altar, which, in the Tabernacle, was a small table of shittim-wood, covered with plates of gold. It was 18x18x36 inches. Like the altar of burnt-offerings, it had elevations at the corners called "horns," and around its top was a border, or crown. There were two rings on each side, in which staves were inserted to carry it. It stood in the Holy Place, before the Holy of Holies and between the golden candlestick and the table of shew-bread. The priests burned incense on it morning and evening. See Ex. 30:1-10; 37:25-28. 3. The Table of Shew-Bread. See SHEW BREAD. Ex. 25:23-30; 37:10-16. See TABERNACLE; TEMPLE.`,
+    },
   ],
 };
 
