@@ -280,6 +280,42 @@ const data = {
       term: `ACHBOR`,
       definition: `(a mouse). 1. Father of the seventh Edomite king. Gen. 36:38, 39; 1 Ch. 1:49. 2. One of Josiah's messengers sent to inquire concerning the denunciation of wrath against the national sins, as found recorded in the Book of the Law discovered by Hilkiah in the Temple, B. C. 641. In II Ch. 34:20, ABDON is named instead of Achbor. II Ki. 22:12, 14. 3. A Jew, whose son was sent by Jehoiakim to bring back Urijah the prophet out of Egypt, B. C. 600. Jer. 26:22; 36:12.`,
     },
+    {
+      term: `ACHIM`,
+      definition: `(woes). An ancestor of Joseph, husband of Mary, mother of Jesus. Mat. 1:14.`,
+    },
+    {
+      term: `ACHISH`,
+      definition: `(serpent-charmer). 1. A king of Gath to whom David fled, B. C. 1060. I Sa. 21:10-14; 27:2 sq.; 28:1, 2; 29:2 sq. 2. A king of Gath who reigned about forty-five years later than No. 1, in the time of Solomon. I Ki. 2:39, 40.`,
+    },
+    {
+      term: `ACHMETHA`,
+      definition: `(a place of horses). A city of Media; perhaps the same as Ecbatana, the modern Hamadan. Ezra 6:2.`,
+    },
+    {
+      term: `ACHOR`,
+      definition: `(trouble). A valley near Jericho, in which Achan and his family were destroyed and buried, B. C. 1451. Josh. 7:24, 26; 15:7; Isa. 65:10.`,
+    },
+    {
+      term: `ACHSA, ACHSAH`,
+      definition: `(serpent-charmer)—R. V., "Achsah." Daughter of Caleb, and wife of Othniel. Josh. 15:16, 17; Judg. 1:12, 13; I Ch. 2:49.`,
+    },
+    {
+      term: `ACHSHAPH`,
+      definition: `(dedicated). A Phoenician city, at the foot of Carmel, allotted to Asher; now called Khaifa. Josh. 11:1; 12:20; 19:24, 25.`,
+    },
+    {
+      term: `ACHZIB`,
+      definition: `(a winter brook; a lie). 1. A town in W. of Judah; perhaps the same as CHEZIB in Gen. 38:5. Josh. 15:44; Mic. 1:14. 2. A city of Asher by the sea of Galilee, 19 miles from Accho; now called Es-zib. Josh. 19:29; Judg. 1:31.`,
+    },
+    {
+      term: `ACRE`,
+      definition: `The "square measure," which enables us to name an area by its size, was unknown among the Hebrews, who designated all surfaces by their dimensions. In the original, the word rendered "acre" signifies a yoke, and the meaning intended is evidently the extent of ground that could be ploughed by a yoke of oxen in a day. The literal meaning of the Hebrew expression is, half a furrow of a yoke. I Sa. 14:14; Isa. 5:10.`,
+    },
+    {
+      term: `ACTS OF THE APOSTLES`,
+      definition: `See BIBLE, BOOKS OF THE.`,
+    },
   ],
 };
 
