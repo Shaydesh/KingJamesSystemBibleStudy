@@ -332,6 +332,46 @@ const data = {
       term: `ADALIA`,
       definition: `One of the ten sons of Haman who were hanged along with their father, B.C. 473 Esth. 9:8`,
     },
+    {
+      term: `ADAM`,
+      definition: `(man)—R. V., "the man" in Gen. 2:19, 21, 23; 3:8, 9. The first man; created, according to Hebrew chronology, B. C. 4004, and, according to the Septuagint, or Greek, chronology, B. C. 5411. Made in "the likeness of God," Adam (together with Eve) was the last and greatest work of the creation, and received dominion over all the earth. Though he was made pure and holy, yet he was liable to fall by the abuse of free will, and was placed in Eden on probation. By breaking the express command of God, Adam brought a curse upon himself and his descendants. He was banished from Eden, and died at the age of 930 years. It is generally believed that he is the first among the saved, as he was also the first among the sinners. The principal Scriptural references to Adam are as follows: Created (Gen. 1); called the son of God (Lu. 3:38); blessed (Gen. 1:28); placed in Eden (Gen. 2:8); first called "Adam" (Gen. 2:19); creatures named by him (Gen. 2:19); calls his wife "Eve" (Gen. 3:20); his fall and punishment (Gen. 3); hides from God (Gen. 3:8); ground cursed for his sake (Gen. 3:17); his death (Gen. 5:5); his transgression (Job 31:33; Rom. 5:14); "first" Adam (I Co. 15:45; 1 Ti. 2:13); all die in him (I Co. 15:22); the "last" (I Co. 15:45). See ABEL; CAIN; EDEN; EVE.`,
+    },
+    {
+      term: `ADAMAH`,
+      definition: `(ground, fortress). A fenced city in Naphtali. Josh. 19:35, 36.`,
+    },
+    {
+      term: `ADAMANT`,
+      definition: `(that cannot be subdued or broken). An ancient name used in the Bible to denote any substance of extreme hardness. "Adamant" is an old English name for diamond, the hardest of minerals, which was apparently unknown to the ancients as a precious stone. See DIAMOND. Eze. 3:9.`,
+    },
+    {
+      term: `ADAMI`,
+      definition: `(fortified). A city of Naphtali; the same as ADAMAH. Josh. 19:33.`,
+    },
+    {
+      term: `ADAR`,
+      definition: `(fire god). The 12th month of the Jewish sacred year, from the new moon of March till the one of April. It was doubled seven times in nineteen years to synchronize the lunar and the solar years. See MONTH. Ezra 6:15; Esth. 3:7; 8:12; 9:1, 15, 17, 19, 21.`,
+    },
+    {
+      term: `ADAR, ADDAR`,
+      definition: `(height, honor)—R. V., "Addar." 1. A city, called also Hazar-Addar, in the S. of Judah, near Edom. Josh. 15:3. 2. Son of Bela, and grandson of Benjamin. 1 Ch. 8:3.`,
+    },
+    {
+      term: `ADBEEL`,
+      definition: `(languishing for God). Son of Ishmael, and grandson of Abraham. Gen. 25:13; 1 Ch. 1:29.`,
+    },
+    {
+      term: `ADDAN`,
+      definition: `(strong). The name of a place from which some of the inhabitants came with Zerubbabel to Jerusalem; others consider it the name of a man who was unable to show his genealogy to be of Israel. Ezra 2:59.`,
+    },
+    {
+      term: `ADDAR`,
+      definition: `See ADAR. 1 Ch. 8:3.`,
+    },
+    {
+      term: `ADDER`,
+      definition: `A common name given to the viper, a species of serpent. "Adder" is used in the Bible as a translation of four Hebrew words; and in the A. V. signifies four different serpents—viz., the cobra (Psa. 58:4; 91:13); the horned snake, or cerastes (Gen. 49:17); the viper (Psa. 140:3); and, in Prov. 23:32, a snake elsewhere called "cockatrice," and may refer indefinitely to different species of vipers. The horned snake, or cerastes, is about a foot long, and has black spots and two horns. It lies hidden in the sand, which it closely resembles in color, and darts upon the unsuspecting traveler. It has a very deadly bite, and is frequently found in the wilderness of Judea. See ASP.`,
+    },
   ],
 };
 
