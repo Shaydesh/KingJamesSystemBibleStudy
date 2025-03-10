@@ -604,6 +604,130 @@ const data = {
       term: `AHI`,
       definition: `(my brother) 1. Head of a family of Gad. I Ch. 5:15. 2. An Israelite of the tribe of Asher. I Ch. 7:34.`,
     },
+    {
+      term: `AHIAH`,
+      definition: `(Jehovah is a brother) 1. Grandson of Phinehas, son of Eli. I Sa. 14:3, 18. 2. One of Solomon's scribes. I Ki. 4:3. 3. A descendant of Benjamin. 1 Ch. 8:7.`,
+    },
+    {
+      term: `AHIAM`,
+      definition: `(a mother's brother) One of David's thirty mighty men, and son of Sharar the Hararite, who, in I Ch. 11:35, is called SACAR. II Sa. 23:33; I Ch. 11:35.`,
+    },
+    {
+      term: `AHIAN`,
+      definition: `(brother of day) Son of Shemidah, a Manassehite. I Ch. 7:19.`,
+    },
+    {
+      term: `AHIEZER`,
+      definition: `(helping brother) 1. A prince of Dan, appointed to assist Moses in numbering the people. Num. 1:12; 10:25. 2. A Danite chief who joined David when hiding in Ziklag from Saul. I Ch. 12:3.`,
+    },
+    {
+      term: `AHIHUD`,
+      definition: `(brother of honor) A prince of Asher, appointed to allocate the land W. of the Jordan. Num. 34:27.`,
+    },
+    {
+      term: `AHIHUD`,
+      definition: `(brother of mystery) A Benjamite of the family of Ehud. I Ch. 8:7.`,
+    },
+    {
+      term: `AHIJAH`,
+      definition: `(Jehovah is a brother) Though variously expressed in the English version of the Bible, this name is the same in every passage in which it occurs in the original. See AHIAH. 1. A prophet, probably of Ephraim, who foretold to Jeroboam the revolt of the ten tribes, B. C. 980. I Ki. 11:29, 30; 14:2 sq. 2. Father of Baasha, who conspired against Nadab, son of Jeroboam, and reigned in his stead, B. C. 953. 1 Ki. 15:27, 33; II Ki. 9:9. 3. Son of Jerahmeel, brother of Caleb (or Chelubai), of the tribe of Judah. I Ch. 2:25. 4. One of David's thirty valiant men. I Ch. 11:36. 5. A Levite set over the treasures of the house of God in the time of David. 1 Ch. 26:20. 6. A Levite who, with Nehemiah, sealed the covenant, B. C. 445. Neh. 10:26.`,
+    },
+    {
+      term: `AHIKAM`,
+      definition: `(my brother has risen) An officer in Josiah's court; the son of Shaphan, who was one of the king's scribes. II Ki. 22:12, 14; II Ch. 34:20; Jer. 26:24; 40; 41.`,
+    },
+    {
+      term: `AHILUD`,
+      definition: `(a brother born) An Israelite whose son Jehoshaphat was appointed recorder by David. II Sa. 8:16; I Ki. 4:3, 12.`,
+    },
+    {
+      term: `AHIMAAZ`,
+      definition: `(powerful brother) 1. Father of Ahinoam, wife of King Saul. I Sa. 14:50. 2. A son of Zadok the priest, who carried tidings to David of the proceedings of Absalom. II Sa. 15:27, 36; 18:19-29. 3. One of Solomon's officers who had the charge of victualing the king's household for one month in the year. I Ki. 4:15.`,
+    },
+    {
+      term: `AHIMAN`,
+      definition: `(brother of man) 1. A son of Anak who dwelt in Hebron. Num. 13:22; Josh. 15:14; Judg. 1:10. 2. A Levite porter in the Temple. I Ch. 9:17.`,
+    },
+    {
+      term: `AHIMELECH`,
+      definition: `(brother of the king) 1. A priest slain in consequence of assisting David when he fled from Saul. I Sa. 21:1, 2, 8; 22:11 sq. 2. A Hittite officer in the service of David. 1 Sa. 26:6.`,
+    },
+    {
+      term: `AHIMOTH`,
+      definition: `(brother of death) Son of Elkanah, a descendant of Kohath, son of Levi. I Ch. 6:25.`,
+    },
+    {
+      term: `AHINADAB`,
+      definition: `(brother of liberality) Son of Iddo, and one of Solomon's twelve purveyors. 1 Ki. 4:14.`,
+    },
+    {
+      term: `AHINOAM`,
+      definition: `(pleasant brother) 1. Wife of Saul, first king of Israel. I Sa. 14:50. 2. A woman of Jezreel who became wife of David during his wandering, and the mother of Amnon, David's eldest son. I Sa. 25:43; 27:3; II Sa. 2:2; I Ch. 3:1.`,
+    },
+    {
+      term: `AHIO`,
+      definition: `(his brother) 1. Son of Abinadab, in whose house the ark of God remained for twenty years after being sent back by the Philistines. II Sa. 6:3, 4; I Ch. 13:7. 2. An Israelite of the tribe of Benjamin. I Ch. 8:14. 3. A Benjamite of the Gibeon family from which Saul sprang. 1 Ch. 8:31; 9:37.`,
+    },
+    {
+      term: `AHIRA`,
+      definition: `(brother of evil) A chief of Naphtali when Moses took the census shortly after the Exodus. Num. 1:15; 10:27.`,
+    },
+    {
+      term: `AHIRAM`,
+      definition: `(exalted brother) A Benjamite from whom a family was named. He is called EHI in Gen. 46:21, and is supposed to be the same as the AHER of 1 Ch. 7:12. Num. 26:38.`,
+    },
+    {
+      term: `AHIRAMITE`,
+      definition: `(belonging to Ahiram) The Ahiramites were an Israelite family. Num. 26:38.`,
+    },
+    {
+      term: `AHISAMACH`,
+      definition: `(my brother has supported) Father of Aholiab, a Danite. Ex. 31:6.`,
+    },
+    {
+      term: `AHISHAHAR`,
+      definition: `(brother of the dawn) Son of Bilhan and grandson of Benjamin. I Ch. 7:10.`,
+    },
+    {
+      term: `AHISHAR`,
+      definition: `(brother of song) Controller of Solomon's household. I Ki. 4:6.`,
+    },
+    {
+      term: `AHITHOPHEL`,
+      definition: `(foolish brother) A native of Giloh in the highlands of Judah, and privy counsellor to David; but joined Absalom, and then hanged himself, B. C. 1023. II Sa. 15-17; 23:34; I Ch. 27:33, 34.`,
+    },
+    {
+      term: `AHITUB`,
+      definition: `(a good brother) 1. Son of Phinehas, and grandson of Eli. I Sa. 14:3; 22:9, 11, 12, 20. 2. Father of Zadok, high-priest in the time of David. Perhaps the same as No. 1. II Sa. 8:17; I Ch. 6:7, 8, 52. 3. Another priest, in the 7th generation after No. 2. 1 Ch. 6:11, 12. 4. Another priest, progenitor of Seraiah, and ruler of the house of God in the time of Nehemiah. I Ch. 9:11; Neh. 11:11.`,
+    },
+    {
+      term: `AHLAB`,
+      definition: `(fruitful place) A city of Asher from which the Canaanites were not driven out. Judg. 1:31.`,
+    },
+    {
+      term: `AHLAI`,
+      definition: `(Jehovah is staying) 1. A daughter of Sheshan, a descendant of Pharez. I Ch. 2:31. 2. Father of one of David's thirty valiant men. 1 Ch. 11:41.`,
+    },
+    {
+      term: `AHOAH`,
+      definition: `(a brother's reed) Son of Bela, and grandson of Benjamin. I Ch. 8:4.`,
+    },
+    {
+      term: `AHOHITE`,
+      definition: `(belonging to Ahoah) 1. A patronymic derived from Ahoah, a grandson of Benjamin. II Sa. 23:28; I Ch. 11:12, 29. 2. This word occurs in the A. V. of II Sa. 23:9, but in the original the expression used is Ben Ahohi, "son of Ahohi," which thus seems to be a proper name, not a patronymic.`,
+    },
+    {
+      term: `AHOLAH`,
+      definition: `(her own tent) A symbolic name for Samaria and the ten tribes. Eze. 23.`,
+    },
+    {
+      term: `AHOLIAB`,
+      definition: `(a father's tent) A Danite, in the time of Moses, appointed by God to work with Bezaleel in preparing the Tabernacle, B. C. 1490. Ex. 31:6; 36:1, 2.`,
+    },
+    {
+      term: `AHOLIBAH`,
+      definition: `(my tent is in her) A symbolic name for Judah and Jerusalem. Eze. 23.`,
+    },
   ],
 };
 
