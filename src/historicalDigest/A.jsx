@@ -112,6 +112,18 @@ const data = {
       term: `ABIASAPH`,
       definition: `(father of gathering) The third son of Korah, first-born of Izhar, second son of Kohath, second son of Levi, third son of Jacob. See EBIASAPH. Ex. 6:24`,
     },
+    {
+      term: `ABIATHAR`,
+      definition: `(the Great One is father) The eleventh high-priest in succession from Aaron; son of Ahimelech, son of Ahitub, priest at Nob. He escaped when Doeg the Edomite slew his father and 85 priests, and fled to David in the cave of Adullam; was sent back to Jerusalem with the ark when David fled from Absalom; was joint high-priest with Zadok; conspired to make Adonijah king; was banished to his birth-place, Anathoth in Benjamin; and at last was expelled from his office by Solomon, B. C. 1014. I Sa. 22:20; II Sa. 8:17; 15:36; I Ki. 1:42; I Ch. 15:11—Mark 2:26.`,
+    },
+    {
+      term: `ABIB`,
+      definition: `(sprouting, budding) The first month of the sacred, and seventh of the civil, year of the Hebrews, on the 15th of which Israel left Egypt. It commenced at the new moon of April, or March (according to the Rabbis), and was constituted the first month of the year in commemoration of the release from Egyptian slavery. See MONTH. Ex. 13:4; Deut. 16:1.`,
+    },
+    {
+      term: `ABIDA, ABIDAH`,
+      definition: `(father of knowledge) The fourth son of Midian, fourth son of Keturah and Abraham. Gen 25:4; I Ch. 1:33`,
+    },
   ],
 };
 
