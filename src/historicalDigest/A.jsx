@@ -164,6 +164,50 @@ const data = {
       term: `ABIJAH`,
       definition: `(my father is Jehovah). 1. A son of Jeroboam who died in youth. I Ki. 14:1. 2. A priest, in the time of David, to whom it fell by lot to be the head of the eighth course in the service of the Temple. See ABIAH. I Ch. 24:10; 26:20. 3. A son of Rehoboam. His mother was Maachah, a daughter of Absalom. II Ch. 11:20; 12:16; 13; 14:1. 4. Mother of Hezekiah, king of Judah. II Ch. 29:1. 5. A priest that sealed the covenant made by Nehemiah and the people to serve the Lord. Neh. 10:7. 6. A priest that returned from the Babylonian captivity with Zerubbabel, B. C. 536. Neh. 12:1-4, 12-17.`,
     },
+    {
+      term: `ABIJAM`,
+      definition: `(father of light) The son of Rehoboam who succeeded his father as king of Judah; called ABIJAH in II Chronicles. According to Ussher, he reigned B.C. 958-955; new dates, 914-911. I Ki 14:31; 15:1, 7, 8.`,
+    },
+    {
+      term: `ABILENE`,
+      definition: `(region of Abila). A province or tetrarchy situated at the extreme N. of Palestine, and E. of the Jordan; it was so named from the city Abila, or Abela (now Abil), which is about twenty miles N. W. of Damascus, toward Baalbek or Heliopolis, lying among the mountains of Anti-Libanus. In the time of John the Baptist, in the fifteenth year of Tiberius, it was governed by a tetrarch under Lysanias. It was given by Claudius to Herod Agrippa, A. D. 53. Lu. 3:1.`,
+    },
+    {
+      term: `ABIMAEL`,
+      definition: `(my father is God). A son of Joktan, of the family of Shem. The place where Abimael's descendants settled is still unknown, but it is supposed to have been in some part of Arabia-Petraea. Gen. 10:26-28; 1 Ch. 1:20-22.`,
+    },
+    {
+      term: `ABIMELECH`,
+      definition: `(father of the king). 1. King of Gerar in the time of Abraham. Gen. 20:2 sq.; 21:22 sq. 2. Another king in the time of Isaac; perhaps the same as No. 1. Gen. 26:1 sq. 3. Son of Gideon by a concubine in Shechem. He made himself king after the death of his father, and slew his father's seventy sons, leaving only Jotham, the youngest; but was himself disgracefully killed in attacking Thebez. Judg. 8:30, 31; 9:1 sq.; 10:1; II Sa. 11:21. 4. Son of Abiathar, who was high-priest in the time of David. I Ch. 18:16. 5. In the title of Psa. 34, this name is apparently given to Achish, king of Gath, to whom David had fled, as stated in I Sa. 21:10.`,
+    },
+    {
+      term: `ABINADAB`,
+      definition: `(source of liberality). 1. An Israelite of the tribe of Judah who lived near Kirjath-jearim, and in whose house the ark was placed after being sent back by the Philistines. I Sa. 7:1; II Sa. 6:3, 4; I Ch. 13:7. 2. Second son of Jesse, father of David. 1 Sa. 16:8; 17:13; 1 Ch. 2:13. 3. A son of King Saul slain at Gilboa by the Philistines, together with his brother Jonathan. I Sa. 31:2; I Ch. 8:33; 9:39; 10:2. 4. Father of one of Solomon's officers. I Ki. 4:11.`,
+    },
+    {
+      term: `ABINER`,
+      definition: `See ABNER. I Sa. 14:50 (in the Heb. only).`,
+    },
+    {
+      term: `ABINOAM`,
+      definition: `(father of pleasantness). Father of Barak, an Israelite of the tribe of Naphtali who defeated the army of Jabin, B. C. 1296. Judg. 4:6, 12; 5:1, 12.`,
+    },
+    {
+      term: `ABIRAM`,
+      definition: `(father of elevation). 1. A son of Eliab, a Reubenite, who, with Dathan, his brother; Korah, a Levite; and On, a Reubenite, conspired against Moses and Aaron in the wilderness, and perished with his accomplices. Num. 16:1, 12, 24 sq.; 26:9; Deut. 11:6; Psa. 106:17. 2. First-born son of Hiel the Bethelite, who began to rebuild Jericho. He died when his father laid the foundations of that city, as Joshua had foretold of him (Josh. 6:26). I Ki. 16:34.`,
+    },
+    {
+      term: `ABISHAG`,
+      definition: `(cause of wandering). A beautiful virgin of Shunem, in Issachar. She was chosen as a member of the household of David to cherish him in his old age. I Ki. 1:3, 15; 2:17, 21, 22.`,
+    },
+    {
+      term: `ABISHAI`,
+      definition: `(source of wealth). A son of David's sister Zeruiah, and a brother of Joab. After numerous victories, and the slaying of the Philistine giant Ishbi-benob, he obtained a place among David's thirty valiant men. I Sa. 26:6-9; II Sa. 2:18, 24; 3:30; 10:10, 14; 16:9-11; 18:2, 5, 12.`,
+    },
+    {
+      term: `ABISHALOM`,
+      definition: `(my father is peace). Father of Maachah, wife of Jeroboam: in II Ch. 1:20, 21, the name is ABSALOM. I Ki 15:2, 10.`,
+    },
   ],
 };
 
