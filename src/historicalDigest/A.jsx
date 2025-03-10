@@ -124,6 +124,46 @@ const data = {
       term: `ABIDA, ABIDAH`,
       definition: `(father of knowledge) The fourth son of Midian, fourth son of Keturah and Abraham. Gen 25:4; I Ch. 1:33`,
     },
+    {
+      term: `ABIDAN`,
+      definition: `(father of judgement) The son of Gideoni, a chief Benjamite, who was appointed along with Moses and Aaron and a chief man out of every tribe, to number the people. Num. 1:11; 10:24.`,
+    },
+    {
+      term: `ABIEL`,
+      definition: `(father of might;—R. V., "Abi-Albon:" 1. Son of Zeror, and father of Ner and of Kish, who was father of Saul, the first king of Israel. I Sa. 9:1; 14:51. 2. One of David's thirty mighty men, called ABI-ALBON in II Sa. 23:31. I Ch. 11:32.`,
+    },
+    {
+      term: `ABIEZER`,
+      definition: `(father of help). 1. A descendant of Manasseh; probably the same as JEEZER, son of Gilead (Num. 26:30). Josh. 17:2; I Ch. 7:18. 2. A district in Manasseh inhabited by the Abiezrites. Judg. 6:34; 8:2. 3. A native of Anathoth (now Anata), in Benjamin, two miles E. of Gibeah, and one and one-half hours from Jerusalem, on the other side of the Wady Selam. II Sa. 23:27; I Ch. 11:28; 27:12.`,
+    },
+    {
+      term: `ABIEZRITES`,
+      definition: `Descendants of Manasseh, elder son of Joseph, through Abiezer. Judg. 6:11, 24; 8:32.`,
+    },
+    {
+      term: `ABIGAIL`,
+      definition: `(source of delight). 1. Wife of Nabal the Carmelite. She met and pacified David, afterwards became his wife, and was the mother of Daniel or Chileab. I Sa. 25:3; II Sa. 2:2; I Ch. 3:1. 2. A daughter of Nahash or of Jesse, and sister or niece of Zeruiah, sister of David. She was the mother of Amasa, whom David made captain in place of Joab. II Sa. 17:25; I Ch. 2:16, 17.`,
+    },
+    {
+      term: `ABIGIBEON`,
+      definition: `(father of Gibeon). A descendant of Benjamin who dwelt at Gibeon; his family afterwards moved to Jerusalem. This term is translated ("father of Gibeon") in both versions of the Bible, the R. V. inserting the name ("Jeiel") of the person alluded to immediately after it. I Ch. 8:29.`,
+    },
+    {
+      term: `ABIHAIL`,
+      definition: `(my father is strength). 1. A Levite, father of Zuriel, the chief of the Merarites in the time of Moses. Num. 3:35. 2. The wife of Abishur, a descendant of Hezron of Judah. I Ch. 2:29. 3. Head of a family of the tribe of Gad. I Ch. 5:14. 4. A daughter of Eliab, David's brother, and wife of Rehoboam. II Ch. 11:18. 5. Father of Esther, the niece of Mordecai, who became queen of Persia as the wife of Ahasuerus (Xerxes), in the place of Vashti. Esth. 2:15; 9:29.`,
+    },
+    {
+      term: `ABIHU`,
+      definition: `(he is my father). A son of Aaron who was destroyed with his brother Nadab for offering strange fire upon the altar. Ex. 6:23; Lev. 10:1; Num. 26:61; I Ch. 6:3.`,
+    },
+    {
+      term: `ABIHUD`,
+      definition: `(father of honor). A son of Bela, son of Benjamin. I Ch. 8:3.`,
+    },
+    {
+      term: `ABIJAH`,
+      definition: `(my father is Jehovah). 1. A son of Jeroboam who died in youth. I Ki. 14:1. 2. A priest, in the time of David, to whom it fell by lot to be the head of the eighth course in the service of the Temple. See ABIAH. I Ch. 24:10; 26:20. 3. A son of Rehoboam. His mother was Maachah, a daughter of Absalom. II Ch. 11:20; 12:16; 13; 14:1. 4. Mother of Hezekiah, king of Judah. II Ch. 29:1. 5. A priest that sealed the covenant made by Nehemiah and the people to serve the Lord. Neh. 10:7. 6. A priest that returned from the Babylonian captivity with Zerubbabel, B. C. 536. Neh. 12:1-4, 12-17.`,
+    },
   ],
 };
 
