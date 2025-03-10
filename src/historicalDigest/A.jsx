@@ -500,6 +500,110 @@ const data = {
       term: `AENON`,
       definition: `See ENON. Jno. 3:23.`,
     },
+    {
+      term: `AFFECT`,
+      definition: `In Gal. 4:17, "seek" in the R. V.`,
+    },
+    {
+      term: `AFORE`,
+      definition: `In Psa. 129:6, "before" in the R. V.`,
+    },
+    {
+      term: `AFRICA`,
+      definition: `(perhaps a colony) One of the four principal divisions of the globe, and the third in magnitude, being about 4990 miles long and something more than 4090 miles wide at its greatest breadth. It was known to the ancients as LIBYA, which name, however, was generally applied by them only to the N. part of the continent. See LIBYA.`,
+    },
+    {
+      term: `AGABUS`,
+      definition: `1. A prophet from Jerusalem who went to Paul at Antioch and foretold a great famine. Acts 11:28. 2. A disciple who went from Judaea to Ptolemais and foretold the imprisonment of Paul. Probably the same as No. 1. Acts 21:10.`,
+    },
+    {
+      term: `AGAG`,
+      definition: `(high, warlike) A name applied to Amalekitc kings. Samuel "hewed in pieces," in Gilgal, the last one mentioned in the Bible (I Sa. 15:8, 33). Num. 24:7.`,
+    },
+    {
+      term: `AGAGITE`,
+      definition: `Patronymic of HAMAN, whom Josephus (Ant. XI, 6:5) calls an "Amalekite." Esth. 3:1.`,
+    },
+    {
+      term: `AGAR`,
+      definition: `R. V., "Hagar." Greek name of Sarah's handmaid HAGAR (which see). Gal. 4:24, 25.`,
+    },
+    {
+      term: `AGATE`,
+      definition: `A semi-transparent variety of quartz, often beautifully clouded or veined; supposed to be named from the river Achates, in Sicily, where it was found in abundance. It was one of the stones forming the third row in the high-priest's ephod (Ex. 28:19; 39:12); and is spoken of as a material for windows (Isa. 54:12). The "agate" of Isa. 54:12; Eze. 27:16 is thought by some to be the ruby.`,
+    },
+    {
+      term: `AGE`,
+      definition: `In ancient times, the aged were venerated for their wisdom, and old age was regarded as a token of God's favor (Job 5:26). The Mosaic law required the young to honor old people. (Lev. 19:32).`,
+    },
+    {
+      term: `AGEE`,
+      definition: `(fugitive) The father of Shammah, one of David's valiant men. II Sa. 23:11.`,
+    },
+    {
+      term: `AGRICULTURE`,
+      definition: `See OCCUPATION; also see JUBILEE; PLOUGH; THRESH, etc.`,
+    },
+    {
+      term: `AGRIPPA`,
+      definition: `Great-grandson of Herod the Great. His father being eaten of worms, he, as Herod Agrippa, succeeded him (A. D. 53) as tetrarch of Abilene, Galilee, Iturea, and Trachonitis. See HEROD. Acts 25:26.`,
+    },
+    {
+      term: `AGUE`,
+      definition: `"Burning ague," an intermittent fever, with alternate cold and hot fits. See FEVER. Lev. 26:16.`,
+    },
+    {
+      term: `AGUR`,
+      definition: `(gatherer) The son of Jakeh. Jerome and others consider this name as symbolical of Solomon himself; but this is inconsistent with the designation "Son of Jakeh," and Solomon, in the same book, is expressly called "Son of David." Prov. 30:1.`,
+    },
+    {
+      term: `AHAB`,
+      definition: `(father's brother—uncle) 1. Son of Omri, and his successor, as 7th king of Israel (918-897 B. C.; new dates, 874-853). He married Jezebel, daughter of Ethbaal, king of the Zidonians, and was led by her into idolatry and incited to the persecution of the prophets of Jehovah. The most remarkable incidents in his life were his defeating Benhadad, whom he freely dismissed, and his seizing the vineyard of Naboth. During his reign appeared the great prophet Elijah, who came into direct collision with Jezebel when she attempted to introduce the worship of Baal and the goddess Astarte, of whom her father had been a priest before he usurped the sovereignty of Tyre, B. C. 900. I Ki. 16-22; II Ki. 1:1; 3:1, 5; 8:16, 18, 25, 27, 28, 29; 9:7-9, 25, 29; 10:1, 10, 11, 17, 18, 30; 21:3, 13; Mic. 6:16. 2. A false prophet who was in Babylon during the early part of the Exile, but was put to death by Nebuchadnezzar, B. C. 600. Jer. 29:21, 22.`,
+    },
+    {
+      term: `AHARAH`,
+      definition: `(after a brother) Third son of Benjamin; elsewhere called EHI, AHIRAM, and ASHER. I Ch. 8:1.`,
+    },
+    {
+      term: `AHARHEL`,
+      definition: `(after might) Son of Harum, a descendant of Judah through Caleb, son of Hur. I Ch. 4:8.`,
+    },
+    {
+      term: `AHASAI`,
+      definition: `(Jehovah hath grasped)—R. V., "Ahzai." A priest of the family of Immer, some of whom dwelt in Jerusalem after the Exile. Neh. 11:13.`,
+    },
+    {
+      term: `AHASBAI`,
+      definition: `(blooming, shining) Father of one of David's valiant men, whose family had been early settled at Maachah. II Sa. 23:34.`,
+    },
+    {
+      term: `AHASUERUS`,
+      definition: `(king) 1. The father of Darius the Mede, and the same as the Astyages of profane history. B. C. 594. Dan. 9:1. 2. A king of Persia, B. C. 529-521, who succeeded Cyrus and preceded the Magian impostor Smerdis. The rebuilding of the Temple at Jerusalem was interrupted during his reign (Ezra 4:6). He is probably the Cambyses of profane history. 3. A king of Persia, B. C. 485-465, and the husband of ESTHER (which see). He is undoubtedly the Xerxes of profane history, and was the son of Darius Hystaspis. Esth. 1-3; 7:5; 8:1, 7, 10, 12; 9:2, 20, 30; 10:1, 3.`,
+    },
+    {
+      term: `AHAVA`,
+      definition: `(stream) A river in the N. E. of Media, near the district of Casiphia; some think it the same as the Adiaba in Adiabene, or Hit, due E. of Damascus, a branch of the Euphrates. On a tributary of the river Ezra assembled the Jews before starting upon the journey to Jerusalem. Some consider the name as applying to a district in the plains of Babylon. Ezra 8:15, 21, 31.`,
+    },
+    {
+      term: `AHAZ`,
+      definition: `(he holds) 1. Eleventh king of Judah, B. C. 742-727 (new dates, 734-727), succeeding his father, Jotham, and the father of Hezekiah. During his reign, Judah was attacked by Rezin, king of Damascus; by Pekah, king of Israel; and by the Edomites and Philistines. Through an alliance with Tiglath-Pileser, king of Assyria, the enemies of Judah were subdued; but the Assyrian king made Ahaz his vassal and carried away rich treasures from the Temple and palaces at Jerusalem. II Ki. 15:38; 16; 17:1; 18:1. 2. A Benjamite of the family of Saul. I Ch. 8:35, 36; 9:41, 42.`,
+    },
+    {
+      term: `AHAZIAH`,
+      definition: `(Jehovah hath seized) 1. The son and successor of Ahab, being the eighth king of Israel, and reigning two years, B. C. 897-896 (new dates, 853-852), including the time in which he was associated with his father. He was idolatrous, as his father had been. His speedy death was foretold by Elijah. I Ki. 22:40, 49, 51; II Ki. 1:2, 18; I Ch. 3:11; II Ch. 20:35, 37. 2. Sixth king of Judah; son of Jehoram and Athaliah. He succeeded his father B. C. 885 (new date, 842), and reigned only one year; was idolatrous, and was killed by Jehu. He is called JEHOAHAZ in II Ch. 21:17. II Ki. 8:24 sq.; 9:16 sq.; II Ch. 22:1 sq.`,
+    },
+    {
+      term: `AHBAN`,
+      definition: `(brother of intelligence) Son of Abishur, a descendant of Jerahmeel, grandson of Pharez. 1 Ch. 2:29.`,
+    },
+    {
+      term: `AHER`,
+      definition: `(one that is behind) A Benjamite; perhaps the same as AHIRAM. I Ch. 7:12.`,
+    },
+    {
+      term: `AHI`,
+      definition: `(my brother) 1. Head of a family of Gad. I Ch. 5:15. 2. An Israelite of the tribe of Asher. I Ch. 7:34.`,
+    },
   ],
 };
 
