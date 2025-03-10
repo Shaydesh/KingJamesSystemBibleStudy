@@ -60,6 +60,22 @@ const data = {
       term: `ABDON (service, servile)`,
       definition: `1. A Levitical city in Asher; called HEBRON (Ebron) in Josh. 19:28, and now called Abdeh, at the N. of Acre, on the banks of the Wady Kurn. Josh. 21:30; 1 Ch. 6:74. 2. A son of Hillel the Pirathonite (perhaps the same as BEDAN, in 1 Sa. 12:11). He judged Israel eight years, B. C. 1120-1112, had forty sons and thirty grandsons, who rode on seventy ass colts; was buried in Pirathon, in the land of Ephraim, in what was called the "mount of the Amalekites." Judg. 12:13, 15. 3. A Benjamite in Jerusalem. 1 Ch. 8:23. 4. The first-born son of Jehiel, from Maachah, in Gibcon of Benjamin. 1 Ch. 8:30; 9:36. 5. A son of Micah; sent by King Josiah to Huldah the prophetess to inquire of Jehovah regarding the words of the Book of the Law found in the Temple, B. C. 624. He is called ACHBOR in II Ki. 22:12. II Ch. 34:20.`,
     },
+    {
+      term: `ABEDNEGO (servant of Nego)`,
+      definition: `A name given by the prince of the eunuchs of Nebuchadnezzar, king of Babylon, to AZARIAH, one of the four young princes of Judah who were carried away into captivity, B. C. 607. He was one of the three companions of Daniel that were cast into the burning fiery furnace for refusing to bow before the golden image set up by Nebuchadnezzar in the plain of Dura, in the province of Babylon. Dan. 1-3.`,
+    },
+    {
+      term: `ABEL (fresh; grassy, meadow)`,
+      definition: `1. The second son of Adam. He was a shepherd; offered a sacrifice to God from his flocks, and was killed by his brother Cain because his offering was received, while that of Cain was rejected (Gen. 4). Abel was the first martyr of faith, who, "being dead, yet speaketh" (Heb. 11:4; cp. Mat. 23:35). 2. A stony place in the field of Joshua the Bethlemite, in the N. W. of Judah, between Ekron and Beth-shemesh, whereon the ark was left by the Philistines, B. C. 1140. 1 Sa. 6:18. 3. A city in Naphtali (still called Abel, three miles N. E. of Beth-rehob), where Joab besieged Sheba, whose head was given up to him at the suggestion of a wise woman of Abel of Beth-maachah. II Sa. 20:14.`,
+    },
+    {
+      term: `ABELBETHMAACHAH (meadow of the house of Maachah)`,
+      definition: `A city in Manasseh or Naphtali, which is mentioned along with Ijon, Dan, Janoah, Kedesh and Hazor, as being taken by Tiglath-pileser, B. C. 740, and the inhabitants carried off to Assyria. I Ki. 15:20; II Ki. 15:29.`,
+    },
+    {
+      term: `ABELKERAMIM (meadow of the vineyards) R V, Abel cheramim`,
+      definition: `A place E. of the Jordan beyond Aroer, and now called Abila, six or seven miles beyond Rabbah (or Philadelphia) of the Ammonites. Judg. 11:33 (translated in A. V.).`,
+    },
   ],
 };
 
