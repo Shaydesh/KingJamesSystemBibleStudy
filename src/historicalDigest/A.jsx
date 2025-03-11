@@ -924,6 +924,54 @@ const data = {
       term: `ALTAR`,
       definition: `A structure on which sacrifices of any kind are offered. In ancient times, this was always done by slaughter or by fire. The term is borrowed in modern times to signify a table or other erection in a church on which the sacraments are administered, or near which prayer is offered and other religious exercises performed (cp. Heb. 13:10). Altars were originally of earth (Ex. 20:24) or unhewn stone (20:25), erected on such spots as had been early held sacred (Gen. 12:7 sq.; 13:18; 26:25, etc.), especially hill-tops and eminences (Gen. 22:9); also house-tops (II Ki. 23:12), as being nearer the sky; and occasionally under remarkable trees (II Ki. 16:4). Altars were frequently erected at the gates of the city (II Ki. 23:8); accordingly, in Acts 14:13, the priest of Jupiter is said to have brought filleted oxen to the gates to perform sacrifice. The altar, among both the Jews and the heathen, was an asylum, a sanctuary, for such persons as fled to it for refuge (Ex. 21:14; I Ki. 1:50; 2:28, etc.). The Athenians erected an altar to "The Unknown God" (Acts 17:23). The altars in the Jewish Tabernacle and in the Temples at Jerusalem were as follows:— 1. The Altar of Burnt-Offerings, which, in the Tabernacle, was in a hollow box of shittim-wood about 7½x7½x4½ feet, covered with "brass" (copper or bronze) plates, and having a grate of the same material underneath. At the corners were elevations called "horns." It was movable, and had rings and staves for carrying it. The fire was miraculously kindled and carefully kept, burning perpetually (Lev. 6:12, 13; 9:24). On this altar, the lamb of the daily morning and evening sacrifice was offered; also other sacrifices. (In Solomon's Temple, the altar of burnt-offerings was much larger, being at least 30x30x15 feet; it is often called the "brazen altar.") Described in Ex. 27:1-8; 38:1-7. 2. The Altar of Incense, or Golden Altar, which, in the Tabernacle, was a small table of shittim-wood, covered with plates of gold. It was 18x18x36 inches. Like the altar of burnt-offerings, it had elevations at the corners called "horns," and around its top was a border, or crown. There were two rings on each side, in which staves were inserted to carry it. It stood in the Holy Place, before the Holy of Holies and between the golden candlestick and the table of shew-bread. The priests burned incense on it morning and evening. See Ex. 30:1-10; 37:25-28. 3. The Table of Shew-Bread. See SHEW BREAD. Ex. 25:23-30; 37:10-16. See TABERNACLE; TEMPLE.`,
     },
+    {
+      term: `ALTASCHITH`,
+      definition: `(destroy not) A term occurring in the titles of Psa. 57, 58, 69, 75, which appears to have been the commencement or name of a kind of poem or song, to the melody of which these Psalms were to be sung or chanted.`,
+    },
+    {
+      term: `ALUSH`,
+      definition: `(wild place) The 9th encampment of Israel on the way from Sin to Sinai. Num. 33:13, 14.`,
+    },
+    {
+      term: `ALVAH`,
+      definition: `See ALIAH. Gen. 36:40.`,
+    },
+    {
+      term: `ALVAN`,
+      definition: `See ALIAN. Gen. 36:23.`,
+    },
+    {
+      term: `AMAD`,
+      definition: `(a station) A town on the border of Asher, near Alammelech. Josh. 19:26.`,
+    },
+    {
+      term: `AMAL`,
+      definition: `(laboring) A descendant of Asher through Beriak, his son. I Ch. 7:35.`,
+    },
+    {
+      term: `AMALEK`,
+      definition: `(warlike; dweller in the vale) 1. Son of Eliphaz, and grandson of Esau. Gen. 36:12, 16; I Ch. 1:36. 2. The name is also applied to his descendants, who are, however, generally called Amalekites (but see AMALEKITES). Ex. 17:8-16; Num. 24:20; I Sa. 15:2, 3, 5, 20.`,
+    },
+    {
+      term: `AMALEKITES`,
+      definition: `A powerful nomadic people who dwelt in Arabia Petraea, between the Dead Sea and the Red Sea, or between Havilah and Shur (I Sa. 15:7), S. of Idumaea, and E. of the N. part of Ae Red Sea. They are generally supposed to have been the descendants of Amalek, the son of Eliphaz and grandson of Esau; but Moses speaks of the Amalekites long before this Amalek was born— i. e., in the time of Abraham, when Chedorlaomer, king of Elam, devastated their country (Gen. 14:7)—from which it has been inferred that there was some other and more ancient Amalek, from whom this people were descended. Without any provocation, the Amalekites attacked the rear of Israel as they were journeying through the wilderness, but were defeated by Joshua at Rephidim (Ex. 17:8-16), and in consequence of this assault a perpetual war was declared against them by Jehovah; along with the Canaanites, they defeated the rash attack of Israel, and drove them "even unto Hormah" (Num. 14:43-45); they are called by Balaam "the first of the nations" (or Goyim), either from their antiquity, or their warlike character, or from their being the first to attack the people of Israel (Num. 24:20), who were henceforth required to "remember" their treacherous attack (Deut. 25:17-19). They, along with the children of Ammon, joined with Eglon, king of Moab (B. C. 1354), to attack Israel, and took Jericho, the "city of palm-trees" (Judg. 3:13); they were successfully opposed by the Ephraimites in the conflict with Jabin, king of Hazor, B. C. 1296 (Judg. 5:14); they joined with the Midianites and the children of the East (or Kedem) in the days of Gideon, the son of Joash the Abi-ezrite, B. C. 1256 (Judg. 6:3), but were defeated by him in the valley of Jezreel (Judg. 6:33; 7:12-22); they once had possession of a mountain in the land of Ephraim, in which Abdon, the son of Hillel the Pirathonite was buried (Judg. 12:15); they were smitten by Saul, B. C. 1086 (I Sa. 14:48); again by him, B. C. 1079, throughout their whole country "from Havilah to Shur," on the border of Egypt, when Agag, their king, was cut in pieces (I Sa. 15:2-33); they were invaded and well-nigh destroyed by David (I Sa. 27:8-10); their previous non-destruction by Saul was the cause of his rejection (I Sa. 28:18); in David's absence, they invaded and plundered Ziglag, B. C. 1056, and carried off his two wives and others as captives, but were pursued, overtaken, and defeated by David (I Sa. 30:1-31); one of their nation, accusing himself of Saul's death, was put to death by David (II Sa. 1:1-16), by whom their silver and gold were dedicated to Jehovah (II Sa. 8:11, 12; 1 Ch. 18:11); they were again smitten in the days of Hezekiah, B. C. 726-697, by five hundred men of the tribe of Simeon, who thereafter dwelt in their place, at the east of the valley of Gedor, or Gerat (I Ch. 4:39-43); they are mentioned with Ammon and the Philistines as among the enemies of Israel (Psa. 83:7). They are not again noticed in Scripture, unless Haman the Agagite be reckoned one of their nation, which is not improbable (Esth. 3:1).`,
+    },
+    {
+      term: `AMAM`,
+      definition: `(gathering place) A city near Shema and Moladah, probably in the south of Judah. Josh. 15:26.`,
+    },
+    {
+      term: `AMANA`,
+      definition: `(permanent) The northern ridge of Antilibanus, as Hermon was the southern. Song 4:8.`,
+    },
+    {
+      term: `AMARIAH`,
+      definition: `(Jehovah has said) 1. Grandfather of Zadok, a high-priest in the time of David. I Ch. 6:7, 52; Ezra 7:3. 2. The son of Azariah, a high-priest in the time of Solomon. I Ch. 6:11. 3. A descendant of Kohath, son of Levi. I Ch. 23:19; 24:23. 4. Chief priest in the time of Jehoshaphat. II Ch. 19:11. 5. A Levite appointed in the time of Hezekiah to distribute the tithes and oblations among his brethren. II Ch. 31:15. 6. A man of the famly of Bani, who took a "strange" (foreign) wife during the Exile. Ezra 10:42. 7. A priest who, with Nehemiah, sealed the covenant, B. C. 445. Neh. 10:3; 12:2, 13. 8. A descendant of Judah through Pharez, some of whose posterity dwelt in Jerusalem after the Exile. Neh. 11:4. 9. An ancestor of Zephaniah the prophet in the time of Josiah. Zeph. 1:1.`,
+    },
+    {
+      term: `AMASA`,
+      definition: `(burden-bearer) 1. David's nephew, whom Absalom made captain over his rebel army, B. C. 1023. II Sa. 17:25; 20:4-12. 2. The name of an Ephraimite who, with others, resisted the bringing into Samaria of the Jews made prisoners in the time of Ahaz, B. C. 741. II Ch. 28:12.`,
+    },
   ],
 };
 
