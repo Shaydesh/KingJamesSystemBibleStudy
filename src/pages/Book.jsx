@@ -523,15 +523,18 @@ const Book = () => {
                       const strongsRefs = phraseData[1];
                       
                       return (
-                        <span 
-                          key={phraseIndex} 
-                          className="clickablePhrase"
-                          onClick={() => {
-                            console.log(`Strongs reference for "${phrase}":`, strongsRefs);
-                          }}
-                        >
-                          {phrase}
-                        </span>
+                        <React.Fragment key={phraseIndex}>
+                          <span 
+                            className="clickablePhrase"
+                            onClick={() => {
+                              console.log(`Strongs reference for "${phrase}":`, strongsRefs);
+                            }}
+                          >
+                            {phrase}
+                          </span>
+                          {/* Add space after each phrase except the last one */}
+                          {phraseIndex < selectedVerse.v.length - 1 ? ' ' : ''}
+                        </React.Fragment>
                       );
                     })}
                   </p>

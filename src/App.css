@@ -95,7 +95,7 @@ body {
   .tblOfContentsBook {
     font-size: 24px; /* Larger font size for iOS devices */
   }
-  
+
   .tblOfContentsBook .book-name {
     font-size: 24px; /* Ensure the book name is larger */
   }
@@ -137,8 +137,8 @@ body {
 .clickablePhrase {
   cursor: pointer;
   text-decoration: underline;
-  display: inline-block;
-  margin: 0 2px;
+  display: inline;
+  margin-right: 2px;
 }
 
 .clickablePhrase:hover {
@@ -318,7 +318,7 @@ body {
   /* .bibleVerseDiv {
     font-size: 22px; 
   } */
-  
+
   .bibleVerseContentDiv p {
     font-size: 24px; 
   }
@@ -370,11 +370,11 @@ body {
   .modal-content h2 {
     font-size: 24px; /* Larger heading for iOS */
   }
-  
+
   .modal-content p {
     font-size: 20px; /* Larger text for iOS */
   }
-  
+
   .modal-content button {
     font-size: 20px; /* Larger button text for iOS */
   }
@@ -393,7 +393,7 @@ body {
   .modal-content input {
     font-size: 20px; /* Larger input text for iOS */
   }
-  
+
   .suggestions-list li {
     font-size: 20px; /* Larger suggestions text for iOS */
   }
@@ -504,11 +504,11 @@ body {
   .bookmarks-title {
     font-size: 26px; /* Larger heading for iOS */
   }
-  
+
   .bookmark-item {
     font-size: 22px; /* Larger text for bookmarks on iOS */
   }
-  
+
   .bookmarks-container p {
     font-size: 22px; /* Larger text for any paragraphs in bookmarks container */
   }
