@@ -21,12 +21,16 @@ try {
   const jsonData = JSON.parse(`[${fileContent}]`);
   
   // Transform data to include verse numbers and text along with k and v
-  const verses = jsonData.map((item, index) => ({
-    verse: (index + 1).toString(),
-    text: item.v.map(([text]) => text).join(' '),
-    k: item.k,
-    v: item.v
-  }));
+  // Read existing JSX file
+const existingJSX = fs.readFileSync(outputPath, 'utf8');
+const existingData = eval('(' + existingJSX.split('export default')[0] + ')');
+
+// Update verses with k and v properties
+const verses = existingData.chapters[0].verses.map((verse, index) => ({
+    ...verse,
+    k: jsonData[index].k,
+    v: jsonData[index].v
+}));
 
   // Create JSX content
   const jsxContent = `const data = {
