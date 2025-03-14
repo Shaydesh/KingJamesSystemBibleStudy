@@ -21,7 +21,18 @@ if (!dataMatch) {
   throw new Error('Could not find data object in Genesis.jsx');
 }
 
-const jsxData = eval('(' + dataMatch[1].trim() + ')');
+// Clean up the data string to make it valid JSON
+let dataString = dataMatch[1].trim();
+// Remove any trailing commas that would make it invalid JSON
+dataString = dataString.replace(/,(\s*[}\]])/g, '$1');
+
+let jsxData;
+try {
+  jsxData = JSON.parse(dataString);
+} catch (error) {
+  console.error('Failed to parse Genesis.jsx data:', error);
+  throw error;
+}
 
 // Merge the data
 jsxData.chapters.forEach((chapter, chapterIndex) => {
