@@ -12,44 +12,37 @@ if (!bookName) {
 const inputPath = path.join('attached_assets', `${bookName}.json`);
 const outputPath = path.join('src', 'books', `${bookName}.jsx`);
 
-console.log('Input path:', inputPath);
-console.log('Output path:', outputPath);
-
 try {
+  // Read and parse input file
   const fileContent = fs.readFileSync(inputPath, 'utf8');
-  console.log('File content length:', fileContent.length);
-  
   const jsonData = JSON.parse(fileContent);
-  console.log('Successfully parsed JSON');
 
-  // Transform each verse to include verse number and text
-  const verses = jsonData.map((verse, index) => ({
-    verse: (index + 1).toString(),
+  // Process verses to generate output format
+  const processedVerses = jsonData.map(verse => ({
+    verse: verse.k.toString(),
     text: verse.v.map(part => part[0]).join(' '),
     k: verse.k,
     v: verse.v
   }));
 
+  // Create JSX content
   const jsxContent = `const data = {
   "book": "${bookName}",
   "chapters": [
     {
       "chapter": "1",
-      "verses": ${JSON.stringify(verses, null, 6)}
+      "verses": ${JSON.stringify(processedVerses, null, 2)}
     }
   ]
 };
 
 export default data;`;
 
-  console.log(`Writing to ${outputPath}...`);
+  // Write to output file
   fs.writeFileSync(outputPath, jsxContent);
-  console.log('Conversion completed successfully!');
+  console.log(`Successfully generated ${outputPath}`);
 
 } catch (error) {
   console.error('Error:', error.message);
-  if (error.code === 'ENOENT') {
-    console.error(`File not found: ${inputPath}`);
-  }
   process.exit(1);
 }
