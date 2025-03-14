@@ -45,21 +45,9 @@ jsxData.chapters.forEach((chapter, chapterIndex) => {
   });
 });
 
-// Generate the new content
-// Generate the new content with proper formatting
+// Generate the new content 
 const newContent = `const data = ${JSON.stringify(jsxData, null, 2)};\n\nexport default data;`;
 
-try {
-  // Write back to Genesis.jsx
-  fs.writeFileSync(genesisJsxPath, newContent, 'utf8');
-  const verification = fs.readFileSync(genesisJsxPath, 'utf8');
-  
-  if (verification === newContent) {
-    console.log('Merge completed successfully!');
-  } else {
-    throw new Error('File verification failed - content was not written correctly');
-  }
-} catch (error) {
-  console.error('Error writing to Genesis.jsx:', error);
-  throw error;
-}
+// Write back to Genesis.jsx using a sync operation
+fs.writeFileSync(genesisJsxPath, newContent, {encoding: 'utf8', flag: 'w'});
+console.log('Merge completed successfully!');
