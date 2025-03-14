@@ -13,7 +13,8 @@ const outputPath = path.join('src', 'books', `${bookName}.jsx`);
 
 try {
   const fileContent = fs.readFileSync(inputPath, 'utf8');
-  const jsonData = JSON.parse(fileContent);
+  // Wrap the content in array brackets to make it valid JSON
+  const jsonData = JSON.parse(`[${fileContent}]`);
 
   // Create JSX content with the complete verse structure
   const jsxContent = `const data = {
