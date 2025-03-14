@@ -16,12 +16,12 @@ const genesisJsxPath = join(__dirname, '../../src/books/Genesis.jsx');
 const genesisJsxContent = fs.readFileSync(genesisJsxPath, 'utf8');
 
 // Parse the data object from Genesis.jsx using regex to extract the object
-const dataMatch = genesisJsxContent.match(/const\s+data\s*=\s*({[\s\S]*?});/);
+const dataMatch = genesisJsxContent.match(/const\s+data\s*=\s*\n*({[\s\S]*?});/);
 if (!dataMatch) {
   throw new Error('Could not find data object in Genesis.jsx');
 }
 
-const jsxData = eval('(' + dataMatch[1] + ')');
+const jsxData = eval('(' + dataMatch[1].trim() + ')');
 
 // Merge the data
 jsxData.chapters.forEach((chapter, chapterIndex) => {
