@@ -21,28 +21,20 @@ try {
   const fileContent = fs.readFileSync(inputPath, 'utf8');
   const jsonData = JSON.parse(`[${fileContent}]`);
   
-  // Read existing JSX file and extract data object
+  // Read existing JSX file
   const existingJSX = fs.readFileSync(outputPath, 'utf8');
   const content = existingJSX.replace(/export default data;/, '').replace(/const data =/, '').trim();
   const existingData = Function(`return ${content}`)();
 
-  // Update verses with k and v properties
-  const verses = existingData.chapters[0].verses.map((verse, index) => ({
+  // Preserve existing content while adding k and v properties
+  existingData.chapters[0].verses = existingData.chapters[0].verses.map((verse, index) => ({
     ...verse,
-    k: jsonData[index]?.k || index,
-    v: jsonData[index]?.v || []
+    k: jsonData[index].k,
+    v: jsonData[index].v || []
   }));
 
   // Create JSX content
-  const jsxContent = `const data = {
-  "book": "${bookName}",
-  "chapters": [
-    {
-      "chapter": "1",
-      "verses": ${JSON.stringify(verses, null, 6)}
-    }
-  ]
-};
+  const jsxContent = `const data = ${JSON.stringify(existingData, null, 2)};
 
 export default data;`;
 
