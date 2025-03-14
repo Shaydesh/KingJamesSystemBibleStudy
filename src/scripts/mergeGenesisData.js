@@ -16,7 +16,7 @@ const genesisJsxPath = join(__dirname, '../../src/books/Genesis.jsx');
 const genesisJsxContent = fs.readFileSync(genesisJsxPath, 'utf8');
 
 // Parse the data object from Genesis.jsx using regex to extract the object
-const dataMatch = genesisJsxContent.match(/const\s+data\s*=\s*\n*({[\s\S]*?})\s*export\s+default\s+data/);
+const dataMatch = genesisJsxContent.match(/const\s+data\s*=\s*({[\s\S]*?});/);
 if (!dataMatch) {
   throw new Error('Could not find data object in Genesis.jsx');
 }
