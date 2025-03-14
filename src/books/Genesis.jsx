@@ -572,7 +572,58 @@ const data =
             "verses": [
                 {
                     "verse": "1",
-                    "text": "This is the book of the generations of Adam. In the day that God created man, in the likeness of God made he him;"
+                    "text": "This is the book of the generations of Adam. In the day that God created man, in the likeness of God made he him;",
+                    "k": 106,
+                    "v": [
+                        [
+                            "This",
+                            ["H2088"]
+                        ],
+                        [
+                            "is the book",
+                            ["H5612"]
+                        ],
+                        [
+                            "of the generations",
+                            ["H8435"]
+                        ],
+                        [
+                            "of Adam.",
+                            ["H121"]
+                        ],
+                        [
+                            "In the day",
+                            ["H3117"]
+                        ],
+                        [
+                            "that God",
+                            ["H430"]
+                        ],
+                        [
+                            "created",
+                            ["H1254"]
+                        ],
+                        [
+                            "man,",
+                            ["H120"]
+                        ],
+                        [
+                            "in the likeness",
+                            ["H1823"]
+                        ],
+                        [
+                            "of God",
+                            ["H430"]
+                        ],
+                        [
+                            "made",
+                            ["H6213"]
+                        ],
+                        [
+                            "he him;",
+                            []
+                        ]
+                    ]
                 },
                 {
                     "verse": "2",
