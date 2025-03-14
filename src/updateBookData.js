@@ -30,11 +30,11 @@ try {
   existingData.chapters = existingData.chapters.map(chapter => ({
     ...chapter,
     verses: chapter.verses.map(verse => {
-      const verseNum = parseInt(verse.verse) - 1;
+      const matchingJsonVerse = jsonData[parseInt(verse.verse) - 1];
       return {
         ...verse,
-        k: verseNum,
-        v: jsonData[verseNum]?.v || []
+        k: matchingJsonVerse.k,
+        v: matchingJsonVerse.v
       };
     })
   }));
