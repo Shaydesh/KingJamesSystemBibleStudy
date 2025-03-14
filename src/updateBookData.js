@@ -29,17 +29,11 @@ try {
   // Update all chapters with k and v properties
   existingData.chapters = existingData.chapters.map((chapter, chapterIndex) => ({
     ...chapter,
-    verses: chapter.verses.map((verse, verseIndex) => {
-      const verseData = jsonData.find(v => 
-        parseInt(v.chapter) === parseInt(chapter.chapter) && 
-        parseInt(v.verse) === parseInt(verse.verse)
-      );
-      return {
-        ...verse,
-        k: verseData?.k ?? verseIndex,
-        v: verseData?.v ?? []
-      };
-    })
+    verses: chapter.verses.map((verse, verseIndex) => ({
+      ...verse,
+      k: verseIndex,
+      v: jsonData[verseIndex]?.v || []
+    }))
   }));
 
   // Create JSX content
