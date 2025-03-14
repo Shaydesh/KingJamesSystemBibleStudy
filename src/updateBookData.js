@@ -21,12 +21,17 @@ if (!fs.existsSync(jsonFilePath)) {
 }
 
 // Read the JSON file
+console.log('Current working directory:', process.cwd());
+console.log('Looking for JSON file at:', jsonFilePath);
 console.log(`Reading ${bookName}.json file...`);
 let bookJson;
 try {
-  bookJson = JSON.parse(fs.readFileSync(jsonFilePath, 'utf8'));
+  const fileContent = fs.readFileSync(jsonFilePath, 'utf8');
+  console.log('File content length:', fileContent.length);
+  bookJson = JSON.parse(fileContent);
+  console.log('Successfully parsed JSON');
 } catch (error) {
-  console.error(`Error parsing ${bookName}.json:`, error);
+  console.error(`Error with ${bookName}.json:`, error);
   process.exit(1);
 }
 
