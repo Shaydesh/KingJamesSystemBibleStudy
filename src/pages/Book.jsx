@@ -455,57 +455,21 @@ const Book = () => {
 
           {bibleData.chapters[currentChapter].verses.map((verse, verseIndex) => {
               const isVerseOne = verse.verse === "1";
+              const words = verse.text.split(" ");
+              const formattedText = isVerseOne ? `${words.slice(0, 2).join(" ").toUpperCase()} ${words.slice(2).join(" ")}` : verse.text;
               
-              // Check if verse has v property in the expected format (for Genesis.json structure)
-              const hasStrongsData = verse.v && Array.isArray(verse.v);
-              
-              if (hasStrongsData) {
-                // Using the v property from Genesis.json structure
-                return (
-                  <div className="bibleVerseDiv" key={verseIndex} 
-                    id={`${book}_${currentChapter + 1}_${verse.verse}`}>
-                    <div className="bibleVerseContentDiv">
-                      <p>
-                        <span className="bibleVerseNumber">{verse.verse}</span>{" "}
-                        {verse.v.map((phraseData, phraseIndex) => {
-                          const phrase = phraseData[0];
-                          const strongsRefs = phraseData[1];
-                          
-                          return (
-                            <span 
-                              key={phraseIndex} 
-                              className="clickablePhrase"
-                              onClick={() => {
-                                console.log(`Strongs reference for "${phrase}":`, strongsRefs);
-                              }}
-                              style={{ cursor: 'pointer', margin: '0 2px', textDecoration: 'underline' }}
-                            >
-                              {phrase}
-                            </span>
-                          );
-                        })}
-                      </p>
-                    </div>
+              return (
+                <div className="bibleVerseDiv" key={verseIndex} 
+                  id={`${book}_${currentChapter + 1}_${verse.verse}`} 
+                  onClick={() => openBookmarkModal(verse)}>
+                  <div className="bibleVerseContentDiv">
+                    <p>
+                      <span className="bibleVerseNumber">{verse.verse}</span>{" "}
+                      {formattedText}
+                    </p>
                   </div>
-                );
-              } else {
-                // Fallback to original rendering for books without v property
-                const words = verse.text.split(" ");
-                const formattedText = isVerseOne ? `${words.slice(0, 2).join(" ").toUpperCase()} ${words.slice(2).join(" ")}` : verse.text;
-                
-                return (
-                  <div className="bibleVerseDiv" key={verseIndex} 
-                    id={`${book}_${currentChapter + 1}_${verse.verse}`} 
-                    onClick={() => openBookmarkModal(verse)}>
-                    <div className="bibleVerseContentDiv">
-                      <p>
-                        <span className="bibleVerseNumber">{verse.verse}</span>{" "}
-                        {formattedText}
-                      </p>
-                    </div>
-                  </div>
-                );
-              }
+                </div>
+              );
             }
           )}
 
@@ -550,7 +514,30 @@ const Book = () => {
                 <h2>Bookmark Verse</h2>
                 <p>Do you want to save this verse as a bookmark?</p>
                 <p>{book}, Chapter {currentChapter + 1}, Verse {selectedVerse.verse}</p>
-                <p>{selectedVerse.text}</p>
+                
+                {/* Display verse with clickable phrases if it has Strong's data */}
+                {selectedVerse.v && Array.isArray(selectedVerse.v) ? (
+                  <p>
+                    {selectedVerse.v.map((phraseData, phraseIndex) => {
+                      const phrase = phraseData[0];
+                      const strongsRefs = phraseData[1];
+                      
+                      return (
+                        <span 
+                          key={phraseIndex} 
+                          className="clickablePhrase"
+                          onClick={() => {
+                            console.log(`Strongs reference for "${phrase}":`, strongsRefs);
+                          }}
+                        >
+                          {phrase}
+                        </span>
+                      );
+                    })}
+                  </p>
+                ) : (
+                  <p>{selectedVerse.text}</p>
+                )}
                 <div className="topic-search">
                   <input
                     id="topic-input"
