@@ -1,7 +1,7 @@
+
 const fs = require('fs');
 const path = require('path');
 
-// Get the book name from command line arguments
 const bookName = process.argv[2];
 
 if (!bookName) {
@@ -13,10 +13,17 @@ if (!bookName) {
 const inputPath = path.join('attached_assets', `${bookName}.json`);
 const outputPath = path.join('src', 'books', `${bookName}.jsx`);
 
+console.log('Input path:', inputPath);
+console.log('Output path:', outputPath);
+
 try {
   // Read and parse JSON file
   console.log(`Reading ${inputPath}...`);
-  const jsonData = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
+  const fileContent = fs.readFileSync(inputPath, 'utf8');
+  console.log('File content length:', fileContent.length);
+  
+  const jsonData = JSON.parse(fileContent);
+  console.log('Successfully parsed JSON');
 
   // Create JSX content
   const jsxContent = `const data = {
@@ -38,5 +45,8 @@ export default data;`;
 
 } catch (error) {
   console.error('Error:', error.message);
+  if (error.code === 'ENOENT') {
+    console.error(`File not found: ${inputPath}`);
+  }
   process.exit(1);
 }
