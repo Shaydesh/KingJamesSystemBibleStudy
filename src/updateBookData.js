@@ -26,15 +26,15 @@ try {
   const content = existingJSX.replace(/export default data;/, '').replace(/const data =/, '').trim();
   const existingData = Function(`return ${content}`)();
 
-  // Update all chapters with k and v properties from JSON data
-  existingData.chapters = existingData.chapters.map((chapter, chapterIndex) => ({
+  // Update verses with k and v properties from JSON data
+  existingData.chapters = existingData.chapters.map(chapter => ({
     ...chapter,
-    verses: chapter.verses.map((verse, verseIndex) => {
-      const jsonVerse = jsonData.find(v => v.k === verseIndex);
+    verses: chapter.verses.map(verse => {
+      const verseNum = parseInt(verse.verse) - 1;
       return {
         ...verse,
-        k: jsonVerse?.k || verseIndex,
-        v: jsonVerse?.v || []
+        k: verseNum,
+        v: jsonData[verseNum]?.v || []
       };
     })
   }));
