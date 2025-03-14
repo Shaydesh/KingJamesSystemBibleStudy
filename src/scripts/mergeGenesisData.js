@@ -1,11 +1,18 @@
 
-const fs = require('fs');
+import fs from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+import { createRequire } from 'module';
 
-// Read both files
-const genesisJson = require('../attached_assets/Genesis.json');
-const genesisJsxPath = './src/books/Genesis.jsx';
+const require = createRequire(import.meta.url);
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+// Read Genesis.json
+const genesisJson = require('../../attached_assets/Genesis.json');
 
 // Read the Genesis.jsx content
+const genesisJsxPath = join(__dirname, '../../src/books/Genesis.jsx');
 const genesisJsxContent = fs.readFileSync(genesisJsxPath, 'utf8');
 
 // Parse the data object from Genesis.jsx
