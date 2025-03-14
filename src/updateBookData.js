@@ -29,12 +29,12 @@ try {
   // Update verses with k and v properties from JSON data
   existingData.chapters = existingData.chapters.map(chapter => ({
     ...chapter,
-    verses: chapter.verses.map(verse => {
-      const matchingJsonVerse = jsonData[parseInt(verse.verse) - 1];
+    verses: chapter.verses.map((verse, index) => {
+      // Find matching verse from JSON data by index
       return {
         ...verse,
-        k: matchingJsonVerse.k,
-        v: matchingJsonVerse.v
+        k: index,
+        v: jsonData[index]?.v || []
       };
     })
   }));
