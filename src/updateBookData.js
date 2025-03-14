@@ -29,8 +29,8 @@ try {
   // Preserve existing content while adding k and v properties
   existingData.chapters[0].verses = existingData.chapters[0].verses.map((verse, index) => ({
     ...verse,
-    k: jsonData[index].k,
-    v: jsonData[index].v || []
+    k: jsonData[index]?.k || index, // Use index if k is missing
+    v: jsonData[index]?.v || []     // Use empty array if v is missing
   }));
 
   // Create JSX content
