@@ -23,8 +23,8 @@ try {
   
   // Read existing JSX file and extract data object
   const existingJSX = fs.readFileSync(outputPath, 'utf8');
-  const dataMatch = existingJSX.match(/const data = ({[\s\S]*?});/);
-  const existingData = JSON.parse(dataMatch[1]);
+  const content = existingJSX.replace(/export default data;/, '').replace(/const data =/, '').trim();
+  const existingData = Function(`return ${content}`)();
 
   // Update verses with k and v properties
   const verses = existingData.chapters[0].verses.map((verse, index) => ({
