@@ -26,11 +26,20 @@ try {
   const content = existingJSX.replace(/export default data;/, '').replace(/const data =/, '').trim();
   const existingData = Function(`return ${content}`)();
 
-  // Preserve existing content while adding k and v properties
-  existingData.chapters[0].verses = existingData.chapters[0].verses.map((verse, index) => ({
-    ...verse,
-    k: jsonData[index]?.k || index, // Use index if k is missing
-    v: jsonData[index]?.v || []     // Use empty array if v is missing
+  // Update all chapters with k and v properties
+  existingData.chapters = existingData.chapters.map((chapter, chapterIndex) => ({
+    ...chapter,
+    verses: chapter.verses.map((verse, verseIndex) => {
+      const verseData = jsonData.find(v => 
+        parseInt(v.chapter) === parseInt(chapter.chapter) && 
+        parseInt(v.verse) === parseInt(verse.verse)
+      );
+      return {
+        ...verse,
+        k: verseData?.k ?? verseIndex,
+        v: verseData?.v ?? []
+      };
+    })
   }));
 
   // Create JSX content
