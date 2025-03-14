@@ -133,6 +133,20 @@ body {
        align-items: center;  
      margin-left: 0px;
   margin-right: 0px;
+
+.clickablePhrase {
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.clickablePhrase:hover {
+  color: #007bff;
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: 3px;
+}
+
 }
   .rev-column {
     flex-direction: column;
