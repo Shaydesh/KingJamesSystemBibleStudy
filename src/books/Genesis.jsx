@@ -8,12 +8,130 @@ const data =
                 {
                       "verse": "1",
                       "text": "In the beginning God created the heaven and the earth.",
-                      
+                      "k": 0,
+                      "v": [
+                        [
+                          "In the beginning",
+                          [
+                            "H7225"
+                          ]
+                        ],
+                        [
+                          "God",
+                          [
+                            "H430"
+                          ]
+                        ],
+                        [
+                          "created",
+                          [
+                            "H1254"
+                          ]
+                        ],
+                        [
+                          "the heaven",
+                          [
+                            "H8064"
+                          ]
+                        ],
+                        [
+                          "and the earth.",
+                          [
+                            "H776"
+                          ]
+                        ]
+                      ]
                     },
                     {
                       "verse": "2",
                       "text": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.",
-                     
+                      "k": 1,
+                      "v": [
+                        [
+                          "And the earth",
+                          [
+                            "H776"
+                          ]
+                        ],
+                        [
+                          "was",
+                          [
+                            "H1961"
+                          ]
+                        ],
+                        [
+                          "without form,",
+                          [
+                            "H8414"
+                          ]
+                        ],
+                        [
+                          "and void;",
+                          [
+                            "H922"
+                          ]
+                        ],
+                        [
+                          "and darkness",
+                          [
+                            "H2822"
+                          ]
+                        ],
+                        [
+                          "was upon",
+                          [
+                            "H5921"
+                          ]
+                        ],
+                        [
+                          "the face",
+                          [
+                            "H6440"
+                          ]
+                        ],
+                        [
+                          "of the deep.",
+                          [
+                            "H8415"
+                          ]
+                        ],
+                        [
+                          "And the Spirit",
+                          [
+                            "H7307"
+                          ]
+                        ],
+                        [
+                          "of God",
+                          [
+                            "H430"
+                          ]
+                        ],
+                        [
+                          "moved",
+                          [
+                            "H7363"
+                          ]
+                        ],
+                        [
+                          "upon",
+                          [
+                            "H5921"
+                          ]
+                        ],
+                        [
+                          "the face",
+                          [
+                            "H6440"
+                          ]
+                        ],
+                        [
+                          "of the waters.",
+                          [
+                            "H4325"
+                          ]
+                        ]
+                      ]
                     },
 
                 {
