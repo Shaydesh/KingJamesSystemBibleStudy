@@ -29,8 +29,8 @@ try {
   // Update verses with k and v properties
   const verses = existingData.chapters[0].verses.map((verse, index) => ({
     ...verse,
-    k: jsonData[index].k,
-    v: jsonData[index].v
+    k: jsonData[index]?.k || index,
+    v: jsonData[index]?.v || []
   }));
 
   // Create JSX content
