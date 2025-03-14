@@ -17,20 +17,21 @@ const inputPath = path.join('attached_assets', `${bookName}.json`);
 const outputPath = path.join('src', 'books', `${bookName}.jsx`);
 
 try {
+  // Read and parse input file
   const fileContent = fs.readFileSync(inputPath, 'utf8');
   const jsonData = JSON.parse(`[${fileContent}]`);
   
-  // Transform data to include verse numbers and text along with k and v
-  // Read existing JSX file
-const existingJSX = fs.readFileSync(outputPath, 'utf8');
-const existingData = eval('(' + existingJSX.split('export default')[0] + ')');
+  // Read existing JSX file and extract data object
+  const existingJSX = fs.readFileSync(outputPath, 'utf8');
+  const dataMatch = existingJSX.match(/const data = ({[\s\S]*?});/);
+  const existingData = JSON.parse(dataMatch[1]);
 
-// Update verses with k and v properties
-const verses = existingData.chapters[0].verses.map((verse, index) => ({
+  // Update verses with k and v properties
+  const verses = existingData.chapters[0].verses.map((verse, index) => ({
     ...verse,
     k: jsonData[index].k,
     v: jsonData[index].v
-}));
+  }));
 
   // Create JSX content
   const jsxContent = `const data = {
