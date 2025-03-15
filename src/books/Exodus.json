@@ -1,4 +1,4 @@
-const data =
+
 {
     "book": "Exodus",
     "chapters": [
@@ -299580,5 +299580,3 @@ export defualt data;const data =
         }
     ]
 }
-
-export default data;

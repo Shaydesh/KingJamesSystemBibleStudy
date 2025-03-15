@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { useBook } from "../BookContext";
-import { initDB, saveBookmark, getSuggestions, getDistinctTopics} from '../DB';
+import { initDB, saveBookmark, getSuggestions, getDistinctTopics } from "../DB";
 
 import RevelationJSON from "../books/Revelation.jsx";
 import JudeJSON from "../books/Jude.jsx";
@@ -52,7 +52,7 @@ import IISamuelJSON from "../books/2Samuel.jsx";
 import DeuteronomyJSON from "../books/Deuteronomy.jsx";
 import EcclesiastesJSON from "../books/Ecclesiastes.jsx";
 import EstherJSON from "../books/Esther.jsx";
-import ExodusJSON from "../books/Exodus.jsx";
+import ExodusJSON from "../books/Exodus.json";
 import EzekielJSON from "../books/Ezekiel.jsx";
 import EzraJSON from "../books/Ezra.jsx";
 import IsaiahJSON from "../books/Isaiah.jsx";
@@ -68,15 +68,14 @@ import ProverbsJSON from "../books/Proverbs.jsx";
 import PsalmsJSON from "../books/Psalms.jsx";
 import RuthJSON from "../books/Ruth.jsx";
 import SongofSolomonJSON from "../books/SongofSolomon.jsx";
-import GenesisJSON from "../books/Genesis.jsx";
+import GenesisJSON from "../books/Genesis.json";
 
 const Book = () => {
-
   const location = useLocation();
 
   const { book, setBookTheme } = useBook();
   const { chapter, setSelectedChapter } = useBook();
-  const {verse, setVerseContext} = useBook();
+  const { verse, setVerseContext } = useBook();
 
   const [bibleData, setBibleData] = useState("");
   const [currentChapter, setCurrentChapter] = useState(0);
@@ -86,40 +85,41 @@ const Book = () => {
   const [bookmarkModalOpen, setBookmarkModalOpen] = useState(false);
   const [topic, setTopic] = useState("");
   const [firstLoadState, setFirstLoadState] = useState(false);
-  const [suggestions, setSuggestions] = useState([]);  // Store suggestions here
+  const [suggestions, setSuggestions] = useState([]); // Store suggestions here
   const [isLoading, setIsLoading] = useState(false);
   const [filteredTopics, setFilteredTopics] = useState([]);
   const [topics, setTopics] = useState([]); // Store distinct topics
-  const [query, setQuery] = useState(''); // Current input query
+  const [query, setQuery] = useState(""); // Current input query
   const [dbInitialized, setDbInitialized] = useState(false);
-  const [confirmBookmarkSavedModalOpen, setConfirmBookmarkSavedModalOpen] = useState(false);
+  const [confirmBookmarkSavedModalOpen, setConfirmBookmarkSavedModalOpen] =
+    useState(false);
 
   const hasScrolledRef = useRef(false);
   const previousVerseRef = useRef();
 
   useEffect(() => {
-  const initializeDatabase = async () => {
-    try {
-      await initDB(); // Assume initDB is async
-      setDbInitialized(true);// Set to true once DB is initialized
+    const initializeDatabase = async () => {
+      try {
+        await initDB(); // Assume initDB is async
+        setDbInitialized(true); // Set to true once DB is initialized
 
-      getDistinctTopics()
-      .then((distinctTopics) => {
-        setTopics(distinctTopics); // Set the topics in state
-       // setLoading(false); // Set loading to false once data is fetched
-        console.log("Topics Are: " + distinctTopics);
-      })
-      .catch((error) => {
-        console.error("Error fetching distinct topics:", error);
-       // setLoading(false); // Handle error and stop loading
-      });
-    } catch (error) {
-      console.error("Error initializing DB:", error);
-    }
-  };
+        getDistinctTopics()
+          .then((distinctTopics) => {
+            setTopics(distinctTopics); // Set the topics in state
+            // setLoading(false); // Set loading to false once data is fetched
+            console.log("Topics Are: " + distinctTopics);
+          })
+          .catch((error) => {
+            console.error("Error fetching distinct topics:", error);
+            // setLoading(false); // Handle error and stop loading
+          });
+      } catch (error) {
+        console.error("Error initializing DB:", error);
+      }
+    };
 
-  initializeDatabase();
-}, []);
+    initializeDatabase();
+  }, []);
 
   useEffect(() => {
     console.log("Global Context Book Title:", book); // Log the book from the global context
@@ -127,164 +127,163 @@ const Book = () => {
     console.log("Global Verse is " + verse);
 
     if (book === "Genesis") {
-      setBibleData(GenesisJSON);    
+      setBibleData(GenesisJSON);
     } else if (book === "Exodus") {
       setBibleData(ExodusJSON);
     } else if (book === "Leviticus") {
       setBibleData(LeviticusJSON);
-    }else if (book === "Numbers") {
+    } else if (book === "Numbers") {
       setBibleData(NumbersJSON);
-    }else if (book === "Deuteronomy") {
+    } else if (book === "Deuteronomy") {
       setBibleData(DeuteronomyJSON);
-    }else if (book === "Joshua") {
+    } else if (book === "Joshua") {
       setBibleData(JoshuaJSON);
-    }else if (book === "Judges") {
+    } else if (book === "Judges") {
       setBibleData(JudgesJSON);
-    }else if (book === "Ruth") {
+    } else if (book === "Ruth") {
       setBibleData(RuthJSON);
-    }else if (book === "I Samuel") {
+    } else if (book === "I Samuel") {
       setBibleData(ISamuelJSON);
-    }else if (book === "II Samuel") {
+    } else if (book === "II Samuel") {
       setBibleData(IISamuelJSON);
-    }else if (book === "I Kings") {
+    } else if (book === "I Kings") {
       setBibleData(IKingsJSON);
-    }else if (book === "II Kings") {
+    } else if (book === "II Kings") {
       setBibleData(IIKingsJSON);
-    }else if (book === "I Chronicles") {
+    } else if (book === "I Chronicles") {
       setBibleData(IChoniclesJSON);
-    }else if (book === "II Chronicles") {
+    } else if (book === "II Chronicles") {
       setBibleData(IIChroniclesJSON);
-    }else if (book === "Ezra") {
+    } else if (book === "Ezra") {
       setBibleData(EzraJSON);
-    }else if (book === "Nehemiah") {
+    } else if (book === "Nehemiah") {
       setBibleData(NehemiahJSON);
-    }else if (book === "Esther") {
+    } else if (book === "Esther") {
       setBibleData(EstherJSON);
-    }else if (book === "Job") {
+    } else if (book === "Job") {
       setBibleData(JobJSON);
-    }else if (book === "Psalms") {
+    } else if (book === "Psalms") {
       setBibleData(PsalmsJSON);
-    }else if (book === "Proverbs") {
+    } else if (book === "Proverbs") {
       setBibleData(ProverbsJSON);
-    }else if (book === "Ecclesiastes") {
+    } else if (book === "Ecclesiastes") {
       setBibleData(EcclesiastesJSON);
-    }else if (book === "Song of Solomon") {
+    } else if (book === "Song of Solomon") {
       setBibleData(SongofSolomonJSON);
-    }else if (book === "Isaiah") {
+    } else if (book === "Isaiah") {
       setBibleData(IsaiahJSON);
-    }else if (book === "Jeremiah") {
+    } else if (book === "Jeremiah") {
       setBibleData(JeremiahJSON);
-    }else if (book === "Lamentations") {
+    } else if (book === "Lamentations") {
       setBibleData(LamentationsJSON);
-    }else if (book === "Ezekiel") {
+    } else if (book === "Ezekiel") {
       setBibleData(EzekielJSON);
-    }else if (book === "Daniel") {
+    } else if (book === "Daniel") {
       setBibleData(DanielJSON);
-    }else if (book === "Hosea") {
+    } else if (book === "Hosea") {
       setBibleData(HoseaJSON);
-    }else if (book === "Joel") {
+    } else if (book === "Joel") {
       setBibleData(JoelJSON);
-    }else if (book === "Amos") {
+    } else if (book === "Amos") {
       setBibleData(AmosJSON);
-    }else if (book === "Obadiah") {
+    } else if (book === "Obadiah") {
       setBibleData(ObadiahJSON);
-    }else if (book === "Jonah") {
+    } else if (book === "Jonah") {
       setBibleData(JonahJSON);
-    }else if (book === "Micah") {
+    } else if (book === "Micah") {
       setBibleData(MicahJSON);
-    }else if (book === "Nahum") {
+    } else if (book === "Nahum") {
       setBibleData(NahumJSON);
-    }else if (book === "Habakkuk") {
+    } else if (book === "Habakkuk") {
       setBibleData(HabakkukJSON);
-    }else if (book === "Zephaniah") {
+    } else if (book === "Zephaniah") {
       setBibleData(ZephaniahJSON);
-    }else if (book === "Haggai") {
+    } else if (book === "Haggai") {
       setBibleData(HaggaiJSON);
-    }else if (book === "Zechariah") {
+    } else if (book === "Zechariah") {
       setBibleData(ZechariahJSON);
-    }else if (book === "Malachi") {
+    } else if (book === "Malachi") {
       setBibleData(MalachiJSON);
-    }else if (book === "Matthew") {
+    } else if (book === "Matthew") {
       setBibleData(MatthewJSON);
-    }else if (book === "Mark") {
+    } else if (book === "Mark") {
       setBibleData(MarkJSON);
-    }else if (book === "Luke") {
+    } else if (book === "Luke") {
       setBibleData(LukeJSON);
-    }else if (book === "John") {
+    } else if (book === "John") {
       setBibleData(JohnJSON);
-    }else if (book === "Acts") {
+    } else if (book === "Acts") {
       setBibleData(ActsJSON);
-    }else if (book === "Romans") {
+    } else if (book === "Romans") {
       setBibleData(RomansJSON);
-    }else if (book === "I Corinthians") {
+    } else if (book === "I Corinthians") {
       setBibleData(ICorinthiansJSON);
-    }else if (book === "II Corinthians") {
+    } else if (book === "II Corinthians") {
       setBibleData(IICorinthiansJSON);
-    }else if (book === "Galatians") {
+    } else if (book === "Galatians") {
       setBibleData(GalatiansJSON);
-    }else if (book === "Ephesians") {
+    } else if (book === "Ephesians") {
       setBibleData(EphesiansJSON);
-    }else if (book === "Philippians") {
+    } else if (book === "Philippians") {
       setBibleData(PhilippiansJSON);
-    }else if (book === "Colossians") {
+    } else if (book === "Colossians") {
       setBibleData(ColossiansJSON);
-    }else if (book === "I Thessalonians") {
+    } else if (book === "I Thessalonians") {
       setBibleData(IThessaloniansJSON);
-    }else if (book === "II Thessalonians") {
+    } else if (book === "II Thessalonians") {
       setBibleData(IIThessaloniansJSON);
-    }else if (book === "I Timothy") {
+    } else if (book === "I Timothy") {
       setBibleData(ITimothyJSON);
-    }else if (book === "II Timothy") {
+    } else if (book === "II Timothy") {
       setBibleData(IITimothyJSON);
-    }else if (book === "Titus") {
+    } else if (book === "Titus") {
       setBibleData(TitusJSON);
-    }else if (book === "Philemon") {
+    } else if (book === "Philemon") {
       setBibleData(PhilemonJSON);
-    }else if (book === "Hebrews") {
+    } else if (book === "Hebrews") {
       setBibleData(HebrewsJSON);
-    }else if (book === "James") {
+    } else if (book === "James") {
       setBibleData(JamesJSON);
-    }else if (book === "I Peter") {
+    } else if (book === "I Peter") {
       setBibleData(IPeterJSON);
-    }else if (book === "II Peter") {
+    } else if (book === "II Peter") {
       setBibleData(IIPeterJSON);
-    }else if (book === "I John") {
+    } else if (book === "I John") {
       setBibleData(IJohnJSON);
-    }else if (book === "II John") {
+    } else if (book === "II John") {
       setBibleData(IIJohnJSON);
-    }else if (book === "III John") {
+    } else if (book === "III John") {
       setBibleData(IIIJohnJSON);
-    }else if (book === "Jude") {
+    } else if (book === "Jude") {
       setBibleData(JudeJSON);
-    }else if (book === "Revelation") {
+    } else if (book === "Revelation") {
       setBibleData(RevelationJSON);
-    }else {
+    } else {
       // Handle other books here as needed
       setBibleData(""); // Reset or set for other books
     }
 
-
     setCurrentChapter(chapter);
-
   }, [book, location.state, chapter]);
 
   useEffect(() => {
+    // Wait for the component to fully load and render the verse before scrolling
+    if (firstLoadState || verse !== previousVerseRef.current) {
+      previousVerseRef.current = verse;
+      setFirstLoadState(false);
 
-  // Wait for the component to fully load and render the verse before scrolling
-  if (firstLoadState || verse !== previousVerseRef.current) {
-    previousVerseRef.current = verse;
-    setFirstLoadState(false);
+      // Delay scroll to ensure the verse is rendered
+      setTimeout(() => {
+        scrollToVerse(verse);
+        console.log("SCROLL TO: " + verse); // Scroll to the verse when first load or verse changes
+      }, 100); // 100 ms delay to ensure render completion
+    }
+  }, [verse, firstLoadState, book, currentChapter]);
 
-    // Delay scroll to ensure the verse is rendered
-    setTimeout(() => {
-      scrollToVerse(verse);
-      console.log('SCROLL TO: ' + verse); // Scroll to the verse when first load or verse changes
-    }, 100);  // 100 ms delay to ensure render completion
-  }
-}, [verse, firstLoadState, book, currentChapter]);
-
-
-  const verses = bibleData && bibleData.chapters ? bibleData.chapters[currentChapter].verses : []; // Assuming you want to display verses from the first chapter
+  const verses =
+    bibleData && bibleData.chapters
+      ? bibleData.chapters[currentChapter].verses
+      : []; // Assuming you want to display verses from the first chapter
 
   const scrollToVerse = (verse) => {
     const verseId = `${book}_${chapter + 1}_${verse}`;
@@ -293,25 +292,24 @@ const Book = () => {
     if (verseElement) {
       verseElement.scrollIntoView({ behavior: "smooth", block: "center" });
     } else {
-    console.log(`Verse element not found for ID: ${verseId}`);
+      console.log(`Verse element not found for ID: ${verseId}`);
     }
-};
+  };
 
   const handleNextChapter = () => {
     if (bibleData.chapters && currentChapter < bibleData.chapters.length - 1) {
       setCurrentChapter(currentChapter + 1);
       setSelectedChapter(currentChapter + 1);
-     // window.scrollTo(2, 0);
+      // window.scrollTo(2, 0);
       //window.scrollTo({ top: 0, behavior: "auto" });
       const verseId = `${book}_${currentChapter + 1}_${1}`;
-    const verseElement = document.getElementById(verseId);
+      const verseElement = document.getElementById(verseId);
 
-    if (verseElement) {
-      verseElement.scrollIntoView({ behavior: "smooth", block: "center" });
-    } else {
-    console.log(`Verse element not found for ID: ${verseId}`);
-    }
-
+      if (verseElement) {
+        verseElement.scrollIntoView({ behavior: "smooth", block: "center" });
+      } else {
+        console.log(`Verse element not found for ID: ${verseId}`);
+      }
     }
   };
 
@@ -322,13 +320,13 @@ const Book = () => {
       //window.scrollTo(2, 0);
       //window.scrollTo({ top: 0, behavior: "auto" });
       const verseId = `${book}_${currentChapter + 1}_${1}`;
-    const verseElement = document.getElementById(verseId);
+      const verseElement = document.getElementById(verseId);
 
-    if (verseElement) {
-      verseElement.scrollIntoView({ behavior: "smooth", block: "center" });
-    } else {
-    console.log(`Verse element not found for ID: ${verseId}`);
-    }
+      if (verseElement) {
+        verseElement.scrollIntoView({ behavior: "smooth", block: "center" });
+      } else {
+        console.log(`Verse element not found for ID: ${verseId}`);
+      }
     }
   };
 
@@ -342,25 +340,24 @@ const Book = () => {
   };
 
   const openBookmarkModal = (verse) => {
-  setSelectedVerse(verse);
-  setBookmarkModalOpen(true);
-};
+    setSelectedVerse(verse);
+    setBookmarkModalOpen(true);
+  };
 
   const closeBookmarkModal = () => {
     setBookmarkModalOpen(false);
     setSelectedVerse(null);
-    setTopic("");   
-    setFilteredTopics([]);  
+    setTopic("");
+    setFilteredTopics([]);
   };
 
   const closeConfirmModal = () => {
     setConfirmBookmarkSavedModalOpen(false);
-
   };
 
   const openConfirmModal = () => {
     setConfirmBookmarkSavedModalOpen(true);
-};
+  };
 
   const handleConfirmModal = () => {
     closeConfirmModal();
@@ -374,14 +371,13 @@ const Book = () => {
       closeModal();
 
       const verseId = `${book}_${currentChapter + 1}_${1}`;
-    const verseElement = document.getElementById(verseId);
+      const verseElement = document.getElementById(verseId);
 
-    if (verseElement) {
-      verseElement.scrollIntoView({ behavior: "smooth", block: "center" });
-    } else {
-    console.log(`Verse element not found for ID: ${verseId}`);
-    }
-
+      if (verseElement) {
+        verseElement.scrollIntoView({ behavior: "smooth", block: "center" });
+      } else {
+        console.log(`Verse element not found for ID: ${verseId}`);
+      }
     } else {
       alert("Invalid chapter number.");
     }
@@ -405,19 +401,25 @@ const Book = () => {
   };
 
   const handleBookmarkSave = () => {
-  if (selectedVerse) {
-    const verseId = `${book}_${currentChapter + 1}_${selectedVerse.verse}`;
-    saveBookmark(book, currentChapter + 1, selectedVerse.verse, topic, verseId)
-      .then(() => {
-        setTopic(""); // Clear topic after saving
-        closeBookmarkModal(); // Close modal after saving
-        openConfirmModal();
-      })
-      .catch((error) => {
-        console.error('Error saving bookmark:', error);
-      });
-  }
-};
+    if (selectedVerse) {
+      const verseId = `${book}_${currentChapter + 1}_${selectedVerse.verse}`;
+      saveBookmark(
+        book,
+        currentChapter + 1,
+        selectedVerse.verse,
+        topic,
+        verseId,
+      )
+        .then(() => {
+          setTopic(""); // Clear topic after saving
+          closeBookmarkModal(); // Close modal after saving
+          openConfirmModal();
+        })
+        .catch((error) => {
+          console.error("Error saving bookmark:", error);
+        });
+    }
+  };
 
   const handleTopicChange = (e) => {
     const inputValue = e.target.value;
@@ -427,41 +429,59 @@ const Book = () => {
     if (inputValue.trim() === "") {
       setFilteredTopics([]); // If input is empty, clear the suggestions
     } else {
-    // Filter topics based on the input value (case-insensitive)
-    const filtered = topics.filter((topic) =>
-      topic.toLowerCase().includes(inputValue.toLowerCase())
-    );
-    setFilteredTopics(filtered); // Update the filtered topics list
-   }
- };
+      // Filter topics based on the input value (case-insensitive)
+      const filtered = topics.filter((topic) =>
+        topic.toLowerCase().includes(inputValue.toLowerCase()),
+      );
+      setFilteredTopics(filtered); // Update the filtered topics list
+    }
+  };
 
   const handleTopicSelect = (selectedTopic) => {
-  setTopic(selectedTopic);         // Set the selected topic
-  setFilteredTopics([]);           // Clear the suggestions list
-};
-
+    setTopic(selectedTopic); // Set the selected topic
+    setFilteredTopics([]); // Clear the suggestions list
+  };
 
   return (
     <div>
       <h1 className="bibleBookHeader">{book}</h1>
       {bibleData && bibleData.chapters && bibleData.chapters.length > 0 ? (
-
         <div>
           <div className="bibleChapterDiv">
-            <button className="previousChapterButton" onClick={handlePreviousChapter} disabled={currentChapter === 0}>Prev</button>
-            <h2 className="bibleChapterHeader" onClick={openModal}>Chapter {bibleData.chapters[currentChapter].chapter}</h2>
-            <button className="nextChapterButton" onClick={handleNextChapter} disabled={currentChapter >= bibleData.chapters.length - 1}>Next</button>
+            <button
+              className="previousChapterButton"
+              onClick={handlePreviousChapter}
+              disabled={currentChapter === 0}
+            >
+              Prev
+            </button>
+            <h2 className="bibleChapterHeader" onClick={openModal}>
+              Chapter {bibleData.chapters[currentChapter].chapter}
+            </h2>
+            <button
+              className="nextChapterButton"
+              onClick={handleNextChapter}
+              disabled={currentChapter >= bibleData.chapters.length - 1}
+            >
+              Next
+            </button>
           </div>
 
-          {bibleData.chapters[currentChapter].verses.map((verse, verseIndex) => {
+          {bibleData.chapters[currentChapter].verses.map(
+            (verse, verseIndex) => {
               const isVerseOne = verse.verse === "1";
               const words = verse.text.split(" ");
-              const formattedText = isVerseOne ? `${words.slice(0, 2).join(" ").toUpperCase()} ${words.slice(2).join(" ")}` : verse.text;
-              
+              const formattedText = isVerseOne
+                ? `${words.slice(0, 2).join(" ").toUpperCase()} ${words.slice(2).join(" ")}`
+                : verse.text;
+
               return (
-                <div className="bibleVerseDiv" key={verseIndex} 
-                  id={`${book}_${currentChapter + 1}_${verse.verse}`} 
-                  onClick={() => openBookmarkModal(verse)}>
+                <div
+                  className="bibleVerseDiv"
+                  key={verseIndex}
+                  id={`${book}_${currentChapter + 1}_${verse.verse}`}
+                  onClick={() => openBookmarkModal(verse)}
+                >
                   <div className="bibleVerseContentDiv">
                     <p>
                       <span className="bibleVerseNumber">{verse.verse}</span>{" "}
@@ -470,7 +490,7 @@ const Book = () => {
                   </div>
                 </div>
               );
-            }
+            },
           )}
 
           {confirmBookmarkSavedModalOpen && (
@@ -482,7 +502,8 @@ const Book = () => {
                 <h2>Boomark Saved</h2>
                 <button onClick={handleConfirmModal}>Ok</button>
               </div>
-            </div>)}
+            </div>
+          )}
 
           {/* Modal */}
           {modalOpen && (
@@ -493,47 +514,55 @@ const Book = () => {
                 </span>
                 <h2>Enter Chapter Number</h2>
                 <div className="topic-search">
-                <input
-                  type="number"
-                  value={inputChapter}
-                  onChange={(e) => setInputChapter(e.target.value)}
-                  placeholder="Chapter number"
-                  onKeyDown={handleKeyDown} // Add this line
-                />
+                  <input
+                    type="number"
+                    value={inputChapter}
+                    onChange={(e) => setInputChapter(e.target.value)}
+                    placeholder="Chapter number"
+                    onKeyDown={handleKeyDown} // Add this line
+                  />
                 </div>
                 <button onClick={handleChapterChange}>Load Chapter</button>
               </div>
             </div>
           )}
 
-           {/* Modal for bookmarking */}
+          {/* Modal for bookmarking */}
           {bookmarkModalOpen && selectedVerse && (
             <div className="modal" onClick={handleOverlayClick}>
               <div className="modal-content">
-                <span className="close" onClick={closeBookmarkModal}>&times;</span>
+                <span className="close" onClick={closeBookmarkModal}>
+                  &times;
+                </span>
                 <h2>Bookmark Verse</h2>
                 <p>Do you want to save this verse as a bookmark?</p>
-                <p>{book}, Chapter {currentChapter + 1}, Verse {selectedVerse.verse}</p>
-                
+                <p>
+                  {book}, Chapter {currentChapter + 1}, Verse{" "}
+                  {selectedVerse.verse}
+                </p>
+
                 {/* Display verse with clickable phrases if it has Strong's data */}
                 {selectedVerse.v && Array.isArray(selectedVerse.v) ? (
                   <p>
                     {selectedVerse.v.map((phraseData, phraseIndex) => {
                       const phrase = phraseData[0];
                       const strongsRefs = phraseData[1];
-                      
+
                       return (
                         <React.Fragment key={phraseIndex}>
-                          <span 
+                          <span
                             className="clickablePhrase"
                             onClick={() => {
-                              console.log(`Strongs reference for "${phrase}":`, strongsRefs);
+                              console.log(
+                                `Strongs reference for "${phrase}":`,
+                                strongsRefs,
+                              );
                             }}
                           >
                             {phrase}
                           </span>
                           {/* Add space after each phrase except the last one */}
-                          {phraseIndex < selectedVerse.v.length - 1 ? ' ' : ''}
+                          {phraseIndex < selectedVerse.v.length - 1 ? " " : ""}
                         </React.Fragment>
                       );
                     })}
@@ -548,7 +577,7 @@ const Book = () => {
                     value={topic}
                     onChange={handleTopicChange}
                     placeholder="Type a topic..."
-                    />
+                  />
                   {filteredTopics.length > 0 && (
                     <ul className="suggestions-list">
                       {filteredTopics.map((suggestedTopic, index) => (
@@ -556,7 +585,7 @@ const Book = () => {
                           key={index}
                           onClick={() => handleTopicSelect(suggestedTopic)}
                           className="suggestion-item"
-                          >
+                        >
                           {suggestedTopic}
                         </li>
                       ))}
@@ -566,10 +595,7 @@ const Book = () => {
 
                 <button onClick={handleBookmarkSave}>Yes, Save</button>
                 <button onClick={closeBookmarkModal}>No, Cancel</button>
-
               </div>
-
-
             </div>
           )}
         </div>
