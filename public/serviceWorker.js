@@ -1,4 +1,4 @@
-const CACHE_NAME = "bible-study-v23";
+const CACHE_NAME = "bible-study-v25";
 const urlsToCache = [
   "/",
   "/index.html",

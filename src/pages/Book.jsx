@@ -52,7 +52,7 @@ import IISamuelJSON from "../books/2Samuel.jsx";
 import DeuteronomyJSON from "../books/Deuteronomy.jsx";
 import EcclesiastesJSON from "../books/Ecclesiastes.jsx";
 import EstherJSON from "../books/Esther.jsx";
-import ExodusJSON from "../books/Exodus.json";
+import ExodusJSON from "../books/Exodus.jsx";
 import EzekielJSON from "../books/Ezekiel.jsx";
 import EzraJSON from "../books/Ezra.jsx";
 import IsaiahJSON from "../books/Isaiah.jsx";
@@ -68,7 +68,7 @@ import ProverbsJSON from "../books/Proverbs.jsx";
 import PsalmsJSON from "../books/Psalms.jsx";
 import RuthJSON from "../books/Ruth.jsx";
 import SongofSolomonJSON from "../books/SongofSolomon.jsx";
-import GenesisJSON from "../books/Genesis.json";
+import GenesisJSON from "../books/Genesis.jsx";
 
 const Book = () => {
   const location = useLocation();

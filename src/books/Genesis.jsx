@@ -1,4 +1,4 @@
-
+const data =
 {
     "book": "Genesis",
     "chapters": [
@@ -123661,3 +123661,5 @@
         }
     ]
 }
+
+export default data;
