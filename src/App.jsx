@@ -123,10 +123,6 @@ const App = ({ location }) => {
               Support This Project
             </Link>
           </div>
-            <Link to="/donate" className="sidebar-link" onClick={handleLinkClick}>
-              Support This Project
-            </Link>
-          </div>
         </div>
       )}
 
