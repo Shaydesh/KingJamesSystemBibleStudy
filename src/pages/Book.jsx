@@ -69,6 +69,7 @@ import PsalmsJSON from "../books/Psalms.jsx";
 import RuthJSON from "../books/Ruth.jsx";
 import SongofSolomonJSON from "../books/SongofSolomon.jsx";
 import GenesisJSON from "../books/Genesis.jsx";
+import StrongsDict from "../books/Strong_Dict.jsx";
 
 const Book = () => {
   const location = useLocation();
