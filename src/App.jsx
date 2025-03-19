@@ -1,3 +1,4 @@
+
 import "./App.css";
 import React, { useState, useRef, useEffect } from "react";
 import {
@@ -13,7 +14,6 @@ import BookMarks from "./pages/BookMarks";
 import Book from "./pages/Book";
 import InstallPrompt from "./pages/InstallPrompt";
 
-// Component to display current book name in sidebar
 const BookSidebarLabel = () => {
   const { book } = useBook();
   return <div>Book: {book}</div>;
@@ -59,7 +59,6 @@ const App = ({ location }) => {
     };
   }, []);
 
-  // Prevent scrolling on body when sidebar is open
   useEffect(() => {
     if (isSidebarOpen) {
       document.body.style.overflow = 'hidden';
@@ -84,10 +83,10 @@ const App = ({ location }) => {
     <div className="app-wrapper">
       <div className="header">
         <button onClick={toggleSidebar} className="hamburger-icon">
-          &#9776; {/* Hamburger icon */}
+          &#9776;
         </button>
         <h1 className="app-title">System Bible Study</h1>
-         <InstallPrompt />
+        <InstallPrompt />
       </div>
 
       {isSidebarOpen && (
@@ -137,7 +136,6 @@ const App = ({ location }) => {
   );
 };
 
-// Main App Component with Router
 const MainApp = () => (
   <Router>
     <BookProvider>
