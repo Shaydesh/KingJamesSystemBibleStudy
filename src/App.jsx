@@ -32,7 +32,7 @@ const routes = [
   },
   {
     path: "/Book/:bookName",
-    sidebar: () => <BookSidebarLabel />,
+    sidebar: BookSidebarLabel,
     main: () => <Book />,
   },
 ];
