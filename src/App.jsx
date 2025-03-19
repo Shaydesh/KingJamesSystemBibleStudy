@@ -112,7 +112,7 @@ const App = ({ location }) => {
                   onClick={handleLinkClick}
                 >
                   {route.path === '/Book/:bookName' 
-                    ? `Book: ${useBook().book}` 
+                    ? <BookSidebarLabel />
                     : route.sidebar().props.children}
                 </Link>
               </li>
