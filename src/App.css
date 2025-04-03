@@ -6,73 +6,88 @@
 body {
   background: #f5f5f5;
   font-family: 'LibreBaskerville-Regular';
-   font-size: 100%;
+  font-size: 100%;
 }
 
 @font-face {
-    font-family: 'LibreBaskerville-Regular';
-    src: local('LibreBaskerville-Regular'),
-         url('fonts/LibreBaskerville-Regular.ttf') format('truetype'),
-         url('/fonts/LibreBaskerville-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'LibreBaskerville-Regular';
+  src: local('LibreBaskerville-Regular'),
+    url('fonts/LibreBaskerville-Regular.ttf') format('truetype'),
+    url('/fonts/LibreBaskerville-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'LibreBaskerville-Italic';
-    src: local('LibreBaskerville-Italic'),
-         url('fonts/LibreBaskerville-Italic.ttf') format('truetype'),
-         url('/fonts/LibreBaskerville-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'LibreBaskerville-Italic';
+  src: local('LibreBaskerville-Italic'),
+    url('fonts/LibreBaskerville-Italic.ttf') format('truetype'),
+    url('/fonts/LibreBaskerville-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 .tableOfContentsHeader {
-    font-family: 'LibreBaskerville-Italic';
+  font-family: 'LibreBaskerville-Italic';
 }
 
 
 
 * {
-    box-sizing: border-box; /* Include padding and border in width calculations */
+  box-sizing: border-box;
+  /* Include padding and border in width calculations */
 }
 
 .columns {
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-around; /* Distribute space evenly */
-    margin-top: 20px; /* Add some margin for spacing */
+  display: flex;
+  /* Use flexbox for layout */
+  justify-content: space-around;
+  /* Distribute space evenly */
+  margin-top: 20px;
+  /* Add some margin for spacing */
   max-width: 100%;
 
 }
 
 .column {
-    flex: 1; /* Each column takes equal width */
-    margin: 0 10px; /* Add some margin between columns */
-    padding: 10px; /* Add some padding inside the column */
-    border: 1px solid #ccc; /* Optional: add a border */
-    border-radius: 5px; /* Optional: add border radius for rounded corners */
-    overflow: hidden; 
-    text-overflow: ellipsis; 
-    white-space: nowrap;
+  flex: 1;
+  /* Each column takes equal width */
+  margin: 0 10px;
+  /* Add some margin between columns */
+  padding: 10px;
+  /* Add some padding inside the column */
+  border: 1px solid #ccc;
+  /* Optional: add a border */
+  border-radius: 5px;
+  /* Optional: add border radius for rounded corners */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   width: 100%;
 
 }
 
 .two-column {
-  display: flex; /* Use flexbox for layout */
-    justify-content: space-around; /* Distribute space evenly */
-    margin-top: 20px; /* Add some margin for spacing */
+  display: flex;
+  /* Use flexbox for layout */
+  justify-content: space-around;
+  /* Distribute space evenly */
+  margin-top: 20px;
+  /* Add some margin for spacing */
   margin-left: 75px;
   margin-right: 75px;
   max-width: 100%;
 }
 
 .rev-column {
-  display: flex; /* Use flexbox for layout */
-    justify-content: center; /* Distribute space evenly */
-    margin-top: 20px; /* Add some margin for spacing */
+  display: flex;
+  /* Use flexbox for layout */
+  justify-content: center;
+  /* Distribute space evenly */
+  margin-top: 20px;
+  /* Add some margin for spacing */
   margin-left: 100px;
   margin-right: 100px;
   max-width: 100%;
@@ -83,231 +98,291 @@ body {
 .tblOfContentsBook {
   display: flex;
   justify-content: space-between;
-  overflow: hidden; 
-  text-overflow: ellipsis; 
+  overflow: hidden;
+  text-overflow: ellipsis;
   white-space: nowrap;
-   margin-bottom: 10px;
-  font-size: 20px; 
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
 /* iOS-specific styling for table of contents book titles */
 @supports (-webkit-touch-callout: none) {
   .tblOfContentsBook {
-    font-size: 24px; /* Larger font size for iOS devices */
+    font-size: 24px;
+    /* Larger font size for iOS devices */
   }
 
   .tblOfContentsBook .book-name {
-    font-size: 24px; /* Ensure the book name is larger */
+    font-size: 24px;
+    /* Ensure the book name is larger */
   }
 }
 
 .tblOfContentsBook p {
   margin: 0;
-  overflow: hidden; 
-  text-overflow: ellipsis; 
+  overflow: hidden;
+  text-overflow: ellipsis;
 
 }
 
 .link {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Inherit color from parent element */
+  text-decoration: none;
+  /* Remove underline */
+  color: inherit;
+  /* Inherit color from parent element */
 }
 
 .link:hover {
-    color: blue; /* Change color on hover if desired */
+  color: blue;
+  /* Change color on hover if desired */
 }
 
 /* Media query for mobile screens */
-@media (max-width: 768px) { /* Adjust the max-width as needed */
-    .columns {
-        flex-direction: column;
-       align-items: center;   
-    }
-  .column{
+@media (max-width: 768px) {
+
+  /* Adjust the max-width as needed */
+  .columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column {
     justify-content: center;
-      max-width: 100%;
+    max-width: 100%;
     margin-bottom: 10px;
   }
+
   .two-column {
     flex-direction: column;
-       align-items: center;  
-     margin-left: 0px;
-  margin-right: 0px;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
 
-.clickablePhrase {
-  cursor: pointer;
-  text-decoration: underline;
-  display: inline;
-  margin-right: 2px;
-}
+    .clickablePhrase {
+      cursor: pointer;
+      text-decoration: underline;
+      display: inline;
+      margin-right: 2px;
+    }
 
-.clickablePhrase:hover {
-  color: #007bff;
-  background-color: rgba(0, 123, 255, 0.1);
-  border-radius: 3px;
-}
+    .clickablePhrase:hover {
+      color: #007bff;
+      background-color: rgba(0, 123, 255, 0.1);
+      border-radius: 3px;
+    }
 
-}
+  }
+
   .rev-column {
     flex-direction: column;
-       align-items: center;  
-     margin-left: 0px;
-  margin-right: 0px;
-}
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .tableOfContentsHeader {
-  font-family: 'LibreBaskerville-Italic';
-  position: -webkit-sticky; /* For Safari */
-  position: sticky;
-  top: 0;
-  background: #f5f5f5; /* White background to make it visible */
-  z-index: 10;
-  padding: 5px;
-  margin: 0; /* Prevent margin collapse */
-  text-align: center;
-  font-size: 24px;
-   /* Optional: adds a small shadow */
-}
+    font-family: 'LibreBaskerville-Italic';
+    position: -webkit-sticky;
+    /* For Safari */
+    position: sticky;
+    top: 0;
+    background: #f5f5f5;
+    /* White background to make it visible */
+    z-index: 10;
+    padding: 5px;
+    margin: 0;
+    /* Prevent margin collapse */
+    text-align: center;
+    font-size: 24px;
+    /* Optional: adds a small shadow */
+  }
 }
 
 @media (max-width: 600px) {
-   .columns {
-        flex-direction: column;
-       align-items: center;   
-    }
-  .column{
+  .columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column {
     justify-content: center;
-      max-width: 100%;
+    max-width: 100%;
     margin-bottom: 10px;
   }
+
   .two-column {
     flex-direction: column;
-       align-items: center;  
-     margin-left: 0px;
-  margin-right: 0px;
-}
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .rev-column {
     flex-direction: column;
-       align-items: center;  
-     margin-left: 0px;
-  margin-right: 0px;
-}
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .tableOfContentsHeader {
-  font-family: 'LibreBaskerville-Italic';
-  position: -webkit-sticky; /* For Safari */
-  position: sticky;
-  top: 0;
-  background: #f5f5f5; /* White background to make it visible */
-  z-index: 10;
-  padding: 5px;
-  margin: 0; /* Prevent margin collapse */
-  text-align: center;
-  font-size: 24px;
-   /* Optional: adds a small shadow */
-}
+    font-family: 'LibreBaskerville-Italic';
+    position: -webkit-sticky;
+    /* For Safari */
+    position: sticky;
+    top: 0;
+    background: #f5f5f5;
+    /* White background to make it visible */
+    z-index: 10;
+    padding: 5px;
+    margin: 0;
+    /* Prevent margin collapse */
+    text-align: center;
+    font-size: 24px;
+    /* Optional: adds a small shadow */
+  }
 }
 
 
 .verse-list {
-  max-width: 100%; /* Responsive */
-  margin: 0 auto; /* Center the list */
-  overflow-y: auto; /* Enable vertical scrolling */
-  border: 1px solid #ccc; /* Light border */
-  border-radius: 8px; /* Rounded corners */
-  background-color: #f9f9f9; /* Light background color */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 100%;
+  /* Responsive */
+  margin: 0 auto;
+  /* Center the list */
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+  border: 1px solid #ccc;
+  /* Light border */
+  border-radius: 8px;
+  /* Rounded corners */
+  background-color: #f9f9f9;
+  /* Light background color */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
 }
 
 .verse-item {
-  padding: 10px 15px; /* Padding for each verse */
-  border-bottom: 1px solid #e0e0e0; /* Divider between verses */
-  transition: background-color 0.3s; /* Smooth background change */
-  display: flex; /* Use flex to handle space */
-  flex-wrap: wrap; /* Allow wrapping */
+  padding: 10px 15px;
+  /* Padding for each verse */
+  border-bottom: 1px solid #e0e0e0;
+  /* Divider between verses */
+  transition: background-color 0.3s;
+  /* Smooth background change */
+  display: flex;
+  /* Use flex to handle space */
+  flex-wrap: wrap;
+  /* Allow wrapping */
 }
 
 .verse-item:last-child {
-  border-bottom: none; /* Remove border from last item */
+  border-bottom: none;
+  /* Remove border from last item */
 }
 
 .verse-item:hover {
-  background-color: #e6f7ff; /* Change background on hover */
+  background-color: #e6f7ff;
+  /* Change background on hover */
 }
 
 /* Make sure the text is wrapped properly */
 .verse-item strong {
-  display: inline-block; /* Prevents overlap */
-  margin-right: 5px; /* Space between verse number and text */
+  display: inline-block;
+  /* Prevents overlap */
+  margin-right: 5px;
+  /* Space between verse number and text */
 }
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
   .verse-list {
-    width: 95%; /* Make it narrower on small screens */
+    width: 95%;
+    /* Make it narrower on small screens */
   }
+
   .verse-item {
-    font-size: 14px; /* Adjust font size for smaller screens */
+    font-size: 14px;
+    /* Adjust font size for smaller screens */
   }
-  .bibleVerseDiv{
+
+  .bibleVerseDiv {
     font-size: 14px;
   }
-  .tblOfContentsBook{
-     font-size: 20px;
+
+  .tblOfContentsBook {
+    font-size: 20px;
   }
 }
 
 .bibleBookHeader {
-  text-align : center
+  text-align: center
 }
 
 .bibleChapterHeader {
-  text-align : center;
+  text-align: center;
   margin: 0 10px;
   cursor: pointer;
 }
+
 .bibleChapterDiv {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: sticky; /* Make it sticky */
-  top: 0;          /* Stick to the top */
-  background-color: #f5f5f5; /* Optional: to ensure 
+  position: sticky;
+  /* Make it sticky */
+  top: 0;
+  /* Stick to the top */
+  background-color: #f5f5f5;
+  /* Optional: to ensure
   padding: 20px;  /* Optional: add some padding */
 
 }
 
 .nextChapterButton {
-  //background-color: #4CAF50; /* Green background */
-  color: black; /* White text */
-  padding: 10px 20px; /* Padding inside button */
-  //border: none; /* Remove border */
-  //border-radius: 5px; /* Rounded button corners */
-  cursor: pointer; /* Pointer cursor on hover */
+
+  color: black;
+  /* White text */
+  padding: 10px 20px;
+  /* Padding inside button */
+
+  cursor: pointer;
+  /* Pointer cursor on hover */
   font-family: 'LibreBaskerville-Regular';
   font-size: 17px;
-  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
-  margin: 10px; /* Spacing between buttons */
-  width: 100%; /* Full width on mobile */
-  max-width: 200px; 
-}
-.previousChapterButton {
-   //background-color: #4CAF50; /* Green background */
-  color: black; /* White text */
-  padding: 10px 20px; /* Padding inside button */
-  //border: none; /* Remove border */
-  //border-radius: 5px; /* Rounded button corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  font-family: 'LibreBaskerville-Regular';
-  font-size: 17px;
-  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
-  margin: 5px; /* Spacing between buttons */
-  width: 100%; /* Full width on mobile */
-  max-width: 200px; 
+  transition: background-color 0.3s, transform 0.2s;
+  /* Smooth transition */
+  margin: 10px;
+  /* Spacing between buttons */
+  width: 100%;
+  /* Full width on mobile */
+  max-width: 200px;
 }
 
-.bibleVerseDiv{
- display: flex; /* Add your flex properties here */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+.previousChapterButton {
+
+  color: black;
+  /* White text */
+  padding: 10px 20px;
+  /* Padding inside button */
+
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  font-family: 'LibreBaskerville-Regular';
+  font-size: 17px;
+  transition: background-color 0.3s, transform 0.2s;
+  /* Smooth transition */
+  margin: 5px;
+  /* Spacing between buttons */
+  width: 100%;
+  /* Full width on mobile */
+  max-width: 200px;
+}
+
+.bibleVerseDiv {
+  display: flex;
+  /* Add your flex properties here */
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
   padding-left: 7px;
   margin-bottom: -20px;
   font-size: 20px;
@@ -316,20 +391,20 @@ body {
 /* /* Target iOS devices specifically */
 @supports (-webkit-touch-callout: none) {
   /* .bibleVerseDiv {
-    font-size: 22px; 
+    font-size: 22px;
   } */
 
   .bibleVerseContentDiv p {
-    font-size: 24px; 
+    font-size: 24px;
   }
-} 
+}
 
-.bibleVerseContentDiv{
+.bibleVerseContentDiv {
   width: 500px;
-  background-color: 'lightblue'; 
-  text-align: left; 
-  padding: '20px'; 
-  border: '1px solid #000'; 
+  background-color: 'lightblue';
+  text-align: left;
+  padding: '20px';
+  border: '1px solid #000';
 }
 
 .bibleVerseNumber {
@@ -337,113 +412,155 @@ body {
 }
 
 .modal {
-  position: fixed; /* Stay in place */
-  z-index: 1000; /* Sit on top */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1000;
+  /* Sit on top */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
-  display: flex; /* Flex to center */
-  align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
-  padding: 20px; /* Padding around modal */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Black with opacity */
+  display: flex;
+  /* Flex to center */
+  align-items: center;
+  /* Center vertically */
+  justify-content: center;
+  /* Center horizontally */
+  padding: 20px;
+  /* Padding around modal */
 }
 
 .modal-content {
-  background-color: white; /* White background */
-  border-radius: 8px; /* Rounded corners */
-  padding: 20px; /* Inner padding */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-  max-width: 500px; /* Max width for larger screens */
-  width: 100%; /* Responsive width */
-  text-align: center; /* Center text */
+  background-color: white;
+  /* White background */
+  border-radius: 8px;
+  /* Rounded corners */
+  padding: 20px;
+  /* Inner padding */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  /* Subtle shadow */
+  max-width: 500px;
+  /* Max width for larger screens */
+  width: 100%;
+  /* Responsive width */
+  text-align: center;
+  /* Center text */
 }
 
 .modal-content h2 {
-  margin-top: 0; /* Remove top margin */
+  margin-top: 0;
+  /* Remove top margin */
 }
 
 /* iOS-specific styling for modal content */
 @supports (-webkit-touch-callout: none) {
   .modal-content h2 {
-    font-size: 24px; /* Larger heading for iOS */
+    font-size: 24px;
+    /* Larger heading for iOS */
   }
 
   .modal-content p {
-    font-size: 20px; /* Larger text for iOS */
+    font-size: 20px;
+    /* Larger text for iOS */
   }
 
   .modal-content button {
-    font-size: 20px; /* Larger button text for iOS */
+    font-size: 20px;
+    /* Larger button text for iOS */
   }
 }
 
 .modal-content input {
-  width: 80%; /* Responsive width for input */
-  padding: 10px; /* Padding inside input */
-  margin: 15px 0; /* Spacing around input */
-  border: 1px solid #ccc; /* Light border */
-  border-radius: 5px; /* Rounded input corners */
+  width: 80%;
+  /* Responsive width for input */
+  padding: 10px;
+  /* Padding inside input */
+  margin: 15px 0;
+  /* Spacing around input */
+  border: 1px solid #ccc;
+  /* Light border */
+  border-radius: 5px;
+  /* Rounded input corners */
 }
 
 /* iOS-specific styling for modal input */
 @supports (-webkit-touch-callout: none) {
   .modal-content input {
-    font-size: 20px; /* Larger input text for iOS */
+    font-size: 20px;
+    /* Larger input text for iOS */
   }
 
   .suggestions-list li {
-    font-size: 20px; /* Larger suggestions text for iOS */
+    font-size: 20px;
+    /* Larger suggestions text for iOS */
   }
 }
 
 
 .modal-content button {
-  //background-color: #4CAF50; /* Green background */
-  color: black; /* White text */
-  padding: 10px 20px; /* Padding inside button */
-  //border: none; /* Remove border */
-  //border-radius: 5px; /* Rounded button corners */
-  cursor: pointer; /* Pointer cursor on hover */
+
+  color: black;
+  /* White text */
+  padding: 10px 20px;
+  /* Padding inside button */
+
+  cursor: pointer;
+  /* Pointer cursor on hover */
   font-family: 'LibreBaskerville-Regular';
   font-size: 17px;
-  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
-  margin: 5px; /* Spacing between buttons */
-  width: 100%; /* Full width on mobile */
-  max-width: 200px; /* Max width on larger screens */
+  transition: background-color 0.3s, transform 0.2s;
+  /* Smooth transition */
+  margin: 5px;
+  /* Spacing between buttons */
+  width: 100%;
+  /* Full width on mobile */
+  max-width: 200px;
+  /* Max width on larger screens */
 }
 
 .modal-content button:hover {
-  //background-color: #45a049; /* Darker green on hover */
-  transform: scale(1.05); /* Slightly grow on hover */
+
+  transform: scale(1.05);
+  /* Slightly grow on hover */
 }
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
   .modal-content button {
-    width: 100%; /* Full width on mobile */
-    margin: 5px 0; /* Margin for spacing between buttons */
+    width: 100%;
+    /* Full width on mobile */
+    margin: 5px 0;
+    /* Margin for spacing between buttons */
   }
 }
 
-.modal-content button:hover {
-  //background-color: #45a049; /* Darker green on hover */
-}
+
 
 .close {
-  color: #aaa; /* Light grey */
-  float: right; /* Align to the right */
-  font-size: 28px; /* Font size */
-  font-weight: bold; /* Bold */
+  color: #aaa;
+  /* Light grey */
+  float: right;
+  /* Align to the right */
+  font-size: 28px;
+  /* Font size */
+  font-weight: bold;
+  /* Bold */
 }
 
 .close:hover,
 .close:focus {
-  color: black; /* Darker on hover */
-  text-decoration: none; /* No underline */
-  cursor: pointer; /* Pointer cursor */
+  color: black;
+  /* Darker on hover */
+  text-decoration: none;
+  /* No underline */
+  cursor: pointer;
+  /* Pointer cursor */
 }
 
 /* Responsive adjustments */
@@ -455,72 +572,94 @@ body {
   }
 
   .modal-content input {
-    width: 100%; /* Full width on mobile */
+    width: 100%;
+    /* Full width on mobile */
   }
 
   .modal-content button {
-     width: auto; /* Reverts to default size on larger screens */
+    width: auto;
+    /* Reverts to default size on larger screens */
     margin-top: 0;
     margin-bottom: 0;
-   margin-right: 10px; /* Adds space between buttons */
+    margin-right: 10px;
+    /* Adds space between buttons */
   }
 
   .modal-content button:last-child {
-    margin-right: 0; /* Removes margin from the last button */
+    margin-right: 0;
+    /* Removes margin from the last button */
   }
 }
 
 .bookmarks-container {
-   text-align: center; /* Center the text */
+  text-align: center;
+  /* Center the text */
 }
 
 .bookmarks-title {
-  font-family: 'LibreBaskerville-Regular'; /* Use the italic font */
+  font-family: 'LibreBaskerville-Regular';
+  /* Use the italic font */
 
-  margin-bottom: 20px; /* Space below the title */
+  margin-bottom: 20px;
+  /* Space below the title */
   margin-top: 20px;
 
   justify-content: space-between;
-  position: sticky; /* Make it sticky */
-  top: 0;          /* Stick to the top */
-  background-color: #f5f5f5; /* Optional: to ensure readability */
+  position: sticky;
+  /* Make it sticky */
+  top: 0;
+  /* Stick to the top */
+  background-color: #f5f5f5;
+  /* Optional: to ensure readability */
 
-  padding: 20px;  /* Optional: add some padding */
+  padding: 20px;
+  /* Optional: add some padding */
 }
 
 .bookmarks-list {
-  list-style-type: none; /* Remove bullet points */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
+  list-style-type: none;
+  /* Remove bullet points */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margin */
 }
 
 .bookmark-item {
-  padding: 10px ; /* Padding for each item */
-  transition: background-color 0.3s; /* Smooth background change */
+  padding: 10px;
+  /* Padding for each item */
+  transition: background-color 0.3s;
+  /* Smooth background change */
 }
 
 /* iOS-specific styling for bookmarks */
 @supports (-webkit-touch-callout: none) {
   .bookmarks-title {
-    font-size: 26px; /* Larger heading for iOS */
+    font-size: 26px;
+    /* Larger heading for iOS */
   }
 
   .bookmark-item {
-    font-size: 22px; /* Larger text for bookmarks on iOS */
+    font-size: 22px;
+    /* Larger text for bookmarks on iOS */
   }
 
   .bookmarks-container p {
-    font-size: 22px; /* Larger text for any paragraphs in bookmarks container */
+    font-size: 22px;
+    /* Larger text for any paragraphs in bookmarks container */
   }
 }
 
 .bookmark-item:hover {
-  background-color: #e6f7ff; /* Change background on hover */
+  background-color: #e6f7ff;
+  /* Change background on hover */
 }
 
 .no-bookmarks {
-  font-style: italic; /* Italic style for the message */
-  color: #888; /* Lighter color for the message */
+  font-style: italic;
+  /* Italic style for the message */
+  color: #888;
+  /* Lighter color for the message */
 }
 
 .topic-search {
@@ -580,10 +719,6 @@ body {
 }
 
 
-/* General Styles */
-.app-wrapper {
-
-}
 
 .header {
   background: #333;
@@ -610,7 +745,8 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  position: fixed; /* Changed from absolute to fixed */
+  position: fixed;
+  /* Changed from absolute to fixed */
   top: 0;
   left: 0;
   width: 20%;
@@ -618,16 +754,21 @@ body {
   background: #f0f0f0;
   z-index: 1000;
   padding: 10px;
-  display: none; /* Hide sidebar by default */
-  overflow-y: auto; /* Allow scrolling inside the sidebar */
-  overscroll-behavior: contain; /* Prevent scroll chaining */
+  display: none;
+  /* Hide sidebar by default */
+  overflow-y: auto;
+  /* Allow scrolling inside the sidebar */
+  overscroll-behavior: contain;
+  /* Prevent scroll chaining */
 }
 
 .sidebar.open {
-  display: block; /* Show when open */
+  display: block;
+  /* Show when open */
 }
 
-.sidebar-title, .sidebar-subtitle {
+.sidebar-title,
+.sidebar-subtitle {
   font-size: 1.5em;
   text-align: center;
 }
@@ -689,23 +830,27 @@ body {
 }
 
 .content.sidebar-open {
-  margin-left: 20%; /* Adjust content when sidebar is open */
+  margin-left: 20%;
+  /* Adjust content when sidebar is open */
 }
 
 /* Mobile Styles using Media Queries */
 @media (max-width: 768px) {
   .sidebar {
-    width: 100%; /* Full width on mobile */
+    width: 100%;
+    /* Full width on mobile */
     max-width: none;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 
   .sidebar.open {
-    display: block; /* Show sidebar on mobile when open */
+    display: block;
+    /* Show sidebar on mobile when open */
   }
 
   .content.sidebar-open {
-    margin-left: 0; /* Full width content on mobile */
+    margin-left: 0;
+    /* Full width content on mobile */
   }
 
   .hamburger-icon {
@@ -729,15 +874,18 @@ body {
 
 @media (max-width: 600px) {
   .sidebar {
-    width: 100%; /* Make sidebar full width on mobile */
+    width: 100%;
+    /* Make sidebar full width on mobile */
   }
 
   .sidebar.open {
-    display: block; /* Show sidebar on mobile when open */
+    display: block;
+    /* Show sidebar on mobile when open */
   }
 
   .content.sidebar-open {
-    margin-left: 0; /* Full width content on mobile */
+    margin-left: 0;
+    /* Full width content on mobile */
   }
 
   .hamburger-icon {
@@ -749,4 +897,26 @@ body {
 
 
   }
+
+  .strongs-content {
+    text-align: left;
+
+  }
+
+  /* Default font size for small screens */
+  [lang="he"].hebrew-text {
+    font-size: 15vw !important;
+    /* Adjust the size relative to the viewport width */
+    text-align: center;
+    margin: 0px 0;
+    direction: rtl;
+    /* max-width: 100%; */
+    word-wrap: break-word;
+    /* line-height: 3.4; */
+
+    /* Better Hebrew font rendering */
+    padding: 0px;
+  }
+
+
 }

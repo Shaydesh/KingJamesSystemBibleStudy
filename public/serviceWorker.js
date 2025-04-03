@@ -1,4 +1,4 @@
-const CACHE_NAME = "bible-study-v31";
+const CACHE_NAME = "bible-study-v50";
 const urlsToCache = [
   "/",
   "/index.html",
@@ -10,10 +10,8 @@ const urlsToCache = [
   "/src/index.jsx",
   "/src/App.jsx",
   "/src/App.css",
-  "/fonts/LibreBaskerville-Regular.ttf",
-  "/fonts/LibreBaskerville-Italic.ttf",
-  "fonts/LibreBaskerville-Regular.ttf",
-  "fonts/LibreBaskerville-Italic.ttf",
+  "/src/fonts/LibreBaskerville-Regular.ttf",
+  "/src/fonts/LibreBaskerville-Italic.ttf",
 ];
 
 // Install event - cache essential files

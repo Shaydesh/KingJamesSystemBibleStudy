@@ -1,75 +1,74 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { useBook } from "../BookContext";
-import { initDB, saveBookmark, getSuggestions, getDistinctTopics } from "../DB";
+import { getDistinctTopics, initDB, saveBookmark } from "../DB";
 
-import RevelationJSON from "../books/Revelation.jsx";
-import JudeJSON from "../books/Jude.jsx";
-import IIIJohnJSON from "../books/3John.jsx";
-import IIJohnJSON from "../books/2John.jsx";
-import IJohnJSON from "../books/1John.jsx";
-import IIPeterJSON from "../books/2Peter.jsx";
-import IPeterJSON from "../books/1Peter.jsx";
-import JamesJSON from "../books/James.jsx";
-import HebrewsJSON from "../books/Hebrews.jsx";
-import PhilemonJSON from "../books/Philemon.jsx";
-import TitusJSON from "../books/Titus.jsx";
-import IITimothyJSON from "../books/2Timothy.jsx";
-import ITimothyJSON from "../books/1Timothy.jsx";
-import IIThessaloniansJSON from "../books/2Thessalonians.jsx";
-import IThessaloniansJSON from "../books/1Thessalonians.jsx";
-import ColossiansJSON from "../books/Colossians.jsx";
-import PhilippiansJSON from "../books/Philippians.jsx";
-import EphesiansJSON from "../books/Ephesians.jsx";
-import GalatiansJSON from "../books/Galatians.jsx";
-import IICorinthiansJSON from "../books/2Corinthians.jsx";
-import ICorinthiansJSON from "../books/1Corinthians.jsx";
-import RomansJSON from "../books/Romans.jsx";
-import ActsJSON from "../books/Acts.jsx";
-import JohnJSON from "../books/John.jsx";
-import LukeJSON from "../books/Luke.jsx";
-import MarkJSON from "../books/Mark.jsx";
-import MatthewJSON from "../books/Matthew.jsx";
-import MalachiJSON from "../books/Malachi.jsx";
-import ZechariahJSON from "../books/Zechariah.jsx";
-import HaggaiJSON from "../books/Haggai.jsx";
-import ZephaniahJSON from "../books/Zephaniah.jsx";
-import HabakkukJSON from "../books/Habakkuk.jsx";
-import NahumJSON from "../books/Nahum.jsx";
-import MicahJSON from "../books/Micah.jsx";
-import JonahJSON from "../books/Jonah.jsx";
-import ObadiahJSON from "../books/Obadiah.jsx";
-import AmosJSON from "../books/Amos.jsx";
-import JoelJSON from "../books/Joel.jsx";
-import HoseaJSON from "../books/Hosea.jsx";
-import DanielJSON from "../books/Daniel.jsx";
 import IChoniclesJSON from "../books/1Chronicles.jsx";
+import ICorinthiansJSON from "../books/1Corinthians.jsx";
+import IJohnJSON from "../books/1John.jsx";
 import IKingsJSON from "../books/1Kings.jsx";
+import IPeterJSON from "../books/1Peter.jsx";
 import ISamuelJSON from "../books/1Samuel.jsx";
+import IThessaloniansJSON from "../books/1Thessalonians.jsx";
+import ITimothyJSON from "../books/1Timothy.jsx";
 import IIChroniclesJSON from "../books/2Chronicles.jsx";
+import IICorinthiansJSON from "../books/2Corinthians.jsx";
+import IIJohnJSON from "../books/2John.jsx";
 import IIKingsJSON from "../books/2Kings.jsx";
+import IIPeterJSON from "../books/2Peter.jsx";
 import IISamuelJSON from "../books/2Samuel.jsx";
+import IIThessaloniansJSON from "../books/2Thessalonians.jsx";
+import IITimothyJSON from "../books/2Timothy.jsx";
+import IIIJohnJSON from "../books/3John.jsx";
+import ActsJSON from "../books/Acts.jsx";
+import AmosJSON from "../books/Amos.jsx";
+import ColossiansJSON from "../books/Colossians.jsx";
+import DanielJSON from "../books/Daniel.jsx";
 import DeuteronomyJSON from "../books/Deuteronomy.jsx";
 import EcclesiastesJSON from "../books/Ecclesiastes.jsx";
+import EphesiansJSON from "../books/Ephesians.jsx";
 import EstherJSON from "../books/Esther.jsx";
 import ExodusJSON from "../books/Exodus.jsx";
 import EzekielJSON from "../books/Ezekiel.jsx";
 import EzraJSON from "../books/Ezra.jsx";
+import GalatiansJSON from "../books/Galatians.jsx";
+import GenesisJSON from "../books/Genesis.jsx";
+import HabakkukJSON from "../books/Habakkuk.jsx";
+import HaggaiJSON from "../books/Haggai.jsx";
+import HebrewsJSON from "../books/Hebrews.jsx";
+import HoseaJSON from "../books/Hosea.jsx";
 import IsaiahJSON from "../books/Isaiah.jsx";
+import JamesJSON from "../books/James.jsx";
 import JeremiahJSON from "../books/Jeremiah.jsx";
 import JobJSON from "../books/Job.jsx";
+import JoelJSON from "../books/Joel.jsx";
+import JohnJSON from "../books/John.jsx";
+import JonahJSON from "../books/Jonah.jsx";
 import JoshuaJSON from "../books/Joshua.jsx";
+import JudeJSON from "../books/Jude.jsx";
 import JudgesJSON from "../books/Judges.jsx";
 import LamentationsJSON from "../books/Lamentations.jsx";
 import LeviticusJSON from "../books/Leviticus.jsx";
+import LukeJSON from "../books/Luke.jsx";
+import MalachiJSON from "../books/Malachi.jsx";
+import MarkJSON from "../books/Mark.jsx";
+import MatthewJSON from "../books/Matthew.jsx";
+import MicahJSON from "../books/Micah.jsx";
+import NahumJSON from "../books/Nahum.jsx";
 import NehemiahJSON from "../books/Nehemiah.jsx";
 import NumbersJSON from "../books/Numbers.jsx";
+import ObadiahJSON from "../books/Obadiah.jsx";
+import PhilemonJSON from "../books/Philemon.jsx";
+import PhilippiansJSON from "../books/Philippians.jsx";
 import ProverbsJSON from "../books/Proverbs.jsx";
 import PsalmsJSON from "../books/Psalms.jsx";
+import RevelationJSON from "../books/Revelation.jsx";
+import RomansJSON from "../books/Romans.jsx";
 import RuthJSON from "../books/Ruth.jsx";
 import SongofSolomonJSON from "../books/SongofSolomon.jsx";
-import GenesisJSON from "../books/Genesis.jsx";
 import StrongsDict from "../books/Strong_Dict.jsx";
+import TitusJSON from "../books/Titus.jsx";
+import ZechariahJSON from "../books/Zechariah.jsx";
 
 const Book = () => {
   const location = useLocation();
@@ -94,6 +93,9 @@ const Book = () => {
   const [dbInitialized, setDbInitialized] = useState(false);
   const [confirmBookmarkSavedModalOpen, setConfirmBookmarkSavedModalOpen] =
     useState(false);
+  const [strongsModalOpen, setStrongsModalOpen] = useState(false); // Add state for Strongs modal
+  const [strongsData, setStrongsData] = useState(null); // Add state for Strongs data
+  const [currentStrongsIndex, setCurrentStrongsIndex] = useState(0);
 
   const hasScrolledRef = useRef(false);
   const previousVerseRef = useRef();
@@ -341,13 +343,14 @@ const Book = () => {
   };
 
   const openBookmarkModal = (verse) => {
+    console.log("opening bookmark modal");
     setSelectedVerse(verse);
     setBookmarkModalOpen(true);
   };
 
   const closeBookmarkModal = () => {
     setBookmarkModalOpen(false);
-    setSelectedVerse(null);
+    // setSelectedVerse(null);
     setTopic("");
     setFilteredTopics([]);
   };
@@ -398,6 +401,7 @@ const Book = () => {
       closeModal();
       closeBookmarkModal();
       closeConfirmModal();
+      closeStrongsModal();
     }
   };
 
@@ -412,6 +416,10 @@ const Book = () => {
         verseId,
       )
         .then(() => {
+          // Update topics list if the topic is new
+          if (topic && !topics.includes(topic)) {
+            setTopics((prevTopics) => [...prevTopics, topic]); // Add new topic
+          }
           setTopic(""); // Clear topic after saving
           closeBookmarkModal(); // Close modal after saving
           openConfirmModal();
@@ -441,6 +449,26 @@ const Book = () => {
   const handleTopicSelect = (selectedTopic) => {
     setTopic(selectedTopic); // Set the selected topic
     setFilteredTopics([]); // Clear the suggestions list
+  };
+
+  const openStrongsModal = (strongsData) => {
+    setStrongsData(strongsData);
+    setStrongsModalOpen(true);
+    setCurrentStrongsIndex(0);
+  };
+
+  const closeStrongsModal = () => {
+    setStrongsModalOpen(false);
+    setStrongsData(null);
+  };
+
+  const handlePreviousDefinition = () => {
+    setCurrentStrongsIndex((prevIndex) => Math.max(prevIndex - 1, 0));
+  };
+  const handleNextDefinition = () => {
+    setCurrentStrongsIndex((prevIndex) =>
+      Math.min(prevIndex + 1, strongsData.length - 1),
+    );
   };
 
   return (
@@ -558,6 +586,23 @@ const Book = () => {
                                 `Strongs reference for "${phrase}":`,
                                 strongsRefs,
                               );
+
+                              const strongsEntries = strongsRefs
+                                .map((ref) =>
+                                  StrongsDict.dictionary.find(
+                                    (entry) => entry.k === ref,
+                                  ),
+                                )
+                                .filter((entry) => entry); // Filter out any undefined entries
+                              if (strongsEntries.length > 0) {
+                                closeBookmarkModal();
+                                openStrongsModal(strongsEntries); // Pass all entries to the modal
+                              } else {
+                                console.log(
+                                  "No Strong's entry found for the references:",
+                                  strongsRefs,
+                                );
+                              }
                             }}
                           >
                             {phrase}
@@ -596,6 +641,110 @@ const Book = () => {
 
                 <button onClick={handleBookmarkSave}>Yes, Save</button>
                 <button onClick={closeBookmarkModal}>No, Cancel</button>
+              </div>
+            </div>
+          )}
+
+          {/* Strongs Definition Modal */}
+          {strongsModalOpen && strongsData && (
+            <div className="modal" onClick={handleOverlayClick}>
+              <div className="modal-content">
+                {strongsData.length === 1 && (
+                  <span className="close" onClick={closeStrongsModal}>
+                    &times;
+                  </span>
+                )}
+
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  {strongsData.length > 1 && (
+                    <button
+                      onClick={handlePreviousDefinition}
+                      disabled={currentStrongsIndex === 0}
+                      style={{
+                        cursor: "pointer",
+                        marginRight: "20px",
+                        marginTop: "-20px",
+                        padding: "5px 0px",
+                        backgroundColor: "white",
+                        verticalAlign: "top",
+                        border: "none",
+                      }}
+                    >
+                      &#10094;{" "}
+                      {/* Previous Arrow Glyph (HTML entity for left arrow) */}
+                    </button>
+                  )}
+                  <h2 style={{ whiteSpace: "nowrap" }}>Strong's Definition</h2>
+                  {strongsData.length > 1 && (
+                    <button
+                      onClick={handleNextDefinition}
+                      disabled={currentStrongsIndex === strongsData.length - 1}
+                      style={{
+                        cursor: "pointer",
+                        marginLeft: "20px",
+                        marginTop: "-20px",
+                        padding: "5px 0px",
+                        backgroundColor: "white",
+                        verticalAlign: "top",
+                        border: "none",
+                      }}
+                    >
+                      &#10095;{" "}
+                      {/* Next Arrow Glyph (HTML entity for right arrow) */}
+                    </button>
+                  )}
+                </div>
+
+                <h2>{strongsData[currentStrongsIndex].k}</h2>
+                <div className="strongs-content">
+                  <p
+                    lang="he"
+                    className="hebrew-text"
+                    style={{ fontSize: "78px", margin: "0px 0" }}
+                  >
+                    {strongsData[currentStrongsIndex].v[0]}
+                  </p>
+                  <p>
+                    <strong>Transliteration:</strong>{" "}
+                    {strongsData[currentStrongsIndex].v[1]}
+                  </p>
+                  <p>
+                    <strong>Pronunciation:</strong>{" "}
+                    {strongsData[currentStrongsIndex].v[2]}
+                  </p>
+                  <p>
+                    <strong>Etymology:</strong>{" "}
+                    {strongsData[currentStrongsIndex].v[3].join(", ")}
+                  </p>
+                  <p>
+                    <strong>Definition:</strong>{" "}
+                    {strongsData[currentStrongsIndex].v[4].join(", ")}
+                  </p>
+                  <p>
+                    <strong>Usage:</strong>{" "}
+                    {strongsData[currentStrongsIndex].v[5].join(", ")}
+                  </p>
+                </div>
+
+                <div style={{ marginTop: "20px", textAlign: "center" }}>
+                  <button
+                    onClick={() => {
+                      console.log("Back button clicked.");
+                      closeStrongsModal();
+                      openBookmarkModal(selectedVerse);
+                    }}
+                    style={{ marginRight: "10px" }}
+                  >
+                    Back
+                  </button>
+                  <button onClick={closeStrongsModal}>Close</button>
+                </div>
               </div>
             </div>
           )}
