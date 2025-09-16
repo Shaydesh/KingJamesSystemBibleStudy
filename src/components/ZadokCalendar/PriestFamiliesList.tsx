@@ -13,7 +13,12 @@ export function PriestFamiliesList({ currentPriestFamilyIndex }: PriestFamiliesL
         display: 'flex', alignItems: 'left', justifyContent: 'left', backgroundColor: '#333',
         color: 'white', paddingLeft: '12px'
       }}>
-        <h2>Priest Families Rotation</h2>
+        <h2 style={{
+          whiteSpace: 'nowrap',
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+          maxWidth: '100%',
+        }}>Priest Family Order</h2>
       </div>
 
       <div className={styles.priestFamiliesGrid}>
