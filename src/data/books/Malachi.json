@@ -1,0 +1,5268 @@
+{
+    "book": "Malachi",
+    "chapters": [
+        {
+            "chapter": "1",
+            "verses": [
+                {
+                    "verse": "1",
+                    "text": "The burden of the word of the LORD to Israel by Malachi.",
+                    "k": 23090,
+                    "v": [
+                        [
+                            "The burden",
+                            [
+                                "H4853"
+                            ]
+                        ],
+                        [
+                            "of the word",
+                            [
+                                "H1697"
+                            ]
+                        ],
+                        [
+                            "of the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "to",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "Israel",
+                            [
+                                "H3478"
+                            ]
+                        ],
+                        [
+                            "by",
+                            [
+                                "H3027"
+                            ]
+                        ],
+                        [
+                            "Malachi.",
+                            [
+                                "H4401"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "2",
+                    "text": "I have loved you, saith the LORD. Yet ye say, Wherein hast thou loved us? Was not Esau Jacob\u2019s brother? saith the LORD: yet I loved Jacob,",
+                    "k": 23091,
+                    "v": [
+                        [
+                            "I have loved",
+                            [
+                                "H157"
+                            ]
+                        ],
+                        [
+                            "you, saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD.",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "Yet ye say,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "Wherein",
+                            [
+                                "H4100"
+                            ]
+                        ],
+                        [
+                            "hast thou loved",
+                            [
+                                "H157"
+                            ]
+                        ],
+                        [
+                            "us? Was not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "Esau",
+                            [
+                                "H6215"
+                            ]
+                        ],
+                        [
+                            "Jacob's",
+                            [
+                                "H3290"
+                            ]
+                        ],
+                        [
+                            "brother?",
+                            [
+                                "H251"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H5002"
+                            ]
+                        ],
+                        [
+                            "the LORD:",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "yet I loved",
+                            [
+                                "H157"
+                            ]
+                        ],
+                        [
+                            "Jacob,",
+                            [
+                                "H3290"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "3",
+                    "text": "And I hated Esau, and laid his mountains and his heritage waste for the dragons of the wilderness.",
+                    "k": 23092,
+                    "v": [
+                        [
+                            "And I hated",
+                            [
+                                "H8130"
+                            ]
+                        ],
+                        [
+                            "Esau,",
+                            [
+                                "H6215"
+                            ]
+                        ],
+                        [
+                            "and laid",
+                            [
+                                "H7760"
+                            ]
+                        ],
+                        [
+                            "his mountains",
+                            [
+                                "H2022"
+                            ]
+                        ],
+                        [
+                            "and his heritage",
+                            [
+                                "H5159"
+                            ]
+                        ],
+                        [
+                            "waste",
+                            [
+                                "H8077"
+                            ]
+                        ],
+                        [
+                            "for the dragons",
+                            [
+                                "H8568"
+                            ]
+                        ],
+                        [
+                            "of the wilderness.",
+                            [
+                                "H4057"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "4",
+                    "text": "Whereas Edom saith, We are impoverished, but we will return and build the desolate places; thus saith the LORD of hosts, They shall build, but I will throw down; and they shall call them, The border of wickedness, and, The people against whom the LORD hath indignation for ever.",
+                    "k": 23093,
+                    "v": [
+                        [
+                            "Whereas",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "Edom",
+                            [
+                                "H123"
+                            ]
+                        ],
+                        [
+                            "saith,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "We are impoverished,",
+                            [
+                                "H7567"
+                            ]
+                        ],
+                        [
+                            "but we will return",
+                            [
+                                "H7725"
+                            ]
+                        ],
+                        [
+                            "and build",
+                            [
+                                "H1129"
+                            ]
+                        ],
+                        [
+                            "the desolate places;",
+                            [
+                                "H2723"
+                            ]
+                        ],
+                        [
+                            "thus",
+                            [
+                                "H3541"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts,",
+                            [
+                                "H6635"
+                            ]
+                        ],
+                        [
+                            "They",
+                            [
+                                "H1992"
+                            ]
+                        ],
+                        [
+                            "shall build,",
+                            [
+                                "H1129"
+                            ]
+                        ],
+                        [
+                            "but I",
+                            [
+                                "H589"
+                            ]
+                        ],
+                        [
+                            "will throw down;",
+                            [
+                                "H2040"
+                            ]
+                        ],
+                        [
+                            "and they shall call",
+                            [
+                                "H7121"
+                            ]
+                        ],
+                        [
+                            "them, The border",
+                            [
+                                "H1366"
+                            ]
+                        ],
+                        [
+                            "of wickedness,",
+                            [
+                                "H7564"
+                            ]
+                        ],
+                        [
+                            "and, The people",
+                            [
+                                "H5971"
+                            ]
+                        ],
+                        [
+                            "against whom",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "hath indignation",
+                            [
+                                "H2194"
+                            ]
+                        ],
+                        [
+                            "for ever.",
+                            [
+                                "H5704",
+                                "H5769"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "5",
+                    "text": "And your eyes shall see, and ye shall say, The LORD will be magnified from the border of Israel.",
+                    "k": 23094,
+                    "v": [
+                        [
+                            "And your eyes",
+                            [
+                                "H5869"
+                            ]
+                        ],
+                        [
+                            "shall see,",
+                            [
+                                "H7200"
+                            ]
+                        ],
+                        [
+                            "and ye",
+                            [
+                                "H859"
+                            ]
+                        ],
+                        [
+                            "shall say,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "The LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "will be magnified",
+                            [
+                                "H1431"
+                            ]
+                        ],
+                        [
+                            "from",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "the border",
+                            [
+                                "H1366"
+                            ]
+                        ],
+                        [
+                            "of Israel.",
+                            [
+                                "H3478"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "6",
+                    "text": "A son honoureth his father, and a servant his master: if then I be a father, where is mine honour? and if I be a master, where is my fear? saith the LORD of hosts unto you, O priests, that despise my name. And ye say, Wherein have we despised thy name?",
+                    "k": 23095,
+                    "v": [
+                        [
+                            "A son",
+                            [
+                                "H1121"
+                            ]
+                        ],
+                        [
+                            "honoureth",
+                            [
+                                "H3513"
+                            ]
+                        ],
+                        [
+                            "his father,",
+                            [
+                                "H1"
+                            ]
+                        ],
+                        [
+                            "and a servant",
+                            [
+                                "H5650"
+                            ]
+                        ],
+                        [
+                            "his master:",
+                            [
+                                "H113"
+                            ]
+                        ],
+                        [
+                            "if",
+                            [
+                                "H518"
+                            ]
+                        ],
+                        [
+                            "then I",
+                            [
+                                "H589"
+                            ]
+                        ],
+                        [
+                            "be a father,",
+                            [
+                                "H1"
+                            ]
+                        ],
+                        [
+                            "where",
+                            [
+                                "H346"
+                            ]
+                        ],
+                        [
+                            "is mine honour?",
+                            [
+                                "H3519"
+                            ]
+                        ],
+                        [
+                            "and if",
+                            [
+                                "H518"
+                            ]
+                        ],
+                        [
+                            "I",
+                            [
+                                "H589"
+                            ]
+                        ],
+                        [
+                            "be a master,",
+                            [
+                                "H113"
+                            ]
+                        ],
+                        [
+                            "where",
+                            [
+                                "H346"
+                            ]
+                        ],
+                        [
+                            "is my fear?",
+                            [
+                                "H4172"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts",
+                            [
+                                "H6635"
+                            ]
+                        ],
+                        [
+                            "unto you, O priests,",
+                            [
+                                "H3548"
+                            ]
+                        ],
+                        [
+                            "that despise",
+                            [
+                                "H959"
+                            ]
+                        ],
+                        [
+                            "my name.",
+                            [
+                                "H8034"
+                            ]
+                        ],
+                        [
+                            "And ye say,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "Wherein",
+                            [
+                                "H4100"
+                            ]
+                        ],
+                        [
+                            "have we despised",
+                            [
+                                "H959"
+                            ]
+                        ],
+                        [
+                            "thy name?",
+                            [
+                                "H8034"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "7",
+                    "text": "Ye offer polluted bread upon mine altar; and ye say, Wherein have we polluted thee? In that ye say, The table of the LORD is contemptible.",
+                    "k": 23096,
+                    "v": [
+                        [
+                            "Ye offer",
+                            [
+                                "H5066"
+                            ]
+                        ],
+                        [
+                            "polluted",
+                            [
+                                "H1351"
+                            ]
+                        ],
+                        [
+                            "bread",
+                            [
+                                "H3899"
+                            ]
+                        ],
+                        [
+                            "upon",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "mine altar;",
+                            [
+                                "H4196"
+                            ]
+                        ],
+                        [
+                            "and ye say,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "Wherein",
+                            [
+                                "H4100"
+                            ]
+                        ],
+                        [
+                            "have we polluted",
+                            [
+                                "H1351"
+                            ]
+                        ],
+                        [
+                            "thee? In that ye say,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "The table",
+                            [
+                                "H7979"
+                            ]
+                        ],
+                        [
+                            "of the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "is contemptible.",
+                            [
+                                "H959"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "8",
+                    "text": "And if ye offer the blind for sacrifice, is it not evil? and if ye offer the lame and sick, is it not evil? offer it now unto thy governor; will he be pleased with thee, or accept thy person? saith the LORD of hosts.",
+                    "k": 23097,
+                    "v": [
+                        [
+                            "And if",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "ye offer",
+                            [
+                                "H5066"
+                            ]
+                        ],
+                        [
+                            "the blind",
+                            [
+                                "H5787"
+                            ]
+                        ],
+                        [
+                            "for sacrifice,",
+                            [
+                                "H2076"
+                            ]
+                        ],
+                        [
+                            "is it not",
+                            [
+                                "H369"
+                            ]
+                        ],
+                        [
+                            "evil?",
+                            [
+                                "H7451"
+                            ]
+                        ],
+                        [
+                            "and if",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "ye offer",
+                            [
+                                "H5066"
+                            ]
+                        ],
+                        [
+                            "the lame",
+                            [
+                                "H6455"
+                            ]
+                        ],
+                        [
+                            "and sick,",
+                            [
+                                "H2470"
+                            ]
+                        ],
+                        [
+                            "is it not",
+                            [
+                                "H369"
+                            ]
+                        ],
+                        [
+                            "evil?",
+                            [
+                                "H7451"
+                            ]
+                        ],
+                        [
+                            "offer",
+                            [
+                                "H7126"
+                            ]
+                        ],
+                        [
+                            "it now",
+                            [
+                                "H4994"
+                            ]
+                        ],
+                        [
+                            "unto thy governor;",
+                            [
+                                "H6346"
+                            ]
+                        ],
+                        [
+                            "will he be pleased",
+                            [
+                                "H7521"
+                            ]
+                        ],
+                        [
+                            "with thee, or",
+                            [
+                                "H176"
+                            ]
+                        ],
+                        [
+                            "accept",
+                            [
+                                "H5375"
+                            ]
+                        ],
+                        [
+                            "thy person?",
+                            [
+                                "H6440"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts.",
+                            [
+                                "H6635"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "9",
+                    "text": "And now, I pray you, beseech God that he will be gracious unto us: this hath been by your means: will he regard your persons? saith the LORD of hosts.",
+                    "k": 23098,
+                    "v": [
+                        [
+                            "And now,",
+                            [
+                                "H6258"
+                            ]
+                        ],
+                        [
+                            "I pray you,",
+                            [
+                                "H4994"
+                            ]
+                        ],
+                        [
+                            "beseech",
+                            [
+                                "H2470"
+                            ]
+                        ],
+                        [
+                            "God",
+                            [
+                                "H410"
+                            ]
+                        ],
+                        [
+                            "that he will be gracious",
+                            [
+                                "H2603"
+                            ]
+                        ],
+                        [
+                            "unto us: this",
+                            [
+                                "H2063"
+                            ]
+                        ],
+                        [
+                            "hath been",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "by your means:",
+                            [
+                                "H3027"
+                            ]
+                        ],
+                        [
+                            "will he regard",
+                            [
+                                "H5375"
+                            ]
+                        ],
+                        [
+                            "your",
+                            [
+                                "H4480"
+                            ]
+                        ],
+                        [
+                            "persons?",
+                            [
+                                "H6440"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts.",
+                            [
+                                "H6635"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "10",
+                    "text": "Who is there even among you that would shut the doors for nought? neither do ye kindle fire on mine altar for nought. I have no pleasure in you, saith the LORD of hosts, neither will I accept an offering at your hand.",
+                    "k": 23099,
+                    "v": [
+                        [
+                            "Who",
+                            [
+                                "H4310"
+                            ]
+                        ],
+                        [
+                            "is there even",
+                            [
+                                "H1571"
+                            ]
+                        ],
+                        [
+                            "among you that would shut",
+                            [
+                                "H5462"
+                            ]
+                        ],
+                        [
+                            "the doors",
+                            [
+                                "H1817"
+                            ]
+                        ],
+                        [
+                            "for nought? neither",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "do ye kindle",
+                            [
+                                "H215"
+                            ]
+                        ],
+                        [
+                            "fire on mine altar",
+                            [
+                                "H4196"
+                            ]
+                        ],
+                        [
+                            "for nought.",
+                            [
+                                "H2600"
+                            ]
+                        ],
+                        [
+                            "I have no",
+                            [
+                                "H369"
+                            ]
+                        ],
+                        [
+                            "pleasure",
+                            [
+                                "H2656"
+                            ]
+                        ],
+                        [
+                            "in you, saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts,",
+                            [
+                                "H6635"
+                            ]
+                        ],
+                        [
+                            "neither",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "will I accept",
+                            [
+                                "H7521"
+                            ]
+                        ],
+                        [
+                            "an offering",
+                            [
+                                "H4503"
+                            ]
+                        ],
+                        [
+                            "at your hand.",
+                            [
+                                "H3027"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "11",
+                    "text": "For from the rising of the sun even unto the going down of the same my name shall be great among the Gentiles; and in every place incense shall be offered unto my name, and a pure offering: for my name shall be great among the heathen, saith the LORD of hosts.",
+                    "k": 23100,
+                    "v": [
+                        [
+                            "For",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "from the rising",
+                            [
+                                "H4217"
+                            ]
+                        ],
+                        [
+                            "of the sun",
+                            [
+                                "H8121"
+                            ]
+                        ],
+                        [
+                            "even unto",
+                            [
+                                "H5704"
+                            ]
+                        ],
+                        [
+                            "the going down",
+                            [
+                                "H3996"
+                            ]
+                        ],
+                        [
+                            "of the same my name",
+                            [
+                                "H8034"
+                            ]
+                        ],
+                        [
+                            "shall be great",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "among the Gentiles;",
+                            [
+                                "H1471"
+                            ]
+                        ],
+                        [
+                            "and in every",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "place",
+                            [
+                                "H4725"
+                            ]
+                        ],
+                        [
+                            "incense",
+                            [
+                                "H6999"
+                            ]
+                        ],
+                        [
+                            "shall be offered",
+                            [
+                                "H5066"
+                            ]
+                        ],
+                        [
+                            "unto my name,",
+                            [
+                                "H8034"
+                            ]
+                        ],
+                        [
+                            "and a pure",
+                            [
+                                "H2889"
+                            ]
+                        ],
+                        [
+                            "offering:",
+                            [
+                                "H4503"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "my name",
+                            [
+                                "H8034"
+                            ]
+                        ],
+                        [
+                            "shall be great",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "among the heathen,",
+                            [
+                                "H1471"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts.",
+                            [
+                                "H6635"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "12",
+                    "text": "But ye have profaned it, in that ye say, The table of the LORD is polluted; and the fruit thereof, even his meat, is contemptible.",
+                    "k": 23101,
+                    "v": [
+                        [
+                            "But ye",
+                            [
+                                "H859"
+                            ]
+                        ],
+                        [
+                            "have profaned",
+                            [
+                                "H2490"
+                            ]
+                        ],
+                        [
+                            "it, in that ye say,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "The table",
+                            [
+                                "H7979"
+                            ]
+                        ],
+                        [
+                            "of the LORD",
+                            [
+                                "H136"
+                            ]
+                        ],
+                        [
+                            "is polluted;",
+                            [
+                                "H1351"
+                            ]
+                        ],
+                        [
+                            "and the fruit",
+                            [
+                                "H5108"
+                            ]
+                        ],
+                        [
+                            "thereof, even his meat,",
+                            [
+                                "H400"
+                            ]
+                        ],
+                        [
+                            "is contemptible.",
+                            [
+                                "H959"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "13",
+                    "text": "Ye said also, Behold, what a weariness is it! and ye have snuffed at it, saith the LORD of hosts; and ye brought that which was torn, and the lame, and the sick; thus ye brought an offering: should I accept this of your hand? saith the LORD.",
+                    "k": 23102,
+                    "v": [
+                        [
+                            "Ye said",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "also, Behold,",
+                            [
+                                "H2009"
+                            ]
+                        ],
+                        [
+                            "what a weariness",
+                            [
+                                "H4972",
+                                "H8513"
+                            ]
+                        ],
+                        [
+                            "is it! and ye have snuffed at",
+                            [
+                                "H5301"
+                            ]
+                        ],
+                        [
+                            "it, saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts;",
+                            [
+                                "H6635"
+                            ]
+                        ],
+                        [
+                            "and ye brought",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "that which was torn,",
+                            [
+                                "H1497"
+                            ]
+                        ],
+                        [
+                            "and the lame,",
+                            [
+                                "H6455"
+                            ]
+                        ],
+                        [
+                            "and the sick;",
+                            [
+                                "H2470"
+                            ]
+                        ],
+                        [
+                            "thus ye brought",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "an offering:",
+                            [
+                                "H4503"
+                            ]
+                        ],
+                        [
+                            "should I accept",
+                            [
+                                "H7521"
+                            ]
+                        ],
+                        [
+                            "this of your hand?",
+                            [
+                                "H3027"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD.",
+                            [
+                                "H3068"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "14",
+                    "text": "But cursed be the deceiver, which hath in his flock a male, and voweth, and sacrificeth unto the LORD a corrupt thing: for I am a great King, saith the LORD of hosts, and my name is dreadful among the heathen.",
+                    "k": 23103,
+                    "v": [
+                        [
+                            "But cursed",
+                            [
+                                "H779"
+                            ]
+                        ],
+                        [
+                            "be the deceiver,",
+                            [
+                                "H5230"
+                            ]
+                        ],
+                        [
+                            "which hath",
+                            [
+                                "H3426"
+                            ]
+                        ],
+                        [
+                            "in his flock",
+                            [
+                                "H5739"
+                            ]
+                        ],
+                        [
+                            "a male,",
+                            [
+                                "H2145"
+                            ]
+                        ],
+                        [
+                            "and voweth,",
+                            [
+                                "H5087"
+                            ]
+                        ],
+                        [
+                            "and sacrificeth",
+                            [
+                                "H2076"
+                            ]
+                        ],
+                        [
+                            "unto the Lord",
+                            [
+                                "H136"
+                            ]
+                        ],
+                        [
+                            "a corrupt thing:",
+                            [
+                                "H7843"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "I",
+                            [
+                                "H589"
+                            ]
+                        ],
+                        [
+                            "am a great",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "King,",
+                            [
+                                "H4428"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts,",
+                            [
+                                "H6635"
+                            ]
+                        ],
+                        [
+                            "and my name",
+                            [
+                                "H8034"
+                            ]
+                        ],
+                        [
+                            "is dreadful",
+                            [
+                                "H3372"
+                            ]
+                        ],
+                        [
+                            "among the heathen.",
+                            [
+                                "H1471"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "chapter": "2",
+            "verses": [
+                {
+                    "verse": "1",
+                    "text": "And now, O ye priests, this commandment is for you.",
+                    "k": 23104,
+                    "v": [
+                        [
+                            "And now,",
+                            [
+                                "H6258"
+                            ]
+                        ],
+                        [
+                            "O ye priests,",
+                            [
+                                "H3548"
+                            ]
+                        ],
+                        [
+                            "this",
+                            [
+                                "H2063"
+                            ]
+                        ],
+                        [
+                            "commandment",
+                            [
+                                "H4687"
+                            ]
+                        ],
+                        [
+                            "is for",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "you.",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "2",
+                    "text": "If ye will not hear, and if ye will not lay it to heart, to give glory unto my name, saith the LORD of hosts, I will even send a curse upon you, and I will curse your blessings: yea, I have cursed them already, because ye do not lay it to heart.",
+                    "k": 23105,
+                    "v": [
+                        [
+                            "If",
+                            [
+                                "H518"
+                            ]
+                        ],
+                        [
+                            "ye will not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "hear,",
+                            [
+                                "H8085"
+                            ]
+                        ],
+                        [
+                            "and if",
+                            [
+                                "H518"
+                            ]
+                        ],
+                        [
+                            "ye will not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "lay",
+                            [
+                                "H7760"
+                            ]
+                        ],
+                        [
+                            "it to",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "heart,",
+                            [
+                                "H3820"
+                            ]
+                        ],
+                        [
+                            "to give",
+                            [
+                                "H5414"
+                            ]
+                        ],
+                        [
+                            "glory",
+                            [
+                                "H3519"
+                            ]
+                        ],
+                        [
+                            "unto my name,",
+                            [
+                                "H8034"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts,",
+                            [
+                                "H6635"
+                            ]
+                        ],
+                        [
+                            "I will even send",
+                            [
+                                "H7971"
+                            ]
+                        ],
+                        [
+                            "a curse",
+                            [
+                                "H3994"
+                            ]
+                        ],
+                        [
+                            "upon you, and I will curse",
+                            [
+                                "H779"
+                            ]
+                        ],
+                        [
+                            "your blessings:",
+                            [
+                                "H1293"
+                            ]
+                        ],
+                        [
+                            "yea,",
+                            [
+                                "H1571"
+                            ]
+                        ],
+                        [
+                            "I have cursed",
+                            [
+                                "H779"
+                            ]
+                        ],
+                        [
+                            "them already, because",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "ye do not",
+                            [
+                                "H369"
+                            ]
+                        ],
+                        [
+                            "lay",
+                            [
+                                "H7760"
+                            ]
+                        ],
+                        [
+                            "it to",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "heart.",
+                            [
+                                "H3820"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "3",
+                    "text": "Behold, I will corrupt your seed, and spread dung upon your faces, even the dung of your solemn feasts; and one shall take you away with it.",
+                    "k": 23106,
+                    "v": [
+                        [
+                            "Behold,",
+                            [
+                                "H2009"
+                            ]
+                        ],
+                        [
+                            "I will corrupt",
+                            [
+                                "H1605"
+                            ]
+                        ],
+                        [
+                            "your seed,",
+                            [
+                                "H2233"
+                            ]
+                        ],
+                        [
+                            "and spread",
+                            [
+                                "H2219"
+                            ]
+                        ],
+                        [
+                            "dung",
+                            [
+                                "H6569"
+                            ]
+                        ],
+                        [
+                            "upon",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "your faces,",
+                            [
+                                "H6440"
+                            ]
+                        ],
+                        [
+                            "even the dung",
+                            [
+                                "H6569"
+                            ]
+                        ],
+                        [
+                            "of your solemn feasts;",
+                            [
+                                "H2282"
+                            ]
+                        ],
+                        [
+                            "and one shall take you away",
+                            [
+                                "H5375"
+                            ]
+                        ],
+                        [
+                            "with",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "it.",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "4",
+                    "text": "And ye shall know that I have sent this commandment unto you, that my covenant might be with Levi, saith the LORD of hosts.",
+                    "k": 23107,
+                    "v": [
+                        [
+                            "And ye shall know",
+                            [
+                                "H3045"
+                            ]
+                        ],
+                        [
+                            "that",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "I have sent",
+                            [
+                                "H7971"
+                            ]
+                        ],
+                        [
+                            "this",
+                            [
+                                "H2063"
+                            ]
+                        ],
+                        [
+                            "commandment",
+                            [
+                                "H4687"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "you, that my covenant",
+                            [
+                                "H1285"
+                            ]
+                        ],
+                        [
+                            "might be",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "with",
+                            [
+                                "H854"
+                            ]
+                        ],
+                        [
+                            "Levi,",
+                            [
+                                "H3878"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts.",
+                            [
+                                "H6635"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "5",
+                    "text": "My covenant was with him of life and peace; and I gave them to him for the fear wherewith he feared me, and was afraid before my name.",
+                    "k": 23108,
+                    "v": [
+                        [
+                            "My covenant",
+                            [
+                                "H1285"
+                            ]
+                        ],
+                        [
+                            "was",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "with",
+                            [
+                                "H854"
+                            ]
+                        ],
+                        [
+                            "him of life",
+                            [
+                                "H2416"
+                            ]
+                        ],
+                        [
+                            "and peace;",
+                            [
+                                "H7965"
+                            ]
+                        ],
+                        [
+                            "and I gave",
+                            [
+                                "H5414"
+                            ]
+                        ],
+                        [
+                            "them to him for the fear",
+                            [
+                                "H4172"
+                            ]
+                        ],
+                        [
+                            "wherewith he feared",
+                            [
+                                "H3372"
+                            ]
+                        ],
+                        [
+                            "me, and was afraid",
+                            [
+                                "H2865"
+                            ]
+                        ],
+                        [
+                            "before",
+                            [
+                                "H6440"
+                            ]
+                        ],
+                        [
+                            "my name.",
+                            [
+                                "H8034"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "6",
+                    "text": "The law of truth was in his mouth, and iniquity was not found in his lips: he walked with me in peace and equity, and did turn many away from iniquity.",
+                    "k": 23109,
+                    "v": [
+                        [
+                            "The law",
+                            [
+                                "H8451"
+                            ]
+                        ],
+                        [
+                            "of truth",
+                            [
+                                "H571"
+                            ]
+                        ],
+                        [
+                            "was",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "in his mouth,",
+                            [
+                                "H6310"
+                            ]
+                        ],
+                        [
+                            "and iniquity",
+                            [
+                                "H5766"
+                            ]
+                        ],
+                        [
+                            "was not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "found",
+                            [
+                                "H4672"
+                            ]
+                        ],
+                        [
+                            "in his lips:",
+                            [
+                                "H8193"
+                            ]
+                        ],
+                        [
+                            "he walked",
+                            [
+                                "H1980"
+                            ]
+                        ],
+                        [
+                            "with",
+                            [
+                                "H854"
+                            ]
+                        ],
+                        [
+                            "me in peace",
+                            [
+                                "H7965"
+                            ]
+                        ],
+                        [
+                            "and equity,",
+                            [
+                                "H4334"
+                            ]
+                        ],
+                        [
+                            "and did turn many away",
+                            [
+                                "H7227",
+                                "H7725"
+                            ]
+                        ],
+                        [
+                            "from iniquity.",
+                            [
+                                "H5771"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "7",
+                    "text": "For the priest\u2019s lips should keep knowledge, and they should seek the law at his mouth: for he is the messenger of the LORD of hosts.",
+                    "k": 23110,
+                    "v": [
+                        [
+                            "For",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "the priest's",
+                            [
+                                "H3548"
+                            ]
+                        ],
+                        [
+                            "lips",
+                            [
+                                "H8193"
+                            ]
+                        ],
+                        [
+                            "should keep",
+                            [
+                                "H8104"
+                            ]
+                        ],
+                        [
+                            "knowledge,",
+                            [
+                                "H1847"
+                            ]
+                        ],
+                        [
+                            "and they should seek",
+                            [
+                                "H1245"
+                            ]
+                        ],
+                        [
+                            "the law",
+                            [
+                                "H8451"
+                            ]
+                        ],
+                        [
+                            "at his mouth:",
+                            [
+                                "H6310"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "he",
+                            [
+                                "H1931"
+                            ]
+                        ],
+                        [
+                            "is the messenger",
+                            [
+                                "H4397"
+                            ]
+                        ],
+                        [
+                            "of the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts.",
+                            [
+                                "H6635"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "8",
+                    "text": "But ye are departed out of the way; ye have caused many to stumble at the law; ye have corrupted the covenant of Levi, saith the LORD of hosts.",
+                    "k": 23111,
+                    "v": [
+                        [
+                            "But ye",
+                            [
+                                "H859"
+                            ]
+                        ],
+                        [
+                            "are departed",
+                            [
+                                "H5493"
+                            ]
+                        ],
+                        [
+                            "out of",
+                            [
+                                "H4480"
+                            ]
+                        ],
+                        [
+                            "the way;",
+                            [
+                                "H1870"
+                            ]
+                        ],
+                        [
+                            "ye have caused many to stumble",
+                            [
+                                "H3782",
+                                "H7227"
+                            ]
+                        ],
+                        [
+                            "at the law;",
+                            [
+                                "H8451"
+                            ]
+                        ],
+                        [
+                            "ye have corrupted",
+                            [
+                                "H7843"
+                            ]
+                        ],
+                        [
+                            "the covenant",
+                            [
+                                "H1285"
+                            ]
+                        ],
+                        [
+                            "of Levi,",
+                            [
+                                "H3878"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts.",
+                            [
+                                "H6635"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "9",
+                    "text": "Therefore have I also made you contemptible and base before all the people, according as ye have not kept my ways, but have been partial in the law.",
+                    "k": 23112,
+                    "v": [
+                        [
+                            "Therefore have I",
+                            [
+                                "H589"
+                            ]
+                        ],
+                        [
+                            "also",
+                            [
+                                "H1571"
+                            ]
+                        ],
+                        [
+                            "made",
+                            [
+                                "H5414"
+                            ]
+                        ],
+                        [
+                            "you contemptible",
+                            [
+                                "H959"
+                            ]
+                        ],
+                        [
+                            "and base",
+                            [
+                                "H8217"
+                            ]
+                        ],
+                        [
+                            "before all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "the people,",
+                            [
+                                "H5971"
+                            ]
+                        ],
+                        [
+                            "according as",
+                            [
+                                "H834",
+                                "H6310"
+                            ]
+                        ],
+                        [
+                            "ye have not",
+                            [
+                                "H369"
+                            ]
+                        ],
+                        [
+                            "kept",
+                            [
+                                "H8104"
+                            ]
+                        ],
+                        [
+                            "my ways,",
+                            [
+                                "H1870"
+                            ]
+                        ],
+                        [
+                            "but have been partial",
+                            [
+                                "H5375",
+                                "H6440"
+                            ]
+                        ],
+                        [
+                            "in the law.",
+                            [
+                                "H8451"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "10",
+                    "text": "Have we not all one father? hath not one God created us? why do we deal treacherously every man against his brother, by profaning the covenant of our fathers?",
+                    "k": 23113,
+                    "v": [
+                        [
+                            "Have we not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "one",
+                            [
+                                "H259"
+                            ]
+                        ],
+                        [
+                            "father?",
+                            [
+                                "H1"
+                            ]
+                        ],
+                        [
+                            "hath not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "one",
+                            [
+                                "H259"
+                            ]
+                        ],
+                        [
+                            "God",
+                            [
+                                "H410"
+                            ]
+                        ],
+                        [
+                            "created",
+                            [
+                                "H1254"
+                            ]
+                        ],
+                        [
+                            "us? why",
+                            [
+                                "H4069"
+                            ]
+                        ],
+                        [
+                            "do we deal treacherously",
+                            [
+                                "H898"
+                            ]
+                        ],
+                        [
+                            "every man",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "against his brother,",
+                            [
+                                "H251"
+                            ]
+                        ],
+                        [
+                            "by profaning",
+                            [
+                                "H2490"
+                            ]
+                        ],
+                        [
+                            "the covenant",
+                            [
+                                "H1285"
+                            ]
+                        ],
+                        [
+                            "of our fathers?",
+                            [
+                                "H1"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "11",
+                    "text": "Judah hath dealt treacherously, and an abomination is committed in Israel and in Jerusalem; for Judah hath profaned the holiness of the LORD which he loved, and hath married the daughter of a strange god.",
+                    "k": 23114,
+                    "v": [
+                        [
+                            "Judah",
+                            [
+                                "H3063"
+                            ]
+                        ],
+                        [
+                            "hath dealt treacherously,",
+                            [
+                                "H898"
+                            ]
+                        ],
+                        [
+                            "and an abomination",
+                            [
+                                "H8441"
+                            ]
+                        ],
+                        [
+                            "is committed",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "in Israel",
+                            [
+                                "H3478"
+                            ]
+                        ],
+                        [
+                            "and in Jerusalem;",
+                            [
+                                "H3389"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "Judah",
+                            [
+                                "H3063"
+                            ]
+                        ],
+                        [
+                            "hath profaned",
+                            [
+                                "H2490"
+                            ]
+                        ],
+                        [
+                            "the holiness",
+                            [
+                                "H6944"
+                            ]
+                        ],
+                        [
+                            "of the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "which",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "he loved,",
+                            [
+                                "H157"
+                            ]
+                        ],
+                        [
+                            "and hath married",
+                            [
+                                "H1166"
+                            ]
+                        ],
+                        [
+                            "the daughter",
+                            [
+                                "H1323"
+                            ]
+                        ],
+                        [
+                            "of a strange",
+                            [
+                                "H5236"
+                            ]
+                        ],
+                        [
+                            "god.",
+                            [
+                                "H410"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "12",
+                    "text": "The LORD will cut off the man that doeth this, the master and the scholar, out of the tabernacles of Jacob, and him that offereth an offering unto the LORD of hosts.",
+                    "k": 23115,
+                    "v": [
+                        [
+                            "The LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "will cut off",
+                            [
+                                "H3772"
+                            ]
+                        ],
+                        [
+                            "the man",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "that",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "doeth",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "this, the master",
+                            [
+                                "H5782"
+                            ]
+                        ],
+                        [
+                            "and the scholar,",
+                            [
+                                "H6030"
+                            ]
+                        ],
+                        [
+                            "out of the tabernacles",
+                            [
+                                "H168"
+                            ]
+                        ],
+                        [
+                            "of Jacob,",
+                            [
+                                "H3290"
+                            ]
+                        ],
+                        [
+                            "and him that offereth",
+                            [
+                                "H5066"
+                            ]
+                        ],
+                        [
+                            "an offering",
+                            [
+                                "H4503"
+                            ]
+                        ],
+                        [
+                            "unto the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts.",
+                            [
+                                "H6635"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "13",
+                    "text": "And this have ye done again, covering the altar of the LORD with tears, with weeping, and with crying out, insomuch that he regardeth not the offering any more, or receiveth it with good will at your hand.",
+                    "k": 23116,
+                    "v": [
+                        [
+                            "And this",
+                            [
+                                "H2063"
+                            ]
+                        ],
+                        [
+                            "have ye done",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "again,",
+                            [
+                                "H8145"
+                            ]
+                        ],
+                        [
+                            "covering",
+                            [
+                                "H3680"
+                            ]
+                        ],
+                        [
+                            "the altar",
+                            [
+                                "H4196"
+                            ]
+                        ],
+                        [
+                            "of the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "with tears,",
+                            [
+                                "H1832"
+                            ]
+                        ],
+                        [
+                            "with weeping,",
+                            [
+                                "H1065"
+                            ]
+                        ],
+                        [
+                            "and with crying out,",
+                            [
+                                "H603"
+                            ]
+                        ],
+                        [
+                            "insomuch that he regardeth",
+                            [
+                                "H413",
+                                "H6437"
+                            ]
+                        ],
+                        [
+                            "not",
+                            [
+                                "H369"
+                            ]
+                        ],
+                        [
+                            "the offering",
+                            [
+                                "H4503"
+                            ]
+                        ],
+                        [
+                            "any more,",
+                            [
+                                "H5750"
+                            ]
+                        ],
+                        [
+                            "or receiveth",
+                            [
+                                "H3947"
+                            ]
+                        ],
+                        [
+                            "it with good will",
+                            [
+                                "H7522"
+                            ]
+                        ],
+                        [
+                            "at your hand.",
+                            [
+                                "H3027"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "14",
+                    "text": "Yet ye say, Wherefore? Because the LORD hath been witness between thee and the wife of thy youth, against whom thou hast dealt treacherously: yet is she thy companion, and the wife of thy covenant.",
+                    "k": 23117,
+                    "v": [
+                        [
+                            "Yet ye say,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "Wherefore?",
+                            [
+                                "H4100",
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "Because",
+                            [
+                                "H3588",
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "hath been witness",
+                            [
+                                "H5749"
+                            ]
+                        ],
+                        [
+                            "between",
+                            [
+                                "H996"
+                            ]
+                        ],
+                        [
+                            "thee and the wife",
+                            [
+                                "H802"
+                            ]
+                        ],
+                        [
+                            "of thy youth,",
+                            [
+                                "H5271"
+                            ]
+                        ],
+                        [
+                            "against whom",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "thou",
+                            [
+                                "H859"
+                            ]
+                        ],
+                        [
+                            "hast dealt treacherously:",
+                            [
+                                "H898"
+                            ]
+                        ],
+                        [
+                            "yet is she",
+                            [
+                                "H1931"
+                            ]
+                        ],
+                        [
+                            "thy companion,",
+                            [
+                                "H2278"
+                            ]
+                        ],
+                        [
+                            "and the wife",
+                            [
+                                "H802"
+                            ]
+                        ],
+                        [
+                            "of thy covenant.",
+                            [
+                                "H1285"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "15",
+                    "text": "And did not he make one? Yet had he the residue of the spirit. And wherefore one? That he might seek a godly seed. Therefore take heed to your spirit, and let none deal treacherously against the wife of his youth.",
+                    "k": 23118,
+                    "v": [
+                        [
+                            "And did not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "he make",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "one?",
+                            [
+                                "H259"
+                            ]
+                        ],
+                        [
+                            "Yet had he the residue",
+                            [
+                                "H7605"
+                            ]
+                        ],
+                        [
+                            "of the spirit.",
+                            [
+                                "H7307"
+                            ]
+                        ],
+                        [
+                            "And wherefore",
+                            [
+                                "H4100"
+                            ]
+                        ],
+                        [
+                            "one?",
+                            [
+                                "H259"
+                            ]
+                        ],
+                        [
+                            "That he might seek",
+                            [
+                                "H1245"
+                            ]
+                        ],
+                        [
+                            "a godly",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "seed.",
+                            [
+                                "H2233"
+                            ]
+                        ],
+                        [
+                            "Therefore take heed",
+                            [
+                                "H8104"
+                            ]
+                        ],
+                        [
+                            "to your spirit,",
+                            [
+                                "H7307"
+                            ]
+                        ],
+                        [
+                            "and let none",
+                            [
+                                "H408"
+                            ]
+                        ],
+                        [
+                            "deal treacherously",
+                            [
+                                "H898"
+                            ]
+                        ],
+                        [
+                            "against the wife",
+                            [
+                                "H802"
+                            ]
+                        ],
+                        [
+                            "of his youth.",
+                            [
+                                "H5271"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "16",
+                    "text": "For the LORD, the God of Israel, saith that he hateth putting away: for one covereth violence with his garment, saith the LORD of hosts: therefore take heed to your spirit, that ye deal not treacherously.",
+                    "k": 23119,
+                    "v": [
+                        [
+                            "For",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "the God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "of Israel,",
+                            [
+                                "H3478"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "that he hateth",
+                            [
+                                "H8130"
+                            ]
+                        ],
+                        [
+                            "putting away:",
+                            [
+                                "H7971"
+                            ]
+                        ],
+                        [
+                            "for one covereth",
+                            [
+                                "H3680"
+                            ]
+                        ],
+                        [
+                            "violence",
+                            [
+                                "H2555"
+                            ]
+                        ],
+                        [
+                            "with",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "his garment,",
+                            [
+                                "H3830"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts:",
+                            [
+                                "H6635"
+                            ]
+                        ],
+                        [
+                            "therefore take heed",
+                            [
+                                "H8104"
+                            ]
+                        ],
+                        [
+                            "to your spirit,",
+                            [
+                                "H7307"
+                            ]
+                        ],
+                        [
+                            "that ye deal not treacherously.",
+                            [
+                                "H898",
+                                "H3808"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "17",
+                    "text": "Ye have wearied the LORD with your words. Yet ye say, Wherein have we wearied him? When ye say, Every one that doeth evil is good in the sight of the LORD, and he delighteth in them; or, Where is the God of judgment?",
+                    "k": 23120,
+                    "v": [
+                        [
+                            "Ye have wearied",
+                            [
+                                "H3021"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "with your words.",
+                            [
+                                "H1697"
+                            ]
+                        ],
+                        [
+                            "Yet ye say,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "Wherein",
+                            [
+                                "H4100"
+                            ]
+                        ],
+                        [
+                            "have we wearied",
+                            [
+                                "H3021"
+                            ]
+                        ],
+                        [
+                            "him? When ye say,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "Every one",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "that doeth",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "evil",
+                            [
+                                "H7451"
+                            ]
+                        ],
+                        [
+                            "is good",
+                            [
+                                "H2896"
+                            ]
+                        ],
+                        [
+                            "in the sight",
+                            [
+                                "H5869"
+                            ]
+                        ],
+                        [
+                            "of the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "and he",
+                            [
+                                "H1931"
+                            ]
+                        ],
+                        [
+                            "delighteth",
+                            [
+                                "H2654"
+                            ]
+                        ],
+                        [
+                            "in them; or,",
+                            [
+                                "H176"
+                            ]
+                        ],
+                        [
+                            "Where",
+                            [
+                                "H346"
+                            ]
+                        ],
+                        [
+                            "is the God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "of judgment?",
+                            [
+                                "H4941"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "chapter": "3",
+            "verses": [
+                {
+                    "verse": "1",
+                    "text": "Behold, I will send my messenger, and he shall prepare the way before me: and the LORD, whom ye seek, shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in: behold, he shall come, saith the LORD of hosts.",
+                    "k": 23121,
+                    "v": [
+                        [
+                            "Behold,",
+                            [
+                                "H2009"
+                            ]
+                        ],
+                        [
+                            "I will send",
+                            [
+                                "H7971"
+                            ]
+                        ],
+                        [
+                            "my messenger,",
+                            [
+                                "H4397"
+                            ]
+                        ],
+                        [
+                            "and he shall prepare",
+                            [
+                                "H6437"
+                            ]
+                        ],
+                        [
+                            "the way",
+                            [
+                                "H1870"
+                            ]
+                        ],
+                        [
+                            "before",
+                            [
+                                "H6440"
+                            ]
+                        ],
+                        [
+                            "me: and the Lord,",
+                            [
+                                "H113"
+                            ]
+                        ],
+                        [
+                            "whom",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "ye",
+                            [
+                                "H859"
+                            ]
+                        ],
+                        [
+                            "seek,",
+                            [
+                                "H1245"
+                            ]
+                        ],
+                        [
+                            "shall suddenly",
+                            [
+                                "H6597"
+                            ]
+                        ],
+                        [
+                            "come",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "to",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "his temple,",
+                            [
+                                "H1964"
+                            ]
+                        ],
+                        [
+                            "even the messenger",
+                            [
+                                "H4397"
+                            ]
+                        ],
+                        [
+                            "of the covenant,",
+                            [
+                                "H1285"
+                            ]
+                        ],
+                        [
+                            "whom",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "ye",
+                            [
+                                "H859"
+                            ]
+                        ],
+                        [
+                            "delight",
+                            [
+                                "H2655"
+                            ]
+                        ],
+                        [
+                            "in: behold,",
+                            [
+                                "H2009"
+                            ]
+                        ],
+                        [
+                            "he shall come,",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts.",
+                            [
+                                "H6635"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "2",
+                    "text": "But who may abide the day of his coming? and who shall stand when he appeareth? for he is like a refiner\u2019s fire, and like fullers\u2019 soap:",
+                    "k": 23122,
+                    "v": [
+                        [
+                            "But who",
+                            [
+                                "H4310"
+                            ]
+                        ],
+                        [
+                            "may abide",
+                            [
+                                "H3557"
+                            ]
+                        ],
+                        [
+                            "the day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of his coming?",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "and who",
+                            [
+                                "H4310"
+                            ]
+                        ],
+                        [
+                            "shall stand",
+                            [
+                                "H5975"
+                            ]
+                        ],
+                        [
+                            "when he appeareth?",
+                            [
+                                "H7200"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "he",
+                            [
+                                "H1931"
+                            ]
+                        ],
+                        [
+                            "is like a refiner's",
+                            [
+                                "H6884"
+                            ]
+                        ],
+                        [
+                            "fire,",
+                            [
+                                "H784"
+                            ]
+                        ],
+                        [
+                            "and like fullers'",
+                            [
+                                "H3526"
+                            ]
+                        ],
+                        [
+                            "soap:",
+                            [
+                                "H1287"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "3",
+                    "text": "And he shall sit as a refiner and purifier of silver: and he shall purify the sons of Levi, and purge them as gold and silver, that they may offer unto the LORD an offering in righteousness.",
+                    "k": 23123,
+                    "v": [
+                        [
+                            "And he shall sit",
+                            [
+                                "H3427"
+                            ]
+                        ],
+                        [
+                            "as a refiner",
+                            [
+                                "H6884"
+                            ]
+                        ],
+                        [
+                            "and purifier",
+                            [
+                                "H2891"
+                            ]
+                        ],
+                        [
+                            "of silver:",
+                            [
+                                "H3701"
+                            ]
+                        ],
+                        [
+                            "and he shall purify",
+                            [
+                                "H2891"
+                            ]
+                        ],
+                        [
+                            "the sons",
+                            [
+                                "H1121"
+                            ]
+                        ],
+                        [
+                            "of Levi,",
+                            [
+                                "H3878"
+                            ]
+                        ],
+                        [
+                            "and purge",
+                            [
+                                "H2212"
+                            ]
+                        ],
+                        [
+                            "them as gold",
+                            [
+                                "H2091"
+                            ]
+                        ],
+                        [
+                            "and silver,",
+                            [
+                                "H3701"
+                            ]
+                        ],
+                        [
+                            "that they may offer",
+                            [
+                                "H1961",
+                                "H5066"
+                            ]
+                        ],
+                        [
+                            "unto the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "an offering",
+                            [
+                                "H4503"
+                            ]
+                        ],
+                        [
+                            "in righteousness.",
+                            [
+                                "H6666"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "4",
+                    "text": "Then shall the offering of Judah and Jerusalem be pleasant unto the LORD, as in the days of old, and as in former years.",
+                    "k": 23124,
+                    "v": [
+                        [
+                            "Then shall the offering",
+                            [
+                                "H4503"
+                            ]
+                        ],
+                        [
+                            "of Judah",
+                            [
+                                "H3063"
+                            ]
+                        ],
+                        [
+                            "and Jerusalem",
+                            [
+                                "H3389"
+                            ]
+                        ],
+                        [
+                            "be pleasant",
+                            [
+                                "H6149"
+                            ]
+                        ],
+                        [
+                            "unto the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "as in the days",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of old,",
+                            [
+                                "H5769"
+                            ]
+                        ],
+                        [
+                            "and as in former",
+                            [
+                                "H6931"
+                            ]
+                        ],
+                        [
+                            "years.",
+                            [
+                                "H8141"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "5",
+                    "text": "And I will come near to you to judgment; and I will be a swift witness against the sorcerers, and against the adulterers, and against false swearers, and against those that oppress the hireling in his wages, the widow, and the fatherless, and that turn aside the stranger from his right, and fear not me, saith the LORD of hosts.",
+                    "k": 23125,
+                    "v": [
+                        [
+                            "And I will come near",
+                            [
+                                "H7126"
+                            ]
+                        ],
+                        [
+                            "to",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "you to judgment;",
+                            [
+                                "H4941"
+                            ]
+                        ],
+                        [
+                            "and I will be",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "a swift",
+                            [
+                                "H4116"
+                            ]
+                        ],
+                        [
+                            "witness",
+                            [
+                                "H5707"
+                            ]
+                        ],
+                        [
+                            "against the sorcerers,",
+                            [
+                                "H3784"
+                            ]
+                        ],
+                        [
+                            "and against the adulterers,",
+                            [
+                                "H5003"
+                            ]
+                        ],
+                        [
+                            "and against false",
+                            [
+                                "H8267"
+                            ]
+                        ],
+                        [
+                            "swearers,",
+                            [
+                                "H7650"
+                            ]
+                        ],
+                        [
+                            "and against those that oppress",
+                            [
+                                "H6231"
+                            ]
+                        ],
+                        [
+                            "the hireling",
+                            [
+                                "H7916"
+                            ]
+                        ],
+                        [
+                            "in his wages,",
+                            [
+                                "H7939"
+                            ]
+                        ],
+                        [
+                            "the widow,",
+                            [
+                                "H490"
+                            ]
+                        ],
+                        [
+                            "and the fatherless,",
+                            [
+                                "H3490"
+                            ]
+                        ],
+                        [
+                            "and that turn aside",
+                            [
+                                "H5186"
+                            ]
+                        ],
+                        [
+                            "the stranger",
+                            [
+                                "H1616"
+                            ]
+                        ],
+                        [
+                            "from his right, and fear",
+                            [
+                                "H3372"
+                            ]
+                        ],
+                        [
+                            "not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "me, saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts.",
+                            [
+                                "H6635"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "6",
+                    "text": "For I am the LORD, I change not; therefore ye sons of Jacob are not consumed.",
+                    "k": 23126,
+                    "v": [
+                        [
+                            "For",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "I",
+                            [
+                                "H589"
+                            ]
+                        ],
+                        [
+                            "am the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "I change",
+                            [
+                                "H8138"
+                            ]
+                        ],
+                        [
+                            "not;",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "therefore ye",
+                            [
+                                "H859"
+                            ]
+                        ],
+                        [
+                            "sons",
+                            [
+                                "H1121"
+                            ]
+                        ],
+                        [
+                            "of Jacob",
+                            [
+                                "H3290"
+                            ]
+                        ],
+                        [
+                            "are not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "consumed.",
+                            [
+                                "H3615"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "7",
+                    "text": "Even from the days of your fathers ye are gone away from mine ordinances, and have not kept them. Return unto me, and I will return unto you, saith the LORD of hosts. But ye said, Wherein shall we return?",
+                    "k": 23127,
+                    "v": [
+                        [
+                            "Even from the days",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of your fathers",
+                            [
+                                "H1"
+                            ]
+                        ],
+                        [
+                            "ye are gone away",
+                            [
+                                "H5493"
+                            ]
+                        ],
+                        [
+                            "from mine ordinances,",
+                            [
+                                "H2706"
+                            ]
+                        ],
+                        [
+                            "and have not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "kept",
+                            [
+                                "H8104"
+                            ]
+                        ],
+                        [
+                            "them. Return",
+                            [
+                                "H7725"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "me, and I will return",
+                            [
+                                "H7725"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "you, saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts.",
+                            [
+                                "H6635"
+                            ]
+                        ],
+                        [
+                            "But ye said,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "Wherein",
+                            [
+                                "H4100"
+                            ]
+                        ],
+                        [
+                            "shall we return?",
+                            [
+                                "H7725"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "8",
+                    "text": "Will a man rob God? Yet ye have robbed me. But ye say, Wherein have we robbed thee? In tithes and offerings.",
+                    "k": 23128,
+                    "v": [
+                        [
+                            "Will a man",
+                            [
+                                "H120"
+                            ]
+                        ],
+                        [
+                            "rob",
+                            [
+                                "H6906"
+                            ]
+                        ],
+                        [
+                            "God?",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "Yet",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "ye",
+                            [
+                                "H859"
+                            ]
+                        ],
+                        [
+                            "have robbed",
+                            [
+                                "H6906"
+                            ]
+                        ],
+                        [
+                            "me. But ye say,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "Wherein",
+                            [
+                                "H4100"
+                            ]
+                        ],
+                        [
+                            "have we robbed",
+                            [
+                                "H6906"
+                            ]
+                        ],
+                        [
+                            "thee? In tithes",
+                            [
+                                "H4643"
+                            ]
+                        ],
+                        [
+                            "and offerings.",
+                            [
+                                "H8641"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "9",
+                    "text": "Ye are cursed with a curse: for ye have robbed me, even this whole nation.",
+                    "k": 23129,
+                    "v": [
+                        [
+                            "Ye",
+                            [
+                                "H859"
+                            ]
+                        ],
+                        [
+                            "are cursed",
+                            [
+                                "H779"
+                            ]
+                        ],
+                        [
+                            "with a curse:",
+                            [
+                                "H3994"
+                            ]
+                        ],
+                        [
+                            "for ye",
+                            [
+                                "H859"
+                            ]
+                        ],
+                        [
+                            "have robbed",
+                            [
+                                "H6906"
+                            ]
+                        ],
+                        [
+                            "me, even this whole",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "nation.",
+                            [
+                                "H1471"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "10",
+                    "text": "Bring ye all the tithes into the storehouse, that there may be meat in mine house, and prove me now herewith, saith the LORD of hosts, if I will not open you the windows of heaven, and pour you out a blessing, that there shall not be room enough to receive it.",
+                    "k": 23130,
+                    "v": [
+                        [
+                            "Bring",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "ye all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "the tithes",
+                            [
+                                "H4643"
+                            ]
+                        ],
+                        [
+                            "into",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "the storehouse,",
+                            [
+                                "H214",
+                                "H1004"
+                            ]
+                        ],
+                        [
+                            "that there may be",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "meat",
+                            [
+                                "H2964"
+                            ]
+                        ],
+                        [
+                            "in mine house,",
+                            [
+                                "H1004"
+                            ]
+                        ],
+                        [
+                            "and prove",
+                            [
+                                "H974"
+                            ]
+                        ],
+                        [
+                            "me now",
+                            [
+                                "H4994"
+                            ]
+                        ],
+                        [
+                            "herewith,",
+                            [
+                                "H2063"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts,",
+                            [
+                                "H6635"
+                            ]
+                        ],
+                        [
+                            "if",
+                            [
+                                "H518"
+                            ]
+                        ],
+                        [
+                            "I will not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "open",
+                            [
+                                "H6605"
+                            ]
+                        ],
+                        [
+                            "you the windows",
+                            [
+                                "H699"
+                            ]
+                        ],
+                        [
+                            "of heaven,",
+                            [
+                                "H8064"
+                            ]
+                        ],
+                        [
+                            "and pour you out",
+                            [
+                                "H7324"
+                            ]
+                        ],
+                        [
+                            "a blessing,",
+                            [
+                                "H1293"
+                            ]
+                        ],
+                        [
+                            "that",
+                            [
+                                "H5704"
+                            ]
+                        ],
+                        [
+                            "there shall not",
+                            [
+                                "H1097"
+                            ]
+                        ],
+                        [
+                            "be room enough",
+                            [
+                                "H1767"
+                            ]
+                        ],
+                        [
+                            "to receive it.",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "11",
+                    "text": "And I will rebuke the devourer for your sakes, and he shall not destroy the fruits of your ground; neither shall your vine cast her fruit before the time in the field, saith the LORD of hosts.",
+                    "k": 23131,
+                    "v": [
+                        [
+                            "And I will rebuke",
+                            [
+                                "H1605"
+                            ]
+                        ],
+                        [
+                            "the devourer",
+                            [
+                                "H398"
+                            ]
+                        ],
+                        [
+                            "for your sakes, and he shall not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "destroy",
+                            [
+                                "H7843"
+                            ]
+                        ],
+                        [
+                            "the fruits",
+                            [
+                                "H6529"
+                            ]
+                        ],
+                        [
+                            "of your ground;",
+                            [
+                                "H127"
+                            ]
+                        ],
+                        [
+                            "neither",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "shall your vine",
+                            [
+                                "H1612"
+                            ]
+                        ],
+                        [
+                            "cast her fruit before the time",
+                            [
+                                "H7921"
+                            ]
+                        ],
+                        [
+                            "in the field,",
+                            [
+                                "H7704"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts.",
+                            [
+                                "H6635"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "12",
+                    "text": "And all nations shall call you blessed: for ye shall be a delightsome land, saith the LORD of hosts.",
+                    "k": 23132,
+                    "v": [
+                        [
+                            "And all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "nations",
+                            [
+                                "H1471"
+                            ]
+                        ],
+                        [
+                            "shall call you blessed:",
+                            [
+                                "H833"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "ye",
+                            [
+                                "H859"
+                            ]
+                        ],
+                        [
+                            "shall be",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "a delightsome",
+                            [
+                                "H2656"
+                            ]
+                        ],
+                        [
+                            "land,",
+                            [
+                                "H776"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts.",
+                            [
+                                "H6635"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "13",
+                    "text": "Your words have been stout against me, saith the LORD. Yet ye say, What have we spoken so much against thee?",
+                    "k": 23133,
+                    "v": [
+                        [
+                            "Your words",
+                            [
+                                "H1697"
+                            ]
+                        ],
+                        [
+                            "have been stout",
+                            [
+                                "H2388"
+                            ]
+                        ],
+                        [
+                            "against",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "me, saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD.",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "Yet ye say,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "What",
+                            [
+                                "H4100"
+                            ]
+                        ],
+                        [
+                            "have we spoken",
+                            [
+                                "H1696"
+                            ]
+                        ],
+                        [
+                            "so much against",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "thee?",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "14",
+                    "text": "Ye have said, It is vain to serve God: and what profit is it that we have kept his ordinance, and that we have walked mournfully before the LORD of hosts?",
+                    "k": 23134,
+                    "v": [
+                        [
+                            "Ye have said,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "It is vain",
+                            [
+                                "H7723"
+                            ]
+                        ],
+                        [
+                            "to serve",
+                            [
+                                "H5647"
+                            ]
+                        ],
+                        [
+                            "God:",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "and what",
+                            [
+                                "H4100"
+                            ]
+                        ],
+                        [
+                            "profit",
+                            [
+                                "H1215"
+                            ]
+                        ],
+                        [
+                            "is it that",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "we have kept",
+                            [
+                                "H8104"
+                            ]
+                        ],
+                        [
+                            "his ordinance,",
+                            [
+                                "H4931"
+                            ]
+                        ],
+                        [
+                            "and that",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "we have walked",
+                            [
+                                "H1980"
+                            ]
+                        ],
+                        [
+                            "mournfully",
+                            [
+                                "H6941"
+                            ]
+                        ],
+                        [
+                            "before",
+                            [
+                                "H6440"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts?",
+                            [
+                                "H6635"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "15",
+                    "text": "And now we call the proud happy; yea, they that work wickedness are set up; yea, they that tempt God are even delivered.",
+                    "k": 23135,
+                    "v": [
+                        [
+                            "And now",
+                            [
+                                "H6258"
+                            ]
+                        ],
+                        [
+                            "we",
+                            [
+                                "H587"
+                            ]
+                        ],
+                        [
+                            "call the proud happy;",
+                            [
+                                "H833",
+                                "H2086"
+                            ]
+                        ],
+                        [
+                            "yea,",
+                            [
+                                "H1571"
+                            ]
+                        ],
+                        [
+                            "they that work",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "wickedness",
+                            [
+                                "H7564"
+                            ]
+                        ],
+                        [
+                            "are set up;",
+                            [
+                                "H1129"
+                            ]
+                        ],
+                        [
+                            "yea,",
+                            [
+                                "H1571"
+                            ]
+                        ],
+                        [
+                            "they that tempt",
+                            [
+                                "H974"
+                            ]
+                        ],
+                        [
+                            "God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "are even delivered.",
+                            [
+                                "H4422"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "16",
+                    "text": "Then they that feared the LORD spake often one to another: and the LORD hearkened, and heard it, and a book of remembrance was written before him for them that feared the LORD, and that thought upon his name.",
+                    "k": 23136,
+                    "v": [
+                        [
+                            "Then",
+                            [
+                                "H227"
+                            ]
+                        ],
+                        [
+                            "they that feared",
+                            [
+                                "H3373"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "spake",
+                            [
+                                "H1696"
+                            ]
+                        ],
+                        [
+                            "often one",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "to",
+                            [
+                                "H854"
+                            ]
+                        ],
+                        [
+                            "another:",
+                            [
+                                "H7453"
+                            ]
+                        ],
+                        [
+                            "and the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "hearkened,",
+                            [
+                                "H7181"
+                            ]
+                        ],
+                        [
+                            "and heard",
+                            [
+                                "H8085"
+                            ]
+                        ],
+                        [
+                            "it, and a book",
+                            [
+                                "H5612"
+                            ]
+                        ],
+                        [
+                            "of remembrance",
+                            [
+                                "H2146"
+                            ]
+                        ],
+                        [
+                            "was written",
+                            [
+                                "H3789"
+                            ]
+                        ],
+                        [
+                            "before",
+                            [
+                                "H6440"
+                            ]
+                        ],
+                        [
+                            "him for them that feared",
+                            [
+                                "H3372"
+                            ]
+                        ],
+                        [
+                            "the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "and that thought",
+                            [
+                                "H2803"
+                            ]
+                        ],
+                        [
+                            "upon his name.",
+                            [
+                                "H8034"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "17",
+                    "text": "And they shall be mine, saith the LORD of hosts, in that day when I make up my jewels; and I will spare them, as a man spareth his own son that serveth him.",
+                    "k": 23137,
+                    "v": [
+                        [
+                            "And they shall be",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "mine, saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts,",
+                            [
+                                "H6635"
+                            ]
+                        ],
+                        [
+                            "in that day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "when",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "I",
+                            [
+                                "H589"
+                            ]
+                        ],
+                        [
+                            "make up",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "my jewels;",
+                            [
+                                "H5459"
+                            ]
+                        ],
+                        [
+                            "and I will spare",
+                            [
+                                "H2550"
+                            ]
+                        ],
+                        [
+                            "them,",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "as",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "a man",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "spareth",
+                            [
+                                "H2550"
+                            ]
+                        ],
+                        [
+                            "his own son",
+                            [
+                                "H1121"
+                            ]
+                        ],
+                        [
+                            "that serveth",
+                            [
+                                "H5647"
+                            ]
+                        ],
+                        [
+                            "him.",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "18",
+                    "text": "Then shall ye return, and discern between the righteous and the wicked, between him that serveth God and him that serveth him not.",
+                    "k": 23138,
+                    "v": [
+                        [
+                            "Then shall ye return,",
+                            [
+                                "H7725"
+                            ]
+                        ],
+                        [
+                            "and discern",
+                            [
+                                "H7200"
+                            ]
+                        ],
+                        [
+                            "between",
+                            [
+                                "H996"
+                            ]
+                        ],
+                        [
+                            "the righteous",
+                            [
+                                "H6662"
+                            ]
+                        ],
+                        [
+                            "and the wicked,",
+                            [
+                                "H7563"
+                            ]
+                        ],
+                        [
+                            "between",
+                            [
+                                "H996"
+                            ]
+                        ],
+                        [
+                            "him that serveth",
+                            [
+                                "H5647"
+                            ]
+                        ],
+                        [
+                            "God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "and him",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "that serveth",
+                            [
+                                "H5647"
+                            ]
+                        ],
+                        [
+                            "him not.",
+                            [
+                                "H3808"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "chapter": "4",
+            "verses": [
+                {
+                    "verse": "1",
+                    "text": "For, behold, the day cometh, that shall burn as an oven; and all the proud, yea, and all that do wickedly, shall be stubble: and the day that cometh shall burn them up, saith the LORD of hosts, that it shall leave them neither root nor branch.",
+                    "k": 23139,
+                    "v": [
+                        [
+                            "For,",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "behold,",
+                            [
+                                "H2009"
+                            ]
+                        ],
+                        [
+                            "the day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "cometh,",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "that shall burn",
+                            [
+                                "H1197"
+                            ]
+                        ],
+                        [
+                            "as an oven;",
+                            [
+                                "H8574"
+                            ]
+                        ],
+                        [
+                            "and all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "the proud,",
+                            [
+                                "H2086"
+                            ]
+                        ],
+                        [
+                            "yea, and all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "that do",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "wickedly,",
+                            [
+                                "H7564"
+                            ]
+                        ],
+                        [
+                            "shall be",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "stubble:",
+                            [
+                                "H7179"
+                            ]
+                        ],
+                        [
+                            "and the day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "that cometh",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "shall burn them up,",
+                            [
+                                "H3857"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts,",
+                            [
+                                "H6635"
+                            ]
+                        ],
+                        [
+                            "that",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "it shall leave",
+                            [
+                                "H5800"
+                            ]
+                        ],
+                        [
+                            "them neither",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "root",
+                            [
+                                "H8328"
+                            ]
+                        ],
+                        [
+                            "nor branch.",
+                            [
+                                "H6057"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "2",
+                    "text": "But unto you that fear my name shall the Sun of righteousness arise with healing in his wings; and ye shall go forth, and grow up as calves of the stall.",
+                    "k": 23140,
+                    "v": [
+                        [
+                            "But unto you that fear",
+                            [
+                                "H3373"
+                            ]
+                        ],
+                        [
+                            "my name",
+                            [
+                                "H8034"
+                            ]
+                        ],
+                        [
+                            "shall the Sun",
+                            [
+                                "H8121"
+                            ]
+                        ],
+                        [
+                            "of righteousness",
+                            [
+                                "H6666"
+                            ]
+                        ],
+                        [
+                            "arise",
+                            [
+                                "H2224"
+                            ]
+                        ],
+                        [
+                            "with healing",
+                            [
+                                "H4832"
+                            ]
+                        ],
+                        [
+                            "in his wings;",
+                            [
+                                "H3671"
+                            ]
+                        ],
+                        [
+                            "and ye shall go forth,",
+                            [
+                                "H3318"
+                            ]
+                        ],
+                        [
+                            "and grow up",
+                            [
+                                "H6335"
+                            ]
+                        ],
+                        [
+                            "as calves",
+                            [
+                                "H5695"
+                            ]
+                        ],
+                        [
+                            "of the stall.",
+                            [
+                                "H4770"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "3",
+                    "text": "And ye shall tread down the wicked; for they shall be ashes under the soles of your feet in the day that I shall do this, saith the LORD of hosts.",
+                    "k": 23141,
+                    "v": [
+                        [
+                            "And ye shall tread down",
+                            [
+                                "H6072"
+                            ]
+                        ],
+                        [
+                            "the wicked;",
+                            [
+                                "H7563"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "they shall be",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "ashes",
+                            [
+                                "H665"
+                            ]
+                        ],
+                        [
+                            "under",
+                            [
+                                "H8478"
+                            ]
+                        ],
+                        [
+                            "the soles",
+                            [
+                                "H3709"
+                            ]
+                        ],
+                        [
+                            "of your feet",
+                            [
+                                "H7272"
+                            ]
+                        ],
+                        [
+                            "in the day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "that",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "I",
+                            [
+                                "H589"
+                            ]
+                        ],
+                        [
+                            "shall do",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "this, saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts.",
+                            [
+                                "H6635"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "4",
+                    "text": "Remember ye the law of Moses my servant, which I commanded unto him in Horeb for all Israel, with the statutes and judgments.",
+                    "k": 23142,
+                    "v": [
+                        [
+                            "Remember",
+                            [
+                                "H2142"
+                            ]
+                        ],
+                        [
+                            "ye the law",
+                            [
+                                "H8451"
+                            ]
+                        ],
+                        [
+                            "of Moses",
+                            [
+                                "H4872"
+                            ]
+                        ],
+                        [
+                            "my servant,",
+                            [
+                                "H5650"
+                            ]
+                        ],
+                        [
+                            "which",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "I commanded unto",
+                            [
+                                "H6680"
+                            ]
+                        ],
+                        [
+                            "him in Horeb",
+                            [
+                                "H2722"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "Israel,",
+                            [
+                                "H3478"
+                            ]
+                        ],
+                        [
+                            "with the statutes",
+                            [
+                                "H2706"
+                            ]
+                        ],
+                        [
+                            "and judgments.",
+                            [
+                                "H4941"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "5",
+                    "text": "Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD:",
+                    "k": 23143,
+                    "v": [
+                        [
+                            "Behold,",
+                            [
+                                "H2009"
+                            ]
+                        ],
+                        [
+                            "I",
+                            [
+                                "H595"
+                            ]
+                        ],
+                        [
+                            "will send",
+                            [
+                                "H7971"
+                            ]
+                        ],
+                        [
+                            "you Elijah",
+                            [
+                                "H452"
+                            ]
+                        ],
+                        [
+                            "the prophet",
+                            [
+                                "H5030"
+                            ]
+                        ],
+                        [
+                            "before",
+                            [
+                                "H6440"
+                            ]
+                        ],
+                        [
+                            "the coming",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "of the great",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "and dreadful",
+                            [
+                                "H3372"
+                            ]
+                        ],
+                        [
+                            "day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of the LORD:",
+                            [
+                                "H3068"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "6",
+                    "text": "And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse.",
+                    "k": 23144,
+                    "v": [
+                        [
+                            "And he shall turn",
+                            [
+                                "H7725"
+                            ]
+                        ],
+                        [
+                            "the heart",
+                            [
+                                "H3820"
+                            ]
+                        ],
+                        [
+                            "of the fathers",
+                            [
+                                "H1"
+                            ]
+                        ],
+                        [
+                            "to",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "the children,",
+                            [
+                                "H1121"
+                            ]
+                        ],
+                        [
+                            "and the heart",
+                            [
+                                "H3820"
+                            ]
+                        ],
+                        [
+                            "of the children",
+                            [
+                                "H1121"
+                            ]
+                        ],
+                        [
+                            "to",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "their fathers,",
+                            [
+                                "H1"
+                            ]
+                        ],
+                        [
+                            "lest",
+                            [
+                                "H6435"
+                            ]
+                        ],
+                        [
+                            "I come",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "and smite",
+                            [
+                                "H5221"
+                            ]
+                        ],
+                        [
+                            "the earth",
+                            [
+                                "H776"
+                            ]
+                        ],
+                        [
+                            "with a curse.",
+                            [
+                                "H2764"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

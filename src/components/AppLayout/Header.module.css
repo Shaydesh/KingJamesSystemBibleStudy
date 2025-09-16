@@ -1,0 +1,38 @@
+.header {
+    background: #333;
+    color: #fff;
+    display: flex;
+}
+
+.hamburgerIcon {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5em;
+    margin-right: 0px;
+}
+
+.appTitle {
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .hamburgerIcon {
+        font-size: 2em;
+        padding: 10px;
+    }
+
+    .appTitle {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 600px) {
+    .hamburgerIcon {
+        font-size: 2em;
+    }
+
+    .appTitle {
+        font-size: 1.5em;
+    }
+}

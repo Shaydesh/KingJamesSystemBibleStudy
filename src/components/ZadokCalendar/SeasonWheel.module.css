@@ -1,0 +1,70 @@
+/* Container for the Enoch Calendar Wheel */
+.enochCalendarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    padding-top: 100px;
+}
+
+.enochCalendarSvg {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    max-height: 600px;
+    overflow: visible;
+}
+
+.enochCalendarSvg text {
+    /* font-family: "Arial", sans-serif; */
+    fill: #000;
+    paint-order: stroke;
+    stroke: #fff;
+    stroke-width: 2;
+}
+
+@media (max-width: 768px) {
+    .enochCalendarSvg {
+        max-width: 500px;
+        max-height: 500px;
+    }
+
+    .enochCalendarContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        padding-top: 20px;
+
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .enochCalendarSvg {
+        max-width: 350px;
+        max-height: 350px;
+    }
+
+    .enochCalendarContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        padding-top: 20px;
+
+    }
+}

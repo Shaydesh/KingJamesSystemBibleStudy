@@ -1,0 +1,285 @@
+.modal {
+    position: fixed;
+    /* Stay in place */
+    z-index: 1000;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black with opacity */
+    display: flex;
+    /* Flex to center */
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+    padding: 20px;
+    /* Padding around modal */
+}
+
+
+.modalContent {
+    background-color: white;
+    /* White background */
+    border-radius: 8px;
+    /* Rounded corners */
+    padding: 20px;
+    /* Inner padding */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow */
+    max-width: 500px;
+    /* Max width for larger screens */
+    width: 100%;
+    /* Responsive width */
+    text-align: center;
+    /* Center text */
+}
+
+.modalContent {
+    background-color: white;
+    /* White background */
+    border-radius: 8px;
+    /* Rounded corners */
+    padding: 20px;
+    /* Inner padding */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow */
+    max-width: 500px;
+    /* Max width for larger screens */
+    width: 100%;
+    /* Responsive width */
+    text-align: center;
+    /* Center text */
+}
+
+.modalContent h2 {
+    margin-top: 0;
+    /* Remove top margin */
+}
+
+.modalContent input {
+    width: 80%;
+    /* Responsive width for input */
+    padding: 10px;
+    /* Padding inside input */
+    margin: 15px 0;
+    /* Spacing around input */
+    border: 1px solid #ccc;
+    /* Light border */
+    border-radius: 5px;
+    /* Rounded input corners */
+}
+
+@supports (-webkit-touch-callout: none) {
+    .modalContent h2 {
+        font-size: 24px;
+        /* Larger heading for iOS */
+    }
+
+    .modalContent p {
+        font-size: 20px;
+        /* Larger text for iOS */
+    }
+
+    .modalContent button {
+        font-size: 20px;
+        /* Larger button text for iOS */
+    }
+}
+
+@supports (-webkit-touch-callout: none) {
+    .modalContent input {
+        font-size: 20px;
+        /* Larger input text for iOS */
+    }
+
+    .suggestions-list li {
+        font-size: 20px;
+        /* Larger suggestions text for iOS */
+    }
+}
+
+.modalContent button {
+
+    color: black;
+    /* White text */
+    padding: 10px 20px;
+    /* Padding inside button */
+
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    font-family: 'LibreBaskerville-Regular';
+    font-size: 17px;
+    transition: background-color 0.3s, transform 0.2s;
+    /* Smooth transition */
+    margin: 5px;
+    /* Spacing between buttons */
+    width: 100%;
+    /* Full width on mobile */
+    max-width: 200px;
+    /* Max width on larger screens */
+}
+
+.modalContent button:hover {
+
+    transform: scale(1.05);
+    /* Slightly grow on hover */
+}
+
+.modalContent input {
+    width: 100%;
+    /* Full width on mobile */
+}
+
+.modalContent button {
+    width: auto;
+    /* Reverts to default size on larger screens */
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+    /* Adds space between buttons */
+}
+
+.modalContent button:last-child {
+    margin-right: 0;
+    /* Removes margin from the last button */
+}
+
+
+.close {
+    color: #aaa;
+    /* Light grey */
+    float: right;
+    /* Align to the right */
+    font-size: 28px;
+    /* Font size */
+    font-weight: bold;
+    /* Bold */
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    /* Darker on hover */
+    text-decoration: none;
+    /* No underline */
+    cursor: pointer;
+    /* Pointer cursor */
+}
+
+.clickablePhrase {
+    cursor: pointer;
+    display: inline;
+    margin-right: 2px;
+
+}
+
+.clickablePhrase:hover {
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.topicSearch {
+    margin-top: 20px;
+    position: relative;
+}
+
+.topicSearch label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.topicSearch input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.topicSearch input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+.suggestionsList {
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.suggestionsList li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.suggestionsList li:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.suggestionsList li.selected {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* iOS-specific styling for modal input */
+@supports (-webkit-touch-callout: none) {
+    .modalContent input {
+        font-size: 20px;
+        /* Larger input text for iOS */
+    }
+
+    .suggestionsList li {
+        font-size: 20px;
+        /* Larger suggestions text for iOS */
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .modalContent {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .modalContent input {
+        width: 100%;
+        /* Full width on mobile */
+    }
+
+    .modalContent button {
+        width: auto;
+        /* Reverts to default size on larger screens */
+        margin: 5px 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 10px;
+        /* Adds space between buttons */
+    }
+
+    .modalContent button:last-child {
+        margin-right: 0;
+        /* Removes margin from the last button */
+    }
+}

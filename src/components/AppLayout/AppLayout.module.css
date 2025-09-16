@@ -1,0 +1,23 @@
+.content {
+    padding: 10px;
+    transition: margin-left 0.3s;
+}
+
+.content.sidebarOpen {
+    margin-left: 20%;
+    /* Adjust content when sidebar is open */
+}
+
+@media (max-width: 768px) {
+    .content.sidebarOpen {
+        margin-left: 0;
+        /* Full width content on mobile */
+    }
+}
+
+@media (max-width: 600px) {
+    .content.sidebarOpen {
+        margin-left: 0;
+        /* Full width content on mobile */
+    }
+}

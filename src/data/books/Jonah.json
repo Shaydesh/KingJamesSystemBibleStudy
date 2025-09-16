@@ -1,0 +1,4268 @@
+{
+    "book": "Jonah",
+    "chapters": [
+        {
+            "chapter": "1",
+            "verses": [
+                {
+                    "verse": "1",
+                    "text": "Now the word of the LORD came unto Jonah the son of Amittai, saying,",
+                    "k": 22532,
+                    "v": [
+                        [
+                            "Now the word",
+                            [
+                                "H1697"
+                            ]
+                        ],
+                        [
+                            "of the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "came",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "Jonah",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "the son",
+                            [
+                                "H1121"
+                            ]
+                        ],
+                        [
+                            "of Amittai,",
+                            [
+                                "H573"
+                            ]
+                        ],
+                        [
+                            "saying,",
+                            [
+                                "H559"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "2",
+                    "text": "Arise, go to Nineveh, that great city, and cry against it; for their wickedness is come up before me.",
+                    "k": 22533,
+                    "v": [
+                        [
+                            "Arise,",
+                            [
+                                "H6965"
+                            ]
+                        ],
+                        [
+                            "go",
+                            [
+                                "H1980"
+                            ]
+                        ],
+                        [
+                            "to",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "Nineveh,",
+                            [
+                                "H5210"
+                            ]
+                        ],
+                        [
+                            "that great",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "city,",
+                            [
+                                "H5892"
+                            ]
+                        ],
+                        [
+                            "and cry",
+                            [
+                                "H7121"
+                            ]
+                        ],
+                        [
+                            "against",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "it; for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "their wickedness",
+                            [
+                                "H7451"
+                            ]
+                        ],
+                        [
+                            "is come up",
+                            [
+                                "H5927"
+                            ]
+                        ],
+                        [
+                            "before",
+                            [
+                                "H6440"
+                            ]
+                        ],
+                        [
+                            "me.",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "3",
+                    "text": "But Jonah rose up to flee unto Tarshish from the presence of the LORD, and went down to Joppa; and he found a ship going to Tarshish: so he paid the fare thereof, and went down into it, to go with them unto Tarshish from the presence of the LORD.",
+                    "k": 22534,
+                    "v": [
+                        [
+                            "But Jonah",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "rose up",
+                            [
+                                "H6965"
+                            ]
+                        ],
+                        [
+                            "to flee",
+                            [
+                                "H1272"
+                            ]
+                        ],
+                        [
+                            "unto Tarshish",
+                            [
+                                "H8659"
+                            ]
+                        ],
+                        [
+                            "from the presence",
+                            [
+                                "H6440"
+                            ]
+                        ],
+                        [
+                            "of the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "and went down",
+                            [
+                                "H3381"
+                            ]
+                        ],
+                        [
+                            "to Joppa;",
+                            [
+                                "H3305"
+                            ]
+                        ],
+                        [
+                            "and he found",
+                            [
+                                "H4672"
+                            ]
+                        ],
+                        [
+                            "a ship",
+                            [
+                                "H591"
+                            ]
+                        ],
+                        [
+                            "going",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "to Tarshish:",
+                            [
+                                "H8659"
+                            ]
+                        ],
+                        [
+                            "so he paid",
+                            [
+                                "H5414"
+                            ]
+                        ],
+                        [
+                            "the fare",
+                            [
+                                "H7939"
+                            ]
+                        ],
+                        [
+                            "thereof, and went down",
+                            [
+                                "H3381"
+                            ]
+                        ],
+                        [
+                            "into it, to go",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "with",
+                            [
+                                "H5973"
+                            ]
+                        ],
+                        [
+                            "them unto Tarshish",
+                            [
+                                "H8659"
+                            ]
+                        ],
+                        [
+                            "from the presence",
+                            [
+                                "H6440"
+                            ]
+                        ],
+                        [
+                            "of the LORD.",
+                            [
+                                "H3068"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "4",
+                    "text": "But the LORD sent out a great wind into the sea, and there was a mighty tempest in the sea, so that the ship was like to be broken.",
+                    "k": 22535,
+                    "v": [
+                        [
+                            "But the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "sent out",
+                            [
+                                "H2904"
+                            ]
+                        ],
+                        [
+                            "a great",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "wind",
+                            [
+                                "H7307"
+                            ]
+                        ],
+                        [
+                            "into",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "the sea,",
+                            [
+                                "H3220"
+                            ]
+                        ],
+                        [
+                            "and there was",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "a mighty",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "tempest",
+                            [
+                                "H5591"
+                            ]
+                        ],
+                        [
+                            "in the sea,",
+                            [
+                                "H3220"
+                            ]
+                        ],
+                        [
+                            "so that the ship",
+                            [
+                                "H591"
+                            ]
+                        ],
+                        [
+                            "was like",
+                            [
+                                "H2803"
+                            ]
+                        ],
+                        [
+                            "to be broken.",
+                            [
+                                "H7665"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "5",
+                    "text": "Then the mariners were afraid, and cried every man unto his god, and cast forth the wares that were in the ship into the sea, to lighten it of them. But Jonah was gone down into the sides of the ship; and he lay, and was fast asleep.",
+                    "k": 22536,
+                    "v": [
+                        [
+                            "Then the mariners",
+                            [
+                                "H4419"
+                            ]
+                        ],
+                        [
+                            "were afraid,",
+                            [
+                                "H3372"
+                            ]
+                        ],
+                        [
+                            "and cried",
+                            [
+                                "H2199"
+                            ]
+                        ],
+                        [
+                            "every man",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "his god,",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "and cast forth",
+                            [
+                                "H2904"
+                            ]
+                        ],
+                        [
+                            "the wares",
+                            [
+                                "H3627"
+                            ]
+                        ],
+                        [
+                            "that",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "were in the ship",
+                            [
+                                "H591"
+                            ]
+                        ],
+                        [
+                            "into",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "the sea,",
+                            [
+                                "H3220"
+                            ]
+                        ],
+                        [
+                            "to lighten",
+                            [
+                                "H7043"
+                            ]
+                        ],
+                        [
+                            "it of",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "them. But Jonah",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "was gone down",
+                            [
+                                "H3381"
+                            ]
+                        ],
+                        [
+                            "into",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "the sides",
+                            [
+                                "H3411"
+                            ]
+                        ],
+                        [
+                            "of the ship;",
+                            [
+                                "H5600"
+                            ]
+                        ],
+                        [
+                            "and he lay,",
+                            [
+                                "H7901"
+                            ]
+                        ],
+                        [
+                            "and was fast asleep.",
+                            [
+                                "H7290"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "6",
+                    "text": "So the shipmaster came to him, and said unto him, What meanest thou, O sleeper? arise, call upon thy God, if so be that God will think upon us, that we perish not.",
+                    "k": 22537,
+                    "v": [
+                        [
+                            "So the shipmaster",
+                            [
+                                "H2259",
+                                "H7227"
+                            ]
+                        ],
+                        [
+                            "came",
+                            [
+                                "H7126"
+                            ]
+                        ],
+                        [
+                            "to",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "him, and said",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "unto him, What",
+                            [
+                                "H4100"
+                            ]
+                        ],
+                        [
+                            "meanest thou, O sleeper?",
+                            [
+                                "H7290"
+                            ]
+                        ],
+                        [
+                            "arise,",
+                            [
+                                "H6965"
+                            ]
+                        ],
+                        [
+                            "call",
+                            [
+                                "H7121"
+                            ]
+                        ],
+                        [
+                            "upon",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "thy God,",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "if so be",
+                            [
+                                "H194"
+                            ]
+                        ],
+                        [
+                            "that God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "will think",
+                            [
+                                "H6245"
+                            ]
+                        ],
+                        [
+                            "upon us, that we perish",
+                            [
+                                "H6"
+                            ]
+                        ],
+                        [
+                            "not.",
+                            [
+                                "H3808"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "7",
+                    "text": "And they said every one to his fellow, Come, and let us cast lots, that we may know for whose cause this evil is upon us. So they cast lots, and the lot fell upon Jonah.",
+                    "k": 22538,
+                    "v": [
+                        [
+                            "And they said",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "every one",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "to",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "his fellow,",
+                            [
+                                "H7453"
+                            ]
+                        ],
+                        [
+                            "Come,",
+                            [
+                                "H1980"
+                            ]
+                        ],
+                        [
+                            "and let us cast",
+                            [
+                                "H5307"
+                            ]
+                        ],
+                        [
+                            "lots,",
+                            [
+                                "H1486"
+                            ]
+                        ],
+                        [
+                            "that we may know",
+                            [
+                                "H3045"
+                            ]
+                        ],
+                        [
+                            "for whose cause",
+                            [
+                                "H4310",
+                                "H7945"
+                            ]
+                        ],
+                        [
+                            "this",
+                            [
+                                "H2063"
+                            ]
+                        ],
+                        [
+                            "evil",
+                            [
+                                "H7451"
+                            ]
+                        ],
+                        [
+                            "is upon us. So they cast",
+                            [
+                                "H5307"
+                            ]
+                        ],
+                        [
+                            "lots,",
+                            [
+                                "H1486"
+                            ]
+                        ],
+                        [
+                            "and the lot",
+                            [
+                                "H1486"
+                            ]
+                        ],
+                        [
+                            "fell",
+                            [
+                                "H5307"
+                            ]
+                        ],
+                        [
+                            "upon",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "Jonah.",
+                            [
+                                "H3124"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "8",
+                    "text": "Then said they unto him, Tell us, we pray thee, for whose cause this evil is upon us; What is thine occupation? and whence comest thou? what is thy country? and of what people art thou?",
+                    "k": 22539,
+                    "v": [
+                        [
+                            "Then said",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "they unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "him, Tell",
+                            [
+                                "H5046"
+                            ]
+                        ],
+                        [
+                            "us, we pray thee,",
+                            [
+                                "H4994"
+                            ]
+                        ],
+                        [
+                            "for whose cause",
+                            [
+                                "H834",
+                                "H4310"
+                            ]
+                        ],
+                        [
+                            "this",
+                            [
+                                "H2063"
+                            ]
+                        ],
+                        [
+                            "evil",
+                            [
+                                "H7451"
+                            ]
+                        ],
+                        [
+                            "is upon us; What",
+                            [
+                                "H4100"
+                            ]
+                        ],
+                        [
+                            "is thine occupation?",
+                            [
+                                "H4399"
+                            ]
+                        ],
+                        [
+                            "and whence",
+                            [
+                                "H370"
+                            ]
+                        ],
+                        [
+                            "comest",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "thou? what",
+                            [
+                                "H4100"
+                            ]
+                        ],
+                        [
+                            "is thy country?",
+                            [
+                                "H776"
+                            ]
+                        ],
+                        [
+                            "and of what",
+                            [
+                                "H335",
+                                "H2088"
+                            ]
+                        ],
+                        [
+                            "people",
+                            [
+                                "H5971"
+                            ]
+                        ],
+                        [
+                            "art thou?",
+                            [
+                                "H859"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "9",
+                    "text": "And he said unto them, I am an Hebrew; and I fear the LORD, the God of heaven, which hath made the sea and the dry land.",
+                    "k": 22540,
+                    "v": [
+                        [
+                            "And he said",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "them, I",
+                            [
+                                "H595"
+                            ]
+                        ],
+                        [
+                            "am an Hebrew;",
+                            [
+                                "H5680"
+                            ]
+                        ],
+                        [
+                            "and I",
+                            [
+                                "H589"
+                            ]
+                        ],
+                        [
+                            "fear",
+                            [
+                                "H3372"
+                            ]
+                        ],
+                        [
+                            "the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "the God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "of heaven,",
+                            [
+                                "H8064"
+                            ]
+                        ],
+                        [
+                            "which",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "hath made",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "the sea",
+                            [
+                                "H3220"
+                            ]
+                        ],
+                        [
+                            "and the dry",
+                            [
+                                "H3004"
+                            ]
+                        ],
+                        [
+                            "land.",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "10",
+                    "text": "Then were the men exceedingly afraid, and said unto him, Why hast thou done this? For the men knew that he fled from the presence of the LORD, because he had told them.",
+                    "k": 22541,
+                    "v": [
+                        [
+                            "Then were the men",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "exceedingly",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "afraid,",
+                            [
+                                "H3372",
+                                "H3374"
+                            ]
+                        ],
+                        [
+                            "and said",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "him, Why",
+                            [
+                                "H4100"
+                            ]
+                        ],
+                        [
+                            "hast thou done",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "this?",
+                            [
+                                "H2063"
+                            ]
+                        ],
+                        [
+                            "For",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "the men",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "knew",
+                            [
+                                "H3045"
+                            ]
+                        ],
+                        [
+                            "that",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "he",
+                            [
+                                "H1931"
+                            ]
+                        ],
+                        [
+                            "fled",
+                            [
+                                "H1272"
+                            ]
+                        ],
+                        [
+                            "from the presence",
+                            [
+                                "H6440"
+                            ]
+                        ],
+                        [
+                            "of the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "because",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "he had told",
+                            [
+                                "H5046"
+                            ]
+                        ],
+                        [
+                            "them.",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "11",
+                    "text": "Then said they unto him, What shall we do unto thee, that the sea may be calm unto us? for the sea wrought, and was tempestuous.",
+                    "k": 22542,
+                    "v": [
+                        [
+                            "Then said",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "they unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "him, What",
+                            [
+                                "H4100"
+                            ]
+                        ],
+                        [
+                            "shall we do",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "unto thee, that the sea",
+                            [
+                                "H3220"
+                            ]
+                        ],
+                        [
+                            "may be calm",
+                            [
+                                "H8367"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "us? for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "the sea",
+                            [
+                                "H3220"
+                            ]
+                        ],
+                        [
+                            "wrought,",
+                            [
+                                "H1980"
+                            ]
+                        ],
+                        [
+                            "and was tempestuous.",
+                            [
+                                "H5590"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "12",
+                    "text": "And he said unto them, Take me up, and cast me forth into the sea; so shall the sea be calm unto you: for I know that for my sake this great tempest is upon you.",
+                    "k": 22543,
+                    "v": [
+                        [
+                            "And he said",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "them, Take me up,",
+                            [
+                                "H5375"
+                            ]
+                        ],
+                        [
+                            "and cast me forth",
+                            [
+                                "H2904"
+                            ]
+                        ],
+                        [
+                            "into",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "the sea;",
+                            [
+                                "H3220"
+                            ]
+                        ],
+                        [
+                            "so shall the sea",
+                            [
+                                "H3220"
+                            ]
+                        ],
+                        [
+                            "be calm",
+                            [
+                                "H8367"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "you: for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "I",
+                            [
+                                "H589"
+                            ]
+                        ],
+                        [
+                            "know",
+                            [
+                                "H3045"
+                            ]
+                        ],
+                        [
+                            "that",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "for my sake",
+                            [
+                                "H7945"
+                            ]
+                        ],
+                        [
+                            "this",
+                            [
+                                "H2088"
+                            ]
+                        ],
+                        [
+                            "great",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "tempest",
+                            [
+                                "H5591"
+                            ]
+                        ],
+                        [
+                            "is upon",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "you.",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "13",
+                    "text": "Nevertheless the men rowed hard to bring it to the land; but they could not: for the sea wrought, and was tempestuous against them.",
+                    "k": 22544,
+                    "v": [
+                        [
+                            "Nevertheless the men",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "rowed",
+                            [
+                                "H2864"
+                            ]
+                        ],
+                        [
+                            "hard to bring",
+                            [
+                                "H7725"
+                            ]
+                        ],
+                        [
+                            "it to",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "the land;",
+                            [
+                                "H3004"
+                            ]
+                        ],
+                        [
+                            "but they could",
+                            [
+                                "H3201"
+                            ]
+                        ],
+                        [
+                            "not:",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "the sea",
+                            [
+                                "H3220"
+                            ]
+                        ],
+                        [
+                            "wrought,",
+                            [
+                                "H1980"
+                            ]
+                        ],
+                        [
+                            "and was tempestuous",
+                            [
+                                "H5590"
+                            ]
+                        ],
+                        [
+                            "against",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "them.",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "14",
+                    "text": "Wherefore they cried unto the LORD, and said, We beseech thee, O LORD, we beseech thee, let us not perish for this man\u2019s life, and lay not upon us innocent blood: for thou, O LORD, hast done as it pleased thee.",
+                    "k": 22545,
+                    "v": [
+                        [
+                            "Wherefore they cried",
+                            [
+                                "H7121"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "and said,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "We beseech thee,",
+                            [
+                                "H4994"
+                            ]
+                        ],
+                        [
+                            "O LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "we beseech thee,",
+                            [
+                                "H577"
+                            ]
+                        ],
+                        [
+                            "let us not",
+                            [
+                                "H408"
+                            ]
+                        ],
+                        [
+                            "perish",
+                            [
+                                "H6"
+                            ]
+                        ],
+                        [
+                            "for this",
+                            [
+                                "H2088"
+                            ]
+                        ],
+                        [
+                            "man's",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "life,",
+                            [
+                                "H5315"
+                            ]
+                        ],
+                        [
+                            "and lay",
+                            [
+                                "H5414"
+                            ]
+                        ],
+                        [
+                            "not",
+                            [
+                                "H408"
+                            ]
+                        ],
+                        [
+                            "upon",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "us innocent",
+                            [
+                                "H5355"
+                            ]
+                        ],
+                        [
+                            "blood:",
+                            [
+                                "H1818"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "thou,",
+                            [
+                                "H859"
+                            ]
+                        ],
+                        [
+                            "O LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "hast done",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "as",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "it pleased",
+                            [
+                                "H2654"
+                            ]
+                        ],
+                        [
+                            "thee.",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "15",
+                    "text": "So they took up Jonah, and cast him forth into the sea: and the sea ceased from her raging.",
+                    "k": 22546,
+                    "v": [
+                        [
+                            "So they took up",
+                            [
+                                "H5375"
+                            ]
+                        ],
+                        [
+                            "Jonah,",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "and cast him forth",
+                            [
+                                "H2904"
+                            ]
+                        ],
+                        [
+                            "into",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "the sea:",
+                            [
+                                "H3220"
+                            ]
+                        ],
+                        [
+                            "and the sea",
+                            [
+                                "H3220"
+                            ]
+                        ],
+                        [
+                            "ceased",
+                            [
+                                "H5975"
+                            ]
+                        ],
+                        [
+                            "from her raging.",
+                            [
+                                "H2197"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "16",
+                    "text": "Then the men feared the LORD exceedingly, and offered a sacrifice unto the LORD, and made vows.",
+                    "k": 22547,
+                    "v": [
+                        [
+                            "Then the men",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "feared",
+                            [
+                                "H3372",
+                                "H3374"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "exceedingly,",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "and offered",
+                            [
+                                "H2076"
+                            ]
+                        ],
+                        [
+                            "a sacrifice",
+                            [
+                                "H2077"
+                            ]
+                        ],
+                        [
+                            "unto the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "and made",
+                            [
+                                "H5087"
+                            ]
+                        ],
+                        [
+                            "vows.",
+                            [
+                                "H5088"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "17",
+                    "text": "Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights.",
+                    "k": 22548,
+                    "v": [
+                        [
+                            "Now the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "had prepared",
+                            [
+                                "H4487"
+                            ]
+                        ],
+                        [
+                            "a great",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "fish",
+                            [
+                                "H1709"
+                            ]
+                        ],
+                        [
+                            "to swallow up",
+                            [
+                                "H1104"
+                            ]
+                        ],
+                        [
+                            "Jonah.",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "And Jonah",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "was",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "in the belly",
+                            [
+                                "H4578"
+                            ]
+                        ],
+                        [
+                            "of the fish",
+                            [
+                                "H1709"
+                            ]
+                        ],
+                        [
+                            "three",
+                            [
+                                "H7969"
+                            ]
+                        ],
+                        [
+                            "days",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "and three",
+                            [
+                                "H7969"
+                            ]
+                        ],
+                        [
+                            "nights.",
+                            [
+                                "H3915"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "chapter": "2",
+            "verses": [
+                {
+                    "verse": "1",
+                    "text": "Then Jonah prayed unto the LORD his God out of the fish\u2019s belly,",
+                    "k": 22549,
+                    "v": [
+                        [
+                            "Then Jonah",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "prayed",
+                            [
+                                "H6419"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "his God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "out of the fish's",
+                            [
+                                "H1710"
+                            ]
+                        ],
+                        [
+                            "belly,",
+                            [
+                                "H4578"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "2",
+                    "text": "And said, I cried by reason of mine affliction unto the LORD, and he heard me; out of the belly of hell cried I, and thou heardest my voice.",
+                    "k": 22550,
+                    "v": [
+                        [
+                            "And said,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "I cried",
+                            [
+                                "H7121"
+                            ]
+                        ],
+                        [
+                            "by reason of mine affliction",
+                            [
+                                "H6869"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "and he heard",
+                            [
+                                "H6030"
+                            ]
+                        ],
+                        [
+                            "me; out of the belly",
+                            [
+                                "H990"
+                            ]
+                        ],
+                        [
+                            "of hell",
+                            [
+                                "H7585"
+                            ]
+                        ],
+                        [
+                            "cried",
+                            [
+                                "H7768"
+                            ]
+                        ],
+                        [
+                            "I, and thou heardest",
+                            [
+                                "H8085"
+                            ]
+                        ],
+                        [
+                            "my voice.",
+                            [
+                                "H6963"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "3",
+                    "text": "For thou hadst cast me into the deep, in the midst of the seas; and the floods compassed me about: all thy billows and thy waves passed over me.",
+                    "k": 22551,
+                    "v": [
+                        [
+                            "For thou hadst cast",
+                            [
+                                "H7993"
+                            ]
+                        ],
+                        [
+                            "me into the deep,",
+                            [
+                                "H4688"
+                            ]
+                        ],
+                        [
+                            "in the midst",
+                            [
+                                "H3824"
+                            ]
+                        ],
+                        [
+                            "of the seas;",
+                            [
+                                "H3220"
+                            ]
+                        ],
+                        [
+                            "and the floods",
+                            [
+                                "H5104"
+                            ]
+                        ],
+                        [
+                            "compassed me about:",
+                            [
+                                "H5437"
+                            ]
+                        ],
+                        [
+                            "all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "thy billows",
+                            [
+                                "H4867"
+                            ]
+                        ],
+                        [
+                            "and thy waves",
+                            [
+                                "H1530"
+                            ]
+                        ],
+                        [
+                            "passed",
+                            [
+                                "H5674"
+                            ]
+                        ],
+                        [
+                            "over",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "me.",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "4",
+                    "text": "Then I said, I am cast out of thy sight; yet I will look again toward thy holy temple.",
+                    "k": 22552,
+                    "v": [
+                        [
+                            "Then I",
+                            [
+                                "H589"
+                            ]
+                        ],
+                        [
+                            "said,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "I am cast out",
+                            [
+                                "H1644"
+                            ]
+                        ],
+                        [
+                            "of",
+                            [
+                                "H5048"
+                            ]
+                        ],
+                        [
+                            "thy sight;",
+                            [
+                                "H5869"
+                            ]
+                        ],
+                        [
+                            "yet",
+                            [
+                                "H389"
+                            ]
+                        ],
+                        [
+                            "I will look",
+                            [
+                                "H5027"
+                            ]
+                        ],
+                        [
+                            "again",
+                            [
+                                "H3254"
+                            ]
+                        ],
+                        [
+                            "toward",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "thy holy",
+                            [
+                                "H6944"
+                            ]
+                        ],
+                        [
+                            "temple.",
+                            [
+                                "H1964"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "5",
+                    "text": "The waters compassed me about, even to the soul: the depth closed me round about, the weeds were wrapped about my head.",
+                    "k": 22553,
+                    "v": [
+                        [
+                            "The waters",
+                            [
+                                "H4325"
+                            ]
+                        ],
+                        [
+                            "compassed me about,",
+                            [
+                                "H661"
+                            ]
+                        ],
+                        [
+                            "even to",
+                            [
+                                "H5704"
+                            ]
+                        ],
+                        [
+                            "the soul:",
+                            [
+                                "H5315"
+                            ]
+                        ],
+                        [
+                            "the depth",
+                            [
+                                "H8415"
+                            ]
+                        ],
+                        [
+                            "closed me round about,",
+                            [
+                                "H5437"
+                            ]
+                        ],
+                        [
+                            "the weeds",
+                            [
+                                "H5488"
+                            ]
+                        ],
+                        [
+                            "were wrapped",
+                            [
+                                "H2280"
+                            ]
+                        ],
+                        [
+                            "about my head.",
+                            [
+                                "H7218"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "6",
+                    "text": "I went down to the bottoms of the mountains; the earth with her bars was about me for ever: yet hast thou brought up my life from corruption, O LORD my God.",
+                    "k": 22554,
+                    "v": [
+                        [
+                            "I went down",
+                            [
+                                "H3381"
+                            ]
+                        ],
+                        [
+                            "to the bottoms",
+                            [
+                                "H7095"
+                            ]
+                        ],
+                        [
+                            "of the mountains;",
+                            [
+                                "H2022"
+                            ]
+                        ],
+                        [
+                            "the earth",
+                            [
+                                "H776"
+                            ]
+                        ],
+                        [
+                            "with her bars",
+                            [
+                                "H1280"
+                            ]
+                        ],
+                        [
+                            "was about",
+                            [
+                                "H1157"
+                            ]
+                        ],
+                        [
+                            "me for ever:",
+                            [
+                                "H5769"
+                            ]
+                        ],
+                        [
+                            "yet hast thou brought up",
+                            [
+                                "H5927"
+                            ]
+                        ],
+                        [
+                            "my life",
+                            [
+                                "H2416"
+                            ]
+                        ],
+                        [
+                            "from corruption,",
+                            [
+                                "H7845"
+                            ]
+                        ],
+                        [
+                            "O LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "my God.",
+                            [
+                                "H430"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "7",
+                    "text": "When my soul fainted within me I remembered the LORD: and my prayer came in unto thee, into thine holy temple.",
+                    "k": 22555,
+                    "v": [
+                        [
+                            "When my soul",
+                            [
+                                "H5315"
+                            ]
+                        ],
+                        [
+                            "fainted",
+                            [
+                                "H5848"
+                            ]
+                        ],
+                        [
+                            "within",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "me I remembered",
+                            [
+                                "H2142"
+                            ]
+                        ],
+                        [
+                            "the LORD:",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "and my prayer",
+                            [
+                                "H8605"
+                            ]
+                        ],
+                        [
+                            "came in",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "thee, into",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "thine holy",
+                            [
+                                "H6944"
+                            ]
+                        ],
+                        [
+                            "temple.",
+                            [
+                                "H1964"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "8",
+                    "text": "They that observe lying vanities forsake their own mercy.",
+                    "k": 22556,
+                    "v": [
+                        [
+                            "They that observe",
+                            [
+                                "H8104"
+                            ]
+                        ],
+                        [
+                            "lying",
+                            [
+                                "H7723"
+                            ]
+                        ],
+                        [
+                            "vanities",
+                            [
+                                "H1892"
+                            ]
+                        ],
+                        [
+                            "forsake",
+                            [
+                                "H5800"
+                            ]
+                        ],
+                        [
+                            "their own mercy.",
+                            [
+                                "H2617"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "9",
+                    "text": "But I will sacrifice unto thee with the voice of thanksgiving; I will pay that that I have vowed. Salvation is of the LORD.",
+                    "k": 22557,
+                    "v": [
+                        [
+                            "But I",
+                            [
+                                "H589"
+                            ]
+                        ],
+                        [
+                            "will sacrifice",
+                            [
+                                "H2076"
+                            ]
+                        ],
+                        [
+                            "unto thee with the voice",
+                            [
+                                "H6963"
+                            ]
+                        ],
+                        [
+                            "of thanksgiving;",
+                            [
+                                "H8426"
+                            ]
+                        ],
+                        [
+                            "I will pay",
+                            [
+                                "H7999"
+                            ]
+                        ],
+                        [
+                            "that that",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "I have vowed.",
+                            [
+                                "H5087"
+                            ]
+                        ],
+                        [
+                            "Salvation",
+                            [
+                                "H3444"
+                            ]
+                        ],
+                        [
+                            "is of the LORD.",
+                            [
+                                "H3068"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "10",
+                    "text": "And the LORD spake unto the fish, and it vomited out Jonah upon the dry land.",
+                    "k": 22558,
+                    "v": [
+                        [
+                            "And the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "spake",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "unto the fish,",
+                            [
+                                "H1709"
+                            ]
+                        ],
+                        [
+                            "and it vomited out",
+                            [
+                                "H6958"
+                            ]
+                        ],
+                        [
+                            "Jonah",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "upon",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "the dry",
+                            [
+                                "H3004"
+                            ]
+                        ],
+                        [
+                            "land.",
+                            []
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "chapter": "3",
+            "verses": [
+                {
+                    "verse": "1",
+                    "text": "And the word of the LORD came unto Jonah the second time, saying,",
+                    "k": 22559,
+                    "v": [
+                        [
+                            "And the word",
+                            [
+                                "H1697"
+                            ]
+                        ],
+                        [
+                            "of the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "came",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "Jonah",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "the second time,",
+                            [
+                                "H8145"
+                            ]
+                        ],
+                        [
+                            "saying,",
+                            [
+                                "H559"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "2",
+                    "text": "Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee.",
+                    "k": 22560,
+                    "v": [
+                        [
+                            "Arise,",
+                            [
+                                "H6965"
+                            ]
+                        ],
+                        [
+                            "go",
+                            [
+                                "H1980"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "Nineveh,",
+                            [
+                                "H5210"
+                            ]
+                        ],
+                        [
+                            "that great",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "city,",
+                            [
+                                "H5892"
+                            ]
+                        ],
+                        [
+                            "and preach",
+                            [
+                                "H7121"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "it the preaching",
+                            [
+                                "H7150"
+                            ]
+                        ],
+                        [
+                            "that",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "I",
+                            [
+                                "H595"
+                            ]
+                        ],
+                        [
+                            "bid",
+                            [
+                                "H1696"
+                            ]
+                        ],
+                        [
+                            "thee.",
+                            [
+                                "H413"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "3",
+                    "text": "So Jonah arose, and went unto Nineveh, according to the word of the LORD. Now Nineveh was an exceeding great city of three days\u2019 journey.",
+                    "k": 22561,
+                    "v": [
+                        [
+                            "So Jonah",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "arose,",
+                            [
+                                "H6965"
+                            ]
+                        ],
+                        [
+                            "and went",
+                            [
+                                "H1980"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "Nineveh,",
+                            [
+                                "H5210"
+                            ]
+                        ],
+                        [
+                            "according to the word",
+                            [
+                                "H1697"
+                            ]
+                        ],
+                        [
+                            "of the LORD.",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "Now Nineveh",
+                            [
+                                "H5210"
+                            ]
+                        ],
+                        [
+                            "was",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "an exceeding",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "great",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "city",
+                            [
+                                "H5892"
+                            ]
+                        ],
+                        [
+                            "of three",
+                            [
+                                "H7969"
+                            ]
+                        ],
+                        [
+                            "days'",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "journey.",
+                            [
+                                "H4109"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "4",
+                    "text": "And Jonah began to enter into the city a day\u2019s journey, and he cried, and said, Yet forty days, and Nineveh shall be overthrown.",
+                    "k": 22562,
+                    "v": [
+                        [
+                            "And Jonah",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "began",
+                            [
+                                "H2490"
+                            ]
+                        ],
+                        [
+                            "to enter",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "into the city",
+                            [
+                                "H5892"
+                            ]
+                        ],
+                        [
+                            "a",
+                            [
+                                "H259"
+                            ]
+                        ],
+                        [
+                            "day's",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "journey,",
+                            [
+                                "H4109"
+                            ]
+                        ],
+                        [
+                            "and he cried,",
+                            [
+                                "H7121"
+                            ]
+                        ],
+                        [
+                            "and said,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "Yet",
+                            [
+                                "H5750"
+                            ]
+                        ],
+                        [
+                            "forty",
+                            [
+                                "H705"
+                            ]
+                        ],
+                        [
+                            "days,",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "and Nineveh",
+                            [
+                                "H5210"
+                            ]
+                        ],
+                        [
+                            "shall be overthrown.",
+                            [
+                                "H2015"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "5",
+                    "text": "So the people of Nineveh believed God, and proclaimed a fast, and put on sackcloth, from the greatest of them even to the least of them.",
+                    "k": 22563,
+                    "v": [
+                        [
+                            "So the people",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "of Nineveh",
+                            [
+                                "H5210"
+                            ]
+                        ],
+                        [
+                            "believed",
+                            [
+                                "H539"
+                            ]
+                        ],
+                        [
+                            "God,",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "and proclaimed",
+                            [
+                                "H7121"
+                            ]
+                        ],
+                        [
+                            "a fast,",
+                            [
+                                "H6685"
+                            ]
+                        ],
+                        [
+                            "and put on",
+                            [
+                                "H3847"
+                            ]
+                        ],
+                        [
+                            "sackcloth,",
+                            [
+                                "H8242"
+                            ]
+                        ],
+                        [
+                            "from the greatest",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "of them even to",
+                            [
+                                "H5704"
+                            ]
+                        ],
+                        [
+                            "the least",
+                            [
+                                "H6996"
+                            ]
+                        ],
+                        [
+                            "of them.",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "6",
+                    "text": "For word came unto the king of Nineveh, and he arose from his throne, and he laid his robe from him, and covered him with sackcloth, and sat in ashes.",
+                    "k": 22564,
+                    "v": [
+                        [
+                            "For word",
+                            [
+                                "H1697"
+                            ]
+                        ],
+                        [
+                            "came",
+                            [
+                                "H5060"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "the king",
+                            [
+                                "H4428"
+                            ]
+                        ],
+                        [
+                            "of Nineveh,",
+                            [
+                                "H5210"
+                            ]
+                        ],
+                        [
+                            "and he arose",
+                            [
+                                "H6965"
+                            ]
+                        ],
+                        [
+                            "from his throne,",
+                            [
+                                "H3678"
+                            ]
+                        ],
+                        [
+                            "and he laid",
+                            [
+                                "H5674"
+                            ]
+                        ],
+                        [
+                            "his robe",
+                            [
+                                "H155"
+                            ]
+                        ],
+                        [
+                            "from",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "him, and covered",
+                            [
+                                "H3680"
+                            ]
+                        ],
+                        [
+                            "him with sackcloth,",
+                            [
+                                "H8242"
+                            ]
+                        ],
+                        [
+                            "and sat",
+                            [
+                                "H3427"
+                            ]
+                        ],
+                        [
+                            "in",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "ashes.",
+                            [
+                                "H665"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "7",
+                    "text": "And he caused it to be proclaimed and published through Nineveh by the decree of the king and his nobles, saying, Let neither man nor beast, herd nor flock, taste any thing: let them not feed, nor drink water:",
+                    "k": 22565,
+                    "v": [
+                        [
+                            "And he caused it to be proclaimed",
+                            [
+                                "H2199"
+                            ]
+                        ],
+                        [
+                            "and published",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "through Nineveh",
+                            [
+                                "H5210"
+                            ]
+                        ],
+                        [
+                            "by the decree",
+                            [
+                                "H2940"
+                            ]
+                        ],
+                        [
+                            "of the king",
+                            [
+                                "H4428"
+                            ]
+                        ],
+                        [
+                            "and his nobles,",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "saying,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "Let neither",
+                            [
+                                "H408"
+                            ]
+                        ],
+                        [
+                            "man",
+                            [
+                                "H120"
+                            ]
+                        ],
+                        [
+                            "nor beast,",
+                            [
+                                "H929"
+                            ]
+                        ],
+                        [
+                            "herd",
+                            [
+                                "H1241"
+                            ]
+                        ],
+                        [
+                            "nor flock,",
+                            [
+                                "H6629"
+                            ]
+                        ],
+                        [
+                            "taste",
+                            [
+                                "H2938"
+                            ]
+                        ],
+                        [
+                            "any thing:",
+                            [
+                                "H3972"
+                            ]
+                        ],
+                        [
+                            "let them not",
+                            [
+                                "H408"
+                            ]
+                        ],
+                        [
+                            "feed,",
+                            [
+                                "H7462"
+                            ]
+                        ],
+                        [
+                            "nor",
+                            [
+                                "H408"
+                            ]
+                        ],
+                        [
+                            "drink",
+                            [
+                                "H8354"
+                            ]
+                        ],
+                        [
+                            "water:",
+                            [
+                                "H4325"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "8",
+                    "text": "But let man and beast be covered with sackcloth, and cry mightily unto God: yea, let them turn every one from his evil way, and from the violence that is in their hands.",
+                    "k": 22566,
+                    "v": [
+                        [
+                            "But let man",
+                            [
+                                "H120"
+                            ]
+                        ],
+                        [
+                            "and beast",
+                            [
+                                "H929"
+                            ]
+                        ],
+                        [
+                            "be covered",
+                            [
+                                "H3680"
+                            ]
+                        ],
+                        [
+                            "with sackcloth,",
+                            [
+                                "H8242"
+                            ]
+                        ],
+                        [
+                            "and cry",
+                            [
+                                "H7121"
+                            ]
+                        ],
+                        [
+                            "mightily",
+                            [
+                                "H2394"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "God:",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "yea, let them turn",
+                            [
+                                "H7725"
+                            ]
+                        ],
+                        [
+                            "every one",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "from his evil",
+                            [
+                                "H7451"
+                            ]
+                        ],
+                        [
+                            "way,",
+                            [
+                                "H1870"
+                            ]
+                        ],
+                        [
+                            "and from",
+                            [
+                                "H4480"
+                            ]
+                        ],
+                        [
+                            "the violence",
+                            [
+                                "H2555"
+                            ]
+                        ],
+                        [
+                            "that",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "is in their hands.",
+                            [
+                                "H3709"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "9",
+                    "text": "Who can tell if God will turn and repent, and turn away from his fierce anger, that we perish not?",
+                    "k": 22567,
+                    "v": [
+                        [
+                            "Who",
+                            [
+                                "H4310"
+                            ]
+                        ],
+                        [
+                            "can tell",
+                            [
+                                "H3045"
+                            ]
+                        ],
+                        [
+                            "if God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "will turn",
+                            [
+                                "H7725"
+                            ]
+                        ],
+                        [
+                            "and repent,",
+                            [
+                                "H5162"
+                            ]
+                        ],
+                        [
+                            "and turn away",
+                            [
+                                "H7725"
+                            ]
+                        ],
+                        [
+                            "from his fierce",
+                            [
+                                "H2740"
+                            ]
+                        ],
+                        [
+                            "anger,",
+                            [
+                                "H639"
+                            ]
+                        ],
+                        [
+                            "that we perish",
+                            [
+                                "H6"
+                            ]
+                        ],
+                        [
+                            "not?",
+                            [
+                                "H3808"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "10",
+                    "text": "And God saw their works, that they turned from their evil way; and God repented of the evil, that he had said that he would do unto them; and he did it not.",
+                    "k": 22568,
+                    "v": [
+                        [
+                            "And God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "saw",
+                            [
+                                "H7200"
+                            ]
+                        ],
+                        [
+                            "their works,",
+                            [
+                                "H4639"
+                            ]
+                        ],
+                        [
+                            "that",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "they turned",
+                            [
+                                "H7725"
+                            ]
+                        ],
+                        [
+                            "from their evil",
+                            [
+                                "H7451"
+                            ]
+                        ],
+                        [
+                            "way;",
+                            [
+                                "H1870"
+                            ]
+                        ],
+                        [
+                            "and God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "repented",
+                            [
+                                "H5162"
+                            ]
+                        ],
+                        [
+                            "of",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "the evil,",
+                            [
+                                "H7451"
+                            ]
+                        ],
+                        [
+                            "that",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "he had said",
+                            [
+                                "H1696"
+                            ]
+                        ],
+                        [
+                            "that he would do",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "unto them; and he did",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "it not.",
+                            [
+                                "H3808"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "chapter": "4",
+            "verses": [
+                {
+                    "verse": "1",
+                    "text": "But it displeased Jonah exceedingly, and he was very angry.",
+                    "k": 22569,
+                    "v": [
+                        [
+                            "But it displeased",
+                            [
+                                "H413",
+                                "H7489"
+                            ]
+                        ],
+                        [
+                            "Jonah",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "exceedingly,",
+                            [
+                                "H1419",
+                                "H7451"
+                            ]
+                        ],
+                        [
+                            "and he was very angry.",
+                            [
+                                "H2734"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "2",
+                    "text": "And he prayed unto the LORD, and said, I pray thee, O LORD, was not this my saying, when I was yet in my country? Therefore I fled before unto Tarshish: for I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil.",
+                    "k": 22570,
+                    "v": [
+                        [
+                            "And he prayed",
+                            [
+                                "H6419"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "and said,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "I pray thee,",
+                            [
+                                "H577"
+                            ]
+                        ],
+                        [
+                            "O LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "was not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "this",
+                            [
+                                "H2088"
+                            ]
+                        ],
+                        [
+                            "my saying,",
+                            [
+                                "H1697"
+                            ]
+                        ],
+                        [
+                            "when I was",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "yet",
+                            [
+                                "H5704"
+                            ]
+                        ],
+                        [
+                            "in",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "my country?",
+                            [
+                                "H127"
+                            ]
+                        ],
+                        [
+                            "Therefore",
+                            [
+                                "H3651",
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "I fled",
+                            [
+                                "H1272"
+                            ]
+                        ],
+                        [
+                            "before",
+                            [
+                                "H6923"
+                            ]
+                        ],
+                        [
+                            "unto Tarshish:",
+                            [
+                                "H8659"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "I knew",
+                            [
+                                "H3045"
+                            ]
+                        ],
+                        [
+                            "that",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "thou",
+                            [
+                                "H859"
+                            ]
+                        ],
+                        [
+                            "art a gracious",
+                            [
+                                "H2587"
+                            ]
+                        ],
+                        [
+                            "God,",
+                            [
+                                "H410"
+                            ]
+                        ],
+                        [
+                            "and merciful,",
+                            [
+                                "H7349"
+                            ]
+                        ],
+                        [
+                            "slow",
+                            [
+                                "H750"
+                            ]
+                        ],
+                        [
+                            "to anger,",
+                            [
+                                "H639"
+                            ]
+                        ],
+                        [
+                            "and of great",
+                            [
+                                "H7227"
+                            ]
+                        ],
+                        [
+                            "kindness,",
+                            [
+                                "H2617"
+                            ]
+                        ],
+                        [
+                            "and repentest",
+                            [
+                                "H5162"
+                            ]
+                        ],
+                        [
+                            "thee of",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "the evil.",
+                            [
+                                "H7451"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "3",
+                    "text": "Therefore now, O LORD, take, I beseech thee, my life from me; for it is better for me to die than to live.",
+                    "k": 22571,
+                    "v": [
+                        [
+                            "Therefore now,",
+                            [
+                                "H6258"
+                            ]
+                        ],
+                        [
+                            "O LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "take,",
+                            [
+                                "H3947"
+                            ]
+                        ],
+                        [
+                            "I beseech thee,",
+                            [
+                                "H4994"
+                            ]
+                        ],
+                        [
+                            "my life",
+                            [
+                                "H5315"
+                            ]
+                        ],
+                        [
+                            "from",
+                            [
+                                "H4480"
+                            ]
+                        ],
+                        [
+                            "me; for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "it is better",
+                            [
+                                "H2896"
+                            ]
+                        ],
+                        [
+                            "for me to die",
+                            [
+                                "H4194"
+                            ]
+                        ],
+                        [
+                            "than to live.",
+                            [
+                                "H2416"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "4",
+                    "text": "Then said the LORD, Doest thou well to be angry?",
+                    "k": 22572,
+                    "v": [
+                        [
+                            "Then said",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "Doest thou well",
+                            [
+                                "H3190"
+                            ]
+                        ],
+                        [
+                            "to be angry?",
+                            [
+                                "H2734"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "5",
+                    "text": "So Jonah went out of the city, and sat on the east side of the city, and there made him a booth, and sat under it in the shadow, till he might see what would become of the city.",
+                    "k": 22573,
+                    "v": [
+                        [
+                            "So Jonah",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "went out",
+                            [
+                                "H3318"
+                            ]
+                        ],
+                        [
+                            "of",
+                            [
+                                "H4480"
+                            ]
+                        ],
+                        [
+                            "the city,",
+                            [
+                                "H5892"
+                            ]
+                        ],
+                        [
+                            "and sat",
+                            [
+                                "H3427"
+                            ]
+                        ],
+                        [
+                            "on the east side",
+                            [
+                                "H6924"
+                            ]
+                        ],
+                        [
+                            "of the city,",
+                            [
+                                "H5892"
+                            ]
+                        ],
+                        [
+                            "and there",
+                            [
+                                "H8033"
+                            ]
+                        ],
+                        [
+                            "made",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "him a booth,",
+                            [
+                                "H5521"
+                            ]
+                        ],
+                        [
+                            "and sat",
+                            [
+                                "H3427"
+                            ]
+                        ],
+                        [
+                            "under",
+                            [
+                                "H8478"
+                            ]
+                        ],
+                        [
+                            "it in the shadow,",
+                            [
+                                "H6738"
+                            ]
+                        ],
+                        [
+                            "till",
+                            [
+                                "H5704"
+                            ]
+                        ],
+                        [
+                            "he might see",
+                            [
+                                "H7200"
+                            ]
+                        ],
+                        [
+                            "what",
+                            [
+                                "H4100"
+                            ]
+                        ],
+                        [
+                            "would become",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "of the city.",
+                            [
+                                "H5892"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "6",
+                    "text": "And the LORD God prepared a gourd, and made it to come up over Jonah, that it might be a shadow over his head, to deliver him from his grief. So Jonah was exceeding glad of the gourd.",
+                    "k": 22574,
+                    "v": [
+                        [
+                            "And the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "prepared",
+                            [
+                                "H4487"
+                            ]
+                        ],
+                        [
+                            "a gourd,",
+                            [
+                                "H7021"
+                            ]
+                        ],
+                        [
+                            "and made it to come up",
+                            [
+                                "H5927"
+                            ]
+                        ],
+                        [
+                            "over",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "Jonah,",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "that it might be",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "a shadow",
+                            [
+                                "H6738"
+                            ]
+                        ],
+                        [
+                            "over",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "his head,",
+                            [
+                                "H7218"
+                            ]
+                        ],
+                        [
+                            "to deliver",
+                            [
+                                "H5337"
+                            ]
+                        ],
+                        [
+                            "him from his grief.",
+                            [
+                                "H7451"
+                            ]
+                        ],
+                        [
+                            "So Jonah",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "was",
+                            [
+                                "H8055"
+                            ]
+                        ],
+                        [
+                            "exceeding glad",
+                            [
+                                "H1419",
+                                "H8057"
+                            ]
+                        ],
+                        [
+                            "of",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "the gourd.",
+                            [
+                                "H7021"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "7",
+                    "text": "But God prepared a worm when the morning rose the next day, and it smote the gourd that it withered.",
+                    "k": 22575,
+                    "v": [
+                        [
+                            "But God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "prepared",
+                            [
+                                "H4487"
+                            ]
+                        ],
+                        [
+                            "a worm",
+                            [
+                                "H8438"
+                            ]
+                        ],
+                        [
+                            "when the morning",
+                            [
+                                "H7837"
+                            ]
+                        ],
+                        [
+                            "rose",
+                            [
+                                "H5927"
+                            ]
+                        ],
+                        [
+                            "the next day,",
+                            [
+                                "H4283"
+                            ]
+                        ],
+                        [
+                            "and it smote",
+                            [
+                                "H5221"
+                            ]
+                        ],
+                        [
+                            "the gourd",
+                            [
+                                "H7021"
+                            ]
+                        ],
+                        [
+                            "that it withered.",
+                            [
+                                "H3001"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "8",
+                    "text": "And it came to pass, when the sun did arise, that God prepared a vehement east wind; and the sun beat upon the head of Jonah, that he fainted, and wished in himself to die, and said, It is better for me to die than to live.",
+                    "k": 22576,
+                    "v": [
+                        [
+                            "And it came to pass,",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "when the sun",
+                            [
+                                "H8121"
+                            ]
+                        ],
+                        [
+                            "did arise,",
+                            [
+                                "H2224"
+                            ]
+                        ],
+                        [
+                            "that God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "prepared",
+                            [
+                                "H4487"
+                            ]
+                        ],
+                        [
+                            "a vehement",
+                            [
+                                "H2759"
+                            ]
+                        ],
+                        [
+                            "east",
+                            [
+                                "H6921"
+                            ]
+                        ],
+                        [
+                            "wind;",
+                            [
+                                "H7307"
+                            ]
+                        ],
+                        [
+                            "and the sun",
+                            [
+                                "H8121"
+                            ]
+                        ],
+                        [
+                            "beat",
+                            [
+                                "H5221"
+                            ]
+                        ],
+                        [
+                            "upon",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "the head",
+                            [
+                                "H7218"
+                            ]
+                        ],
+                        [
+                            "of Jonah,",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "that he fainted,",
+                            [
+                                "H5968"
+                            ]
+                        ],
+                        [
+                            "and wished",
+                            [
+                                "H7592"
+                            ]
+                        ],
+                        [
+                            "in",
+                            [
+                                "H854"
+                            ]
+                        ],
+                        [
+                            "himself",
+                            [
+                                "H5315"
+                            ]
+                        ],
+                        [
+                            "to die,",
+                            [
+                                "H4191"
+                            ]
+                        ],
+                        [
+                            "and said,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "It is better",
+                            [
+                                "H2896"
+                            ]
+                        ],
+                        [
+                            "for me to die",
+                            [
+                                "H4194"
+                            ]
+                        ],
+                        [
+                            "than to live.",
+                            [
+                                "H2416"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "9",
+                    "text": "And God said to Jonah, Doest thou well to be angry for the gourd? And he said, I do well to be angry, even unto death.",
+                    "k": 22577,
+                    "v": [
+                        [
+                            "And God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "said",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "to",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "Jonah,",
+                            [
+                                "H3124"
+                            ]
+                        ],
+                        [
+                            "Doest thou well",
+                            [
+                                "H3190"
+                            ]
+                        ],
+                        [
+                            "to be angry",
+                            [
+                                "H2734"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "the gourd?",
+                            [
+                                "H7021"
+                            ]
+                        ],
+                        [
+                            "And he said,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "I do well",
+                            [
+                                "H3190"
+                            ]
+                        ],
+                        [
+                            "to be angry,",
+                            [
+                                "H2734"
+                            ]
+                        ],
+                        [
+                            "even unto",
+                            [
+                                "H5704"
+                            ]
+                        ],
+                        [
+                            "death.",
+                            [
+                                "H4194"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "10",
+                    "text": "Then said the LORD, Thou hast had pity on the gourd, for the which thou hast not laboured, neither madest it grow; which came up in a night, and perished in a night:",
+                    "k": 22578,
+                    "v": [
+                        [
+                            "Then said",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "Thou",
+                            [
+                                "H859"
+                            ]
+                        ],
+                        [
+                            "hast had pity",
+                            [
+                                "H2347"
+                            ]
+                        ],
+                        [
+                            "on",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "the gourd,",
+                            [
+                                "H7021"
+                            ]
+                        ],
+                        [
+                            "for the which",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "thou hast not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "laboured,",
+                            [
+                                "H5998"
+                            ]
+                        ],
+                        [
+                            "neither",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "madest it grow;",
+                            [
+                                "H1431"
+                            ]
+                        ],
+                        [
+                            "which came up",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "in",
+                            [
+                                "H1121",
+                                "H7945"
+                            ]
+                        ],
+                        [
+                            "a night,",
+                            [
+                                "H3915"
+                            ]
+                        ],
+                        [
+                            "and perished",
+                            [
+                                "H6"
+                            ]
+                        ],
+                        [
+                            "in",
+                            [
+                                "H1121"
+                            ]
+                        ],
+                        [
+                            "a night:",
+                            [
+                                "H3915"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "11",
+                    "text": "And should not I spare Nineveh, that great city, wherein are more than sixscore thousand persons that cannot discern between their right hand and their left hand; and also much cattle?",
+                    "k": 22579,
+                    "v": [
+                        [
+                            "And should not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "I",
+                            [
+                                "H589"
+                            ]
+                        ],
+                        [
+                            "spare",
+                            [
+                                "H2347"
+                            ]
+                        ],
+                        [
+                            "Nineveh,",
+                            [
+                                "H5210"
+                            ]
+                        ],
+                        [
+                            "that great",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "city,",
+                            [
+                                "H5892"
+                            ]
+                        ],
+                        [
+                            "wherein",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "are",
+                            [
+                                "H3426"
+                            ]
+                        ],
+                        [
+                            "more",
+                            [
+                                "H7235"
+                            ]
+                        ],
+                        [
+                            "than sixscore",
+                            [
+                                "H6240",
+                                "H8147"
+                            ]
+                        ],
+                        [
+                            "thousand",
+                            [
+                                "H7239"
+                            ]
+                        ],
+                        [
+                            "persons",
+                            [
+                                "H120"
+                            ]
+                        ],
+                        [
+                            "that",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "cannot",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "discern",
+                            [
+                                "H3045"
+                            ]
+                        ],
+                        [
+                            "between",
+                            [
+                                "H996"
+                            ]
+                        ],
+                        [
+                            "their right hand",
+                            [
+                                "H3225"
+                            ]
+                        ],
+                        [
+                            "and their left hand;",
+                            [
+                                "H8040"
+                            ]
+                        ],
+                        [
+                            "and also much",
+                            [
+                                "H7227"
+                            ]
+                        ],
+                        [
+                            "cattle?",
+                            [
+                                "H929"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

@@ -1,0 +1,4769 @@
+{
+    "book": "Zephaniah",
+    "chapters": [
+        {
+            "chapter": "1",
+            "verses": [
+                {
+                    "verse": "1",
+                    "text": "The word of the LORD which came unto Zephaniah the son of Cushi, the son of Gedaliah, the son of Amariah, the son of Hizkiah, in the days of Josiah the son of Amon, king of Judah.",
+                    "k": 22788,
+                    "v": [
+                        [
+                            "The word",
+                            [
+                                "H1697"
+                            ]
+                        ],
+                        [
+                            "of the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "which",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "came",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "Zephaniah",
+                            [
+                                "H6846"
+                            ]
+                        ],
+                        [
+                            "the son",
+                            [
+                                "H1121"
+                            ]
+                        ],
+                        [
+                            "of Cushi,",
+                            [
+                                "H3570"
+                            ]
+                        ],
+                        [
+                            "the son",
+                            [
+                                "H1121"
+                            ]
+                        ],
+                        [
+                            "of Gedaliah,",
+                            [
+                                "H1436"
+                            ]
+                        ],
+                        [
+                            "the son",
+                            [
+                                "H1121"
+                            ]
+                        ],
+                        [
+                            "of Amariah,",
+                            [
+                                "H568"
+                            ]
+                        ],
+                        [
+                            "the son",
+                            [
+                                "H1121"
+                            ]
+                        ],
+                        [
+                            "of Hizkiah,",
+                            [
+                                "H2396"
+                            ]
+                        ],
+                        [
+                            "in the days",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of Josiah",
+                            [
+                                "H2977"
+                            ]
+                        ],
+                        [
+                            "the son",
+                            [
+                                "H1121"
+                            ]
+                        ],
+                        [
+                            "of Amon,",
+                            [
+                                "H526"
+                            ]
+                        ],
+                        [
+                            "king",
+                            [
+                                "H4428"
+                            ]
+                        ],
+                        [
+                            "of Judah.",
+                            [
+                                "H3063"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "2",
+                    "text": "I will utterly consume all things from off the land, saith the LORD.",
+                    "k": 22789,
+                    "v": [
+                        [
+                            "I will utterly consume",
+                            [
+                                "H622",
+                                "H5486"
+                            ]
+                        ],
+                        [
+                            "all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "things from off",
+                            [
+                                "H5921",
+                                "H6440"
+                            ]
+                        ],
+                        [
+                            "the land,",
+                            [
+                                "H127"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H5002"
+                            ]
+                        ],
+                        [
+                            "the LORD.",
+                            [
+                                "H3068"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "3",
+                    "text": "I will consume man and beast; I will consume the fowls of the heaven, and the fishes of the sea, and the stumbling blocks with the wicked: and I will cut off man from off the land, saith the LORD.",
+                    "k": 22790,
+                    "v": [
+                        [
+                            "I will consume",
+                            [
+                                "H5486"
+                            ]
+                        ],
+                        [
+                            "man",
+                            [
+                                "H120"
+                            ]
+                        ],
+                        [
+                            "and beast;",
+                            [
+                                "H929"
+                            ]
+                        ],
+                        [
+                            "I will consume",
+                            [
+                                "H5486"
+                            ]
+                        ],
+                        [
+                            "the fowls",
+                            [
+                                "H5775"
+                            ]
+                        ],
+                        [
+                            "of the heaven,",
+                            [
+                                "H8064"
+                            ]
+                        ],
+                        [
+                            "and the fishes",
+                            [
+                                "H1709"
+                            ]
+                        ],
+                        [
+                            "of the sea,",
+                            [
+                                "H3220"
+                            ]
+                        ],
+                        [
+                            "and the stumblingblocks",
+                            [
+                                "H4384"
+                            ]
+                        ],
+                        [
+                            "with",
+                            [
+                                "H854"
+                            ]
+                        ],
+                        [
+                            "the wicked;",
+                            [
+                                "H7563"
+                            ]
+                        ],
+                        [
+                            "and I will cut off",
+                            [
+                                "H3772"
+                            ]
+                        ],
+                        [
+                            "man",
+                            [
+                                "H120"
+                            ]
+                        ],
+                        [
+                            "from off",
+                            [
+                                "H5921",
+                                "H6440"
+                            ]
+                        ],
+                        [
+                            "the land,",
+                            [
+                                "H127"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H5002"
+                            ]
+                        ],
+                        [
+                            "the LORD.",
+                            [
+                                "H3068"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "4",
+                    "text": "I will also stretch out mine hand upon Judah, and upon all the inhabitants of Jerusalem; and I will cut off the remnant of Baal from this place, and the name of the Chemarims with the priests;",
+                    "k": 22791,
+                    "v": [
+                        [
+                            "I will also stretch out",
+                            [
+                                "H5186"
+                            ]
+                        ],
+                        [
+                            "mine hand",
+                            [
+                                "H3027"
+                            ]
+                        ],
+                        [
+                            "upon",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "Judah,",
+                            [
+                                "H3063"
+                            ]
+                        ],
+                        [
+                            "and upon",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "the inhabitants",
+                            [
+                                "H3427"
+                            ]
+                        ],
+                        [
+                            "of Jerusalem;",
+                            [
+                                "H3389"
+                            ]
+                        ],
+                        [
+                            "and I will cut off",
+                            [
+                                "H3772"
+                            ]
+                        ],
+                        [
+                            "the remnant",
+                            [
+                                "H7605"
+                            ]
+                        ],
+                        [
+                            "of Baal",
+                            [
+                                "H1168"
+                            ]
+                        ],
+                        [
+                            "from",
+                            [
+                                "H4480"
+                            ]
+                        ],
+                        [
+                            "this",
+                            [
+                                "H2088"
+                            ]
+                        ],
+                        [
+                            "place,",
+                            [
+                                "H4725"
+                            ]
+                        ],
+                        [
+                            "and the name",
+                            [
+                                "H8034"
+                            ]
+                        ],
+                        [
+                            "of the Chemarims",
+                            [
+                                "H3649"
+                            ]
+                        ],
+                        [
+                            "with",
+                            [
+                                "H5973"
+                            ]
+                        ],
+                        [
+                            "the priests;",
+                            [
+                                "H3548"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "5",
+                    "text": "And them that worship the host of heaven upon the housetops; and them that worship and that swear by the LORD, and that swear by Malcham;",
+                    "k": 22792,
+                    "v": [
+                        [
+                            "And them that worship",
+                            [
+                                "H7812"
+                            ]
+                        ],
+                        [
+                            "the host",
+                            [
+                                "H6635"
+                            ]
+                        ],
+                        [
+                            "of heaven",
+                            [
+                                "H8064"
+                            ]
+                        ],
+                        [
+                            "upon",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "the housetops;",
+                            [
+                                "H1406"
+                            ]
+                        ],
+                        [
+                            "and them that worship",
+                            [
+                                "H7812"
+                            ]
+                        ],
+                        [
+                            "and that swear",
+                            [
+                                "H7650"
+                            ]
+                        ],
+                        [
+                            "by the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "and that swear",
+                            [
+                                "H7650"
+                            ]
+                        ],
+                        [
+                            "by Malcham;",
+                            [
+                                "H4445"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "6",
+                    "text": "And them that are turned back from the LORD; and those that have not sought the LORD, nor enquired for him.",
+                    "k": 22793,
+                    "v": [
+                        [
+                            "And them that are turned back",
+                            [
+                                "H5472"
+                            ]
+                        ],
+                        [
+                            "from",
+                            [
+                                "H310"
+                            ]
+                        ],
+                        [
+                            "the LORD;",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "and those that",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "have not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "sought",
+                            [
+                                "H1245"
+                            ]
+                        ],
+                        [
+                            "the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "nor",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "enquired",
+                            [
+                                "H1875"
+                            ]
+                        ],
+                        [
+                            "for him.",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "7",
+                    "text": "Hold thy peace at the presence of the Lord GOD: for the day of the LORD is at hand: for the LORD hath prepared a sacrifice, he hath bid his guests.",
+                    "k": 22794,
+                    "v": [
+                        [
+                            "Hold thy peace",
+                            [
+                                "H2013"
+                            ]
+                        ],
+                        [
+                            "at the presence",
+                            [
+                                "H6440"
+                            ]
+                        ],
+                        [
+                            "of the Lord",
+                            [
+                                "H136"
+                            ]
+                        ],
+                        [
+                            "GOD:",
+                            [
+                                "H3069"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "the day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "is at hand:",
+                            [
+                                "H7138"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "hath prepared",
+                            [
+                                "H3559"
+                            ]
+                        ],
+                        [
+                            "a sacrifice,",
+                            [
+                                "H2077"
+                            ]
+                        ],
+                        [
+                            "he hath bid",
+                            [
+                                "H6942"
+                            ]
+                        ],
+                        [
+                            "his guests.",
+                            [
+                                "H7121"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "8",
+                    "text": "And it shall come to pass in the day of the LORD\u2019s sacrifice, that I will punish the princes, and the king\u2019s children, and all such as are clothed with strange apparel.",
+                    "k": 22795,
+                    "v": [
+                        [
+                            "And it shall come to pass",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "in the day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of the LORD'S",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "sacrifice,",
+                            [
+                                "H2077"
+                            ]
+                        ],
+                        [
+                            "that I will punish",
+                            [
+                                "H6485"
+                            ]
+                        ],
+                        [
+                            "the princes,",
+                            [
+                                "H8269"
+                            ]
+                        ],
+                        [
+                            "and",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "the king's",
+                            [
+                                "H4428"
+                            ]
+                        ],
+                        [
+                            "children,",
+                            [
+                                "H1121"
+                            ]
+                        ],
+                        [
+                            "and",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "such as are clothed",
+                            [
+                                "H3847"
+                            ]
+                        ],
+                        [
+                            "with strange",
+                            [
+                                "H5237"
+                            ]
+                        ],
+                        [
+                            "apparel.",
+                            [
+                                "H4403"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "9",
+                    "text": "In the same day also will I punish all those that leap on the threshold, which fill their masters\u2019 houses with violence and deceit.",
+                    "k": 22796,
+                    "v": [
+                        [
+                            "In the same",
+                            [
+                                "H1931"
+                            ]
+                        ],
+                        [
+                            "day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "also will I punish",
+                            [
+                                "H6485"
+                            ]
+                        ],
+                        [
+                            "all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "those that leap",
+                            [
+                                "H1801"
+                            ]
+                        ],
+                        [
+                            "on",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "the threshold,",
+                            [
+                                "H4670"
+                            ]
+                        ],
+                        [
+                            "which fill",
+                            [
+                                "H4390"
+                            ]
+                        ],
+                        [
+                            "their masters'",
+                            [
+                                "H113"
+                            ]
+                        ],
+                        [
+                            "houses",
+                            [
+                                "H1004"
+                            ]
+                        ],
+                        [
+                            "with violence",
+                            [
+                                "H2555"
+                            ]
+                        ],
+                        [
+                            "and deceit.",
+                            [
+                                "H4820"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "10",
+                    "text": "And it shall come to pass in that day, saith the LORD, that there shall be the noise of a cry from the fish gate, and an howling from the second, and a great crashing from the hills.",
+                    "k": 22797,
+                    "v": [
+                        [
+                            "And it shall come to pass",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "in that",
+                            [
+                                "H1931"
+                            ]
+                        ],
+                        [
+                            "day,",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H5002"
+                            ]
+                        ],
+                        [
+                            "the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "that there shall be the noise",
+                            [
+                                "H6963"
+                            ]
+                        ],
+                        [
+                            "of a cry",
+                            [
+                                "H6818"
+                            ]
+                        ],
+                        [
+                            "from the fish",
+                            [
+                                "H1709"
+                            ]
+                        ],
+                        [
+                            "gate,",
+                            [
+                                "H8179"
+                            ]
+                        ],
+                        [
+                            "and an howling",
+                            [
+                                "H3215"
+                            ]
+                        ],
+                        [
+                            "from",
+                            [
+                                "H4480"
+                            ]
+                        ],
+                        [
+                            "the second,",
+                            [
+                                "H4932"
+                            ]
+                        ],
+                        [
+                            "and a great",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "crashing",
+                            [
+                                "H7667"
+                            ]
+                        ],
+                        [
+                            "from the hills.",
+                            [
+                                "H1389"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "11",
+                    "text": "Howl, ye inhabitants of Maktesh, for all the merchant people are cut down; all they that bear silver are cut off.",
+                    "k": 22798,
+                    "v": [
+                        [
+                            "Howl,",
+                            [
+                                "H3213"
+                            ]
+                        ],
+                        [
+                            "ye inhabitants",
+                            [
+                                "H3427"
+                            ]
+                        ],
+                        [
+                            "of Maktesh,",
+                            [
+                                "H4389"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "the merchant",
+                            [
+                                "H3667"
+                            ]
+                        ],
+                        [
+                            "people",
+                            [
+                                "H5971"
+                            ]
+                        ],
+                        [
+                            "are cut down;",
+                            [
+                                "H1820"
+                            ]
+                        ],
+                        [
+                            "all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "they that bear",
+                            [
+                                "H5187"
+                            ]
+                        ],
+                        [
+                            "silver",
+                            [
+                                "H3701"
+                            ]
+                        ],
+                        [
+                            "are cut off.",
+                            [
+                                "H3772"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "12",
+                    "text": "And it shall come to pass at that time, that I will search Jerusalem with candles, and punish the men that are settled on their lees: that say in their heart, The LORD will not do good, neither will he do evil.",
+                    "k": 22799,
+                    "v": [
+                        [
+                            "And it shall come to pass",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "at that",
+                            [
+                                "H1931"
+                            ]
+                        ],
+                        [
+                            "time,",
+                            [
+                                "H6256"
+                            ]
+                        ],
+                        [
+                            "that I will search",
+                            [
+                                "H2664"
+                            ]
+                        ],
+                        [
+                            "Jerusalem",
+                            [
+                                "H3389"
+                            ]
+                        ],
+                        [
+                            "with candles,",
+                            [
+                                "H5216"
+                            ]
+                        ],
+                        [
+                            "and punish",
+                            [
+                                "H6485"
+                            ]
+                        ],
+                        [
+                            "the men",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "that are settled",
+                            [
+                                "H7087"
+                            ]
+                        ],
+                        [
+                            "on",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "their lees:",
+                            [
+                                "H8105"
+                            ]
+                        ],
+                        [
+                            "that say",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "in their heart,",
+                            [
+                                "H3824"
+                            ]
+                        ],
+                        [
+                            "The LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "will not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "do good,",
+                            [
+                                "H3190"
+                            ]
+                        ],
+                        [
+                            "neither",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "will he do evil.",
+                            [
+                                "H7489"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "13",
+                    "text": "Therefore their goods shall become a booty, and their houses a desolation: they shall also build houses, but not inhabit them; and they shall plant vineyards, but not drink the wine thereof.",
+                    "k": 22800,
+                    "v": [
+                        [
+                            "Therefore their goods",
+                            [
+                                "H2428"
+                            ]
+                        ],
+                        [
+                            "shall become",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "a booty,",
+                            [
+                                "H4933"
+                            ]
+                        ],
+                        [
+                            "and their houses",
+                            [
+                                "H1004"
+                            ]
+                        ],
+                        [
+                            "a desolation:",
+                            [
+                                "H8077"
+                            ]
+                        ],
+                        [
+                            "they shall also build",
+                            [
+                                "H1129"
+                            ]
+                        ],
+                        [
+                            "houses,",
+                            [
+                                "H1004"
+                            ]
+                        ],
+                        [
+                            "but not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "inhabit",
+                            [
+                                "H3427"
+                            ]
+                        ],
+                        [
+                            "them; and they shall plant",
+                            [
+                                "H5193"
+                            ]
+                        ],
+                        [
+                            "vineyards,",
+                            [
+                                "H3754"
+                            ]
+                        ],
+                        [
+                            "but not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "drink",
+                            [
+                                "H8354"
+                            ]
+                        ],
+                        [
+                            "the wine",
+                            [
+                                "H3196"
+                            ]
+                        ],
+                        [
+                            "thereof.",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "14",
+                    "text": "The great day of the LORD is near, it is near, and hasteth greatly, even the voice of the day of the LORD: the mighty man shall cry there bitterly.",
+                    "k": 22801,
+                    "v": [
+                        [
+                            "The great",
+                            [
+                                "H1419"
+                            ]
+                        ],
+                        [
+                            "day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "is near,",
+                            [
+                                "H7138"
+                            ]
+                        ],
+                        [
+                            "it is near,",
+                            [
+                                "H7138"
+                            ]
+                        ],
+                        [
+                            "and hasteth",
+                            [
+                                "H4118"
+                            ]
+                        ],
+                        [
+                            "greatly,",
+                            [
+                                "H3966"
+                            ]
+                        ],
+                        [
+                            "even the voice",
+                            [
+                                "H6963"
+                            ]
+                        ],
+                        [
+                            "of the day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of the LORD:",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "the mighty man",
+                            [
+                                "H1368"
+                            ]
+                        ],
+                        [
+                            "shall cry",
+                            [
+                                "H6873"
+                            ]
+                        ],
+                        [
+                            "there",
+                            [
+                                "H8033"
+                            ]
+                        ],
+                        [
+                            "bitterly.",
+                            [
+                                "H4751"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "15",
+                    "text": "That day is a day of wrath, a day of trouble and distress, a day of wasteness and desolation, a day of darkness and gloominess, a day of clouds and thick darkness,",
+                    "k": 22802,
+                    "v": [
+                        [
+                            "That",
+                            [
+                                "H1931"
+                            ]
+                        ],
+                        [
+                            "day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "is a day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of wrath,",
+                            [
+                                "H5678"
+                            ]
+                        ],
+                        [
+                            "a day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of trouble",
+                            [
+                                "H6869"
+                            ]
+                        ],
+                        [
+                            "and distress,",
+                            [
+                                "H4691"
+                            ]
+                        ],
+                        [
+                            "a day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of wasteness",
+                            [
+                                "H7722"
+                            ]
+                        ],
+                        [
+                            "and desolation,",
+                            [
+                                "H4875"
+                            ]
+                        ],
+                        [
+                            "a day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of darkness",
+                            [
+                                "H2822"
+                            ]
+                        ],
+                        [
+                            "and gloominess,",
+                            [
+                                "H653"
+                            ]
+                        ],
+                        [
+                            "a day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of clouds",
+                            [
+                                "H6051"
+                            ]
+                        ],
+                        [
+                            "and thick darkness,",
+                            [
+                                "H6205"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "16",
+                    "text": "A day of the trumpet and alarm against the fenced cities, and against the high towers.",
+                    "k": 22803,
+                    "v": [
+                        [
+                            "A day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of the trumpet",
+                            [
+                                "H7782"
+                            ]
+                        ],
+                        [
+                            "and alarm",
+                            [
+                                "H8643"
+                            ]
+                        ],
+                        [
+                            "against",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "the fenced",
+                            [
+                                "H1219"
+                            ]
+                        ],
+                        [
+                            "cities,",
+                            [
+                                "H5892"
+                            ]
+                        ],
+                        [
+                            "and against",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "the high",
+                            [
+                                "H1364"
+                            ]
+                        ],
+                        [
+                            "towers.",
+                            [
+                                "H6438"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "17",
+                    "text": "And I will bring distress upon men, that they shall walk like blind men, because they have sinned against the LORD: and their blood shall be poured out as dust, and their flesh as the dung.",
+                    "k": 22804,
+                    "v": [
+                        [
+                            "And I will bring distress",
+                            [
+                                "H6887"
+                            ]
+                        ],
+                        [
+                            "upon men,",
+                            [
+                                "H120"
+                            ]
+                        ],
+                        [
+                            "that they shall walk",
+                            [
+                                "H1980"
+                            ]
+                        ],
+                        [
+                            "like blind men,",
+                            [
+                                "H5787"
+                            ]
+                        ],
+                        [
+                            "because",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "they have sinned",
+                            [
+                                "H2398"
+                            ]
+                        ],
+                        [
+                            "against the LORD:",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "and their blood",
+                            [
+                                "H1818"
+                            ]
+                        ],
+                        [
+                            "shall be poured out",
+                            [
+                                "H8210"
+                            ]
+                        ],
+                        [
+                            "as dust,",
+                            [
+                                "H6083"
+                            ]
+                        ],
+                        [
+                            "and their flesh",
+                            [
+                                "H3894"
+                            ]
+                        ],
+                        [
+                            "as the dung.",
+                            [
+                                "H1561"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "18",
+                    "text": "Neither their silver nor their gold shall be able to deliver them in the day of the LORD\u2019s wrath; but the whole land shall be devoured by the fire of his jealousy: for he shall make even a speedy riddance of all them that dwell in the land.",
+                    "k": 22805,
+                    "v": [
+                        [
+                            "Neither",
+                            [
+                                "H1571",
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "their silver",
+                            [
+                                "H3701"
+                            ]
+                        ],
+                        [
+                            "nor",
+                            [
+                                "H1571"
+                            ]
+                        ],
+                        [
+                            "their gold",
+                            [
+                                "H2091"
+                            ]
+                        ],
+                        [
+                            "shall be able",
+                            [
+                                "H3201"
+                            ]
+                        ],
+                        [
+                            "to deliver",
+                            [
+                                "H5337"
+                            ]
+                        ],
+                        [
+                            "them in the day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of the LORD'S",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "wrath;",
+                            [
+                                "H5678"
+                            ]
+                        ],
+                        [
+                            "but the whole",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "land",
+                            [
+                                "H776"
+                            ]
+                        ],
+                        [
+                            "shall be devoured",
+                            [
+                                "H398"
+                            ]
+                        ],
+                        [
+                            "by the fire",
+                            [
+                                "H784"
+                            ]
+                        ],
+                        [
+                            "of his jealousy:",
+                            [
+                                "H7068"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "he shall make",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "even",
+                            [
+                                "H389"
+                            ]
+                        ],
+                        [
+                            "a speedy",
+                            [
+                                "H926"
+                            ]
+                        ],
+                        [
+                            "riddance",
+                            [
+                                "H3617"
+                            ]
+                        ],
+                        [
+                            "of",
+                            [
+                                "H854"
+                            ]
+                        ],
+                        [
+                            "all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "them that dwell",
+                            [
+                                "H3427"
+                            ]
+                        ],
+                        [
+                            "in the land.",
+                            [
+                                "H776"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "chapter": "2",
+            "verses": [
+                {
+                    "verse": "1",
+                    "text": "Gather yourselves together, yea, gather together, O nation not desired;",
+                    "k": 22806,
+                    "v": [
+                        [
+                            "Gather yourselves together,",
+                            [
+                                "H7197"
+                            ]
+                        ],
+                        [
+                            "yea, gather together,",
+                            [
+                                "H7197"
+                            ]
+                        ],
+                        [
+                            "O nation",
+                            [
+                                "H1471"
+                            ]
+                        ],
+                        [
+                            "not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "desired;",
+                            [
+                                "H3700"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "2",
+                    "text": "Before the decree bring forth, before the day pass as the chaff, before the fierce anger of the LORD come upon you, before the day of the LORD\u2019s anger come upon you.",
+                    "k": 22807,
+                    "v": [
+                        [
+                            "Before",
+                            [
+                                "H2962"
+                            ]
+                        ],
+                        [
+                            "the decree",
+                            [
+                                "H2706"
+                            ]
+                        ],
+                        [
+                            "bring forth,",
+                            [
+                                "H3205"
+                            ]
+                        ],
+                        [
+                            "before the day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "pass",
+                            [
+                                "H5674"
+                            ]
+                        ],
+                        [
+                            "as the chaff,",
+                            [
+                                "H4671"
+                            ]
+                        ],
+                        [
+                            "before",
+                            [
+                                "H2962"
+                            ]
+                        ],
+                        [
+                            "the fierce",
+                            [
+                                "H2740"
+                            ]
+                        ],
+                        [
+                            "anger",
+                            [
+                                "H639"
+                            ]
+                        ],
+                        [
+                            "of the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "come",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "upon",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "you, before",
+                            [
+                                "H2962"
+                            ]
+                        ],
+                        [
+                            "the day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of the LORD'S",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "anger",
+                            [
+                                "H639"
+                            ]
+                        ],
+                        [
+                            "come",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "upon",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "you.",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "3",
+                    "text": "Seek ye the LORD, all ye meek of the earth, which have wrought his judgment; seek righteousness, seek meekness: it may be ye shall be hid in the day of the LORD\u2019s anger.",
+                    "k": 22808,
+                    "v": [
+                        [
+                            "Seek",
+                            [
+                                "H1245"
+                            ]
+                        ],
+                        [
+                            "ye the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "ye meek",
+                            [
+                                "H6035"
+                            ]
+                        ],
+                        [
+                            "of the earth,",
+                            [
+                                "H776"
+                            ]
+                        ],
+                        [
+                            "which",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "have wrought",
+                            [
+                                "H6466"
+                            ]
+                        ],
+                        [
+                            "his judgment;",
+                            [
+                                "H4941"
+                            ]
+                        ],
+                        [
+                            "seek",
+                            [
+                                "H1245"
+                            ]
+                        ],
+                        [
+                            "righteousness,",
+                            [
+                                "H6664"
+                            ]
+                        ],
+                        [
+                            "seek",
+                            [
+                                "H1245"
+                            ]
+                        ],
+                        [
+                            "meekness:",
+                            [
+                                "H6038"
+                            ]
+                        ],
+                        [
+                            "it may be",
+                            [
+                                "H194"
+                            ]
+                        ],
+                        [
+                            "ye shall be hid",
+                            [
+                                "H5641"
+                            ]
+                        ],
+                        [
+                            "in the day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "of the LORD'S",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "anger.",
+                            [
+                                "H639"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "4",
+                    "text": "For Gaza shall be forsaken, and Ashkelon a desolation: they shall drive out Ashdod at the noon day, and Ekron shall be rooted up.",
+                    "k": 22809,
+                    "v": [
+                        [
+                            "For",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "Gaza",
+                            [
+                                "H5804"
+                            ]
+                        ],
+                        [
+                            "shall be",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "forsaken,",
+                            [
+                                "H5800"
+                            ]
+                        ],
+                        [
+                            "and Ashkelon",
+                            [
+                                "H831"
+                            ]
+                        ],
+                        [
+                            "a desolation:",
+                            [
+                                "H8077"
+                            ]
+                        ],
+                        [
+                            "they shall drive out",
+                            [
+                                "H1644"
+                            ]
+                        ],
+                        [
+                            "Ashdod",
+                            [
+                                "H795"
+                            ]
+                        ],
+                        [
+                            "at the noon day,",
+                            [
+                                "H6672"
+                            ]
+                        ],
+                        [
+                            "and Ekron",
+                            [
+                                "H6138"
+                            ]
+                        ],
+                        [
+                            "shall be rooted up.",
+                            [
+                                "H6131"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "5",
+                    "text": "Woe unto the inhabitants of the sea coast, the nation of the Cherethites! the word of the LORD is against you; O Canaan, the land of the Philistines, I will even destroy thee, that there shall be no inhabitant.",
+                    "k": 22810,
+                    "v": [
+                        [
+                            "Woe",
+                            [
+                                "H1945"
+                            ]
+                        ],
+                        [
+                            "unto the inhabitants",
+                            [
+                                "H3427"
+                            ]
+                        ],
+                        [
+                            "of the sea",
+                            [
+                                "H3220"
+                            ]
+                        ],
+                        [
+                            "coast,",
+                            [
+                                "H2256"
+                            ]
+                        ],
+                        [
+                            "the nation",
+                            [
+                                "H1471"
+                            ]
+                        ],
+                        [
+                            "of the Cherethites!",
+                            [
+                                "H3774"
+                            ]
+                        ],
+                        [
+                            "the word",
+                            [
+                                "H1697"
+                            ]
+                        ],
+                        [
+                            "of the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "is against",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "you; O Canaan,",
+                            [
+                                "H3667"
+                            ]
+                        ],
+                        [
+                            "the land",
+                            [
+                                "H776"
+                            ]
+                        ],
+                        [
+                            "of the Philistines,",
+                            [
+                                "H6430"
+                            ]
+                        ],
+                        [
+                            "I will even destroy",
+                            [
+                                "H6"
+                            ]
+                        ],
+                        [
+                            "thee, that there shall be no",
+                            [
+                                "H369"
+                            ]
+                        ],
+                        [
+                            "inhabitant.",
+                            [
+                                "H3427"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "6",
+                    "text": "And the sea coast shall be dwellings and cottages for shepherds, and folds for flocks.",
+                    "k": 22811,
+                    "v": [
+                        [
+                            "And the sea",
+                            [
+                                "H3220"
+                            ]
+                        ],
+                        [
+                            "coast",
+                            [
+                                "H2256"
+                            ]
+                        ],
+                        [
+                            "shall be",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "dwellings",
+                            [
+                                "H5116"
+                            ]
+                        ],
+                        [
+                            "and cottages",
+                            [
+                                "H3741"
+                            ]
+                        ],
+                        [
+                            "for shepherds,",
+                            [
+                                "H7462"
+                            ]
+                        ],
+                        [
+                            "and folds",
+                            [
+                                "H1448"
+                            ]
+                        ],
+                        [
+                            "for flocks.",
+                            [
+                                "H6629"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "7",
+                    "text": "And the coast shall be for the remnant of the house of Judah; they shall feed thereupon: in the houses of Ashkelon shall they lie down in the evening: for the LORD their God shall visit them, and turn away their captivity.",
+                    "k": 22812,
+                    "v": [
+                        [
+                            "And the coast",
+                            [
+                                "H2256"
+                            ]
+                        ],
+                        [
+                            "shall be",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "for the remnant",
+                            [
+                                "H7611"
+                            ]
+                        ],
+                        [
+                            "of the house",
+                            [
+                                "H1004"
+                            ]
+                        ],
+                        [
+                            "of Judah;",
+                            [
+                                "H3063"
+                            ]
+                        ],
+                        [
+                            "they shall feed",
+                            [
+                                "H7462"
+                            ]
+                        ],
+                        [
+                            "thereupon:",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "in the houses",
+                            [
+                                "H1004"
+                            ]
+                        ],
+                        [
+                            "of Ashkelon",
+                            [
+                                "H831"
+                            ]
+                        ],
+                        [
+                            "shall they lie down",
+                            [
+                                "H7257"
+                            ]
+                        ],
+                        [
+                            "in the evening:",
+                            [
+                                "H6153"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "their God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "shall visit",
+                            [
+                                "H6485"
+                            ]
+                        ],
+                        [
+                            "them, and turn away",
+                            [
+                                "H7725"
+                            ]
+                        ],
+                        [
+                            "their captivity.",
+                            [
+                                "H7622"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "8",
+                    "text": "I have heard the reproach of Moab, and the revilings of the children of Ammon, whereby they have reproached my people, and magnified themselves against their border.",
+                    "k": 22813,
+                    "v": [
+                        [
+                            "I have heard",
+                            [
+                                "H8085"
+                            ]
+                        ],
+                        [
+                            "the reproach",
+                            [
+                                "H2781"
+                            ]
+                        ],
+                        [
+                            "of Moab,",
+                            [
+                                "H4124"
+                            ]
+                        ],
+                        [
+                            "and the revilings",
+                            [
+                                "H1421"
+                            ]
+                        ],
+                        [
+                            "of the children",
+                            [
+                                "H1121"
+                            ]
+                        ],
+                        [
+                            "of Ammon,",
+                            [
+                                "H5983"
+                            ]
+                        ],
+                        [
+                            "whereby",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "they have reproached",
+                            [
+                                "H2778"
+                            ]
+                        ],
+                        [
+                            "my people,",
+                            [
+                                "H5971"
+                            ]
+                        ],
+                        [
+                            "and magnified",
+                            [
+                                "H1431"
+                            ]
+                        ],
+                        [
+                            "themselves against",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "their border.",
+                            [
+                                "H1366"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "9",
+                    "text": "Therefore as I live, saith the LORD of hosts, the God of Israel, Surely Moab shall be as Sodom, and the children of Ammon as Gomorrah, even the breeding of nettles, and saltpits, and a perpetual desolation: the residue of my people shall spoil them, and the remnant of my people shall possess them.",
+                    "k": 22814,
+                    "v": [
+                        [
+                            "Therefore",
+                            [
+                                "H3651"
+                            ]
+                        ],
+                        [
+                            "as I",
+                            [
+                                "H589"
+                            ]
+                        ],
+                        [
+                            "live,",
+                            [
+                                "H2416"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H5002"
+                            ]
+                        ],
+                        [
+                            "the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts,",
+                            [
+                                "H6635"
+                            ]
+                        ],
+                        [
+                            "the God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "of Israel,",
+                            [
+                                "H3478"
+                            ]
+                        ],
+                        [
+                            "Surely",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "Moab",
+                            [
+                                "H4124"
+                            ]
+                        ],
+                        [
+                            "shall be",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "as Sodom,",
+                            [
+                                "H5467"
+                            ]
+                        ],
+                        [
+                            "and the children",
+                            [
+                                "H1121"
+                            ]
+                        ],
+                        [
+                            "of Ammon",
+                            [
+                                "H5983"
+                            ]
+                        ],
+                        [
+                            "as Gomorrah,",
+                            [
+                                "H6017"
+                            ]
+                        ],
+                        [
+                            "even the breeding",
+                            [
+                                "H4476"
+                            ]
+                        ],
+                        [
+                            "of nettles,",
+                            [
+                                "H2738"
+                            ]
+                        ],
+                        [
+                            "and saltpits,",
+                            [
+                                "H4379",
+                                "H4417"
+                            ]
+                        ],
+                        [
+                            "and a perpetual",
+                            [
+                                "H5704",
+                                "H5769"
+                            ]
+                        ],
+                        [
+                            "desolation:",
+                            [
+                                "H8077"
+                            ]
+                        ],
+                        [
+                            "the residue",
+                            [
+                                "H7611"
+                            ]
+                        ],
+                        [
+                            "of my people",
+                            [
+                                "H5971"
+                            ]
+                        ],
+                        [
+                            "shall spoil",
+                            [
+                                "H962"
+                            ]
+                        ],
+                        [
+                            "them, and the remnant",
+                            [
+                                "H3499"
+                            ]
+                        ],
+                        [
+                            "of my people",
+                            [
+                                "H1471"
+                            ]
+                        ],
+                        [
+                            "shall possess",
+                            [
+                                "H5157"
+                            ]
+                        ],
+                        [
+                            "them.",
+                            []
+                        ]
+                    ]
+                },
+                {
+                    "verse": "10",
+                    "text": "This shall they have for their pride, because they have reproached and magnified themselves against the people of the LORD of hosts.",
+                    "k": 22815,
+                    "v": [
+                        [
+                            "This",
+                            [
+                                "H2063"
+                            ]
+                        ],
+                        [
+                            "shall they have for",
+                            [
+                                "H8478"
+                            ]
+                        ],
+                        [
+                            "their pride,",
+                            [
+                                "H1347"
+                            ]
+                        ],
+                        [
+                            "because",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "they have reproached",
+                            [
+                                "H2778"
+                            ]
+                        ],
+                        [
+                            "and magnified",
+                            [
+                                "H1431"
+                            ]
+                        ],
+                        [
+                            "themselves against",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "the people",
+                            [
+                                "H5971"
+                            ]
+                        ],
+                        [
+                            "of the LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "of hosts.",
+                            [
+                                "H6635"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "11",
+                    "text": "The LORD will be terrible unto them: for he will famish all the gods of the earth; and men shall worship him, every one from his place, even all the isles of the heathen.",
+                    "k": 22816,
+                    "v": [
+                        [
+                            "The LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "will be terrible",
+                            [
+                                "H3372"
+                            ]
+                        ],
+                        [
+                            "unto",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "them: for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "he will famish",
+                            [
+                                "H7329"
+                            ]
+                        ],
+                        [
+                            "all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "the gods",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "of the earth;",
+                            [
+                                "H776"
+                            ]
+                        ],
+                        [
+                            "and men shall worship",
+                            [
+                                "H7812"
+                            ]
+                        ],
+                        [
+                            "him, every one",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "from his place,",
+                            [
+                                "H4725"
+                            ]
+                        ],
+                        [
+                            "even all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "the isles",
+                            [
+                                "H339"
+                            ]
+                        ],
+                        [
+                            "of the heathen.",
+                            [
+                                "H1471"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "12",
+                    "text": "Ye Ethiopians also, ye shall be slain by my sword.",
+                    "k": 22817,
+                    "v": [
+                        [
+                            "Ye",
+                            [
+                                "H859"
+                            ]
+                        ],
+                        [
+                            "Ethiopians",
+                            [
+                                "H3569"
+                            ]
+                        ],
+                        [
+                            "also,",
+                            [
+                                "H1571"
+                            ]
+                        ],
+                        [
+                            "ye",
+                            [
+                                "H1992"
+                            ]
+                        ],
+                        [
+                            "shall be slain",
+                            [
+                                "H2491"
+                            ]
+                        ],
+                        [
+                            "by my sword.",
+                            [
+                                "H2719"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "13",
+                    "text": "And he will stretch out his hand against the north, and destroy Assyria; and will make Nineveh a desolation, and dry like a wilderness.",
+                    "k": 22818,
+                    "v": [
+                        [
+                            "And he will stretch out",
+                            [
+                                "H5186"
+                            ]
+                        ],
+                        [
+                            "his hand",
+                            [
+                                "H3027"
+                            ]
+                        ],
+                        [
+                            "against",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "the north,",
+                            [
+                                "H6828"
+                            ]
+                        ],
+                        [
+                            "and destroy",
+                            [
+                                "H6"
+                            ]
+                        ],
+                        [
+                            "Assyria;",
+                            [
+                                "H804"
+                            ]
+                        ],
+                        [
+                            "and will make",
+                            [
+                                "H7760"
+                            ]
+                        ],
+                        [
+                            "Nineveh",
+                            [
+                                "H5210"
+                            ]
+                        ],
+                        [
+                            "a desolation,",
+                            [
+                                "H8077"
+                            ]
+                        ],
+                        [
+                            "and dry",
+                            [
+                                "H6723"
+                            ]
+                        ],
+                        [
+                            "like a wilderness.",
+                            [
+                                "H4057"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "14",
+                    "text": "And flocks shall lie down in the midst of her, all the beasts of the nations: both the cormorant and the bittern shall lodge in the upper lintels of it; their voice shall sing in the windows; desolation shall be in the thresholds: for he shall uncover the cedar work.",
+                    "k": 22819,
+                    "v": [
+                        [
+                            "And flocks",
+                            [
+                                "H5739"
+                            ]
+                        ],
+                        [
+                            "shall lie down",
+                            [
+                                "H7257"
+                            ]
+                        ],
+                        [
+                            "in the midst",
+                            [
+                                "H8432"
+                            ]
+                        ],
+                        [
+                            "of her, all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "the beasts",
+                            [
+                                "H2416"
+                            ]
+                        ],
+                        [
+                            "of the nations:",
+                            [
+                                "H1471"
+                            ]
+                        ],
+                        [
+                            "both",
+                            [
+                                "H1571"
+                            ]
+                        ],
+                        [
+                            "the cormorant",
+                            [
+                                "H6893"
+                            ]
+                        ],
+                        [
+                            "and",
+                            [
+                                "H1571"
+                            ]
+                        ],
+                        [
+                            "the bittern",
+                            [
+                                "H7090"
+                            ]
+                        ],
+                        [
+                            "shall lodge",
+                            [
+                                "H3885"
+                            ]
+                        ],
+                        [
+                            "in the upper lintels",
+                            [
+                                "H3730"
+                            ]
+                        ],
+                        [
+                            "of it; their voice",
+                            [
+                                "H6963"
+                            ]
+                        ],
+                        [
+                            "shall sing",
+                            [
+                                "H7891"
+                            ]
+                        ],
+                        [
+                            "in the windows;",
+                            [
+                                "H2474"
+                            ]
+                        ],
+                        [
+                            "desolation",
+                            [
+                                "H2721"
+                            ]
+                        ],
+                        [
+                            "shall be in the thresholds:",
+                            [
+                                "H5592"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "he shall uncover",
+                            [
+                                "H6168"
+                            ]
+                        ],
+                        [
+                            "the cedar work.",
+                            [
+                                "H731"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "15",
+                    "text": "This is the rejoicing city that dwelt carelessly, that said in her heart, I am, and there is none beside me: how is she become a desolation, a place for beasts to lie down in! every one that passeth by her shall hiss, and wag his hand.",
+                    "k": 22820,
+                    "v": [
+                        [
+                            "This",
+                            [
+                                "H2063"
+                            ]
+                        ],
+                        [
+                            "is the rejoicing",
+                            [
+                                "H5947"
+                            ]
+                        ],
+                        [
+                            "city",
+                            [
+                                "H5892"
+                            ]
+                        ],
+                        [
+                            "that dwelt",
+                            [
+                                "H3427"
+                            ]
+                        ],
+                        [
+                            "carelessly,",
+                            [
+                                "H983"
+                            ]
+                        ],
+                        [
+                            "that said",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "in her heart,",
+                            [
+                                "H3824"
+                            ]
+                        ],
+                        [
+                            "I",
+                            [
+                                "H589"
+                            ]
+                        ],
+                        [
+                            "am, and there is none",
+                            [
+                                "H657"
+                            ]
+                        ],
+                        [
+                            "beside",
+                            [
+                                "H5750"
+                            ]
+                        ],
+                        [
+                            "me: how",
+                            [
+                                "H349"
+                            ]
+                        ],
+                        [
+                            "is she become",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "a desolation,",
+                            [
+                                "H8047"
+                            ]
+                        ],
+                        [
+                            "a place for beasts",
+                            [
+                                "H2416"
+                            ]
+                        ],
+                        [
+                            "to lie down",
+                            [
+                                "H4769"
+                            ]
+                        ],
+                        [
+                            "in! every one",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "that passeth",
+                            [
+                                "H5674"
+                            ]
+                        ],
+                        [
+                            "by",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "her shall hiss,",
+                            [
+                                "H8319"
+                            ]
+                        ],
+                        [
+                            "and wag",
+                            [
+                                "H5128"
+                            ]
+                        ],
+                        [
+                            "his hand.",
+                            [
+                                "H3027"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "chapter": "3",
+            "verses": [
+                {
+                    "verse": "1",
+                    "text": "Woe to her that is filthy and polluted, to the oppressing city!",
+                    "k": 22821,
+                    "v": [
+                        [
+                            "Woe",
+                            [
+                                "H1945"
+                            ]
+                        ],
+                        [
+                            "to her that is filthy",
+                            [
+                                "H4784"
+                            ]
+                        ],
+                        [
+                            "and polluted,",
+                            [
+                                "H1351"
+                            ]
+                        ],
+                        [
+                            "to the oppressing",
+                            [
+                                "H3238"
+                            ]
+                        ],
+                        [
+                            "city!",
+                            [
+                                "H5892"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "2",
+                    "text": "She obeyed not the voice; she received not correction; she trusted not in the LORD; she drew not near to her God.",
+                    "k": 22822,
+                    "v": [
+                        [
+                            "She obeyed",
+                            [
+                                "H8085"
+                            ]
+                        ],
+                        [
+                            "not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "the voice;",
+                            [
+                                "H6963"
+                            ]
+                        ],
+                        [
+                            "she received",
+                            [
+                                "H3947"
+                            ]
+                        ],
+                        [
+                            "not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "correction;",
+                            [
+                                "H4148"
+                            ]
+                        ],
+                        [
+                            "she trusted",
+                            [
+                                "H982"
+                            ]
+                        ],
+                        [
+                            "not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "in the LORD;",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "she drew not near",
+                            [
+                                "H3808",
+                                "H7126"
+                            ]
+                        ],
+                        [
+                            "to",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "her God.",
+                            [
+                                "H430"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "3",
+                    "text": "Her princes within her are roaring lions; her judges are evening wolves; they gnaw not the bones till the morrow.",
+                    "k": 22823,
+                    "v": [
+                        [
+                            "Her princes",
+                            [
+                                "H8269"
+                            ]
+                        ],
+                        [
+                            "within",
+                            [
+                                "H7130"
+                            ]
+                        ],
+                        [
+                            "her are roaring",
+                            [
+                                "H7580"
+                            ]
+                        ],
+                        [
+                            "lions;",
+                            [
+                                "H738"
+                            ]
+                        ],
+                        [
+                            "her judges",
+                            [
+                                "H8199"
+                            ]
+                        ],
+                        [
+                            "are evening",
+                            [
+                                "H6153"
+                            ]
+                        ],
+                        [
+                            "wolves;",
+                            [
+                                "H2061"
+                            ]
+                        ],
+                        [
+                            "they gnaw not the bones",
+                            [
+                                "H1633",
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "till the morrow.",
+                            [
+                                "H1242"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "4",
+                    "text": "Her prophets are light and treacherous persons: her priests have polluted the sanctuary, they have done violence to the law.",
+                    "k": 22824,
+                    "v": [
+                        [
+                            "Her prophets",
+                            [
+                                "H5030"
+                            ]
+                        ],
+                        [
+                            "are light",
+                            [
+                                "H6348"
+                            ]
+                        ],
+                        [
+                            "and treacherous",
+                            [
+                                "H900"
+                            ]
+                        ],
+                        [
+                            "persons:",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "her priests",
+                            [
+                                "H3548"
+                            ]
+                        ],
+                        [
+                            "have polluted",
+                            [
+                                "H2490"
+                            ]
+                        ],
+                        [
+                            "the sanctuary,",
+                            [
+                                "H6944"
+                            ]
+                        ],
+                        [
+                            "they have done violence",
+                            [
+                                "H2554"
+                            ]
+                        ],
+                        [
+                            "to the law.",
+                            [
+                                "H8451"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "5",
+                    "text": "The just LORD is in the midst thereof; he will not do iniquity: every morning doth he bring his judgment to light, he faileth not; but the unjust knoweth no shame.",
+                    "k": 22825,
+                    "v": [
+                        [
+                            "The just",
+                            [
+                                "H6662"
+                            ]
+                        ],
+                        [
+                            "LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "is in the midst",
+                            [
+                                "H7130"
+                            ]
+                        ],
+                        [
+                            "thereof; he will not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "do",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "iniquity:",
+                            [
+                                "H5766"
+                            ]
+                        ],
+                        [
+                            "every morning",
+                            [
+                                "H1242"
+                            ]
+                        ],
+                        [
+                            "doth he bring",
+                            [
+                                "H5414"
+                            ]
+                        ],
+                        [
+                            "his judgment",
+                            [
+                                "H4941"
+                            ]
+                        ],
+                        [
+                            "to light,",
+                            [
+                                "H216"
+                            ]
+                        ],
+                        [
+                            "he faileth",
+                            [
+                                "H5737"
+                            ]
+                        ],
+                        [
+                            "not;",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "but the unjust",
+                            [
+                                "H5767"
+                            ]
+                        ],
+                        [
+                            "knoweth",
+                            [
+                                "H3045"
+                            ]
+                        ],
+                        [
+                            "no",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "shame.",
+                            [
+                                "H1322"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "6",
+                    "text": "I have cut off the nations: their towers are desolate; I made their streets waste, that none passeth by: their cities are destroyed, so that there is no man, that there is none inhabitant.",
+                    "k": 22826,
+                    "v": [
+                        [
+                            "I have cut off",
+                            [
+                                "H3772"
+                            ]
+                        ],
+                        [
+                            "the nations:",
+                            [
+                                "H1471"
+                            ]
+                        ],
+                        [
+                            "their towers",
+                            [
+                                "H6438"
+                            ]
+                        ],
+                        [
+                            "are desolate;",
+                            [
+                                "H8074"
+                            ]
+                        ],
+                        [
+                            "I made their streets waste,",
+                            [
+                                "H2351",
+                                "H2717"
+                            ]
+                        ],
+                        [
+                            "that none",
+                            [
+                                "H1097"
+                            ]
+                        ],
+                        [
+                            "passeth by:",
+                            [
+                                "H5674"
+                            ]
+                        ],
+                        [
+                            "their cities",
+                            [
+                                "H5892"
+                            ]
+                        ],
+                        [
+                            "are destroyed,",
+                            [
+                                "H6658"
+                            ]
+                        ],
+                        [
+                            "so that there is no",
+                            [
+                                "H1097"
+                            ]
+                        ],
+                        [
+                            "man,",
+                            [
+                                "H376"
+                            ]
+                        ],
+                        [
+                            "that there is none",
+                            [
+                                "H369"
+                            ]
+                        ],
+                        [
+                            "inhabitant.",
+                            [
+                                "H3427"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "7",
+                    "text": "I said, Surely thou wilt fear me, thou wilt receive instruction; so their dwelling should not be cut off, howsoever I punished them: but they rose early, and corrupted all their doings.",
+                    "k": 22827,
+                    "v": [
+                        [
+                            "I said,",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "Surely",
+                            [
+                                "H389"
+                            ]
+                        ],
+                        [
+                            "thou wilt fear",
+                            [
+                                "H3372"
+                            ]
+                        ],
+                        [
+                            "me, thou wilt receive",
+                            [
+                                "H3947"
+                            ]
+                        ],
+                        [
+                            "instruction;",
+                            [
+                                "H4148"
+                            ]
+                        ],
+                        [
+                            "so their dwelling",
+                            [
+                                "H4583"
+                            ]
+                        ],
+                        [
+                            "should not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "be cut off,",
+                            [
+                                "H3772"
+                            ]
+                        ],
+                        [
+                            "howsoever",
+                            [
+                                "H834",
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "I punished",
+                            [
+                                "H6485"
+                            ]
+                        ],
+                        [
+                            "them:",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "but",
+                            [
+                                "H403"
+                            ]
+                        ],
+                        [
+                            "they rose early,",
+                            [
+                                "H7925"
+                            ]
+                        ],
+                        [
+                            "and corrupted",
+                            [
+                                "H7843"
+                            ]
+                        ],
+                        [
+                            "all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "their doings.",
+                            [
+                                "H5949"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "8",
+                    "text": "Therefore wait ye upon me, saith the LORD, until the day that I rise up to the prey: for my determination is to gather the nations, that I may assemble the kingdoms, to pour upon them mine indignation, even all my fierce anger: for all the earth shall be devoured with the fire of my jealousy.",
+                    "k": 22828,
+                    "v": [
+                        [
+                            "Therefore",
+                            [
+                                "H3651"
+                            ]
+                        ],
+                        [
+                            "wait",
+                            [
+                                "H2442"
+                            ]
+                        ],
+                        [
+                            "ye upon me, saith",
+                            [
+                                "H5002"
+                            ]
+                        ],
+                        [
+                            "the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "until the day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "that I rise up",
+                            [
+                                "H6965"
+                            ]
+                        ],
+                        [
+                            "to the prey:",
+                            [
+                                "H5706"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "my determination",
+                            [
+                                "H4941"
+                            ]
+                        ],
+                        [
+                            "is to gather",
+                            [
+                                "H622"
+                            ]
+                        ],
+                        [
+                            "the nations,",
+                            [
+                                "H1471"
+                            ]
+                        ],
+                        [
+                            "that I may assemble",
+                            [
+                                "H6908"
+                            ]
+                        ],
+                        [
+                            "the kingdoms,",
+                            [
+                                "H4467"
+                            ]
+                        ],
+                        [
+                            "to pour",
+                            [
+                                "H8210"
+                            ]
+                        ],
+                        [
+                            "upon",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "them mine indignation,",
+                            [
+                                "H2195"
+                            ]
+                        ],
+                        [
+                            "even all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "my fierce",
+                            [
+                                "H2740"
+                            ]
+                        ],
+                        [
+                            "anger:",
+                            [
+                                "H639"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "the earth",
+                            [
+                                "H776"
+                            ]
+                        ],
+                        [
+                            "shall be devoured",
+                            [
+                                "H398"
+                            ]
+                        ],
+                        [
+                            "with the fire",
+                            [
+                                "H784"
+                            ]
+                        ],
+                        [
+                            "of my jealousy.",
+                            [
+                                "H7068"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "9",
+                    "text": "For then will I turn to the people a pure language, that they may all call upon the name of the LORD, to serve him with one consent.",
+                    "k": 22829,
+                    "v": [
+                        [
+                            "For",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "then",
+                            [
+                                "H227"
+                            ]
+                        ],
+                        [
+                            "will I turn",
+                            [
+                                "H2015"
+                            ]
+                        ],
+                        [
+                            "to",
+                            [
+                                "H413"
+                            ]
+                        ],
+                        [
+                            "the people",
+                            [
+                                "H5971"
+                            ]
+                        ],
+                        [
+                            "a pure",
+                            [
+                                "H1305"
+                            ]
+                        ],
+                        [
+                            "language,",
+                            [
+                                "H8193"
+                            ]
+                        ],
+                        [
+                            "that they may all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "call",
+                            [
+                                "H7121"
+                            ]
+                        ],
+                        [
+                            "upon the name",
+                            [
+                                "H8034"
+                            ]
+                        ],
+                        [
+                            "of the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "to serve",
+                            [
+                                "H5647"
+                            ]
+                        ],
+                        [
+                            "him with one",
+                            [
+                                "H259"
+                            ]
+                        ],
+                        [
+                            "consent.",
+                            [
+                                "H7926"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "10",
+                    "text": "From beyond the rivers of Ethiopia my suppliants, even the daughter of my dispersed, shall bring mine offering.",
+                    "k": 22830,
+                    "v": [
+                        [
+                            "From beyond",
+                            [
+                                "H5676"
+                            ]
+                        ],
+                        [
+                            "the rivers",
+                            [
+                                "H5104"
+                            ]
+                        ],
+                        [
+                            "of Ethiopia",
+                            [
+                                "H3568"
+                            ]
+                        ],
+                        [
+                            "my suppliants,",
+                            [
+                                "H6282"
+                            ]
+                        ],
+                        [
+                            "even the daughter",
+                            [
+                                "H1323"
+                            ]
+                        ],
+                        [
+                            "of my dispersed,",
+                            [
+                                "H6327"
+                            ]
+                        ],
+                        [
+                            "shall bring",
+                            [
+                                "H2986"
+                            ]
+                        ],
+                        [
+                            "mine offering.",
+                            [
+                                "H4503"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "11",
+                    "text": "In that day shalt thou not be ashamed for all thy doings, wherein thou hast transgressed against me: for then I will take away out of the midst of thee them that rejoice in thy pride, and thou shalt no more be haughty because of my holy mountain.",
+                    "k": 22831,
+                    "v": [
+                        [
+                            "In that",
+                            [
+                                "H1931"
+                            ]
+                        ],
+                        [
+                            "day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "shalt thou not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "be ashamed",
+                            [
+                                "H954"
+                            ]
+                        ],
+                        [
+                            "for all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "thy doings,",
+                            [
+                                "H5949"
+                            ]
+                        ],
+                        [
+                            "wherein",
+                            [
+                                "H834"
+                            ]
+                        ],
+                        [
+                            "thou hast transgressed",
+                            [
+                                "H6586"
+                            ]
+                        ],
+                        [
+                            "against me: for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "then",
+                            [
+                                "H227"
+                            ]
+                        ],
+                        [
+                            "I will take away",
+                            [
+                                "H5493"
+                            ]
+                        ],
+                        [
+                            "out of the midst",
+                            [
+                                "H7130"
+                            ]
+                        ],
+                        [
+                            "of thee them that rejoice",
+                            [
+                                "H5947"
+                            ]
+                        ],
+                        [
+                            "in thy pride,",
+                            [
+                                "H1346"
+                            ]
+                        ],
+                        [
+                            "and thou shalt no",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "more",
+                            [
+                                "H3254",
+                                "H5750"
+                            ]
+                        ],
+                        [
+                            "be haughty",
+                            [
+                                "H1361"
+                            ]
+                        ],
+                        [
+                            "because of my holy",
+                            [
+                                "H6944"
+                            ]
+                        ],
+                        [
+                            "mountain.",
+                            [
+                                "H2022"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "12",
+                    "text": "I will also leave in the midst of thee an afflicted and poor people, and they shall trust in the name of the LORD.",
+                    "k": 22832,
+                    "v": [
+                        [
+                            "I will also leave",
+                            [
+                                "H7604"
+                            ]
+                        ],
+                        [
+                            "in the midst",
+                            [
+                                "H7130"
+                            ]
+                        ],
+                        [
+                            "of thee an afflicted",
+                            [
+                                "H6041"
+                            ]
+                        ],
+                        [
+                            "and poor",
+                            [
+                                "H1800"
+                            ]
+                        ],
+                        [
+                            "people,",
+                            [
+                                "H5971"
+                            ]
+                        ],
+                        [
+                            "and they shall trust",
+                            [
+                                "H2620"
+                            ]
+                        ],
+                        [
+                            "in the name",
+                            [
+                                "H8034"
+                            ]
+                        ],
+                        [
+                            "of the LORD.",
+                            [
+                                "H3068"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "13",
+                    "text": "The remnant of Israel shall not do iniquity, nor speak lies; neither shall a deceitful tongue be found in their mouth: for they shall feed and lie down, and none shall make them afraid.",
+                    "k": 22833,
+                    "v": [
+                        [
+                            "The remnant",
+                            [
+                                "H7611"
+                            ]
+                        ],
+                        [
+                            "of Israel",
+                            [
+                                "H3478"
+                            ]
+                        ],
+                        [
+                            "shall not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "do",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "iniquity,",
+                            [
+                                "H5766"
+                            ]
+                        ],
+                        [
+                            "nor",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "speak",
+                            [
+                                "H1696"
+                            ]
+                        ],
+                        [
+                            "lies;",
+                            [
+                                "H3577"
+                            ]
+                        ],
+                        [
+                            "neither",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "shall a deceitful",
+                            [
+                                "H8649"
+                            ]
+                        ],
+                        [
+                            "tongue",
+                            [
+                                "H3956"
+                            ]
+                        ],
+                        [
+                            "be found",
+                            [
+                                "H4672"
+                            ]
+                        ],
+                        [
+                            "in their mouth:",
+                            [
+                                "H6310"
+                            ]
+                        ],
+                        [
+                            "for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "they",
+                            [
+                                "H1992"
+                            ]
+                        ],
+                        [
+                            "shall feed",
+                            [
+                                "H7462"
+                            ]
+                        ],
+                        [
+                            "and lie down,",
+                            [
+                                "H7257"
+                            ]
+                        ],
+                        [
+                            "and none",
+                            [
+                                "H369"
+                            ]
+                        ],
+                        [
+                            "shall make them afraid.",
+                            [
+                                "H2729"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "14",
+                    "text": "Sing, O daughter of Zion; shout, O Israel; be glad and rejoice with all the heart, O daughter of Jerusalem.",
+                    "k": 22834,
+                    "v": [
+                        [
+                            "Sing,",
+                            [
+                                "H7442"
+                            ]
+                        ],
+                        [
+                            "O daughter",
+                            [
+                                "H1323"
+                            ]
+                        ],
+                        [
+                            "of Zion;",
+                            [
+                                "H6726"
+                            ]
+                        ],
+                        [
+                            "shout,",
+                            [
+                                "H7321"
+                            ]
+                        ],
+                        [
+                            "O Israel;",
+                            [
+                                "H3478"
+                            ]
+                        ],
+                        [
+                            "be glad",
+                            [
+                                "H8055"
+                            ]
+                        ],
+                        [
+                            "and rejoice",
+                            [
+                                "H5937"
+                            ]
+                        ],
+                        [
+                            "with all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "the heart,",
+                            [
+                                "H3820"
+                            ]
+                        ],
+                        [
+                            "O daughter",
+                            [
+                                "H1323"
+                            ]
+                        ],
+                        [
+                            "of Jerusalem.",
+                            [
+                                "H3389"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "15",
+                    "text": "The LORD hath taken away thy judgments, he hath cast out thine enemy: the king of Israel, even the LORD, is in the midst of thee: thou shalt not see evil any more.",
+                    "k": 22835,
+                    "v": [
+                        [
+                            "The LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "hath taken away",
+                            [
+                                "H5493"
+                            ]
+                        ],
+                        [
+                            "thy judgments,",
+                            [
+                                "H4941"
+                            ]
+                        ],
+                        [
+                            "he hath cast out",
+                            [
+                                "H6437"
+                            ]
+                        ],
+                        [
+                            "thine enemy:",
+                            [
+                                "H341"
+                            ]
+                        ],
+                        [
+                            "the king",
+                            [
+                                "H4428"
+                            ]
+                        ],
+                        [
+                            "of Israel,",
+                            [
+                                "H3478"
+                            ]
+                        ],
+                        [
+                            "even the LORD,",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "is in the midst",
+                            [
+                                "H7130"
+                            ]
+                        ],
+                        [
+                            "of thee: thou shalt not",
+                            [
+                                "H3808"
+                            ]
+                        ],
+                        [
+                            "see",
+                            [
+                                "H7200"
+                            ]
+                        ],
+                        [
+                            "evil",
+                            [
+                                "H7451"
+                            ]
+                        ],
+                        [
+                            "any more.",
+                            [
+                                "H5750"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "16",
+                    "text": "In that day it shall be said to Jerusalem, Fear thou not: and to Zion, Let not thine hands be slack.",
+                    "k": 22836,
+                    "v": [
+                        [
+                            "In that",
+                            [
+                                "H1931"
+                            ]
+                        ],
+                        [
+                            "day",
+                            [
+                                "H3117"
+                            ]
+                        ],
+                        [
+                            "it shall be said",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "to Jerusalem,",
+                            [
+                                "H3389"
+                            ]
+                        ],
+                        [
+                            "Fear",
+                            [
+                                "H3372"
+                            ]
+                        ],
+                        [
+                            "thou not:",
+                            [
+                                "H408"
+                            ]
+                        ],
+                        [
+                            "and to Zion,",
+                            [
+                                "H6726"
+                            ]
+                        ],
+                        [
+                            "Let not",
+                            [
+                                "H408"
+                            ]
+                        ],
+                        [
+                            "thine hands",
+                            [
+                                "H3027"
+                            ]
+                        ],
+                        [
+                            "be slack.",
+                            [
+                                "H7503"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "17",
+                    "text": "The LORD thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy; he will rest in his love, he will joy over thee with singing.",
+                    "k": 22837,
+                    "v": [
+                        [
+                            "The LORD",
+                            [
+                                "H3068"
+                            ]
+                        ],
+                        [
+                            "thy God",
+                            [
+                                "H430"
+                            ]
+                        ],
+                        [
+                            "in the midst",
+                            [
+                                "H7130"
+                            ]
+                        ],
+                        [
+                            "of thee is mighty;",
+                            [
+                                "H1368"
+                            ]
+                        ],
+                        [
+                            "he will save,",
+                            [
+                                "H3467"
+                            ]
+                        ],
+                        [
+                            "he will rejoice",
+                            [
+                                "H7797"
+                            ]
+                        ],
+                        [
+                            "over",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "thee with joy;",
+                            [
+                                "H8057"
+                            ]
+                        ],
+                        [
+                            "he will rest",
+                            [
+                                "H2790"
+                            ]
+                        ],
+                        [
+                            "in his love,",
+                            [
+                                "H160"
+                            ]
+                        ],
+                        [
+                            "he will joy",
+                            [
+                                "H1523"
+                            ]
+                        ],
+                        [
+                            "over",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "thee with singing.",
+                            [
+                                "H7440"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "18",
+                    "text": "I will gather them that are sorrowful for the solemn assembly, who are of thee, to whom the reproach of it was a burden.",
+                    "k": 22838,
+                    "v": [
+                        [
+                            "I will gather",
+                            [
+                                "H622"
+                            ]
+                        ],
+                        [
+                            "them that are sorrowful",
+                            [
+                                "H3013"
+                            ]
+                        ],
+                        [
+                            "for the solemn assembly,",
+                            [
+                                "H4150"
+                            ]
+                        ],
+                        [
+                            "who are",
+                            [
+                                "H1961"
+                            ]
+                        ],
+                        [
+                            "of",
+                            [
+                                "H4480"
+                            ]
+                        ],
+                        [
+                            "thee, to whom the reproach",
+                            [
+                                "H2781"
+                            ]
+                        ],
+                        [
+                            "of",
+                            [
+                                "H5921"
+                            ]
+                        ],
+                        [
+                            "it was a burden.",
+                            [
+                                "H4864"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "19",
+                    "text": "Behold, at that time I will undo all that afflict thee: and I will save her that halteth, and gather her that was driven out; and I will get them praise and fame in every land where they have been put to shame.",
+                    "k": 22839,
+                    "v": [
+                        [
+                            "Behold,",
+                            [
+                                "H2009"
+                            ]
+                        ],
+                        [
+                            "at that",
+                            [
+                                "H1931"
+                            ]
+                        ],
+                        [
+                            "time",
+                            [
+                                "H6256"
+                            ]
+                        ],
+                        [
+                            "I will undo",
+                            [
+                                "H6213"
+                            ]
+                        ],
+                        [
+                            "all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "that afflict",
+                            [
+                                "H6031"
+                            ]
+                        ],
+                        [
+                            "thee: and I will save",
+                            [
+                                "H3467"
+                            ]
+                        ],
+                        [
+                            "her that halteth,",
+                            [
+                                "H6760"
+                            ]
+                        ],
+                        [
+                            "and gather",
+                            [
+                                "H6908"
+                            ]
+                        ],
+                        [
+                            "her that was driven out;",
+                            [
+                                "H5080"
+                            ]
+                        ],
+                        [
+                            "and I will get",
+                            [
+                                "H7760"
+                            ]
+                        ],
+                        [
+                            "them praise",
+                            [
+                                "H8416"
+                            ]
+                        ],
+                        [
+                            "and fame",
+                            [
+                                "H8034"
+                            ]
+                        ],
+                        [
+                            "in every",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "land",
+                            [
+                                "H776"
+                            ]
+                        ],
+                        [
+                            "where they have been put to shame.",
+                            [
+                                "H1322"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "verse": "20",
+                    "text": "At that time will I bring you again, even in the time that I gather you: for I will make you a name and a praise among all people of the earth, when I turn back your captivity before your eyes, saith the LORD.",
+                    "k": 22840,
+                    "v": [
+                        [
+                            "At that",
+                            [
+                                "H1931"
+                            ]
+                        ],
+                        [
+                            "time",
+                            [
+                                "H6256"
+                            ]
+                        ],
+                        [
+                            "will I bring",
+                            [
+                                "H935"
+                            ]
+                        ],
+                        [
+                            "you again, even in the time",
+                            [
+                                "H6256"
+                            ]
+                        ],
+                        [
+                            "that I gather",
+                            [
+                                "H6908"
+                            ]
+                        ],
+                        [
+                            "you: for",
+                            [
+                                "H3588"
+                            ]
+                        ],
+                        [
+                            "I will make",
+                            [
+                                "H5414"
+                            ]
+                        ],
+                        [
+                            "you a name",
+                            [
+                                "H8034"
+                            ]
+                        ],
+                        [
+                            "and a praise",
+                            [
+                                "H8416"
+                            ]
+                        ],
+                        [
+                            "among all",
+                            [
+                                "H3605"
+                            ]
+                        ],
+                        [
+                            "people",
+                            [
+                                "H5971"
+                            ]
+                        ],
+                        [
+                            "of the earth,",
+                            [
+                                "H776"
+                            ]
+                        ],
+                        [
+                            "when I turn back",
+                            [
+                                "H7725"
+                            ]
+                        ],
+                        [
+                            "your captivity",
+                            [
+                                "H7622"
+                            ]
+                        ],
+                        [
+                            "before your eyes,",
+                            [
+                                "H5869"
+                            ]
+                        ],
+                        [
+                            "saith",
+                            [
+                                "H559"
+                            ]
+                        ],
+                        [
+                            "the LORD.",
+                            [
+                                "H3068"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

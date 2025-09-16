@@ -1,0 +1,98 @@
+.calendar ul,
+.calendar ol {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1em;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0;
+}
+
+.calendar li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-left: 0;
+    font-size: calc(16px + (21 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.calendar ul.weekdays {
+    margin-bottom: 1em;
+}
+
+.calendar ul.weekdays li {
+    height: 4vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.calendar .dayNumber {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.calendar .dayName {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8em;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.calendar ul.weekdays abbr[title] {
+    border: none;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.calendar ol.dayGrid li {
+    background-color: #eaeaea;
+    border: 1px solid #eaeaea;
+    height: 13vw;
+    max-height: 100px;
+    position: relative;
+    width: 100%;
+}
+
+
+@media all and (max-width: 800px) {
+
+    .calendar ul,
+    .calendar ol {
+        grid-gap: .25em;
+    }
+
+    .calendar ul.weekdays li {
+        font-size: 0;
+    }
+
+    .calendar ul.weekdays>li abbr:after {
+        content: attr(title);
+        font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+        text-align: center;
+    }
+
+    .calendar .dayName {
+        content: attr(title);
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.8em;
+        text-align: center;
+        white-space: nowrap;
+    }
+}
+
+.calendar ol.dayGrid li.currentDay {
+    border: 2px solid #333;
+    background-color: #eaeaea;
+
+}

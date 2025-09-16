@@ -1,4 +1,5 @@
-const CACHE_NAME = "bible-study-v50";
+const CACHE_NAME = "bible-study-v101";
+
 const urlsToCache = [
   "/",
   "/index.html",
@@ -7,11 +8,11 @@ const urlsToCache = [
   "/favicon.ico",
   "/android-chrome-192x192.png",
   "/android-chrome-512x512.png",
-  "/src/index.jsx",
-  "/src/App.jsx",
-  "/src/App.css",
+  "/src/styles/globals.css",
   "/src/fonts/LibreBaskerville-Regular.ttf",
   "/src/fonts/LibreBaskerville-Italic.ttf",
+  "/src/index.jsx",
+  "/src/App.jsx",
 ];
 
 // Install event - cache essential files

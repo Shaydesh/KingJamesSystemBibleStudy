@@ -1,0 +1,35 @@
+.bookmarksList {
+    list-style-type: none;
+    /* Remove bullet points */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margin */
+}
+
+.bookmarkItem {
+    padding: 10px;
+    /* Padding for each item */
+    transition: background-color 0.3s;
+    /* Smooth background change */
+}
+
+.link {
+    text-decoration: none;
+    /* Remove underline */
+    color: inherit;
+    /* Inherit color from parent element */
+}
+
+@supports (-webkit-touch-callout: none) {
+    .bookmarks-title {
+        font-size: 26px;
+        /* Larger heading for iOS */
+    }
+
+    .bookmarkItem {
+        font-size: 22px;
+        /* Larger text for bookmarks on iOS */
+    }
+
+}

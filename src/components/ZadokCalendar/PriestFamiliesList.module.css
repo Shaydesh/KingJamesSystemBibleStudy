@@ -1,0 +1,62 @@
+.priestFamiliesContainer {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Grid layout */
+.priestFamiliesGrid {
+    display: grid;
+    gap: 0.75rem;
+    padding: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Tablet (≥ 640px) */
+@media (min-width: 768px) {
+
+    .priestFamiliesGrid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
+
+/* Desktop (≥ 1024px) */
+@media (min-width: 1024px) {
+    .priestFamiliesGrid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .priestFamilyItem {
+        font-size: 8em;
+    }
+
+}
+
+.priestFamilyItem {
+    border: 1px solid #e5e7eb;
+    padding: 0.75rem;
+    border-radius: 0.375rem;
+    text-align: center;
+    font-weight: 500;
+    color: #4b2e2e;
+    background-color: #fdfdfd;
+    transition: background-color 0.2s;
+    font-size: 1em;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+/* Highlighted (selected) item */
+.priestFamilyItem.selected {
+    background-color: #333;
+    /* slate-600 */
+    color: white;
+}

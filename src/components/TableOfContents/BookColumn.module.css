@@ -1,0 +1,105 @@
+.columns {
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: space-around;
+    /* Distribute space evenly */
+    margin-top: 20px;
+    /* Add some margin for spacing */
+    max-width: 100%;
+
+}
+
+.column {
+    flex: 1;
+    /* Each column takes equal width */
+    margin: 0 10px;
+    /* Add some margin between columns */
+    padding: 10px;
+    /* Add some padding inside the column */
+    border: 1px solid #ccc;
+    /* Optional: add a border */
+    border-radius: 5px;
+    /* Optional: add border radius for rounded corners */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.twoColumn {
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: space-around;
+    /* Distribute space evenly */
+    margin-top: 20px;
+    /* Add some margin for spacing */
+    margin-left: 75px;
+    margin-right: 75px;
+    max-width: 100%;
+}
+
+.revColumn {
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: center;
+    /* Distribute space evenly */
+    margin-top: 20px;
+    /* Add some margin for spacing */
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 100%;
+}
+
+
+
+.tblOfContentsBook {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* iOS-specific styling for table of contents book titles */
+@supports (-webkit-touch-callout: none) {
+    .tblOfContentsBook {
+        font-size: 24px;
+        /* Larger font size for iOS devices */
+    }
+
+    .tblOfContentsBook .book-name {
+        font-size: 24px;
+        /* Ensure the book name is larger */
+    }
+}
+
+.tblOfContentsBook p {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.link {
+    text-decoration: none;
+    /* Remove underline */
+    color: inherit;
+    /* Inherit color from parent element */
+}
+
+/* iOS-specific styling for table of contents book titles */
+@supports (-webkit-touch-callout: none) {
+    .tblOfContentsBook {
+        font-size: 24px;
+        /* Larger font size for iOS devices */
+    }
+
+    .tblOfContentsBook .bookName {
+        font-size: 24px;
+        /* Ensure the book name is larger */
+    }
+}

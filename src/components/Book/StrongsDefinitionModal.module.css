@@ -1,0 +1,245 @@
+.modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* Prevent scroll on modal background */
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.modalContent {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+
+    max-height: 95vh;
+    /* prevents overflowing beyond viewport */
+    overflow-y: auto;
+    /* scrolls inside the modal content if needed */
+    box-sizing: border-box;
+}
+
+.modal {
+    scroll-behavior: smooth;
+    padding-top: 125px;
+}
+
+
+.modalContent h2 {
+    margin-top: 0;
+    /* Remove top margin */
+}
+
+.modalContent input {
+    width: 80%;
+    /* Responsive width for input */
+    padding: 10px;
+    /* Padding inside input */
+    margin: 15px 0;
+    /* Spacing around input */
+    border: 1px solid #ccc;
+    /* Light border */
+    border-radius: 5px;
+    /* Rounded input corners */
+}
+
+@supports (-webkit-touch-callout: none) {
+    .modalContent h2 {
+        font-size: 24px;
+        /* Larger heading for iOS */
+    }
+
+    .modalContent p {
+        font-size: 20px;
+        /* Larger text for iOS */
+    }
+
+    .modalContent button {
+        font-size: 20px;
+        /* Larger button text for iOS */
+    }
+}
+
+@supports (-webkit-touch-callout: none) {
+    .modalContent input {
+        font-size: 20px;
+        /* Larger input text for iOS */
+    }
+}
+
+.modalContent button {
+
+    color: black;
+    /* White text */
+    padding: 10px 20px;
+    /* Padding inside button */
+
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    font-family: 'LibreBaskerville-Regular';
+    font-size: 17px;
+    transition: background-color 0.3s, transform 0.2s;
+    /* Smooth transition */
+    margin: 5px;
+    /* Spacing between buttons */
+    width: 100%;
+    /* Full width on mobile */
+    max-width: 200px;
+    /* Max width on larger screens */
+}
+
+.modalContent button:hover {
+
+    transform: scale(1.05);
+    /* Slightly grow on hover */
+}
+
+.modalContent input {
+    width: 100%;
+    /* Full width on mobile */
+}
+
+.modalContent button {
+    width: auto;
+    /* Reverts to default size on larger screens */
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+    /* Adds space between buttons */
+}
+
+.modalContent button:last-child {
+    margin-right: 0;
+    /* Removes margin from the last button */
+}
+
+
+.close {
+    color: #aaa;
+    /* Light grey */
+    float: right;
+    /* Align to the right */
+    font-size: 28px;
+    /* Font size */
+    font-weight: bold;
+    /* Bold */
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    /* Darker on hover */
+    text-decoration: none;
+    /* No underline */
+    cursor: pointer;
+    /* Pointer cursor */
+}
+
+
+[lang="he"].hebrewText {
+
+    font-size: clamp(24px, 12vw, 80px);
+    /* Adjust the size relative to the viewport width */
+    text-align: center;
+    margin: 0px 0;
+    direction: rtl;
+    /* max-width: 100%; */
+    word-wrap: break-word;
+    /* line-height: 3.4; */
+
+    /* Better Hebrew font rendering */
+    padding: 0px;
+}
+
+[lang="el"].greekText {
+    font-size: clamp(18px, 5vw, 70px);
+    text-align: center;
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+}
+
+.strongsContent {
+    text-align: center;
+    margin-top: -25px;
+}
+
+@media (max-width: 600px) {
+
+    [lang="he"].hebrewText {
+        font-size: clamp(30px, 20vw, 75px) !important;
+        /* Adjust the size relative to the viewport width */
+        text-align: center;
+        margin: 0px 0;
+        direction: rtl;
+        /* max-width: 100%; */
+        word-wrap: break-word;
+        /* line-height: 3.4; */
+
+        /* Better Hebrew font rendering */
+        padding: 0px;
+    }
+
+    [lang="el"].greekText {
+        font-size: clamp(30px, 20vw, 50px) !important;
+    }
+
+    .modalContent {
+        /* display: flex;
+        flex-direction: row; */
+        /* justify-content: space-between; */
+        align-items: center;
+        max-height: 96vh;
+        overflow-y: auto;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .modalContent input {
+        width: 100%;
+        /* Full width on mobile */
+    }
+
+    .modalContent button {
+        width: auto;
+        /* Reverts to default size on larger screens */
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 10px;
+        /* Adds space between buttons */
+    }
+
+    .modalContent button:last-child {
+        margin-right: 0;
+        /* Removes margin from the last button */
+    }
+
+    .strongsContent {
+        text-align: left;
+        margin-top: -25px;
+    }
+
+    .modal {
+
+        scroll-behavior: smooth;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
