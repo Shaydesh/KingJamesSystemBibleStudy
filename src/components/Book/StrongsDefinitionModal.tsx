@@ -137,7 +137,7 @@ const StrongsDefinitionModal: React.FC<StrongsDefinitionModalProps> = ({
                 {strongsData[currentStrongsIndex].v[6].join(", ")}
               </p>
               <p>
-                <strong>Times Stong's Num. Appears:</strong>{" "}
+                <strong>Times Strong's Num. Appears:</strong>{" "}
                 {strongsData[currentStrongsIndex].v[7]}
               </p>
             </div>
