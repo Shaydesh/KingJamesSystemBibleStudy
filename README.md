@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Running React on Replit
 
 [React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
@@ -15,3 +16,7 @@ By default, Replit runs the `dev` script, but you can configure it by changing t
 ### Typescript
 
 Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+=======
+# KingJamesSystemBibleStudy
+A progressive web application loosely based on and inspired by the 1927 Edition of "The System Bible Study."  Being an effort to give the most complete, the most concise and the most useful application of classified bible helps.  The gems, the masterpieces, the crown jewels, the heart of the bible.
+>>>>>>> 26166b3efd5898d97aa809b5b934b6a82f96a3e8
