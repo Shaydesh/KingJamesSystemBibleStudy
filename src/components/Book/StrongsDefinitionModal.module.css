@@ -14,7 +14,7 @@
     /* Center vertically */
     justify-content: center;
     /* Center horizontally */
-    padding: 20px;
+    padding: 100px;
     box-sizing: border-box;
 }
 
@@ -240,6 +240,7 @@
         scroll-behavior: smooth;
         padding-top: 20px;
         padding-bottom: 20px;
+        padding: 20px;
     }
 
 }

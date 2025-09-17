@@ -18,7 +18,8 @@ const Book = () => {
   const { book, chapter, setSelectedChapter, verse, setVerseContext } = useBook();
 
   const { bibleData, currentChapter, setCurrentChapter } = useBibleData(book, chapter);
-  useScrollToVerse(book, chapter, verse);
+  const isBibleReady = !!bibleData?.chapters?.length;
+  useScrollToVerse(book, chapter, verse, isBibleReady);
   const { topics, setTopics } = useBookmarkTopics();
 
   const [modalOpen, setModalOpen] = useState<boolean>(false);
@@ -137,7 +138,7 @@ const Book = () => {
 
         </div>
       ) : (
-        <p>No verses available.</p>
+        <p>Loading Book...</p>
       )}
     </div>
   );

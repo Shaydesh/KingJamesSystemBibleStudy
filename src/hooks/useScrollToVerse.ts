@@ -1,22 +1,27 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { scrollToVerse } from "../utils/Book/scrollToVerse";
 
 export const useScrollToVerse = (
   book: string,
   chapter: number,
-  verse: string | number
+  verse: string | number | null,
+  ready: boolean
 ) => {
-  const previousVerseRef = useRef<string | number | null>(null);
-  const [firstLoadState, setFirstLoadState] = useState<boolean>(false);
+  const prevVerseRef = useRef<string | number | null>(null);
 
   useEffect(() => {
-    if (firstLoadState || verse !== previousVerseRef.current) {
-      previousVerseRef.current = verse;
-      setFirstLoadState(false);
+    if (!ready || !verse) return;
 
-      setTimeout(() => {
+    // Only scroll if the verse has changed
+    if (verse !== prevVerseRef.current) {
+      prevVerseRef.current = verse;
+
+      // Delay scroll to ensure DOM elements exist
+      const timeout = setTimeout(() => {
         scrollToVerse(book, chapter, verse);
       }, 100);
+
+      return () => clearTimeout(timeout);
     }
-  }, [verse, firstLoadState, book, chapter]);
+  }, [book, chapter, verse, ready]);
 };

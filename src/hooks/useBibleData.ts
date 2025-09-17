@@ -1,16 +1,36 @@
 import { useEffect, useState } from "react";
-import bookMap from "../data/bookMap"; // Source of all books
-import { BibleBook } from "../types/BibleBook"; // TypeScript interface
+import { loadBook } from "../../src/utils/Book/loadBook"; // new lazy loader
+import bookNameToFileName from "../data/bookMap"; // updated to only map book names to filenames
+import { BibleBook } from "../types/BibleBook";
 
 export const useBibleData = (book: string, chapter: number) => {
   const [bibleData, setBibleData] = useState<BibleBook | null>(null);
   const [currentChapter, setCurrentChapter] = useState<number>(chapter);
 
   useEffect(() => {
-    const selectedBook = bookMap[book]; // Get data from bookMap
-    setBibleData(selectedBook || null); // Set data (or null if not found)
-    setCurrentChapter(chapter); // Keep internal chapter in sync
-  }, [book, chapter]); // 🔁 Re-run when book or chapter changes
+    const fetchBook = async () => {
+      const fileName = bookNameToFileName[book];
+      if (!fileName) {
+        console.warn(`No file mapping for book: ${book}`);
+        setBibleData(null);
+        return;
+      }
+
+      try {
+        const data = await loadBook(fileName);
+        setBibleData(data);
+        setCurrentChapter(chapter);
+
+      } catch (error) {
+        console.error(`Failed to load book "${book}":`, error);
+        setBibleData(null);
+      }
+
+      setCurrentChapter(chapter); // Sync chapter
+    };
+
+    fetchBook();
+  }, [book, chapter]);
 
   return {
     bibleData,
