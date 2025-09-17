@@ -1,5 +1,5 @@
+import StrongsDictRaw from "../../public/books/Strong_Dict.json";
 import { StrongsDictionary } from "../types/BibleBook";
-import StrongsDictRaw from "./books/Strong_Dict.json";
 
 const StrongsDict: StrongsDictionary = StrongsDictRaw as StrongsDictionary;
 

@@ -1,201 +1,202 @@
 import { BibleBook } from "../types/BibleBook";
 
-import IChoniclesRaw from "./books/1Chronicles.json";
+// import IChoniclesRaw from " /books/1Chronicles.json";
+import IChoniclesRaw from "../../public/books/1Chronicles.json";
 const IChoniclesJSON = IChoniclesRaw as BibleBook;
 
-import ICorinthiansRaw from "./books/1Corinthians.json";
+import ICorinthiansRaw from "../../public/books/1Corinthians.json";
 const ICorinthiansJSON = ICorinthiansRaw as BibleBook;
 
-import IJohnRaw from "./books/1John.json";
+import IJohnRaw from "../../public/books/1John.json";
 const IJohnJSON = IJohnRaw as BibleBook;
 
-import IKingsRaw from "./books/1Kings.json";
+import IKingsRaw from "../../public/books/1Kings.json";
 const IKingsJSON = IKingsRaw as BibleBook;
 
-import IPeterRaw from "./books/1Peter.json";
+import IPeterRaw from "../../public/books/1Peter.json";
 const IPeterJSON = IPeterRaw as BibleBook;
 
-import ISamuelRaw from "./books/1Samuel.json";
+import ISamuelRaw from "../../public/books/1Samuel.json";
 const ISamuelJSON = ISamuelRaw as BibleBook;
 
-import IThessaloniansRaw from "./books/1Thessalonians.json";
+import IThessaloniansRaw from "../../public/books/1Thessalonians.json";
 const IThessaloniansJSON = IThessaloniansRaw as BibleBook;
 
-import ITimothyRaw from "./books/1Timothy.json";
+import ITimothyRaw from "../../public/books/1Timothy.json";
 const ITimothyJSON = ITimothyRaw as BibleBook;
 
-import IIChroniclesRaw from "./books/2Chronicles.json";
+import IIChroniclesRaw from "../../public/books/2Chronicles.json";
 const IIChroniclesJSON = IIChroniclesRaw as BibleBook;
 
-import IICorinthiansRaw from "./books/2Corinthians.json";
+import IICorinthiansRaw from "../../public/books/2Corinthians.json";
 const IICorinthiansJSON = IICorinthiansRaw as BibleBook;
 
-import IIJohnRaw from "./books/2John.json";
+import IIJohnRaw from "../../public/books/2John.json";
 const IIJohnJSON = IIJohnRaw as BibleBook;
 
-import IIKingsRaw from "./books/2Kings.json";
+import IIKingsRaw from "../../public/books/2Kings.json";
 const IIKingsJSON = IIKingsRaw as BibleBook;
 
-import IIPeterRaw from "./books/2Peter.json";
+import IIPeterRaw from "../../public/books/2Peter.json";
 const IIPeterJSON = IIPeterRaw as BibleBook;
 
-import IISamuelRaw from "./books/2Samuel.json";
+import IISamuelRaw from "../../public/books/2Samuel.json";
 const IISamuelJSON = IISamuelRaw as BibleBook;
 
-import IIThessaloniansRaw from "./books/2Thessalonians.json";
+import IIThessaloniansRaw from "../../public/books/2Thessalonians.json";
 const IIThessaloniansJSON = IIThessaloniansRaw as BibleBook;
 
-import IITimothyRaw from "./books/2Timothy.json";
+import IITimothyRaw from "../../public/books/2Timothy.json";
 const IITimothyJSON = IITimothyRaw as BibleBook;
 
-import IIIJohnRaw from "./books/3John.json";
+import IIIJohnRaw from "../../public/books/3John.json";
 const IIIJohnJSON = IIIJohnRaw as BibleBook;
 
-import ActsRaw from "./books/Acts.json";
+import ActsRaw from "../../public/books/Acts.json";
 const ActsJSON = ActsRaw as BibleBook;
 
-import AmosRaw from "./books/Amos.json";
+import AmosRaw from "../../public/books/Amos.json";
 const AmosJSON = AmosRaw as BibleBook;
 
-import ColossiansRaw from "./books/Colossians.json";
+import ColossiansRaw from "../../public/books/Colossians.json";
 const ColossiansJSON = ColossiansRaw as BibleBook;
 
-import DanielRaw from "./books/Daniel.json";
+import DanielRaw from "../../public/books/Daniel.json";
 const DanielJSON = DanielRaw as BibleBook;
 
-import DeuteronomyRaw from "./books/Deuteronomy.json";
+import DeuteronomyRaw from "../../public/books/Deuteronomy.json";
 const DeuteronomyJSON = DeuteronomyRaw as BibleBook;
 
-import EcclesiastesRaw from "./books/Ecclesiastes.json";
+import EcclesiastesRaw from "../../public/books/Ecclesiastes.json";
 const EcclesiastesJSON = EcclesiastesRaw as BibleBook;
 
-import EphesiansRaw from "./books/Ephesians.json";
+import EphesiansRaw from "../../public/books/Ephesians.json";
 const EphesiansJSON = EphesiansRaw as BibleBook;
 
-import EstherRaw from "./books/Esther.json";
+import EstherRaw from "../../public/books/Esther.json";
 const EstherJSON = EstherRaw as BibleBook;
 
-import ExodusRaw from "./books/Exodus.json";
+import ExodusRaw from "../../public/books/Exodus.json";
 const ExodusJSON = ExodusRaw as BibleBook;
 
-import EzekielRaw from "./books/Ezekiel.json";
+import EzekielRaw from "../../public/books/Ezekiel.json";
 const EzekielJSON = EzekielRaw as BibleBook;
 
-import EzraRaw from "./books/Ezra.json";
+import EzraRaw from "../../public/books/Ezra.json";
 const EzraJSON = EzraRaw as BibleBook;
 
-import GalatiansRaw from "./books/Galatians.json";
+import GalatiansRaw from "../../public/books/Galatians.json";
 const GalatiansJSON = GalatiansRaw as BibleBook;
 
-import GenesisRaw from "./books/Genesis.json";
+import GenesisRaw from "../../public/books/Genesis.json";
 const GenesisJSON = GenesisRaw as BibleBook;
 
-import HabakkukRaw from "./books/Habakkuk.json";
+import HabakkukRaw from "../../public/books/Habakkuk.json";
 const HabakkukJSON = HabakkukRaw as BibleBook;
 
-import HaggaiRaw from "./books/Haggai.json";
+import HaggaiRaw from "../../public/books/Haggai.json";
 const HaggaiJSON = HaggaiRaw as BibleBook;
 
-import HebrewsRaw from "./books/Hebrews.json";
+import HebrewsRaw from "../../public/books/Hebrews.json";
 const HebrewsJSON = HebrewsRaw as BibleBook;
 
-import HoseaRaw from "./books/Hosea.json";
+import HoseaRaw from "../../public/books/Hosea.json";
 const HoseaJSON = HoseaRaw as BibleBook;
 
-import IsaiahRaw from "./books/Isaiah.json";
+import IsaiahRaw from "../../public/books/Isaiah.json";
 const IsaiahJSON = IsaiahRaw as BibleBook;
 
-import JamesRaw from "./books/James.json";
+import JamesRaw from "../../public/books/James.json";
 const JamesJSON = JamesRaw as BibleBook;
 
-import JeremiahRaw from "./books/Jeremiah.json";
+import JeremiahRaw from "../../public/books/Jeremiah.json";
 const JeremiahJSON = JeremiahRaw as BibleBook;
 
-import JobRaw from "./books/Job.json";
+import JobRaw from "../../public/books/Job.json";
 const JobJSON = JobRaw as BibleBook;
 
-import JoelRaw from "./books/Joel.json";
+import JoelRaw from "../../public/books/Joel.json";
 const JoelJSON = JoelRaw as BibleBook;
 
-import JohnRaw from "./books/John.json";
+import JohnRaw from "../../public/books/John.json";
 const JohnJSON = JohnRaw as BibleBook;
 
-import JonahRaw from "./books/Jonah.json";
+import JonahRaw from "../../public/books/Jonah.json";
 const JonahJSON = JonahRaw as BibleBook;
 
-import JoshuaRaw from "./books/Joshua.json";
+import JoshuaRaw from "../../public/books/Joshua.json";
 const JoshuaJSON = JoshuaRaw as BibleBook;
 
-import JudeRaw from "./books/Jude.json";
+import JudeRaw from "../../public/books/Jude.json";
 const JudeJSON = JudeRaw as BibleBook;
 
-import JudgesRaw from "./books/Judges.json";
+import JudgesRaw from "../../public/books/Judges.json";
 const JudgesJSON = JudgesRaw as BibleBook;
 
-import LamentationsRaw from "./books/Lamentations.json";
+import LamentationsRaw from "../../public/books/Lamentations.json";
 const LamentationsJSON = LamentationsRaw as BibleBook;
 
-import LeviticusRaw from "./books/Leviticus.json";
+import LeviticusRaw from "../../public/books/Leviticus.json";
 const LeviticusJSON = LeviticusRaw as BibleBook;
 
-import LukeRaw from "./books/Luke.json";
+import LukeRaw from "../../public/books/Luke.json";
 const LukeJSON = LukeRaw as BibleBook;
 
-import MalachiRaw from "./books/Malachi.json";
+import MalachiRaw from "../../public/books/Malachi.json";
 const MalachiJSON = MalachiRaw as BibleBook;
 
-import MarkRaw from "./books/Mark.json";
+import MarkRaw from "../../public/books/Mark.json";
 const MarkJSON = MarkRaw as BibleBook;
 
-import MatthewRaw from "./books/Matthew.json";
+import MatthewRaw from "../../public/books/Matthew.json";
 const MatthewJSON = MatthewRaw as BibleBook;
 
-import MicahRaw from "./books/Micah.json";
+import MicahRaw from "../../public/books/Micah.json";
 const MicahJSON = MicahRaw as BibleBook;
 
-import NahumRaw from "./books/Nahum.json";
+import NahumRaw from "../../public/books/Nahum.json";
 const NahumJSON = NahumRaw as BibleBook;
 
-import NehemiahRaw from "./books/Nehemiah.json";
+import NehemiahRaw from "../../public/books/Nehemiah.json";
 const NehemiahJSON = NehemiahRaw as BibleBook;
 
-import NumbersRaw from "./books/Numbers.json";
+import NumbersRaw from "../../public/books/Numbers.json";
 const NumbersJSON = NumbersRaw as BibleBook;
 
-import ObadiahRaw from "./books/Obadiah.json";
+import ObadiahRaw from "../../public/books/Obadiah.json";
 const ObadiahJSON = ObadiahRaw as BibleBook;
 
-import PhilemonRaw from "./books/Philemon.json";
+import PhilemonRaw from "../../public/books/Philemon.json";
 const PhilemonJSON = PhilemonRaw as BibleBook;
 
-import PhilippiansRaw from "./books/Philippians.json";
+import PhilippiansRaw from "../../public/books/Philippians.json";
 const PhilippiansJSON = PhilippiansRaw as BibleBook;
 
-import ProverbsRaw from "./books/Proverbs.json";
+import ProverbsRaw from "../../public/books/Proverbs.json";
 const ProverbsJSON = ProverbsRaw as BibleBook;
 
-import PsalmsRaw from "./books/Psalms.json";
+import PsalmsRaw from "../../public/books/Psalms.json";
 const PsalmsJSON = PsalmsRaw as BibleBook;
 
-import RevelationRaw from "./books/Revelation.json";
+import RevelationRaw from "../../public/books/Revelation.json";
 const RevelationJSON = RevelationRaw as BibleBook;
 
-import RomansRaw from "./books/Romans.json";
+import RomansRaw from "../../public/books/Romans.json";
 const RomansJSON = RomansRaw as BibleBook;
 
-import RuthRaw from "./books/Ruth.json";
+import RuthRaw from "../../public/books/Ruth.json";
 const RuthJSON = RuthRaw as BibleBook;
 
-import SongofSolomonRaw from "./books/SongofSolomon.json";
+import SongofSolomonRaw from "../../public/books/SongofSolomon.json";
 const SongofSolomonJSON = SongofSolomonRaw as BibleBook;
 
-import TitusRaw from "./books/Titus.json";
+import TitusRaw from "../../public/books/Titus.json";
 const TitusJSON = TitusRaw as BibleBook;
 
-import ZechariahRaw from "./books/Zechariah.json";
+import ZechariahRaw from "../../public/books/Zechariah.json";
 const ZechariahJSON = ZechariahRaw as BibleBook;
 
-import ZephaniahRaw from "./books/Zephaniah.json";
+import ZephaniahRaw from "../../public/books/Zephaniah.json";
 const ZephaniahJSON = ZephaniahRaw as BibleBook;
 
 
