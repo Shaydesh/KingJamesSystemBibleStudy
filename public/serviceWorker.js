@@ -1,4 +1,4 @@
-const CACHE_NAME = "bible-study-v108";
+const CACHE_NAME = "bible-study-v109";
 
 const urlsToCache = [
   "/",
@@ -116,54 +116,95 @@ self.addEventListener("activate", (event) => {
 });
 
 // Cache-first strategy fetch event handler
-self.addEventListener("fetch", (event) => {
-  event.respondWith(
-    caches
-      .match(event.request)
-      .then((cachedResponse) => {
-        // Return cached response if found
-        if (cachedResponse) {
-          return cachedResponse;
-        }
+// self.addEventListener("fetch", (event) => {
+//   event.respondWith(
+//     caches
+//       .match(event.request)
+//       .then((cachedResponse) => {
+//         // Return cached response if found
+//         if (cachedResponse) {
+//           return cachedResponse;
+//         }
 
-        // Otherwise try to fetch from network
-        return fetch(event.request).then((networkResponse) => {
-          // Check if we received a valid response
-          if (
-            !networkResponse ||
-            networkResponse.status !== 200 ||
-            networkResponse.type !== "basic"
-          ) {
-            return networkResponse;
-          }
+//         // Otherwise try to fetch from network
+//         return fetch(event.request).then((networkResponse) => {
+//           // Check if we received a valid response
+//           if (
+//             !networkResponse ||
+//             networkResponse.status !== 200 ||
+//             networkResponse.type !== "basic"
+//           ) {
+//             return networkResponse;
+//           }
 
-          // Clone the response to cache it
-          const responseToCache = networkResponse.clone();
+//           // Clone the response to cache it
+//           const responseToCache = networkResponse.clone();
 
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, responseToCache);
-          });
+//           caches.open(CACHE_NAME).then((cache) => {
+//             cache.put(event.request, responseToCache);
+//           });
 
-          return networkResponse;
-        });
-      })
-      .catch(() => {
-        // If both fail, just return with no response
-        // The browser will show its default offline page
-      }),
-  );
-});
+//           return networkResponse;
+//         });
+//       })
+//       .catch(() => {
+//         // If both fail, just return with no response
+//         // The browser will show its default offline page
+//       }),
+//   );
+// });
 
-// Handle navigations to return index.html for SPA routing
+// // Handle navigations to return index.html for SPA routing
+// self.addEventListener("fetch", (event) => {
+//   if (event.request.mode === "navigate") {
+//     event.respondWith(
+//       caches
+//         .match("/index.html")
+//         .then((response) => {
+//           return response || fetch(event.request);
+//         })
+//         .catch(() => caches.match("/index.html")),
+//     );
+//   }
+// });
+
 self.addEventListener("fetch", (event) => {
   if (event.request.mode === "navigate") {
+    // Handle navigation requests with SPA fallback
     event.respondWith(
-      caches
-        .match("/index.html")
-        .then((response) => {
-          return response || fetch(event.request);
-        })
-        .catch(() => caches.match("/index.html")),
+      caches.match("/index.html").then((response) => {
+        return response || fetch(event.request);
+      }).catch(() => caches.match("/index.html"))
     );
+    return;
   }
+
+  // Handle other requests (e.g., JSON, assets) with cache-first
+  event.respondWith(
+    caches.match(event.request).then((cachedResponse) => {
+      if (cachedResponse) {
+        return cachedResponse;
+      }
+
+      return fetch(event.request).then((networkResponse) => {
+        if (
+          !networkResponse ||
+          networkResponse.status !== 200 ||
+          networkResponse.type !== "basic"
+        ) {
+          return networkResponse;
+        }
+
+        const responseToCache = networkResponse.clone();
+        caches.open(CACHE_NAME).then((cache) => {
+          cache.put(event.request, responseToCache);
+        });
+
+        return networkResponse;
+      });
+    }).catch((error) => {
+      console.warn("Fetch failed, and no cache match:", event.request.url);
+      // Optional: You can return a fallback JSON file or a custom error here
+    })
+  );
 });
