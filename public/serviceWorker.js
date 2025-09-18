@@ -1,6 +1,6 @@
-const CACHE_NAME = "bible-study-v109";
+const CACHE_NAME = "bible-study-v111";
 
-const urlsToCache = [
+const coreAssets = [
   "/",
   "/index.html",
   "/manifest.json",
@@ -11,6 +11,10 @@ const urlsToCache = [
   "/src/styles/globals.css",
   "/src/fonts/LibreBaskerville-Regular.ttf",
   "/src/fonts/LibreBaskerville-Italic.ttf",
+];
+
+// List ALL book JSON files here explicitly:
+const bookAssets = [
   "/books/Genesis.json",
   "/books/Exodus.json",
   "/books/Leviticus.json",
@@ -80,20 +84,29 @@ const urlsToCache = [
   "/books/Strong_Dict.json"
 ];
 
-// Install event - cache essential files
+// Install event - cache core assets first, then cache books one by one
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches
-      .open(CACHE_NAME)
-      .then((cache) => {
-        console.log("Opened cache");
-        return cache.addAll(urlsToCache);
-      })
-      .catch((error) => {
-        console.error("Cache open failed:", error);
-      }),
+    caches.open(CACHE_NAME).then(async (cache) => {
+      try {
+        // Cache core assets in bulk
+        await cache.addAll(coreAssets);
+        console.log("Core assets cached");
+      } catch (err) {
+        console.error("Error caching core assets:", err);
+      }
+
+      // Cache book files one by one with error handling
+      for (const url of bookAssets) {
+        try {
+          await cache.add(url);
+          console.log(`Cached book: ${url}`);
+        } catch (err) {
+          console.warn(`Failed to cache book ${url}:`, err);
+        }
+      }
+    })
   );
-  // Force the waiting service worker to become the active service worker
   self.skipWaiting();
 });
 
@@ -101,91 +114,33 @@ self.addEventListener("install", (event) => {
 self.addEventListener("activate", (event) => {
   const cacheWhitelist = [CACHE_NAME];
   event.waitUntil(
-    caches.keys().then((cacheNames) => {
-      return Promise.all(
+    caches.keys().then((cacheNames) =>
+      Promise.all(
         cacheNames.map((cacheName) => {
-          if (cacheWhitelist.indexOf(cacheName) === -1) {
+          if (!cacheWhitelist.includes(cacheName)) {
             return caches.delete(cacheName);
           }
-        }),
-      );
-    }),
+        })
+      )
+    )
   );
-  // Take control of all clients as soon as it activates
   self.clients.claim();
 });
 
-// Cache-first strategy fetch event handler
-// self.addEventListener("fetch", (event) => {
-//   event.respondWith(
-//     caches
-//       .match(event.request)
-//       .then((cachedResponse) => {
-//         // Return cached response if found
-//         if (cachedResponse) {
-//           return cachedResponse;
-//         }
-
-//         // Otherwise try to fetch from network
-//         return fetch(event.request).then((networkResponse) => {
-//           // Check if we received a valid response
-//           if (
-//             !networkResponse ||
-//             networkResponse.status !== 200 ||
-//             networkResponse.type !== "basic"
-//           ) {
-//             return networkResponse;
-//           }
-
-//           // Clone the response to cache it
-//           const responseToCache = networkResponse.clone();
-
-//           caches.open(CACHE_NAME).then((cache) => {
-//             cache.put(event.request, responseToCache);
-//           });
-
-//           return networkResponse;
-//         });
-//       })
-//       .catch(() => {
-//         // If both fail, just return with no response
-//         // The browser will show its default offline page
-//       }),
-//   );
-// });
-
-// // Handle navigations to return index.html for SPA routing
-// self.addEventListener("fetch", (event) => {
-//   if (event.request.mode === "navigate") {
-//     event.respondWith(
-//       caches
-//         .match("/index.html")
-//         .then((response) => {
-//           return response || fetch(event.request);
-//         })
-//         .catch(() => caches.match("/index.html")),
-//     );
-//   }
-// });
-
+// Fetch event remains unchanged (cache-first)
 self.addEventListener("fetch", (event) => {
   if (event.request.mode === "navigate") {
-    // Handle navigation requests with SPA fallback
     event.respondWith(
-      caches.match("/index.html").then((response) => {
-        return response || fetch(event.request);
-      }).catch(() => caches.match("/index.html"))
+      caches.match("/index.html").then((response) => response || fetch(event.request)).catch(() => caches.match("/index.html"))
     );
     return;
   }
 
-  // Handle other requests (e.g., JSON, assets) with cache-first
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
       if (cachedResponse) {
         return cachedResponse;
       }
-
       return fetch(event.request).then((networkResponse) => {
         if (
           !networkResponse ||
@@ -194,17 +149,15 @@ self.addEventListener("fetch", (event) => {
         ) {
           return networkResponse;
         }
-
         const responseToCache = networkResponse.clone();
         caches.open(CACHE_NAME).then((cache) => {
           cache.put(event.request, responseToCache);
         });
-
         return networkResponse;
       });
-    }).catch((error) => {
+    }).catch(() => {
       console.warn("Fetch failed, and no cache match:", event.request.url);
-      // Optional: You can return a fallback JSON file or a custom error here
+      // Optionally: return fallback JSON or offline page here
     })
   );
 });
