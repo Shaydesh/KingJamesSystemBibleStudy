@@ -15,6 +15,7 @@ interface BookContextType {
     setSelectedChapter: React.Dispatch<React.SetStateAction<number>>
     setVerseContext: React.Dispatch<React.SetStateAction<number>>
     setTopicContext: (topics: string[]) => void;
+
 }
 
 // 2️⃣ Create the context with default value `undefined`
@@ -31,6 +32,7 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
     const [chapter, setChapter] = useState<number>(0);
     const [verse, setVerse] = useState(1);
     const [topics, setTopics] = useState<string[]>([]);
+
 
     const setBookTheme = (newBook: string) => {
         setBook(newBook);
@@ -54,10 +56,12 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
                 book,
                 chapter,
                 verse,
+
                 setBookTheme,
                 setSelectedChapter: setChapter,
                 setVerseContext: setVerse,
                 setTopicContext,
+
             }}
         >
             {children}

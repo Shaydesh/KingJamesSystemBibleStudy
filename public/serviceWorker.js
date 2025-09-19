@@ -1,4 +1,4 @@
-const CACHE_NAME = "bible-study-v111";
+const CACHE_NAME = "bible-study-v119";
 
 const coreAssets = [
   "/",
@@ -87,27 +87,39 @@ const bookAssets = [
 // Install event - cache core assets first, then cache books one by one
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then(async (cache) => {
+    (async () => {
+      const cache = await caches.open(CACHE_NAME);
+
+      // Cache core assets in bulk
       try {
-        // Cache core assets in bulk
         await cache.addAll(coreAssets);
-        console.log("Core assets cached");
+        console.log("✅ Core assets cached");
       } catch (err) {
-        console.error("Error caching core assets:", err);
+        console.error("❌ Error caching core assets:", err);
       }
 
-      // Cache book files one by one with error handling
-      for (const url of bookAssets) {
-        try {
-          await cache.add(url);
-          console.log(`Cached book: ${url}`);
-        } catch (err) {
-          console.warn(`Failed to cache book ${url}:`, err);
-        }
-      }
-    })
+      // Cache book assets in parallel using Promise.allSettled
+      const bookCachePromises = bookAssets.map((url) =>
+        cache.add(url).then(
+          () => console.log(`✅ Cached book: ${url}`),
+          (err) => console.warn(`⚠️ Failed to cache book ${url}:`, err)
+        )
+      );
+
+      await Promise.allSettled(bookCachePromises);
+      console.log("✅ All books caching completed, sending message to clients");
+
+      const clients = await self.clients.matchAll();
+      console.log(`✅ Found ${clients.length} clients to notify`);
+
+      clients.forEach((client, index) => {
+        console.log(`✅ Sending 'books-cached' message to client ${index + 1}`);
+        client.postMessage("books-cached");  // Send message to the clients
+      });
+    })()
   );
-  self.skipWaiting();
+
+  self.skipWaiting(); // Activate the new service worker immediately
 });
 
 // Activate event - clean up old caches

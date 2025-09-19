@@ -2,6 +2,10 @@
     background: #333;
     color: #fff;
     display: flex;
+    justify-content: space-between;
+    /* This ensures that the children are spaced out */
+    align-items: center;
+    /* Vertically centers the content */
 }
 
 .hamburgerIcon {
@@ -9,17 +13,27 @@
     border: none;
     color: #fff;
     font-size: 1.5em;
-    margin-right: 0px;
+    margin-left: 10px;
+    /* Spacing on the left side */
 }
 
 .appTitle {
     margin-left: 10px;
+    padding-left: 5px;
+    flex-grow: 1;
+}
+
+.installPrompt {
+    margin-left: auto;
+    /* Pushes the arrow to the right */
+    margin-right: 10px;
+    /* Optional: spacing from the right edge */
 }
 
 @media (max-width: 768px) {
     .hamburgerIcon {
         font-size: 2em;
-        padding: 10px;
+        padding: 0px;
     }
 
     .appTitle {

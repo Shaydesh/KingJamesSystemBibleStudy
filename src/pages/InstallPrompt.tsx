@@ -49,7 +49,7 @@ const InstallPrompt = () => {
         color: "#fff",
         fontSize: "1.5em",
         marginRight: "20px",
-        marginTop: "12px",
+        marginTop: "0px",
         marginLeft: "auto",
         cursor: "pointer",
       }}
