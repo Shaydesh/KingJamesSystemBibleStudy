@@ -1,54 +1,60 @@
 .sidebar {
-    /* Make sure the sidebar can handle items properly */
     display: flex;
     flex-direction: column;
-    height: 100%;
     position: fixed;
-    /* Changed from absolute to fixed */
     top: 0;
     left: 0;
     width: 20%;
     height: 100%;
     background: #f0f0f0;
     z-index: 1000;
-    padding: 10px;
+    padding: 0;
+    overflow: hidden;
+    /* hide overflow here; scroll only in content */
     display: none;
-    /* Hide sidebar by default */
-    overflow-y: auto;
-    /* Allow scrolling inside the sidebar */
-    overscroll-behavior: contain;
-    /* Prevent scroll chaining */
 }
 
 .sidebar.open {
-    display: block;
-    /* Show when open */
+    display: flex;
 }
 
-.sidebarTitle,
-.sidebarSubtitle {
-    font-size: 1.5em;
+.sidebarHeader {
+    position: sticky;
+    top: 0;
+    background: #f0f0f0;
+    z-index: 10;
+    padding: 10px;
     text-align: center;
+    border-bottom: 1px solid #ccc;
 }
 
+.sidebarContent {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+
+    /* Hide scrollbar - WebKit browsers (Chrome, Safari, Edge) */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+}
+
+.sidebarContent::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari */
+}
+
+/* Sidebar list styling remains unchanged */
 .sidebarList {
     list-style-type: none;
     padding: 0;
 }
 
 .sidebarItem {
-    /* padding: 2px 0; */
     margin-bottom: -10px;
     border-radius: 6px;
     transition: background-color 0.3s;
-}
-
-.sidebarItem.active {
-    background-color: #e6e6e6;
-}
-
-.sidebarItem:hover {
-    background-color: #e6e6e6;
 }
 
 .sidebarLink {
@@ -60,39 +66,32 @@
     transition: background-color 0.3s, color 0.3s;
 }
 
-.sidebarLink.active {
-    background-color: #e0e0e0;
-    color: #000;
-    font-weight: bold;
-    border-left: 3px solid #333;
-}
-
+/* Footer fixed to bottom using flexbox */
 .sidebarFooter {
-    margin-top: auto;
-    /* border-top: 1px solid #ccc; */
-    padding-top: 10px;
+    padding: 10px;
     text-align: center;
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    left: 0;
+    background: #f0f0f0;
+    border-top: 1px solid #ccc;
 }
 
-.sidebarFooter .sidebarLink {
-    font-weight: bold;
+.sidebarTitle,
+.sidebarSubtitle {
+    font-size: 1.5em;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
     .sidebar {
         width: 100%;
-        /* Full width on mobile */
         max-width: none;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        display: flex;
+        /* keep flex layout */
     }
 
-    .sidebar.open {
+    /* .sidebar.open {
         display: block;
-    }
+    } */
 
     .sidebarItem {
         padding: 8px 0;
@@ -108,11 +107,13 @@
     .sidebar {
         width: 100%;
         /* Make sidebar full width on mobile */
+        display: flex;
     }
 
     .sidebar.open {
-        display: block;
+        /* display: block; */
         /* Show sidebar on mobile when open */
+        display: flex;
     }
 
     .strongsContent {
@@ -129,9 +130,7 @@
         /* max-width: 100%; */
         word-wrap: break-word;
         /* line-height: 3.4; */
-
         /* Better Hebrew font rendering */
         padding: 0px;
     }
-
 }

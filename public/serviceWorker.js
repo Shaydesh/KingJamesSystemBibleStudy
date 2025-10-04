@@ -1,4 +1,4 @@
-const CACHE_NAME = "bible-study-v119";
+const CACHE_NAME = "bible-study-v139";
 
 const coreAssets = [
   "/",
@@ -81,7 +81,9 @@ const bookAssets = [
   "/books/3John.json",
   "/books/Jude.json",
   "/books/Revelation.json",
-  "/books/Strong_Dict.json"
+  "/books/Strong_Dict.json",
+  "/map/countries-110m.json",
+  "/miracles/miracles.json"
 ];
 
 // Install event - cache core assets first, then cache books one by one

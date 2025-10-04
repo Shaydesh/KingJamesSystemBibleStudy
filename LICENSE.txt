@@ -1,0 +1,7 @@
+Copyright © [Shay Deshner] [2025]
+
+All rights reserved.
+
+This source code is made publicly available for viewing purposes only.
+
+No permission is granted to use, copy, modify, merge, publish, distribute, sublicense, or sell copies of this software or any part thereof without explicit written permission from the author.

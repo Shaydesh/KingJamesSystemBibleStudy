@@ -1,0 +1,529 @@
+[
+    {
+        "Id": 1,
+        "Miracle": "The Multiplication of Languages",
+        "ObjectOrOccasion": "To defeat the wrong ambition",
+        "Place": "Babel",
+        "Coordinates": [
+            44.422222,
+            32.543333
+        ],
+        "References": [
+            {
+                "Book": "Genesis",
+                "Chapter": 11,
+                "Verse": 7,
+                "DisplayVerse": "Gen. 11:7-9"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 2,
+        "Miracle": "Smote the men at Lots door with blindness",
+        "ObjectOrOccasion": "To punish for murderous intent",
+        "Place": "Sodom and Gomorrah",
+        "Coordinates": [
+            35.449223,
+            31.208490
+        ],
+        "References": [
+            {
+                "Book": "Genesis",
+                "Chapter": 19,
+                "Verse": 11,
+                "DisplayVerse": "Gen. 19:11"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 3,
+        "Miracle": "Destruction of Sodom and Gomorrah",
+        "ObjectOrOccasion": "To punish for great wickedness",
+        "Place": "Sodom and Gomorrah",
+        "Coordinates": [
+            35.449223,
+            31.208490
+        ],
+        "References": [
+            {
+                "Book": "Genesis",
+                "Chapter": 19,
+                "Verse": 24,
+                "DisplayVerse": "Gen. 19:24-25"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 4,
+        "Miracle": "Lots wife turned to a pillar of salt",
+        "ObjectOrOccasion": "Punishment for disobedience in looking back",
+        "Place": "On the road from Sodom",
+        "Coordinates": [
+            35.449223,
+            31.208490
+        ],
+        "References": [
+            {
+                "Book": "Genesis",
+                "Chapter": 19,
+                "Verse": 26,
+                "DisplayVerse": "Gen. 19:26"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 5,
+        "Miracle": "The burning bush not consumed",
+        "ObjectOrOccasion": "The call of Moses",
+        "Place": "Horeb",
+        "Coordinates": [
+            35.304365,
+            28.654194
+        ],
+        "References": [
+            {
+                "Book": "Exodus",
+                "Chapter": 3,
+                "Verse": 2,
+                "DisplayVerse": "Ex. 3:2"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 6,
+        "Miracle": "Moses' rod transformed to a serpent",
+        "ObjectOrOccasion": "To confirm his faith",
+        "Place": "Horeb",
+        "Coordinates": [
+            35.304365,
+            28.654194
+        ],
+        "References": [
+            {
+                "Book": "Exodus",
+                "Chapter": 4,
+                "Verse": 2,
+                "DisplayVerse": "Ex. 4:2-5"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 7,
+        "Miracle": "Moses' hand made leprous and healed",
+        "ObjectOrOccasion": "To confirm his faith",
+        "Place": "Horeb",
+        "Coordinates": [
+            35.304365,
+            28.654194
+        ],
+        "References": [
+            {
+                "Book": "Exodus",
+                "Chapter": 4,
+                "Verse": 6,
+                "DisplayVerse": "Ex. 4:6-7"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 8,
+        "Miracle": "Aaron's rod transformed into a serpent",
+        "ObjectOrOccasion": "To convince Pharaoh of his and Moses' divine mission",
+        "Place": "Egypt",
+        "Coordinates": [
+            32.6573,
+            25.7188
+        ],
+        "References": [
+            {
+                "Book": "Exodus",
+                "Chapter": 7,
+                "Verse": 10,
+                "DisplayVerse": "Ex. 7:10-12"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 9,
+        "Miracle": "The ten plagues",
+        "ObjectOrOccasion": "To compel Pharaoh to let the Israelites go",
+        "Place": "Egypt",
+        "Coordinates": [
+            32.6573,
+            25.7188
+        ],
+        "References": [
+            {
+                "Book": "Exodus",
+                "Chapter": 7,
+                "Verse": 1,
+                "DisplayVerse": "Ex. 7-12"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 10,
+        "Miracle": "Pillar of cloud by day and of fire by night",
+        "ObjectOrOccasion": "To baffle the Egyptians and to guide the Israelites",
+        "Place": "Wilderness of the Red Sea",
+        "Coordinates": [
+            33.8333,
+            29.5000
+        ],
+        "References": [
+            {
+                "Book": "Exodus",
+                "Chapter": 13,
+                "Verse": 20,
+                "DisplayVerse": "Ex. 13: 20-21"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 11,
+        "Miracle": "The Red Sea divided and returned to it's channel",
+        "ObjectOrOccasion": "To make a road for the Israelites and drown the Egyptians",
+        "Place": "Red Sea Crossing",
+        "Coordinates": [
+            34.66340,
+            29.04681
+        ],
+        "References": [
+            {
+                "Book": "Exodus",
+                "Chapter": 14,
+                "Verse": 21,
+                "DisplayVerse": "Ex. 14: 21-22"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 12,
+        "Miracle": "The waters of Marah made sweet",
+        "ObjectOrOccasion": "To supply drinking water for the Israelites",
+        "Place": "Marah",
+        "Coordinates": [
+            34.833,
+            28.567
+        ],
+        "References": [
+            {
+                "Book": "Exodus",
+                "Chapter": 15,
+                "Verse": 24,
+                "DisplayVerse": "Ex. 15: 24-25"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 13,
+        "Miracle": "Quails and mana sent",
+        "ObjectOrOccasion": "To supply the Israelites with food",
+        "Place": "The Wilderness of Sin",
+        "Coordinates": [
+            34.93,
+            28.34
+        ],
+        "References": [
+            {
+                "Book": "Exodus",
+                "Chapter": 16,
+                "Verse": 13,
+                "DisplayVerse": "Ex. 16: 13-35"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 14,
+        "Miracle": "Water brought from the rock",
+        "ObjectOrOccasion": "To supply the Israelites with water",
+        "Place": "Horeb and Meribah",
+        "Coordinates": [
+            35.304365,
+            28.654194
+        ],
+        "References": [
+            {
+                "Book": "Exodus",
+                "Chapter": 17,
+                "Verse": 5,
+                "DisplayVerse": "Ex. 17: 5-7"
+            },
+            {
+                "Book": "Numbers",
+                "Chapter": 20,
+                "Verse": 8,
+                "DisplayVerse": "Num. 20: 8-12"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 15,
+        "Miracle": "Victory over the Amalekites",
+        "ObjectOrOccasion": "",
+        "Place": "Rephidim",
+        "Coordinates": [
+            35.304365,
+            28.654194
+        ],
+        "References": [
+            {
+                "Book": "Exodus",
+                "Chapter": 17,
+                "Verse": 8,
+                "DisplayVerse": "Ex. 17: 8-16"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 16,
+        "Miracle": "Sacrafice consumed by fire from Heaven",
+        "ObjectOrOccasion": "To attest devine authority",
+        "Place": "",
+        "Coordinates": [],
+        "References": [
+            {
+                "Book": "Leviticus",
+                "Chapter": 9,
+                "Verse": 24,
+                "DisplayVerse": "Lev. 9:24"
+            },
+            {
+                "Book": "Judges",
+                "Chapter": 6,
+                "Verse": 21,
+                "DisplayVerse": "Judg. 6:21"
+            },
+            {
+                "Book": "Judges",
+                "Chapter": 13,
+                "Verse": 19,
+                "DisplayVerse": "Judg. 13:19-20"
+            },
+            {
+                "Book": "I Kings",
+                "Chapter": 18,
+                "Verse": 38,
+                "DisplayVerse": "I Ki. 18:38"
+            },
+            {
+                "Book": "II Chronicles",
+                "Chapter": 7,
+                "Verse": 1,
+                "DisplayVerse": "II Ch. 7:1"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 17,
+        "Miracle": "Arrons sons consumed with fire from heaven",
+        "ObjectOrOccasion": "For offering strange fire",
+        "Place": "Sinai",
+        "Coordinates": [
+            35.304365,
+            28.654194
+        ],
+        "References": [
+            {
+                "Book": "Leviticus",
+                "Chapter": 10,
+                "Verse": 1,
+                "DisplayVerse": "Lev. 10:1-2"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 18,
+        "Miracle": "Miriam's leprosy cured",
+        "ObjectOrOccasion": "In answer to Moses' prayers",
+        "Place": "Hazeroth",
+        "Coordinates": [
+            34.421667,
+            28.896944
+        ],
+        "References": [
+            {
+                "Book": "Numbers",
+                "Chapter": 12,
+                "Verse": 10,
+                "DisplayVerse": "Num. 12:10-15"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 19,
+        "Miracle": "Korah and his party destroyed",
+        "ObjectOrOccasion": "As punishment for their rebellion",
+        "Place": "Hazeroth",
+        "Coordinates": [
+            34.421667,
+            28.896944
+        ],
+        "References": [
+            {
+                "Book": "Numbers",
+                "Chapter": 16,
+                "Verse": 31,
+                "DisplayVerse": "Num. 16:31-35"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 20,
+        "Miracle": "Plague sent and stayed",
+        "ObjectOrOccasion": "To rebuke their murmurings",
+        "Place": "Hazeroth",
+        "Coordinates": [
+            34.421667,
+            28.896944
+        ],
+        "References": [
+            {
+                "Book": "Numbers",
+                "Chapter": 16,
+                "Verse": 41,
+                "DisplayVerse": "Num. 16:41-50"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 21,
+        "Miracle": "Arron's rod buds, blossoms and bears almonds",
+        "ObjectOrOccasion": "To convince the Israelites of his authority",
+        "Place": "Kadesh",
+        "Coordinates": [
+            34.484081,
+            30.583378
+        ],
+        "References": [
+            {
+                "Book": "Numbers",
+                "Chapter": 17,
+                "Verse": 1,
+                "DisplayVerse": "Num. 17:1-8"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 22,
+        "Miracle": "Fiery serpents sent and some of those bitten cured",
+        "ObjectOrOccasion": "To rebuke for their murmuriungs",
+        "Place": "Desert of Zin",
+        "Coordinates": [
+            35.325000,
+            30.971000
+        ],
+        "References": [
+            {
+                "Book": "Numbers",
+                "Chapter": 21,
+                "Verse": 7,
+                "DisplayVerse": "Num. 21:7-9"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 23,
+        "Miracle": "Balaam's donkey speaks",
+        "ObjectOrOccasion": "To rebuke him for going to Balak",
+        "Place": "Pethor",
+        "Coordinates": [
+            38.075398,
+            36.659949
+        ],
+        "References": [
+            {
+                "Book": "Numbers",
+                "Chapter": 22,
+                "Verse": 28,
+                "DisplayVerse": "Num. 22:28-31"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 24,
+        "Miracle": "The Jordan River divided",
+        "ObjectOrOccasion": "To open passage for Israelites and Elijah and Elisha",
+        "Place": "River Jordan",
+        "Coordinates": [
+            35.558333,
+            31.761389
+        ],
+        "References": [
+            {
+                "Book": "Joshua",
+                "Chapter": 3,
+                "Verse": 14,
+                "DisplayVerse": "Josh. 3:14-17"
+            },
+            {
+                "Book": "II Kings",
+                "Chapter": 2,
+                "Verse": 8,
+                "DisplayVerse": "II Ki. 2:8,14"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 25,
+        "Miracle": "The walls of Jericho fall",
+        "ObjectOrOccasion": "To aid the Israelites in it's capture",
+        "Place": "Jericho",
+        "Coordinates": [
+            35.444564,
+            31.871719
+        ],
+        "References": [
+            {
+                "Book": "Joshua",
+                "Chapter": 6,
+                "Verse": 6,
+                "DisplayVerse": "Josh. 6:6-21"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 26,
+        "Miracle": "The Sun and the Moon stand still",
+        "ObjectOrOccasion": "To lengthen the day for the Israelites",
+        "Place": "Gibeon",
+        "Coordinates": [
+            35.183351,
+            31.847451
+        ],
+        "References": [
+            {
+                "Book": "Joshua",
+                "Chapter": 10,
+                "Verse": 12,
+                "DisplayVerse": "Josh. 10:12,13"
+            }
+        ],
+        "Classification": "Old Testament"
+    }
+]
