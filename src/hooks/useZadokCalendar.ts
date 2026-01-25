@@ -40,26 +40,6 @@ export function useZadokCalendar() {
     8 - zadokDate.dayInRotation,
   );
 
-  // Update all the state when zadokDate changes
-  useEffect(() => {
-    // Update current priest family
-    setCurrentPriestFamily({
-      name: PRIEST_FAMILIES[zadokDate.priestFamilyIndex],
-      index: zadokDate.priestFamilyIndex,
-    });
-
-
-
-    // Update next priest family
-    setNextPriestFamily(getNextPriestFamily(zadokDate.priestFamilyIndex));
-
-    // Update days until next priest
-    setDaysUntilNextPriest(8 - zadokDate.dayInRotation);
-
-    // Generate calendar grid
-    generateCalendarGrid();
-  }, [zadokDate]);
-
   // Generate the calendar grid for the current month
   const generateCalendarGrid = useCallback(() => {
     const { month, year, day, yearInCycle } = zadokDate;
@@ -83,9 +63,6 @@ export function useZadokCalendar() {
       });
     }
 
-    // Temporary zadok date for calculations
-    let tempZadokDate = { ...zadokDate };
-
     // Generate all days for the month
     for (let d = 1; d <= daysInMonth; d++) {
       // Calculate the weekday for this date (1-7)
@@ -98,9 +75,8 @@ export function useZadokCalendar() {
       }
 
       // Calculate the priest family for this day
-      // We need to convert to gregorian, then back to zadok to get the correct priest info
       const gregDate = zadokToGregorian(year, month, d, yearInCycle);
-      tempZadokDate = gregorianToZadok(gregDate);
+      const tempZadokDate = gregorianToZadok(gregDate);
       const priestFamilyIndex = tempZadokDate.priestFamilyIndex;
       const priestFamilyName = PRIEST_FAMILIES[priestFamilyIndex];
 
@@ -115,7 +91,6 @@ export function useZadokCalendar() {
         day: d,
         priestFamilyName,
         priestFamilyIndex,
-        //isCurrentDay: d === day,
         isCurrentDay: isToday,
         seasonColor: d === day ? seasonColor : "bg-gray-100",
         weekday,
@@ -149,8 +124,25 @@ export function useZadokCalendar() {
     if (todayCalendarDay) {
       setSelectedDate(todayCalendarDay);
     }
-
   }, [zadokDate]);
+
+  // Update all the state when zadokDate changes
+  useEffect(() => {
+    // Update current priest family
+    setCurrentPriestFamily({
+      name: PRIEST_FAMILIES[zadokDate.priestFamilyIndex],
+      index: zadokDate.priestFamilyIndex,
+    });
+
+    // Update next priest family
+    setNextPriestFamily(getNextPriestFamily(zadokDate.priestFamilyIndex));
+
+    // Update days until next priest
+    setDaysUntilNextPriest(8 - zadokDate.dayInRotation);
+
+    // Generate calendar grid
+    generateCalendarGrid();
+  }, [zadokDate, generateCalendarGrid]);
 
   // Navigate to the previous month
   const goToPreviousMonth = useCallback(() => {

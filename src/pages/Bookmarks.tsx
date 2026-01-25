@@ -45,7 +45,7 @@ const Bookmarks = () => {
       // This will always run, regardless of whether an error occurred
       console.log("Navigation attempt finished.");
     }
-  }, []);
+  }, [setBookTheme, setSelectedChapter, setVerseContext, navigate]);
 
   const groupedBookmarks = groupBookmarksByTopic(bookmarks);
 
