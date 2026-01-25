@@ -35,6 +35,15 @@ const VerseDisplay: React.FC<VerseDisplayProps> = ({
             key={verseIndex}
             id={`${book}_${currentChapter + 1}_${verse.verse}`}
             onClick={() => openBookmarkModal(verse)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                openBookmarkModal(verse);
+              }
+            }}
+            role="button"
+            tabIndex={0}
+            aria-label={`Bookmark ${book} chapter ${currentChapter + 1} verse ${verse.verse}`}
           >
             <div className={styles.bibleVerseContentDiv}>
               <p>

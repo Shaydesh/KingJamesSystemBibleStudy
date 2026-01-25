@@ -6,13 +6,19 @@ import { BibleBook } from "../types/BibleBook";
 export const useBibleData = (book: string, chapter: number) => {
   const [bibleData, setBibleData] = useState<BibleBook | null>(null);
   const [currentChapter, setCurrentChapter] = useState<number>(chapter);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchBook = async () => {
+      setIsLoading(true);
+      setError(null);
+
       const fileName = bookNameToFileName[book];
       if (!fileName) {
-        console.warn(`No file mapping for book: ${book}`);
+        setError(`Unknown book: ${book}`);
         setBibleData(null);
+        setIsLoading(false);
         return;
       }
 
@@ -20,13 +26,14 @@ export const useBibleData = (book: string, chapter: number) => {
         const data = await loadBook(fileName);
         setBibleData(data);
         setCurrentChapter(chapter);
-
-      } catch (error) {
-        console.error(`Failed to load book "${book}":`, error);
+        setError(null);
+      } catch (err) {
+        console.error(`Failed to load book "${book}":`, err);
+        setError(`Failed to load ${book}. Please try again.`);
         setBibleData(null);
+      } finally {
+        setIsLoading(false);
       }
-
-      setCurrentChapter(chapter); // Sync chapter
     };
 
     fetchBook();
@@ -36,5 +43,7 @@ export const useBibleData = (book: string, chapter: number) => {
     bibleData,
     currentChapter,
     setCurrentChapter,
+    isLoading,
+    error,
   };
 };

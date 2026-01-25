@@ -17,7 +17,7 @@ const Book = () => {
 
   const { book, chapter, setSelectedChapter, verse, setVerseContext } = useBook();
 
-  const { bibleData, currentChapter, setCurrentChapter } = useBibleData(book, chapter);
+  const { bibleData, currentChapter, setCurrentChapter, isLoading, error } = useBibleData(book, chapter);
   const isBibleReady = !!bibleData?.chapters?.length;
   useScrollToVerse(book, chapter, verse, isBibleReady);
   const { topics, setTopics } = useBookmarkTopics();
@@ -66,7 +66,11 @@ const Book = () => {
     <div>
       <h1 className="bibleBookHeader">{book}</h1>
 
-      {bibleData && bibleData.chapters && bibleData.chapters.length > 0 ? (
+      {isLoading ? (
+        <p>Loading {book}...</p>
+      ) : error ? (
+        <p style={{ color: 'red' }}>{error}</p>
+      ) : bibleData && bibleData.chapters && bibleData.chapters.length > 0 ? (
         <div>
 
           <ChapterNavigator
@@ -138,7 +142,7 @@ const Book = () => {
 
         </div>
       ) : (
-        <p>Loading Book...</p>
+        <p>No content available for {book}</p>
       )}
     </div>
   );
