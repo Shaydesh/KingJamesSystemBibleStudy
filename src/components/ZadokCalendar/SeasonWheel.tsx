@@ -161,16 +161,18 @@ const SeasonWheel: React.FC<SeasonWheelProps> = ({ zadokDate }) => {
           fontSize="10"
           textAnchor="middle"
         >
-          {`Year ${zadokDate.year} of 50`}
+          {`Year ${zadokDate.year}`}
         </text>
-        <text
-          x={CENTER}
-          y={CENTER + 25}
-          fontSize="10"
-          textAnchor="middle"
-        >
-          {zadokDate.isJubilee ? `(Sabbath Year)` : zadokDate.year % 50 === 0 ? `(Sabbath Year)` : null}
-        </text>
+        {zadokDate.isJubilee && (
+          <text
+            x={CENTER}
+            y={CENTER + 25}
+            fontSize="10"
+            textAnchor="middle"
+          >
+            (Sabbath Year)
+          </text>
+        )}
       </>
     );
   };

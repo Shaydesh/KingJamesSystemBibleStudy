@@ -26,8 +26,9 @@ export default function ZadokCalendar() {
     setSelectedDate
   } = useZadokCalendar();
 
-  const cycleInfo = zadokDate.isJubilee ? `Year ${zadokDate.year} of 50 (Sabbath Year)` : zadokDate.year % 50 === 0 ? `Year ${zadokDate.year} of 50 (Sabbath Year)`
-    : `Year ${zadokDate.year} of 50`;
+  const cycleInfo = zadokDate.isJubilee
+    ? `Year: ${zadokDate.year}, Month: ${zadokDate.month} Day: ${zadokDate.day} (Sabbath Year)`
+    : `Year: ${zadokDate.year}, Month: ${zadokDate.month} Day: ${zadokDate.day}`;
 
   return (
     <>

@@ -10,6 +10,12 @@ export interface ZadokDate {
   season: number;
   sabbathcycleyear: number;
   priestFamily: string;
+  // isSabbathYear: boolean;
+  // yearInJubilee: number;
+  // sabbathCycleYear: number;
+  // weekday: number;
+  //daysSinceStart: number;
+  //isPauseWeek: boolean;
 }
 
 export interface PriestFamily {

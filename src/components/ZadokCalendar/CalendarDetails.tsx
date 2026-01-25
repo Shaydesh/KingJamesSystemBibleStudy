@@ -39,7 +39,7 @@ export function CalendarDetails({
             24 Divisions: 24 priest families serve for 7 days each in rotation.  Specified by King David in 1 Chronicles 24.
           </li>
           <li style={{ paddingBottom: "10px" }}>
-            Starting point of this Calendar is Gamul's 5th day (March 20, 2019) Spring Equinox - with a Full Moon
+            Starting point of this Calendar is Gamul's 4th day (March 20, 2019) Spring Equinox - with a Full Moon
           </li>
           <li style={{ paddingBottom: "10px" }}>
             Priest Service Pause on the 7 day intercallation: a priest will serve days 28-31 Month 12 of Year 6 and days 1-3 Month 1 on the Sabbath Year
@@ -53,27 +53,28 @@ export function CalendarDetails({
         </h3>
         <ul style={{ fontSize: "20px" }}>
           <li style={{ paddingBottom: "10px" }}>
-            <span className="">Jubilee Cycle:</span>{" "}
-            {zadokDate.isJubilee ? `Year ${zadokDate.year} of 50 (Sabbath Year)` : zadokDate.year % 50 === 0 ? `Year ${zadokDate.year} of 50 (Sabbath Year)`
-              : `Year ${zadokDate.year} of 50`}
+            <span className="">Current Year:</span> {zadokDate.year}
           </li>
           <li style={{ paddingBottom: "10px" }}>
-            <span className="">Sabbath Year Cycle:</span>{" "}
-            {zadokDate.sabbathcycleyear} of 7
+            <span className="">Sabbath Cycle (7 Years):</span>{" "}
+            Year {zadokDate.sabbathcycleyear} of 7
+          </li>
+          <li style={{ paddingBottom: "10px" }}>
+            <span className="">Jubilee Cycle (49 Years):</span>{" "}
+            Year {zadokDate.yearInCycle} of 49
+          </li>
+          <li style={{ paddingBottom: "10px" }}>
+            <span className="">Grand Jubilee Cycle:</span>{" "}
+            Cycle {zadokDate.jubileeCycle}
           </li>
           <li style={{ paddingBottom: "10px" }}>
             <span className="">Priest Rotation Count:</span>{" "}
             {(selectedDate?.priestFamilyIndex ?? -1) + 1} of 24
-
           </li>
           <li style={{ paddingBottom: "10px" }}>
-            <span className="">Current Priest Division:</span>{` ${selectedDate?.priestFamilyName}`}
-
+            <span className="">Current Priest Division:</span>{" "}
+            {selectedDate?.priestFamilyName}
           </li>
-          {/* <li style={{ paddingBottom: "10px" }}>
-            <span className="">Days Since Start:</span>{" "}
-            {daysSinceStart}
-          </li> */}
         </ul>
       </div>
     </div>
