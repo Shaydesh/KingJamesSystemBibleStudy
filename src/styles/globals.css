@@ -65,8 +65,23 @@ body {
   font-display: swap;
 }
 
+/* Testament section container for sticky header behavior */
+.testamentSection {
+  position: relative;
+}
+
+/* Sticky section headers - stick until next section */
 .tableOfContentsHeader {
   font-family: 'LibreBaskerville-Italic';
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: var(--color-background);
+  z-index: 10;
+  padding: var(--space-sm);
+  margin: 0;
+  text-align: center;
+  font-size: var(--font-size-xl);
 }
 
 
@@ -135,16 +150,8 @@ body {
   }
 
   .tableOfContentsHeader {
-    font-family: 'LibreBaskerville-Italic';
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background: var(--color-background);
-    z-index: 10;
     padding: var(--space-xs);
-    margin: 0;
-    text-align: center;
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-lg);
   }
 }
 

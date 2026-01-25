@@ -28,31 +28,36 @@ const TableOfContents = () => {
         The Names and Order of all Books of the Bible with the Number of their Chapters
       </h3>
 
-      <h2 className="tableOfContentsHeader" style={{ textAlign: "center", marginTop: "20px" }}>
-        Books of the Old Testament
-      </h2>
+      {/* Old Testament Section */}
+      <section className="testamentSection">
+        <h2 className="tableOfContentsHeader">
+          Books of the Old Testament
+        </h2>
 
-      <div className="columns">
-        <BookColumn books={books} onBookClick={handleBookClick} />
-        <BookColumn books={books2} onBookClick={handleBookClick} />
-        <BookColumn books={books3} onBookClick={handleBookClick} />
-      </div>
+        <div className="columns">
+          <BookColumn books={books} onBookClick={handleBookClick} />
+          <BookColumn books={books2} onBookClick={handleBookClick} />
+          <BookColumn books={books3} onBookClick={handleBookClick} />
+        </div>
+      </section>
 
-      <h2 className="tableOfContentsHeader" style={{ textAlign: "center", marginTop: "20px" }}>
-        Books of the New Testament
-      </h2>
+      {/* New Testament Section */}
+      <section className="testamentSection">
+        <h2 className="tableOfContentsHeader">
+          Books of the New Testament
+        </h2>
 
-      <div className="two-column">
-        <BookColumn books={books4} onBookClick={handleBookClick} />
-        <BookColumn books={books5} onBookClick={handleBookClick} />
-      </div>
+        <div className="two-column">
+          <BookColumn books={books4} onBookClick={handleBookClick} />
+          <BookColumn books={books5} onBookClick={handleBookClick} />
+        </div>
 
-      <div className="rev-column">
-        <BookColumn books={books6} onBookClick={handleBookClick} />
-      </div>
+        <div className="rev-column">
+          <BookColumn books={books6} onBookClick={handleBookClick} />
+        </div>
+      </section>
     </div>
   );
 };
 
 export default TableOfContents;
-
