@@ -12,6 +12,9 @@
   --color-text: #333;
   --color-text-muted: #666;
 
+  /* Header height for sticky positioning */
+  --header-height: 50px;
+
   /* Spacing - fluid scale */
   --space-xs: clamp(4px, 1vw, 8px);
   --space-sm: clamp(8px, 2vw, 12px);
@@ -70,7 +73,7 @@ body {
   position: relative;
 }
 
-/* Sticky section headers - stick until next section */
+/* Sticky section headers - stick below the app header */
 .tableOfContentsHeader {
   font-family: 'LibreBaskerville-Italic';
   position: -webkit-sticky;
@@ -82,6 +85,7 @@ body {
   margin: 0;
   text-align: center;
   font-size: var(--font-size-xl);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
