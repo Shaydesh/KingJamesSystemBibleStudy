@@ -1,4 +1,4 @@
-const CACHE_NAME = "bible-study-v139";
+const CACHE_NAME = "bible-study-v142";
 
 const coreAssets = [
   "/",
@@ -141,8 +141,28 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
-// Fetch event remains unchanged (cache-first)
+// URLs that should be cached on-demand (when fetched)
+const shouldCacheUrl = (url) => {
+  const pathname = new URL(url).pathname;
+  return (
+    pathname.startsWith("/books/") ||
+    pathname.startsWith("/map/") ||
+    pathname.startsWith("/miracles/") ||
+    pathname.endsWith(".json") ||
+    pathname.endsWith(".css") ||
+    pathname.endsWith(".js") ||
+    pathname.endsWith(".ttf") ||
+    pathname.endsWith(".woff") ||
+    pathname.endsWith(".woff2") ||
+    pathname.endsWith(".png") ||
+    pathname.endsWith(".ico") ||
+    pathname.endsWith(".svg")
+  );
+};
+
+// Fetch event - cache-first with selective caching
 self.addEventListener("fetch", (event) => {
+  // Handle navigation requests (SPA routing)
   if (event.request.mode === "navigate") {
     event.respondWith(
       caches.match("/index.html").then((response) => response || fetch(event.request)).catch(() => caches.match("/index.html"))
@@ -156,10 +176,12 @@ self.addEventListener("fetch", (event) => {
         return cachedResponse;
       }
       return fetch(event.request).then((networkResponse) => {
+        // Only cache valid responses for known asset types
         if (
           !networkResponse ||
           networkResponse.status !== 200 ||
-          networkResponse.type !== "basic"
+          networkResponse.type !== "basic" ||
+          !shouldCacheUrl(event.request.url)
         ) {
           return networkResponse;
         }
@@ -171,7 +193,6 @@ self.addEventListener("fetch", (event) => {
       });
     }).catch(() => {
       console.warn("Fetch failed, and no cache match:", event.request.url);
-      // Optionally: return fallback JSON or offline page here
     })
   );
 });

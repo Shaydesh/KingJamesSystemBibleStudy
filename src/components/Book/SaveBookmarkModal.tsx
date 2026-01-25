@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useCallback, useEffect } from "react";
 import { StrongsData, StrongsDictionary, Verse } from "../../types/BibleBook";
 import { handleBookmarkSave } from "../../utils/Book/handleBookmarkSave";
 import styles from "./SaveBookmarkModal.module.css";
@@ -54,21 +54,43 @@ const SaveBookmarkModal: React.FC<SaveBookmarkModalProps> = ({
     setCurrentStrongsIndex(0);
   };
 
+  // Debounce timer ref for topic filtering
+  const debounceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Cleanup debounce timer on unmount
+  useEffect(() => {
+    return () => {
+      if (debounceTimerRef.current) {
+        clearTimeout(debounceTimerRef.current);
+      }
+    };
+  }, []);
+
+  // Debounced filter function
+  const filterTopics = useCallback((inputValue: string) => {
+    if (inputValue.trim() === "") {
+      setFilteredTopics([]);
+    } else {
+      const filtered: string[] = topics.filter((t) =>
+        t.toLowerCase().includes(inputValue.toLowerCase()),
+      );
+      setFilteredTopics(filtered);
+    }
+  }, [topics, setFilteredTopics]);
+
   const handleTopicChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const inputValue = e.target.value;
+    setTopic(inputValue); // Update immediately for responsive typing
 
-    setTopic(inputValue); // Update the topic input as the user types
-
-    if (inputValue.trim() === "") {
-      setFilteredTopics([]); // If input is empty, clear the suggestions
-    } else {
-      // Filter topics based on the input value (case-insensitive)
-      const filtered: string[] = topics.filter((topic) =>
-        topic.toLowerCase().includes(inputValue.toLowerCase()),
-      );
-
-      setFilteredTopics(filtered); // Update the filtered topics list
+    // Clear previous debounce timer
+    if (debounceTimerRef.current) {
+      clearTimeout(debounceTimerRef.current);
     }
+
+    // Debounce the filtering (300ms delay)
+    debounceTimerRef.current = setTimeout(() => {
+      filterTopics(inputValue);
+    }, 300);
   };
 
   const handleTopicSelect = (selectedTopic: string) => {
