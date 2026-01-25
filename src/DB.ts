@@ -2,6 +2,47 @@ import { Bookmark } from "./types/BibleBook";
 
 let db: IDBDatabase | null = null;
 
+// Input validation constants
+const MAX_QUERY_LENGTH = 200;
+const MAX_TOPIC_LENGTH = 100;
+const MAX_BOOK_NAME_LENGTH = 50;
+const MAX_VERSE_ID_LENGTH = 50;
+
+// Sanitize string input - remove potentially dangerous characters
+const sanitizeString = (input: string, maxLength: number): string => {
+  if (typeof input !== 'string') return '';
+  return input
+    .slice(0, maxLength)
+    .replace(/[<>]/g, '') // Remove angle brackets to prevent HTML injection
+    .trim();
+};
+
+// Validate bookmark data
+const validateBookmarkData = (
+  book: string,
+  chapter: number,
+  verse: number | string,
+  topic: string,
+  verseId: string
+): { valid: boolean; error?: string } => {
+  if (!book || typeof book !== 'string') {
+    return { valid: false, error: 'Invalid book name' };
+  }
+  if (typeof chapter !== 'number' || chapter < 0 || chapter > 200) {
+    return { valid: false, error: 'Invalid chapter number' };
+  }
+  if (verse === undefined || verse === null) {
+    return { valid: false, error: 'Invalid verse' };
+  }
+  if (typeof topic !== 'string') {
+    return { valid: false, error: 'Invalid topic' };
+  }
+  if (!verseId || typeof verseId !== 'string') {
+    return { valid: false, error: 'Invalid verse ID' };
+  }
+  return { valid: true };
+};
+
 // Initialize the database
 export const initDB = (): Promise<void> => {
   return new Promise((resolve, reject) => {
@@ -45,21 +86,33 @@ export const saveBookmark = (
   verseId: string
 ): Promise<Bookmark> => {
   return new Promise((resolve, reject) => {
+    // Validate inputs
+    const validation = validateBookmarkData(book, chapter, verse, topic, verseId);
+    if (!validation.valid) {
+      reject(new Error(validation.error || "Invalid bookmark data"));
+      return;
+    }
+
     if (!db) {
       reject(new Error("Database not initialized"));
       return;
     }
+
+    // Sanitize string inputs
+    const sanitizedBook = sanitizeString(book, MAX_BOOK_NAME_LENGTH);
+    const sanitizedTopic = sanitizeString(topic, MAX_TOPIC_LENGTH);
+    const sanitizedVerseId = sanitizeString(verseId, MAX_VERSE_ID_LENGTH);
 
     const transaction = db.transaction(["Bookmarks"], "readwrite");
     const objectStore = transaction.objectStore("Bookmarks");
 
     const bookmark: Bookmark = {
       id: Date.now(),
-      book,
+      book: sanitizedBook,
       chapter,
       verse,
-      topic,
-      verseId,
+      topic: sanitizedTopic,
+      verseId: sanitizedVerseId,
       date: new Date(),
     };
 
@@ -106,6 +159,12 @@ export const getAllBookmarks = (): Promise<Bookmark[]> => {
 // Delete a bookmark by ID
 export const deleteBookmark = (id: number): Promise<number> => {
   return new Promise((resolve, reject) => {
+    // Validate ID
+    if (typeof id !== 'number' || !Number.isFinite(id) || id < 0) {
+      reject(new Error("Invalid bookmark ID"));
+      return;
+    }
+
     if (!db) {
       reject(new Error("Database not initialized"));
       return;
@@ -132,6 +191,18 @@ export const deleteBookmark = (id: number): Promise<number> => {
 // Get suggestions (topics starting with query)
 export const getSuggestions = (query: string): Promise<string[]> => {
   return new Promise((resolve, reject) => {
+    // Validate and sanitize query
+    if (typeof query !== 'string') {
+      resolve([]);
+      return;
+    }
+
+    const sanitizedQuery = sanitizeString(query, MAX_QUERY_LENGTH);
+    if (sanitizedQuery.length === 0) {
+      resolve([]);
+      return;
+    }
+
     if (!db) {
       reject(new Error("Database not initialized"));
       return;
@@ -141,7 +212,7 @@ export const getSuggestions = (query: string): Promise<string[]> => {
     const objectStore = transaction.objectStore("Bookmarks");
     const index = objectStore.index("bookmark");
 
-    const keyRange = IDBKeyRange.bound(query, query + "\uffff");
+    const keyRange = IDBKeyRange.bound(sanitizedQuery, sanitizedQuery + "\uffff");
 
     const suggestions: string[] = [];
     const request = index.openCursor(keyRange);
