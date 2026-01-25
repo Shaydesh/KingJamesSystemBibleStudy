@@ -61,11 +61,11 @@ export function CalendarDetails({
           </li>
           <li style={{ paddingBottom: "10px" }}>
             <span className="">Jubilee Cycle (49 Years):</span>{" "}
-            Year {zadokDate.yearInCycle} of 49
+            Year {(zadokDate.year % 49) || 49} of 49
           </li>
           <li style={{ paddingBottom: "10px" }}>
             <span className="">Grand Jubilee Cycle:</span>{" "}
-            Cycle {zadokDate.jubileeCycle}
+            Cycle {Math.floor((zadokDate.year - 1) / 49) + 1}
           </li>
           <li style={{ paddingBottom: "10px" }}>
             <span className="">Priest Rotation Count:</span>{" "}
