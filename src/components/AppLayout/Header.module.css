@@ -6,7 +6,10 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--space-xs, 8px) var(--space-sm, 12px);
+  position: sticky;
+  top: 0;
   z-index: 100;
+  height: var(--header-height, 50px);
 }
 
 .hamburgerIcon {
