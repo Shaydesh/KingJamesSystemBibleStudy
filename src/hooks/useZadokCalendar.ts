@@ -75,7 +75,7 @@ export function useZadokCalendar() {
       }
 
       // Calculate the priest family for this day
-      const gregDate = zadokToGregorian(year, month, d, yearInCycle);
+      const gregDate = zadokToGregorian(year, month, d);
       const tempZadokDate = gregorianToZadok(gregDate);
       const priestFamilyIndex = tempZadokDate.priestFamilyIndex;
       const priestFamilyName = PRIEST_FAMILIES[priestFamilyIndex];
@@ -146,12 +146,10 @@ export function useZadokCalendar() {
 
   // Navigate to the previous month
   const goToPreviousMonth = useCallback(() => {
-    const { year, month, yearInCycle, jubileeCycle } = zadokDate;
+    const { year, month } = zadokDate;
 
     let newMonth = month - 1;
     let newYear = year;
-    let newYearInCycle = yearInCycle;
-    let newJubileeCycle = jubileeCycle;
 
     if (newMonth < 1) {
       newMonth = 12;
@@ -161,19 +159,10 @@ export function useZadokCalendar() {
         // Don't go before the start of the calendar
         return;
       }
-
-      newYearInCycle = newYearInCycle - 1;
-      if (newYearInCycle < 1) {
-        newYearInCycle = 6;
-        newJubileeCycle = jubileeCycle - 1;
-        if (newJubileeCycle < 1) {
-          newJubileeCycle = 7;
-        }
-      }
     }
 
     // Convert to gregorian and back to update all zadok date fields
-    const newDate = zadokToGregorian(newYear, newMonth, 1, newYearInCycle);
+    const newDate = zadokToGregorian(newYear, newMonth, 1);
     const newZadokDate = gregorianToZadok(newDate);
 
     const firstDay: CalendarDay = {
@@ -193,29 +182,18 @@ export function useZadokCalendar() {
 
   // Navigate to the next month
   const goToNextMonth = useCallback(() => {
-    const { year, month, yearInCycle, jubileeCycle } = zadokDate;
+    const { year, month } = zadokDate;
 
     let newMonth = month + 1;
     let newYear = year;
-    let newYearInCycle = yearInCycle;
-    let newJubileeCycle = jubileeCycle;
 
     if (newMonth > 12) {
       newMonth = 1;
       newYear = year + 1;
-
-      newYearInCycle = newYearInCycle + 1;
-      if (newYearInCycle > 6) {
-        newYearInCycle = 1;
-        newJubileeCycle = jubileeCycle + 1;
-        if (newJubileeCycle > 7) {
-          newJubileeCycle = 1;
-        }
-      }
     }
 
     // Convert to gregorian and back to update all zadok date fields
-    const newDate = zadokToGregorian(newYear, newMonth, 1, newYearInCycle);
+    const newDate = zadokToGregorian(newYear, newMonth, 1);
     const newZadokDate = gregorianToZadok(newDate);
 
     const firstDay: CalendarDay = {
@@ -235,31 +213,20 @@ export function useZadokCalendar() {
 
   // Navigate to the previous year
   const goToPreviousYear = useCallback(() => {
-    const { year, month, day, yearInCycle, jubileeCycle } = zadokDate;
+    const { year, month, day } = zadokDate;
 
     if (year <= 1) {
       // Don't go before the start of the calendar
       return;
     }
 
-    let newYear = year - 1;
-    let newYearInCycle = yearInCycle - 1;
-    let newJubileeCycle = jubileeCycle;
-
-    if (newYearInCycle < 1) {
-      newYearInCycle = 6;
-      newJubileeCycle = jubileeCycle - 1;
-      if (newJubileeCycle < 1) {
-        newJubileeCycle = 7;
-      }
-    }
+    const newYear = year - 1;
 
     // Convert to gregorian and back to update all zadok date fields
     const newDate = zadokToGregorian(
       newYear,
       month,
       Math.min(day, getDaysInMonth(month)),
-      newYearInCycle,
     );
     const newZadokDate = gregorianToZadok(newDate);
 
@@ -269,26 +236,15 @@ export function useZadokCalendar() {
 
   // Navigate to the next year
   const goToNextYear = useCallback(() => {
-    const { year, month, day, yearInCycle, jubileeCycle } = zadokDate;
+    const { year, month, day } = zadokDate;
 
-    let newYear = year + 1;
-    let newYearInCycle = yearInCycle + 1;
-    let newJubileeCycle = jubileeCycle;
-
-    if (newYearInCycle > 6) {
-      newYearInCycle = 1;
-      newJubileeCycle = jubileeCycle + 1;
-      if (newJubileeCycle > 7) {
-        newJubileeCycle = 1;
-      }
-    }
+    const newYear = year + 1;
 
     // Convert to gregorian and back to update all zadok date fields
     const newDate = zadokToGregorian(
       newYear,
       month,
       Math.min(day, getDaysInMonth(month)),
-      newYearInCycle,
     );
     const newZadokDate = gregorianToZadok(newDate);
 
@@ -307,7 +263,7 @@ export function useZadokCalendar() {
 
   // Navigate to a specific Zadok date
   const goToDate = useCallback(
-    (year: number, month: number, day: number, yearInCycle: number) => {
+    (year: number, month: number, day: number) => {
       if (
         year < 1 ||
         month < 1 ||
@@ -318,7 +274,7 @@ export function useZadokCalendar() {
         return;
       }
 
-      const newDate = zadokToGregorian(year, month, day, yearInCycle);
+      const newDate = zadokToGregorian(year, month, day);
       const newZadokDate = gregorianToZadok(newDate);
 
       setCurrentDate(newDate);

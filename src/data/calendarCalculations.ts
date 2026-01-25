@@ -5,7 +5,12 @@ export const DAYS_IN_PRIEST_ROTATION = 7;
 export const TOTAL_PRIEST_FAMILIES = 24;
 export const STARTING_PRIEST_FAMILY_INDEX = 21; // Gamul (1-indexed in Bible, 0-indexed in code)
 export const STARTING_DAY_IN_ROTATION = 5;
+export const ROTATION_DAY_OFFSET = 3; // Offset so Sunday = Day 1 of rotation (epoch was Wednesday = Day 4)
 export const YEAR_START_WEEKDAY = 4; // 4th day of week
+
+// 3862 BC is Year 1. March 20, 2019 is Year 5881 (start of 121st Jubilee cycle)
+// 3862 + 2019 - 1 = 5880 years before 2019
+export const EPOCH_YEAR_OFFSET = 5880;
 
 // Months in Zadok calendar follow a pattern of 30, 30, 31 days for each season
 export const MONTH_DAYS = [30, 30, 31, 30, 30, 31, 30, 30, 31, 30, 30, 31];
@@ -47,27 +52,10 @@ export const SEASONS = [
 ];
 
 // Starting date in Gregorian calendar (March 20, 2019 - Spring Equinox)
+// Note: Using March 20 to align Day 5, Month 11, Year 5887 with January 20, 2026
 export const ZADOK_CALENDAR_START = new Date(2019, 2, 20);
 
-// 3862 BC is Year 1. March 20, 2019 is Year 5881 (start of 121st Jubilee cycle)
-// 3862 + 2019 - 1 = 5880 years before 2019
-export const EPOCH_YEAR_OFFSET = 5880;
-
-export function getCurrentZadokYear(): number {
-  const today = new Date();
-  const zadok = gregorianToZadok(today);
-  return zadok.year;
-}
-
-
-
 // Calculate days since the start of the Zadok calendar
-// export function daysSinceStart(date: Date): number {
-//   const start = new Date(ZADOK_CALENDAR_START);
-//   const timeDiff = date.getTime() - start.getTime();
-//   return Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-// }
-
 export function daysSinceStart(date: Date): number {
   const start = new Date(ZADOK_CALENDAR_START);
   start.setHours(0, 0, 0, 0);
@@ -75,6 +63,13 @@ export function daysSinceStart(date: Date): number {
   target.setHours(0, 0, 0, 0);
   const timeDiff = target.getTime() - start.getTime();
   return Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+}
+
+// Get the current Zadok year
+export function getCurrentZadokYear(): number {
+  const today = new Date();
+  const zadok = gregorianToZadok(today);
+  return zadok.year;
 }
 
 function getSabbathCycleYear(totalDays: number): number {
@@ -96,22 +91,6 @@ function getSabbathCycleYear(totalDays: number): number {
   return 7;
 }
 
-function getSabbathCycleInfo(totalDays: number): { year: number; dayInCycle: number } {
-  const sabbathYearLengths = [364, 364, 364, 364, 364, 371, 364];
-  const totalCycleDays = sabbathYearLengths.reduce((sum, days) => sum + days, 0);
-
-  let dayInCycle = ((totalDays % totalCycleDays) + totalCycleDays) % totalCycleDays;
-
-  for (let i = 0; i < sabbathYearLengths.length; i++) {
-    if (dayInCycle < sabbathYearLengths[i]) {
-      return { year: i + 1, dayInCycle };
-    }
-    dayInCycle -= sabbathYearLengths[i];
-  }
-
-  return { year: 7, dayInCycle: 0 };
-}
-
 export function gregorianToZadok(gregDate: Date): {
   year: number;
   month: number;
@@ -124,16 +103,9 @@ export function gregorianToZadok(gregDate: Date): {
   season: number;
   sabbathcycleyear: number;
   priestFamily: string;
-
 } {
   // Step 1: Get the number of days from the Zadok calendar epoch to the given Gregorian date
   let days = daysSinceStart(gregDate);
-
-  const sabbathInfo = getSabbathCycleInfo(days);
-  const sabbathCycleYear = sabbathInfo.year;
-  const sabbathYearLengths = [364, 364, 364, 364, 364, 371, 364];
-
-
 
   if (days < 0) {
     // The Zadok calendar hasn't started yet for this date
@@ -148,12 +120,7 @@ export function gregorianToZadok(gregDate: Date): {
 
   // There are 7 jubilee cycles in a 294-year "grand cycle", so:
   // Total days in a grand cycle = 7 * daysInNormalCycle
-  //const totalCycleDays = daysInNormalCycle * 7;
-  const totalCycleDays = sabbathYearLengths.reduce((sum, d) => sum + d, 0);
-  const fullCycles = Math.floor(days / totalCycleDays);
-  const dayInCurrentCycle = days % totalCycleDays;
-
-
+  const totalCycleDays = daysInNormalCycle * 7;
 
   // Calculate how far into the 294-year grand cycle the current date is:
   // This gives us the day offset **within** the grand cycle (0 to totalCycleDays-1)
@@ -175,46 +142,40 @@ export function gregorianToZadok(gregDate: Date): {
     YEARS_IN_JUBILEE_CYCLE,
   );
 
-  // Compute the absolute year number from the calendar start:
-  // Divide total days since epoch by the number of days in a Zadok year, then add 1
-  const year = Math.floor(days / DAYS_IN_ZADOK_YEAR) + 1;
+  // --- Handling the Pause Week and Year Calculation with Epoch Offset ---
 
-  // --- Handling the Pause Week (Extra 7 Days at the End of Each 7-Year Cycle) ---
-
-  // Estimate what year we’re in based on total days (for pause calculation)
   const totalDays = daysSinceStart(gregDate);
 
   const sabbathYear = getSabbathCycleYear(totalDays);
 
-  let estimatedYear = Math.floor(totalDays / DAYS_IN_ZADOK_YEAR) + 1;
+  // Use sabbath cycle approach for accurate year calculation
+  const sabbathYearLengths = [364, 364, 364, 364, 364, 371, 364];
+  const sabbathCycleTotalDays = sabbathYearLengths.reduce((sum, d) => sum + d, 0);
 
-  // Get the number of full years that have passed
-  const completeYears = estimatedYear - 1;
+  const fullCycles = Math.floor(days / sabbathCycleTotalDays);
+  const dayInCurrentCycle = days % sabbathCycleTotalDays;
 
-  // Count how many 7-year cycles have been completed:
-  // Every 7th year includes an extra pause week after year 6
-  const pausesPassed = Math.floor(completeYears / 6);
+  let sabbathYearInCycle = 0;
+  let daysIntoYear = dayInCurrentCycle;
+  let accumulated = 0;
 
-  // Adjust total day count by subtracting the extra days from previous pause weeks
-  const adjustedDays = totalDays - pausesPassed * EXTRA_DAYS_AT_CYCLE_END;
+  for (let i = 0; i < sabbathYearLengths.length; i++) {
+    if (dayInCurrentCycle < accumulated + sabbathYearLengths[i]) {
+      sabbathYearInCycle = i;
+      daysIntoYear = dayInCurrentCycle - accumulated;
+      break;
+    }
+    accumulated += sabbathYearLengths[i];
+  }
 
-  // Recalculate which day of the year it is now that we’ve removed the extra days
-  const dayOfYear = adjustedDays % DAYS_IN_ZADOK_YEAR;
+  // Calculate actual year with epoch offset (Year 5881 = March 20, 2019)
+  const year = fullCycles * 7 + sabbathYearInCycle + 1 + EPOCH_YEAR_OFFSET;
 
-  // Recalculate actual year number after removing pauses
-  const actualYear = Math.floor(adjustedDays / DAYS_IN_ZADOK_YEAR) + 1;
-
-  // Check if we’re currently inside a pause week:
-  // If the next year is divisible by 7, then a pause week follows this year
-  // Also, confirm that we’ve gone past the last regular day of the year (364)
-  const isPauseWeek =
-    ((actualYear + 1) % 7 === 0) && (dayOfYear >= DAYS_IN_ZADOK_YEAR);
+  // Check if we are in the pause week (year 6 has extra 7 days at the end)
+  const isPauseWeek = sabbathYearInCycle === 5 && daysIntoYear >= 364;
 
   // Check if this is a jubilee year (every 7th year in the cycle is a jubilee)
-  const isJubilee = actualYear % 7 === 0;
-
-  // Calculate how many days into the current Zadok year we are (0 to 363)
-  let daysIntoYear = daysInCurrentCycle % DAYS_IN_ZADOK_YEAR;
+  const isJubilee = (year - EPOCH_YEAR_OFFSET) % 7 === 0;
 
   // --- Handle the Special Case of the Pause Week ---
   let priestFamilyIndex: number = calculatePriestFamilyIndex(days);
@@ -233,15 +194,11 @@ export function gregorianToZadok(gregDate: Date): {
       dayInRotation: calculateDayInRotation(days),
       season: 3, // Season 3 = Winter
       sabbathcycleyear: sabbathYear,
-      priestFamily: priestFamily,
-
+      priestFamily: priestFamily
     };
   }
 
   // --- Convert Day of Year to Month and Day ---
-
-  // Calculate how many days into the current Zadok year we are (0 to 363)
-  //let daysIntoYear = daysInCurrentCycle % DAYS_IN_ZADOK_YEAR;
 
   // Start from day 1 (human-readable, not zero-based)
   let day = daysIntoYear + 1;
@@ -257,8 +214,6 @@ export function gregorianToZadok(gregDate: Date): {
   // Each season is 3 months long, so divide month index by 3
   const season = Math.floor(month / 3);
 
-
-
   return {
     year,
     month: month + 1, // Convert from 0-based index to 1-based month
@@ -270,11 +225,9 @@ export function gregorianToZadok(gregDate: Date): {
     dayInRotation: calculateDayInRotation(days),
     season,
     sabbathcycleyear: sabbathYear,
-    priestFamily: priestFamily,
-
+    priestFamily: priestFamily
   };
 }
-
 
 function calculatePriestFamilyIndex(days: number): number {
   // Step 1: Estimate Zadok year
@@ -300,38 +253,13 @@ function calculatePriestFamilyIndex(days: number): number {
   }
 
   // Step 5: Calculate total weeks since start, adjusted for pauses
-  const adjustedDays = effectiveDays + (STARTING_DAY_IN_ROTATION - 1);
+  // Use ROTATION_DAY_OFFSET so priest changes align with Sunday (Day 1)
+  const adjustedDays = effectiveDays + ROTATION_DAY_OFFSET;
   const rotationIndex = Math.floor(adjustedDays / DAYS_IN_PRIEST_ROTATION);
   const priestIndex = (STARTING_PRIEST_FAMILY_INDEX + rotationIndex) % TOTAL_PRIEST_FAMILIES;
 
   return priestIndex;
 }
-
-
-// Calculate the day in rotation (1-7)
-// function calculateDayInRotation(days: number): number {
-//   const daysInNormalCycle = DAYS_IN_ZADOK_YEAR * YEARS_IN_JUBILEE_CYCLE + EXTRA_DAYS_AT_CYCLE_END;
-//   const cyclePosition = days % daysInNormalCycle;
-
-//   const year6CompleteDays = DAYS_IN_ZADOK_YEAR * YEARS_IN_JUBILEE_CYCLE;
-//   const extraDaysStart = year6CompleteDays;
-//   const extraDaysEnd = year6CompleteDays + EXTRA_DAYS_AT_CYCLE_END;
-
-//   if (cyclePosition >= extraDaysStart && cyclePosition < extraDaysEnd) {
-//     // Pause rotation — just return the last day's rotation
-//     const adjustedDays = days - (cyclePosition - extraDaysStart + 1);
-//     return calculateDayInRotation(adjustedDays);
-//   }
-
-//   const fullCycles = Math.floor(days / daysInNormalCycle);
-//   const extraDaysPassed = fullCycles * EXTRA_DAYS_AT_CYCLE_END;
-//   const passedExtraThisCycle = cyclePosition >= extraDaysEnd ? EXTRA_DAYS_AT_CYCLE_END : 0;
-
-//   const effectiveDays = days - extraDaysPassed - passedExtraThisCycle;
-//   const dayPosition = (effectiveDays + STARTING_DAY_IN_ROTATION - 1) % DAYS_IN_PRIEST_ROTATION;
-
-//   return dayPosition + 1;
-// }
 
 function calculateDayInRotation(days: number): number {
   // Step 1: Estimate Zadok year
@@ -356,42 +284,42 @@ function calculateDayInRotation(days: number): number {
     return calculateDayInRotation(adjustedDays);
   }
 
-  // Step 5: Compute rotation day (1–7)
-  const adjustedRotationStart = effectiveDays + (STARTING_DAY_IN_ROTATION - 1);
+  // Step 5: Compute rotation day (1–7) with Sunday = Day 1
+  const adjustedRotationStart = effectiveDays + ROTATION_DAY_OFFSET;
   const dayInRotation = (adjustedRotationStart % DAYS_IN_PRIEST_ROTATION) + 1;
 
   return dayInRotation;
 }
-
 
 // Convert Zadok date back to Gregorian date
 export function zadokToGregorian(
   year: number,
   month: number,
   day: number,
-  yearInCycle: number,
 ): Date {
-  // Total days since start of calendar
-  let totalDays = 0;
+  const sabbathYearLengths = [364, 364, 364, 364, 364, 371, 364];
+  const totalCycleDays = sabbathYearLengths.reduce((sum, d) => sum + d, 0);
 
-  // Complete jubilee cycles
-  const completeCycles = Math.floor((year - 1) / YEARS_IN_JUBILEE_CYCLE);
-  totalDays += completeCycles * (DAYS_IN_ZADOK_YEAR * YEARS_IN_JUBILEE_CYCLE + EXTRA_DAYS_AT_CYCLE_END);
+  // Adjust for epoch offset (year 5881 = first year after March 20, 2019)
+  const adjustedYear = year - EPOCH_YEAR_OFFSET;
 
-  // Complete years in current cycle
-  const completeYearsInCycle = yearInCycle - 1;
-  totalDays += completeYearsInCycle * DAYS_IN_ZADOK_YEAR;
+  const fullCycles = Math.floor((adjustedYear - 1) / 7);
+  const yearInCycle = (adjustedYear - 1) % 7;
 
-  // Complete months in current year
+  let totalDays = fullCycles * totalCycleDays;
+
+  for (let i = 0; i < yearInCycle; i++) {
+    totalDays += sabbathYearLengths[i];
+  }
+
   for (let m = 0; m < month - 1; m++) {
     totalDays += MONTH_DAYS[m];
   }
 
-  // Days in current month
-  totalDays += day - 1; // -1 because days are 1-indexed
+  totalDays += day - 1;
 
-  // Create new date by adding total days to start date
   const result = new Date(ZADOK_CALENDAR_START);
+  result.setHours(0, 0, 0, 0);
   result.setDate(result.getDate() + totalDays);
 
   return result;
