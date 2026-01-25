@@ -21,7 +21,7 @@ export const handleChapterChange = (
     closeModal();
 
     setVerseContext(1);
-    const verseId = `${book}_${currentChapter + 1}_${1}`;
+    const verseId = `${book}_${chapterNum}_${1}`;
     const verseElement = document.getElementById(verseId);
 
     if (verseElement) {

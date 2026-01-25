@@ -10,7 +10,7 @@ export const useScrollToVerse = (
   const prevVerseRef = useRef<string | number | null>(null);
 
   useEffect(() => {
-    if (!ready || !verse) return;
+    if (!ready || verse === null || verse === undefined) return;
 
     // Only scroll if the verse has changed
     if (verse !== prevVerseRef.current) {

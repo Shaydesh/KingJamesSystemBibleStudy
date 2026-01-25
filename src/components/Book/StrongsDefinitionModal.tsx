@@ -107,40 +107,44 @@ const StrongsDefinitionModal: React.FC<StrongsDefinitionModalProps> = ({
 
             </div>
 
-            <h2>{strongsData[currentStrongsIndex].k}</h2>
-            <div className={styles.strongsContent}>
-              <p lang={isHebrew ? "he" : "el"} className={isHebrew ? styles.hebrewText : styles.greekText}>
-                {strongsData[currentStrongsIndex].v[0]}
-              </p>
-              <p>
-                <strong>Transliteration:</strong>{" "}
-                {strongsData[currentStrongsIndex].v[1]}
-              </p>
-              <p>
-                <strong>Pronunciation:</strong>{" "}
-                {strongsData[currentStrongsIndex].v[2]}
-              </p>
-              <p>
-                <strong>Etymology:</strong>{" "}
-                {strongsData[currentStrongsIndex].v[3].join(", ")}
-              </p>
-              <p>
-                <strong>Definition:</strong>{" "}
-                {strongsData[currentStrongsIndex].v[4].join(", ")}
-              </p>
-              <p>
-                <strong>Usage:</strong>{" "}
-                {strongsData[currentStrongsIndex].v[5].join(", ")}
-              </p>
-              <p>
-                <strong>Strong's Num. First Appears:</strong>{" "}
-                {strongsData[currentStrongsIndex].v[6].join(", ")}
-              </p>
-              <p>
-                <strong>Times Strong's Num. Appears:</strong>{" "}
-                {strongsData[currentStrongsIndex].v[7]}
-              </p>
-            </div>
+            {currentEntry && (
+              <>
+                <h2>{currentEntry.k}</h2>
+                <div className={styles.strongsContent}>
+                  <p lang={isHebrew ? "he" : "el"} className={isHebrew ? styles.hebrewText : styles.greekText}>
+                    {currentEntry.v[0]}
+                  </p>
+                  <p>
+                    <strong>Transliteration:</strong>{" "}
+                    {currentEntry.v[1]}
+                  </p>
+                  <p>
+                    <strong>Pronunciation:</strong>{" "}
+                    {currentEntry.v[2]}
+                  </p>
+                  <p>
+                    <strong>Etymology:</strong>{" "}
+                    {currentEntry.v[3]?.join(", ")}
+                  </p>
+                  <p>
+                    <strong>Definition:</strong>{" "}
+                    {currentEntry.v[4]?.join(", ")}
+                  </p>
+                  <p>
+                    <strong>Usage:</strong>{" "}
+                    {currentEntry.v[5]?.join(", ")}
+                  </p>
+                  <p>
+                    <strong>Strong's Num. First Appears:</strong>{" "}
+                    {currentEntry.v[6]?.join(", ")}
+                  </p>
+                  <p>
+                    <strong>Times Strong's Num. Appears:</strong>{" "}
+                    {currentEntry.v[7]}
+                  </p>
+                </div>
+              </>
+            )}
 
             <div style={{ marginTop: "20px", textAlign: "center" }}>
               <button

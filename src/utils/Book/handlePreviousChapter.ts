@@ -11,7 +11,7 @@ export const handlePreviousChapter = (
     setSelectedChapter(newChapter);
     setVerseContext(1);
 
-    const verseId = `${book}_${currentChapter}_${1}`;
+    const verseId = `${book}_${newChapter + 1}_${1}`;
     const verseElement = document.getElementById(verseId);
 
     if (verseElement) {

@@ -49,10 +49,31 @@ export const SEASONS = [
 // Starting date in Gregorian calendar (March 20, 2019 - Spring Equinox)
 export const ZADOK_CALENDAR_START = new Date(2019, 2, 20);
 
+// 3862 BC is Year 1. March 20, 2019 is Year 5881 (start of 121st Jubilee cycle)
+// 3862 + 2019 - 1 = 5880 years before 2019
+export const EPOCH_YEAR_OFFSET = 5880;
+
+export function getCurrentZadokYear(): number {
+  const today = new Date();
+  const zadok = gregorianToZadok(today);
+  return zadok.year;
+}
+
+
+
 // Calculate days since the start of the Zadok calendar
+// export function daysSinceStart(date: Date): number {
+//   const start = new Date(ZADOK_CALENDAR_START);
+//   const timeDiff = date.getTime() - start.getTime();
+//   return Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+// }
+
 export function daysSinceStart(date: Date): number {
   const start = new Date(ZADOK_CALENDAR_START);
-  const timeDiff = date.getTime() - start.getTime();
+  start.setHours(0, 0, 0, 0);
+  const target = new Date(date);
+  target.setHours(0, 0, 0, 0);
+  const timeDiff = target.getTime() - start.getTime();
   return Math.floor(timeDiff / (1000 * 60 * 60 * 24));
 }
 
@@ -75,6 +96,22 @@ function getSabbathCycleYear(totalDays: number): number {
   return 7;
 }
 
+function getSabbathCycleInfo(totalDays: number): { year: number; dayInCycle: number } {
+  const sabbathYearLengths = [364, 364, 364, 364, 364, 371, 364];
+  const totalCycleDays = sabbathYearLengths.reduce((sum, days) => sum + days, 0);
+
+  let dayInCycle = ((totalDays % totalCycleDays) + totalCycleDays) % totalCycleDays;
+
+  for (let i = 0; i < sabbathYearLengths.length; i++) {
+    if (dayInCycle < sabbathYearLengths[i]) {
+      return { year: i + 1, dayInCycle };
+    }
+    dayInCycle -= sabbathYearLengths[i];
+  }
+
+  return { year: 7, dayInCycle: 0 };
+}
+
 export function gregorianToZadok(gregDate: Date): {
   year: number;
   month: number;
@@ -87,9 +124,16 @@ export function gregorianToZadok(gregDate: Date): {
   season: number;
   sabbathcycleyear: number;
   priestFamily: string;
+
 } {
   // Step 1: Get the number of days from the Zadok calendar epoch to the given Gregorian date
   let days = daysSinceStart(gregDate);
+
+  const sabbathInfo = getSabbathCycleInfo(days);
+  const sabbathCycleYear = sabbathInfo.year;
+  const sabbathYearLengths = [364, 364, 364, 364, 364, 371, 364];
+
+
 
   if (days < 0) {
     // The Zadok calendar hasn't started yet for this date
@@ -104,7 +148,12 @@ export function gregorianToZadok(gregDate: Date): {
 
   // There are 7 jubilee cycles in a 294-year "grand cycle", so:
   // Total days in a grand cycle = 7 * daysInNormalCycle
-  const totalCycleDays = daysInNormalCycle * 7;
+  //const totalCycleDays = daysInNormalCycle * 7;
+  const totalCycleDays = sabbathYearLengths.reduce((sum, d) => sum + d, 0);
+  const fullCycles = Math.floor(days / totalCycleDays);
+  const dayInCurrentCycle = days % totalCycleDays;
+
+
 
   // Calculate how far into the 294-year grand cycle the current date is:
   // This gives us the day offset **within** the grand cycle (0 to totalCycleDays-1)
@@ -168,8 +217,8 @@ export function gregorianToZadok(gregDate: Date): {
   let daysIntoYear = daysInCurrentCycle % DAYS_IN_ZADOK_YEAR;
 
   // --- Handle the Special Case of the Pause Week ---
-  let priestFamiliyIndex: number = calculatePriestFamilyIndex(days);
-  let priestFamily = PRIEST_FAMILIES[priestFamiliyIndex]
+  let priestFamilyIndex: number = calculatePriestFamilyIndex(days);
+  let priestFamily = PRIEST_FAMILIES[priestFamilyIndex]
 
   if (isPauseWeek) {
     // During the pause week, the "month" is still month 12, and we add the extra days to the last month's count
@@ -180,11 +229,12 @@ export function gregorianToZadok(gregDate: Date): {
       isJubilee,
       jubileeCycle,
       yearInCycle,
-      priestFamilyIndex: priestFamiliyIndex,
+      priestFamilyIndex: priestFamilyIndex,
       dayInRotation: calculateDayInRotation(days),
       season: 3, // Season 3 = Winter
       sabbathcycleyear: sabbathYear,
-      priestFamily: priestFamily
+      priestFamily: priestFamily,
+
     };
   }
 
@@ -207,6 +257,8 @@ export function gregorianToZadok(gregDate: Date): {
   // Each season is 3 months long, so divide month index by 3
   const season = Math.floor(month / 3);
 
+
+
   return {
     year,
     month: month + 1, // Convert from 0-based index to 1-based month
@@ -214,223 +266,15 @@ export function gregorianToZadok(gregDate: Date): {
     isJubilee,
     jubileeCycle,
     yearInCycle,
-    priestFamilyIndex: priestFamiliyIndex,
+    priestFamilyIndex: priestFamilyIndex,
     dayInRotation: calculateDayInRotation(days),
     season,
     sabbathcycleyear: sabbathYear,
-    priestFamily: priestFamily
+    priestFamily: priestFamily,
+
   };
 }
 
-
-// Convert gregorian date to Zadok date
-// export function gregorianToZadok(gregDate: Date): {
-//   year: number;
-//   month: number;
-//   day: number;
-//   isJubilee: boolean;
-//   jubileeCycle: number;
-//   yearInCycle: number;
-//   priestFamilyIndex: number;
-//   dayInRotation: number;
-//   season: number;
-// } {
-//   // Calculate days since start of Zadok calendar
-//   let days = daysSinceStart(gregDate);
-
-//   if (days < 0) {
-//     // Handle dates before calendar start
-//     throw new Error("Date is before the start of the Zadok calendar");
-//   }
-
-//   // Calculate jubilee cycle information
-//   const daysInNormalCycle = DAYS_IN_ZADOK_YEAR * YEARS_IN_JUBILEE_CYCLE + EXTRA_DAYS_AT_CYCLE_END;
-
-//   const totalCycleDays = daysInNormalCycle * 7; // 7 priest cycles = 294 years
-
-//   // Position within the 294-year grand cycle (7 jubilee cycles)
-//   const grandCyclePosition = days % totalCycleDays;
-
-//   // Current jubilee cycle (1-7)
-//   const jubileeCycle = Math.floor(grandCyclePosition / daysInNormalCycle) + 1;
-
-//   // Days within current jubilee cycle
-//   const daysInCurrentCycle = grandCyclePosition % daysInNormalCycle;
-
-//   // Calculate year within the current jubilee cycle
-//   const yearInCycle = Math.min(Math.floor(daysInCurrentCycle / DAYS_IN_ZADOK_YEAR) + 1, YEARS_IN_JUBILEE_CYCLE,);
-
-//   // Year number (counting from 1)
-//   const year = Math.floor(days / DAYS_IN_ZADOK_YEAR) + 1;
-
-//   // Determine if this is a jubilee year (first year of a jubilee cycle)
-//   //const isJubilee = yearInCycle === 1;
-
-
-
-//   // Calculate days into current year, accounting for the 7 extra days at end of cycle
-//   let daysIntoYear = daysInCurrentCycle % DAYS_IN_ZADOK_YEAR;
-
-
-//   const totalDays = daysSinceStart(gregDate);
-//   let estimatedYear = Math.floor(totalDays / DAYS_IN_ZADOK_YEAR) + 1;
-//   const completeYears = estimatedYear - 1;
-//   const pausesPassed = Math.floor(completeYears / 6); // every 7th year has a pause after year 6
-//   const adjustedDays = totalDays - pausesPassed * EXTRA_DAYS_AT_CYCLE_END;
-//   const dayOfYear = adjustedDays % DAYS_IN_ZADOK_YEAR;
-//   const actualYear = Math.floor(adjustedDays / DAYS_IN_ZADOK_YEAR) + 1;
-//   const isPauseWeek = ((actualYear + 1) % 7 === 0) && (dayOfYear >= DAYS_IN_ZADOK_YEAR);
-//   const isJubilee = actualYear % 7 === 0;
-
-//   // If we're in the extra week at the end of cycle
-//   if (isPauseWeek) {
-//     // We're in the extra week
-//     return {
-//       year,
-//       month: 12,
-//       day: MONTH_DAYS[11] + (daysIntoYear - DAYS_IN_ZADOK_YEAR) + 1,
-//       isJubilee,
-//       jubileeCycle,
-//       yearInCycle,
-//       priestFamilyIndex: calculatePriestFamilyIndex(days),
-//       dayInRotation: calculateDayInRotation(days),
-//       season: 3, // Winter
-//     };
-//   }
-
-//   // Calculate month and day
-//   let month = 0;
-
-//   // Days are numbered normally (1, 2, 3, etc.)
-//   // but the first day of the year falls on the 4th day of the week
-//   let day = daysIntoYear + 1; // +1 because days are 1-indexed
-
-//   while (day > MONTH_DAYS[month]) {
-//     day -= MONTH_DAYS[month];
-//     month++;
-//   }
-
-//   // Calculate season (0-based)
-//   const season = Math.floor(month / 3);
-
-//   return {
-//     year,
-//     month: month + 1, // +1 because months are 1-indexed
-//     day,
-//     isJubilee,
-//     jubileeCycle,
-//     yearInCycle,
-//     priestFamilyIndex: calculatePriestFamilyIndex(days),
-//     dayInRotation: calculateDayInRotation(days),
-//     season,
-//   };
-// }
-
-// export function gregorianToZadok(gregDate: Date): {
-//   year: number;
-//   month: number;
-//   day: number;
-//   isJubilee: boolean;
-//   isPauseWeek: boolean;
-//   priestFamilyIndex: number;
-//   dayInRotation: number;
-//   season: number;
-// } {
-//   // Calculate total days since start of calendar
-//   const totalDays = daysSinceStart(gregDate);
-//   if (totalDays < 0) throw new Error("Date is before the start of the Zadok calendar");
-
-//   // Estimate Zadok year without accounting for pauses
-//   let estimatedYear = Math.floor(totalDays / DAYS_IN_ZADOK_YEAR) + 1;
-
-//   // Calculate how many 7-year cycles have passed (for pause insertion)
-//   const completeYears = estimatedYear - 1;
-//   const pausesPassed = Math.floor(completeYears / 6); // every 7th year has a pause after year 6
-//   const adjustedDays = totalDays - pausesPassed * EXTRA_DAYS_AT_CYCLE_END;
-
-//   // Recalculate the actual year based on adjustedDays
-//   const actualYear = Math.floor(adjustedDays / DAYS_IN_ZADOK_YEAR) + 1;
-//   const dayOfYear = adjustedDays % DAYS_IN_ZADOK_YEAR;
-
-//   const isJubilee = actualYear % 7 === 0;
-//   const isPauseWeek = ((actualYear + 1) % 7 === 0) && (dayOfYear >= DAYS_IN_ZADOK_YEAR);
-
-//   let days = daysSinceStart(gregDate);
-//   const daysInNormalCycle = DAYS_IN_ZADOK_YEAR * 7 + EXTRA_DAYS_AT_CYCLE_END;
-//   const totalCycleDays = daysInNormalCycle * 7;
-//   const grandCyclePosition = days % totalCycleDays;
-//   const daysInCurrentCycle = grandCyclePosition % daysInNormalCycle;
-//   const yearInCycle = Math.min(Math.floor(daysInCurrentCycle / DAYS_IN_ZADOK_YEAR) + 1, YEARS_IN_JUBILEE_CYCLE,);
-
-
-//   // Handle pause week
-//   if (isPauseWeek) {
-//     return {
-//       year: actualYear,
-//       month: 12,
-//       day: MONTH_DAYS[11] + (dayOfYear - DAYS_IN_ZADOK_YEAR) + 1, // day 365–371 as day 1–7 of pause
-//       isJubilee,
-//       isPauseWeek: true,
-//       priestFamilyIndex: calculatePriestFamilyIndex(totalDays),
-//       dayInRotation: calculateDayInRotation(totalDays),
-//       season: 3, // Winter
-//     };
-//   }
-
-//   // Convert dayOfYear to month/day
-//   let remainingDays = dayOfYear;
-//   let monthIndex = 0;
-//   while (remainingDays >= MONTH_DAYS[monthIndex]) {
-//     remainingDays -= MONTH_DAYS[monthIndex];
-//     monthIndex++;
-//   }
-
-//   const season = Math.floor(monthIndex / 3);
-
-//   return {
-//     year: actualYear,
-//     month: monthIndex + 1,
-//     day: remainingDays + 1,
-//     isJubilee,
-//     isPauseWeek: false,
-//     priestFamilyIndex: calculatePriestFamilyIndex(totalDays),
-//     dayInRotation: calculateDayInRotation(totalDays),
-//     season,
-//   };
-// }
-
-
-// Calculate the priest family index for a given day
-// function calculatePriestFamilyIndex(days: number): number {
-//   const daysInNormalCycle = DAYS_IN_ZADOK_YEAR * YEARS_IN_JUBILEE_CYCLE + EXTRA_DAYS_AT_CYCLE_END;
-//   const cyclePosition = days % daysInNormalCycle;
-
-//   const year6CompleteDays = DAYS_IN_ZADOK_YEAR * YEARS_IN_JUBILEE_CYCLE;
-//   const extraDaysStart = year6CompleteDays;
-//   const extraDaysEnd = year6CompleteDays + EXTRA_DAYS_AT_CYCLE_END;
-
-//   // Check if current day is within the extra 7-day pause
-//   if (cyclePosition >= extraDaysStart && cyclePosition < extraDaysEnd) {
-//     // Return same priest as the one who served the last regular day (day 364 of year 6)
-//     const adjustedDays = days - (cyclePosition - extraDaysStart + 1); // go back to the last counted day
-//     return calculatePriestFamilyIndex(adjustedDays);
-//   }
-
-//   // Count how many full extra day blocks we've passed (i.e., per 6-year cycle)
-//   const fullCycles = Math.floor(days / daysInNormalCycle);
-//   const extraDaysPassed = fullCycles * EXTRA_DAYS_AT_CYCLE_END;
-
-//   // Also check if we’re *after* the extra week in the current cycle
-//   const passedExtraThisCycle = cyclePosition >= extraDaysEnd ? EXTRA_DAYS_AT_CYCLE_END : 0;
-
-//   const effectiveDays = days - extraDaysPassed - passedExtraThisCycle;
-
-//   const adjustedDays = effectiveDays + (STARTING_DAY_IN_ROTATION - 1);
-//   const totalRotations = Math.floor(adjustedDays / DAYS_IN_PRIEST_ROTATION);
-//   const familyIndex = (STARTING_PRIEST_FAMILY_INDEX + totalRotations) % TOTAL_PRIEST_FAMILIES;
-
-//   return familyIndex;
-// }
 
 function calculatePriestFamilyIndex(days: number): number {
   // Step 1: Estimate Zadok year

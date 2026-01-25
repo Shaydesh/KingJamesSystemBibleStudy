@@ -11,12 +11,12 @@ export const handleNextChapter = (
   if (!bibleData || !bibleData.chapters) return;
 
   if (currentChapter < bibleData.chapters.length - 1) {
-    setCurrentChapter(currentChapter + 1);
-    setSelectedChapter(currentChapter + 1);
+    const newChapter = currentChapter + 1;
+    setCurrentChapter(newChapter);
+    setSelectedChapter(newChapter);
     setVerseContext(1);
 
-
-    const verseId = `${book}_${currentChapter + 1}_${1}`;
+    const verseId = `${book}_${newChapter + 1}_${1}`;
     const verseElement = document.getElementById(verseId);
 
     if (verseElement) {
