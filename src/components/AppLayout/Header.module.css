@@ -36,7 +36,7 @@
   margin: 0;
   padding: 0 var(--space-sm, 10px);
   flex-grow: 1;
-  font-size: clamp(1rem, 4vw, 1.5rem);
+  font-size: 1.5em;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -64,18 +64,10 @@
   .header {
     padding: var(--space-sm, 10px) var(--space-md, 20px);
   }
-
-  .appTitle {
-    font-size: 1.25rem;
-  }
 }
 
 /* Desktop (1024px+) */
 @media (min-width: 1024px) {
-  .appTitle {
-    font-size: 1.5rem;
-  }
-
   .hamburgerIcon {
     font-size: 1.5em;
   }
