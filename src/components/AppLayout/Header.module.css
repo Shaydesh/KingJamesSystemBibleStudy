@@ -1,52 +1,84 @@
+/* Header - Mobile first approach */
 .header {
-    background: #333;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    /* This ensures that the children are spaced out */
-    align-items: center;
-    /* Vertically centers the content */
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-xs, 8px) var(--space-sm, 12px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .hamburgerIcon {
-    background: none;
-    border: none;
-    color: #fff;
-    font-size: 1.5em;
-    margin-left: 10px;
-    /* Spacing on the left side */
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: clamp(1.5em, 6vw, 2em);
+  padding: var(--space-xs, 8px);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  transition: opacity var(--transition-fast, 0.15s ease);
+}
+
+.hamburgerIcon:hover {
+  opacity: 0.8;
+}
+
+.hamburgerIcon:active {
+  opacity: 0.6;
 }
 
 .appTitle {
-    margin-left: 10px;
-    padding-left: 5px;
-    flex-grow: 1;
+  margin: 0;
+  padding: 0 var(--space-sm, 10px);
+  flex-grow: 1;
+  font-size: clamp(1rem, 4vw, 1.5rem);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .installPrompt {
-    margin-left: auto;
-    /* Pushes the arrow to the right */
-    margin-right: 10px;
-    /* Optional: spacing from the right edge */
+  margin-left: auto;
+  margin-right: var(--space-sm, 10px);
+  font-size: clamp(0.875rem, 3vw, 1rem);
+  padding: var(--space-xs, 6px) var(--space-sm, 12px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius-sm, 4px);
+  color: #fff;
+  cursor: pointer;
+  transition: background var(--transition-fast, 0.15s ease);
 }
 
-@media (max-width: 768px) {
-    .hamburgerIcon {
-        font-size: 2em;
-        padding: 0px;
-    }
-
-    .appTitle {
-        font-size: 1.5em;
-    }
+.installPrompt:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 
-@media (max-width: 600px) {
-    .hamburgerIcon {
-        font-size: 2em;
-    }
+/* Tablet (768px+) */
+@media (min-width: 768px) {
+  .header {
+    padding: var(--space-sm, 10px) var(--space-md, 20px);
+  }
 
-    .appTitle {
-        font-size: 1.5em;
-    }
+  .appTitle {
+    font-size: 1.25rem;
+  }
+}
+
+/* Desktop (1024px+) */
+@media (min-width: 1024px) {
+  .appTitle {
+    font-size: 1.5rem;
+  }
+
+  .hamburgerIcon {
+    font-size: 1.5em;
+  }
 }

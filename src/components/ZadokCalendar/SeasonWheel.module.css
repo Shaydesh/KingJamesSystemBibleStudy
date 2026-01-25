@@ -1,70 +1,51 @@
-/* Container for the Enoch Calendar Wheel */
+/* Season Wheel - Mobile first approach */
 .enochCalendarContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
-    overflow: visible;
-    padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-md, 1rem);
+  padding-top: var(--space-md, 20px);
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  overflow: visible;
 }
 
 .enochCalendarSvg {
-    width: 100%;
-    height: auto;
-    max-width: 600px;
-    max-height: 600px;
-    overflow: visible;
+  width: 100%;
+  height: auto;
+  max-width: min(90vw, 350px);
+  max-height: min(90vw, 350px);
+  overflow: visible;
 }
 
 .enochCalendarSvg text {
-    /* font-family: "Arial", sans-serif; */
-    fill: #000;
-    paint-order: stroke;
-    stroke: #fff;
-    stroke-width: 2;
+  fill: #000;
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 2;
 }
 
-@media (max-width: 768px) {
-    .enochCalendarSvg {
-        max-width: 500px;
-        max-height: 500px;
-    }
+/* Tablet (768px+) */
+@media (min-width: 768px) {
+  .enochCalendarContainer {
+    padding-top: var(--space-lg, 40px);
+  }
 
-    .enochCalendarContainer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem;
-        box-sizing: border-box;
-        width: 100%;
-        height: auto;
-        overflow: visible;
-        padding-top: 20px;
-
-    }
-
-
+  .enochCalendarSvg {
+    max-width: min(80vw, 500px);
+    max-height: min(80vw, 500px);
+  }
 }
 
-@media (max-width: 480px) {
-    .enochCalendarSvg {
-        max-width: 350px;
-        max-height: 350px;
-    }
+/* Desktop (1024px+) */
+@media (min-width: 1024px) {
+  .enochCalendarContainer {
+    padding-top: clamp(40px, 8vw, 100px);
+  }
 
-    .enochCalendarContainer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem;
-        box-sizing: border-box;
-        width: 100%;
-        height: auto;
-        overflow: visible;
-        padding-top: 20px;
-
-    }
+  .enochCalendarSvg {
+    max-width: 600px;
+    max-height: 600px;
+  }
 }

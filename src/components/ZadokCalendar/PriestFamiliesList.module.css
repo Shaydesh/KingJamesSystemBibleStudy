@@ -1,62 +1,95 @@
+/* Priest Families List - Mobile first approach */
 .priestFamiliesContainer {
-    background: #f9f9f9;
-    border: 1px solid #ccc;
-    padding: 20px;
-    box-sizing: border-box;
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 20px;
+  background: var(--color-surface, #f9f9f9);
+  border: 1px solid var(--color-border, #ccc);
+  padding: var(--space-md, 20px);
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: var(--radius-sm, 5px);
+  margin-bottom: var(--space-md, 20px);
 }
 
-/* Grid layout */
+/* Grid layout - Mobile first: 2 columns */
 .priestFamiliesGrid {
-    display: grid;
-    gap: 0.75rem;
-    padding: 1rem;
-    grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  gap: clamp(0.5rem, 2vw, 0.75rem);
+  padding: var(--space-sm, 1rem);
+  grid-template-columns: repeat(2, 1fr);
 }
 
-/* Tablet (≥ 640px) */
-@media (min-width: 768px) {
-
-    .priestFamiliesGrid {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-}
-
-/* Desktop (≥ 1024px) */
-@media (min-width: 1024px) {
-    .priestFamiliesGrid {
-        grid-template-columns: repeat(6, 1fr);
-    }
-
-    .priestFamilyItem {
-        font-size: 8em;
-    }
-
-}
-
+/* Individual priest family item */
 .priestFamilyItem {
-    border: 1px solid #e5e7eb;
-    padding: 0.75rem;
-    border-radius: 0.375rem;
-    text-align: center;
-    font-weight: 500;
-    color: #4b2e2e;
-    background-color: #fdfdfd;
-    transition: background-color 0.2s;
-    font-size: 1em;
-    min-width: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  border: 1px solid #e5e7eb;
+  padding: clamp(0.5rem, 2vw, 0.75rem);
+  border-radius: var(--radius-sm, 0.375rem);
+  text-align: center;
+  font-weight: 500;
+  color: #4b2e2e;
+  background-color: #fdfdfd;
+  transition: background-color var(--transition-fast, 0.2s ease),
+              transform var(--transition-fast, 0.2s ease);
+  font-size: clamp(0.75rem, 2.5vw, 1rem);
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: default;
+}
 
+.priestFamilyItem:hover {
+  transform: scale(1.02);
 }
 
 /* Highlighted (selected) item */
 .priestFamilyItem.selected {
-    background-color: #333;
-    /* slate-600 */
-    color: white;
+  background-color: #333;
+  color: white;
+  font-weight: 600;
+}
+
+/* Small mobile (480px and below) */
+@media (max-width: 480px) {
+  .priestFamiliesContainer {
+    padding: var(--space-sm, 12px);
+  }
+
+  .priestFamiliesGrid {
+    gap: 0.4rem;
+    padding: var(--space-xs, 0.5rem);
+  }
+
+  .priestFamilyItem {
+    padding: 0.4rem;
+    font-size: 0.7rem;
+  }
+}
+
+/* Tablet (768px+): 4 columns */
+@media (min-width: 768px) {
+  .priestFamiliesGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .priestFamilyItem {
+    font-size: 0.9rem;
+  }
+}
+
+/* Desktop (1024px+): 6 columns */
+@media (min-width: 1024px) {
+  .priestFamiliesGrid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .priestFamilyItem {
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+}
+
+/* Large desktop (1200px+): 8 columns */
+@media (min-width: 1200px) {
+  .priestFamiliesGrid {
+    grid-template-columns: repeat(8, 1fr);
+  }
 }
