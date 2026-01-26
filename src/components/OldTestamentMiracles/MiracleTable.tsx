@@ -2,7 +2,6 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useBook } from "../../context/BookContext";
 import { Miracle } from "../../types/Miracle";
-import MiracleRow from "./MiracleRow";
 import styles from "./MiracleTable.module.css";
 
 interface DataTableProps {
@@ -11,11 +10,6 @@ interface DataTableProps {
 
 const DataTable: React.FC<DataTableProps> = ({ data }) => {
   const {
-    book,
-    chapter,
-    verse,
-    locationName,
-    locationCoords,
     setBookTheme,
     setSelectedChapter,
     setVerseContext,
@@ -26,56 +20,63 @@ const DataTable: React.FC<DataTableProps> = ({ data }) => {
   const navigate = useNavigate();
 
   const handleNavigateBook = React.useCallback((bookName: string, Chapter: number, Verse: number) => {
-    try {
-      console.log("Navigate clicked verse " + Verse);
-      setBookTheme(bookName); // Store book
-      setSelectedChapter(Chapter - 1);
-      setVerseContext(Verse);
-      navigate(`/Book/${bookName}`);
-    } catch (error) {
-      console.error("Error navigating:", error); // Handle the error
-    } finally {
-      // This will always run, regardless of whether an error occurred
-      console.log("Navigation attempt finished.");
-    }
-  }, []);
+    setBookTheme(bookName);
+    setSelectedChapter(Chapter - 1);
+    setVerseContext(Verse);
+    navigate(`/Book/${bookName}`);
+  }, [setBookTheme, setSelectedChapter, setVerseContext, navigate]);
 
   const handleNavigateMap = React.useCallback((coords: [number, number], location: string) => {
-    try {
-      console.log("Navigate map to " + location + " and coords " + coords);
-      setLocationName(location); // Store book
-      setLocationCoords(coords);
-      navigate(`/Map/`);
-    } catch (error) {
-      console.error("Error navigating:", error); // Handle the error
-    } finally {
-      // This will always run, regardless of whether an error occurred
-      console.log("Navigation attempt finished.");
-    }
-  }, []);
+    setLocationName(location);
+    setLocationCoords(coords);
+    navigate(`/Map/`);
+  }, [setLocationName, setLocationCoords, navigate]);
 
   return (
-    <div className={styles.tableContainer}>
-      <table className={styles.miracleTable}>
-        <thead>
-          <tr>
-            <th>MIRACLE</th>
-            <th>OBJECT</th>
-            <th>PLACE</th>
-            <th>RECORD</th>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((data) => (
-            <MiracleRow
-              key={data.Id}
-              rowData={data}
-              handleNavigateBook={handleNavigateBook}
-              handleNavigateMap={handleNavigateMap}
-            />
-          ))}
-        </tbody>
-      </table>
+    <div className={styles.cardsContainer}>
+      <div className={styles.cardsGrid}>
+        {data.map((miracle) => (
+          <article key={miracle.Id} className={styles.miracleCard}>
+            <h3 className={styles.miracleTitle}>{miracle.Miracle}</h3>
+
+            <div className={styles.cardDetails}>
+              {miracle.ObjectOrOccasion && (
+                <>
+                  <span className={styles.label}>Object:</span>
+                  <span className={styles.value}>{miracle.ObjectOrOccasion}</span>
+                </>
+              )}
+
+              <span className={styles.label}>Place:</span>
+              <span className={styles.value}>
+                <span
+                  className={styles.link}
+                  onClick={() => handleNavigateMap(miracle.Coordinates, miracle.Place)}
+                >
+                  {miracle.Place}
+                </span>
+              </span>
+
+              <span className={styles.label}>Record:</span>
+              <span className={styles.value}>
+                {miracle.References.map((ref, index) => (
+                  <span key={index} className={styles.references}>
+                    <span
+                      className={styles.link}
+                      onClick={() => handleNavigateBook(ref.Book, ref.Chapter, ref.Verse)}
+                    >
+                      {ref.DisplayVerse}
+                    </span>
+                    {index < miracle.References.length - 1 && (
+                      <span className={styles.referenceSeparator}>, </span>
+                    )}
+                  </span>
+                ))}
+              </span>
+            </div>
+          </article>
+        ))}
+      </div>
     </div>
   );
 };
