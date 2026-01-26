@@ -51,9 +51,9 @@ export const SEASONS = [
   { name: "Winter", color: "bg-winter", months: [10, 11, 12] },
 ];
 
-// Starting date in Gregorian calendar (March 21, 2019)
-// Note: Using March 21 to align Day 9, Month 11, Year 5887 with January 25, 2026 (Sabbath)
-export const ZADOK_CALENDAR_START = new Date(2019, 2, 21);
+// Starting date in Gregorian calendar (March 20, 2019 - Spring Equinox)
+// Note: Using March 20 to align Day 5, Month 11, Year 5887 with January 20, 2026
+export const ZADOK_CALENDAR_START = new Date(2019, 2, 20);
 
 // Calculate days since the start of the Zadok calendar
 export function daysSinceStart(date: Date): number {
