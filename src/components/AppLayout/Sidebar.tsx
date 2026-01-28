@@ -22,8 +22,14 @@ const Sidebar = ({
   return isOpen ? (
     <div ref={sidebarRef} className={`${styles.sidebar} ${isOpen ? styles.open : ""}`}>
       <div className={styles.sidebarHeader}>
+        <button
+          className={styles.closeButton}
+          onClick={onClose}
+          aria-label="Close menu"
+        >
+          ✕
+        </button>
         <h1 className={styles.sidebarTitle}>King James System Bible Study</h1>
-        {/* <hr /> */}
       </div>
 
       <div className={styles.sidebarContent}>
@@ -98,7 +104,11 @@ const Sidebar = ({
       </div>
 
       <div className={styles.sidebarFooter}>
-        <Link to="/donate" className={styles.sidebarLink} onClick={onClose}>
+        <Link
+          to="/donate"
+          className={`${styles.sidebarLink} ${location.pathname === "/donate" ? styles.active : ""}`}
+          onClick={onClose}
+        >
           Support This Project
         </Link>
       </div>

@@ -2,6 +2,7 @@ import { CalendarDetails } from '../components/ZadokCalendar/CalendarDetails';
 import { CalendarDisplay } from '../components/ZadokCalendar/CalendarDisplay';
 import { CalendarHeader } from '../components/ZadokCalendar/CalendarHeader';
 import { CalendarNavigation } from '../components/ZadokCalendar/CalendarNavigation';
+import MoonPhase from '../components/ZadokCalendar/MoonPhase';
 import { PriestFamiliesList } from '../components/ZadokCalendar/PriestFamiliesList';
 import SeasonWheel from '../components/ZadokCalendar/SeasonWheel';
 import { useZadokCalendar } from '../hooks/useZadokCalendar';
@@ -53,8 +54,7 @@ export default function ZadokCalendar() {
 
       <div className="container">
         <div className="row">
-          <div className="col col-6">
-
+          <div className="col col-4">
             <CalendarDisplay
               monthYearTitle={formattedMonthYear()}
               calendarGrid={calendarGrid}
@@ -64,14 +64,19 @@ export default function ZadokCalendar() {
               zadokDate={zadokDate}
               selectedDate={selectedDate}
               setSelectedDate={setSelectedDate}
-
             />
           </div>
 
-          <div className="col col-6">
-            <SeasonWheel zadokDate={zadokDate} />
+          <div className="col col-4">
+            <MoonPhase
+              zadokDate={zadokDate}
+              selectedDate={selectedDate}
+            />
           </div>
 
+          <div className="col col-4">
+            <SeasonWheel zadokDate={zadokDate} />
+          </div>
         </div>
 
         <PriestFamiliesList

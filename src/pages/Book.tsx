@@ -138,6 +138,7 @@ const Book = () => {
             currentStrongsIndex={currentStrongsIndex}
             selectedVerse={selectedVerse}
             openBookmarkModal={openBookmarkModal}
+            StrongsDict={StrongsDict}
           />
 
         </div>

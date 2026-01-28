@@ -15,8 +15,8 @@
 /* Individual Miracle Card */
 .miracleCard {
   background-color: transparent;
-  border: 1px solid #d4c9b5;
-  border-radius: 2px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   padding: var(--space-md, 20px);
   font-family: 'LibreBaskerville-Regular', Georgia, serif;
 }
@@ -28,7 +28,7 @@
   color: #2c1810;
   margin: 0 0 var(--space-sm, 12px) 0;
   padding-bottom: var(--space-xs, 8px);
-  border-bottom: 1px solid #d4c9b5;
+  border-bottom: 1px solid #ccc;
 }
 
 /* Card Details */
@@ -82,7 +82,7 @@
   display: block;
   width: 40px;
   height: 1px;
-  background: #d4c9b5;
+  background: #ccc;
   margin: var(--space-sm, 12px) auto 0;
 }
 

@@ -1,11 +1,7 @@
-.map-container {
+.mapContainer {
     width: 100%;
     height: 60vh;
 }
-
-/* .mapContainer {
-    aspect-ratio: 3 / 2;
-} */
 
 @media (max-width: 600px) {
     .mapContainer {

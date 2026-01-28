@@ -3,19 +3,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: var(--space-md, 1rem);
-  padding-top: var(--space-md, 20px);
+  padding: var(--space-md, 15px);
   box-sizing: border-box;
   width: 100%;
-  height: auto;
+  height: 100%;
   overflow: visible;
 }
 
 .enochCalendarSvg {
-  width: 100%;
+  width: 90%;
   height: auto;
-  max-width: min(90vw, 350px);
-  max-height: min(90vw, 350px);
+  max-width: min(90vw, 320px);
+  max-height: min(90vw, 320px);
   overflow: visible;
 }
 
@@ -28,24 +27,18 @@
 
 /* Tablet (768px+) */
 @media (min-width: 768px) {
-  .enochCalendarContainer {
-    padding-top: var(--space-lg, 40px);
-  }
-
   .enochCalendarSvg {
-    max-width: min(80vw, 500px);
-    max-height: min(80vw, 500px);
+    width: 95%;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 
 /* Desktop (1024px+) */
 @media (min-width: 1024px) {
-  .enochCalendarContainer {
-    padding-top: clamp(40px, 8vw, 100px);
-  }
-
   .enochCalendarSvg {
-    max-width: 600px;
-    max-height: 600px;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
   }
 }

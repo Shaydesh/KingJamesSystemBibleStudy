@@ -187,8 +187,15 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-md);
+  gap: var(--space-sm);
   margin-bottom: var(--space-md);
+}
+
+/* Desktop (1024px+): no wrap for rows */
+@media (min-width: 1024px) {
+  .row {
+    flex-wrap: nowrap;
+  }
 }
 
 /* Column base class - full width on mobile */
@@ -205,18 +212,15 @@ body {
 .col-4,
 .col-6 {
   width: 100%;
+  flex: 0 0 100%;
 }
 
-/* Tablet (768px+): 2 columns for col-6 */
-@media (min-width: 768px) {
-  .col-6 {
-    width: calc(50% - var(--space-sm));
-  }
-}
-
-/* Desktop (1024px+): 3 columns for col-4 */
+/* Desktop (1024px+): 3 columns for col-4, 2 columns for col-6 */
 @media (min-width: 1024px) {
-  .col-4 {
-    width: calc(33.333% - var(--space-sm));
+  .col-4,
+  .col-6 {
+    width: auto;
+    flex: 1 1 0;
+    min-width: 0;
   }
 }

@@ -1,4 +1,7 @@
-import { StrongsData, Verse } from "../../types/BibleBook";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useBook } from "../../context/BookContext";
+import { StrongsData, StrongsDictionary, Verse } from "../../types/BibleBook";
 import styles from "../Book/StrongsDefinitionModal.module.css";
 
 interface StrongsDefinitionModalProps {
@@ -9,7 +12,8 @@ interface StrongsDefinitionModalProps {
   setStrongsData: React.Dispatch<React.SetStateAction<StrongsData[]>>,
   currentStrongsIndex: number,
   selectedVerse: Verse | null,
-  openBookmarkModal: (verse: Verse) => void
+  openBookmarkModal: (verse: Verse) => void,
+  StrongsDict: StrongsDictionary
 }
 
 const StrongsDefinitionModal: React.FC<StrongsDefinitionModalProps> = ({
@@ -20,8 +24,18 @@ const StrongsDefinitionModal: React.FC<StrongsDefinitionModalProps> = ({
   setCurrentStrongsIndex,
   currentStrongsIndex,
   selectedVerse,
-  openBookmarkModal
+  openBookmarkModal,
+  StrongsDict
 }) => {
+  const navigate = useNavigate();
+  const {
+    setBookTheme,
+    setSelectedChapter,
+    setVerseContext,
+  } = useBook();
+
+  // History stack for back navigation
+  const [strongsHistory, setStrongsHistory] = useState<StrongsData[][]>([]);
 
   const handleOverlayClick = (event: React.MouseEvent<HTMLDivElement>) => {
     if ((event.target as HTMLElement).classList.contains(styles.modal)) {
@@ -32,6 +46,69 @@ const StrongsDefinitionModal: React.FC<StrongsDefinitionModalProps> = ({
   const closeStrongsModal = () => {
     setStrongsModalOpen(false);
     setStrongsData([]);
+    setStrongsHistory([]);
+  };
+
+  // Parse reference string like "Genesis 1:1" and navigate to the book
+  const handleNavigateToReference = (reference: string) => {
+    // Match pattern: "Book Name Chapter:Verse"
+    const match = reference.match(/^(.+?)\s+(\d+):(\d+)$/);
+    if (match) {
+      const [, bookName, chapter, verse] = match;
+      setBookTheme(bookName);
+      setSelectedChapter(parseInt(chapter) - 1);
+      setVerseContext(parseInt(verse));
+      closeStrongsModal();
+      navigate(`/Book/${bookName}`);
+    }
+  };
+
+  // Navigate to a Strong's number from etymology
+  const handleStrongsNumberClick = (strongsNum: string) => {
+    const entry = StrongsDict.dictionary.find((e) => e.k === strongsNum);
+    if (entry) {
+      // Save current data to history
+      setStrongsHistory((prev) => [...prev, strongsData]);
+      // Show the new Strong's entry
+      setStrongsData([entry]);
+      setCurrentStrongsIndex(0);
+    }
+  };
+
+  // Go back to previous Strong's entry
+  const handleStrongsBack = () => {
+    if (strongsHistory.length > 0) {
+      const previousData = strongsHistory[strongsHistory.length - 1];
+      setStrongsHistory((prev) => prev.slice(0, -1));
+      setStrongsData(previousData);
+      setCurrentStrongsIndex(0);
+    }
+  };
+
+  // Parse etymology text and make Strong's numbers clickable
+  const renderEtymologyWithLinks = (etymologyArray: string[] | undefined) => {
+    if (!etymologyArray) return null;
+
+    const text = etymologyArray.join(", ");
+    // Match H#### or G#### patterns
+    const strongsPattern = /([HG]\d+)/g;
+    const parts = text.split(strongsPattern);
+
+    return parts.map((part, index) => {
+      // Check if this part is a Strong's number (H or G followed by digits)
+      if (/^[HG]\d+$/.test(part)) {
+        return (
+          <span
+            key={index}
+            className={styles.referenceLink}
+            onClick={() => handleStrongsNumberClick(part)}
+          >
+            {part}
+          </span>
+        );
+      }
+      return <span key={index}>{part}</span>;
+    });
   };
 
   const handlePreviousDefinition = () => {
@@ -124,7 +201,7 @@ const StrongsDefinitionModal: React.FC<StrongsDefinitionModalProps> = ({
                   </p>
                   <p>
                     <strong>Etymology:</strong>{" "}
-                    {currentEntry.v[3]?.join(", ")}
+                    {renderEtymologyWithLinks(currentEntry.v[3])}
                   </p>
                   <p>
                     <strong>Definition:</strong>{" "}
@@ -136,7 +213,17 @@ const StrongsDefinitionModal: React.FC<StrongsDefinitionModalProps> = ({
                   </p>
                   <p>
                     <strong>Strong's Num. First Appears:</strong>{" "}
-                    {currentEntry.v[6]?.join(", ")}
+                    {currentEntry.v[6]?.map((ref, index) => (
+                      <span key={index}>
+                        <span
+                          className={styles.referenceLink}
+                          onClick={() => handleNavigateToReference(ref)}
+                        >
+                          {ref}
+                        </span>
+                        {index < (currentEntry.v[6]?.length || 0) - 1 && ", "}
+                      </span>
+                    ))}
                   </p>
                   <p>
                     <strong>Times Strong's Num. Appears:</strong>{" "}
@@ -149,7 +236,11 @@ const StrongsDefinitionModal: React.FC<StrongsDefinitionModalProps> = ({
             <div style={{ marginTop: "20px", textAlign: "center" }}>
               <button
                 onClick={() => {
-                  if (selectedVerse !== null) {
+                  if (strongsHistory.length > 0) {
+                    // Go back to previous Strong's entry
+                    handleStrongsBack();
+                  } else if (selectedVerse !== null) {
+                    // Go back to bookmark modal
                     console.log("Back button clicked.");
                     closeStrongsModal();
                     openBookmarkModal(selectedVerse);
@@ -157,7 +248,7 @@ const StrongsDefinitionModal: React.FC<StrongsDefinitionModalProps> = ({
                 }}
                 style={{ marginRight: "10px" }}
               >
-                Back
+                Back {strongsHistory.length > 0 && `(${strongsHistory.length})`}
               </button>
               <button onClick={closeStrongsModal}>Close</button>
             </div>

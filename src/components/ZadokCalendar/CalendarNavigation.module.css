@@ -10,23 +10,26 @@
 }
 
 .previousChapterButton {
-
-    color: black;
-    /* White text */
-    padding: 10px 20px;
-    /* Padding inside button */
-
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #5c4a3d;
+    padding: 8px 16px;
     cursor: pointer;
-    /* Pointer cursor on hover */
     font-family: 'LibreBaskerville-Regular';
-    font-size: 17px;
-    transition: background-color 0.3s, transform 0.2s;
-    /* Smooth transition */
-    margin: 5px;
-    /* Spacing between buttons */
-    width: 100%;
-    /* Full width on mobile */
-    max-width: 200px;
+    font-size: 15px;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.previousChapterButton:hover:not(:disabled) {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-color: #999;
+    color: #2c1810;
+}
+
+.previousChapterButton:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
 }
 
 .bibleChapterHeader {
@@ -36,21 +39,24 @@
 }
 
 .nextChapterButton {
-
-    color: black;
-    /* White text */
-    padding: 10px 20px;
-    /* Padding inside button */
-
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #5c4a3d;
+    padding: 8px 16px;
     cursor: pointer;
-    /* Pointer cursor on hover */
     font-family: 'LibreBaskerville-Regular';
-    font-size: 17px;
-    transition: background-color 0.3s, transform 0.2s;
-    /* Smooth transition */
-    margin: 10px;
-    /* Spacing between buttons */
-    width: 100%;
-    /* Full width on mobile */
-    max-width: 200px;
+    font-size: 15px;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.nextChapterButton:hover:not(:disabled) {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-color: #999;
+    color: #2c1810;
+}
+
+.nextChapterButton:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
 }
