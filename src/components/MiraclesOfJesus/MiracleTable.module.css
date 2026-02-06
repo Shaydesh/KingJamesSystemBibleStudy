@@ -1,0 +1,130 @@
+/* Miracle Cards Container */
+.cardsContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-md, 20px);
+}
+
+/* Card Grid - single column that flows naturally */
+.cardsGrid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md, 20px);
+}
+
+/* Individual Miracle Card */
+.miracleCard {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: var(--space-md, 20px);
+  font-family: 'LibreBaskerville-Regular', Georgia, serif;
+}
+
+/* Miracle Title */
+.miracleTitle {
+  font-family: 'LibreBaskerville-Italic', Georgia, serif;
+  font-size: 1.25em;
+  color: #2c1810;
+  margin: 0 0 var(--space-sm, 12px) 0;
+  padding-bottom: var(--space-xs, 8px);
+  border-bottom: 1px solid #ccc;
+}
+
+/* Card Details */
+.cardDetails {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-xs, 8px) var(--space-md, 16px);
+  font-size: 1em;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Labels */
+.label {
+  font-family: 'LibreBaskerville-Italic', Georgia, serif;
+  color: #5c4a3d;
+  white-space: nowrap;
+}
+
+/* Values */
+.value {
+  color: #2c1810;
+}
+
+/* Clickable Links (Place and References) */
+.link {
+  text-decoration: none;
+  color: #4a3728;
+  cursor: pointer;
+  border-bottom: 1px dotted #8b7355;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.link:hover {
+  color: #2c1810;
+  border-bottom-color: #2c1810;
+}
+
+/* References list */
+.references {
+  display: inline;
+}
+
+.referenceSeparator {
+  color: #8b7355;
+}
+
+/* Decorative flourish between cards (optional) */
+.miracleCard::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 1px;
+  background: #ccc;
+  margin: var(--space-sm, 12px) auto 0;
+}
+
+.miracleCard:last-child::after {
+  display: none;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .cardDetails {
+    font-size: 1.1em;
+  }
+
+  .miracleTitle {
+    font-size: 1.35em;
+  }
+}
+
+@media (max-width: 480px) {
+  .cardsContainer {
+    padding: var(--space-sm, 12px);
+  }
+
+  .miracleCard {
+    padding: var(--space-sm, 12px);
+  }
+
+  .cardDetails {
+    grid-template-columns: 1fr;
+    gap: var(--space-xs, 6px);
+  }
+
+  .label {
+    font-weight: 600;
+    margin-top: var(--space-xs, 6px);
+  }
+
+  .label:first-child {
+    margin-top: 0;
+  }
+
+  .miracleTitle {
+    font-size: 1.15em;
+  }
+}
