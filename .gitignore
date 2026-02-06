@@ -5,10 +5,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
-<<<<<<< HEAD
 .pnpm-debug.log*
-=======
->>>>>>> 26166b3efd5898d97aa809b5b934b6a82f96a3e8
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -60,15 +57,12 @@ web_modules/
 # Optional stylelint cache
 .stylelintcache
 
-<<<<<<< HEAD
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
 .rts2_cache_es/
 .rts2_cache_umd/
 
-=======
->>>>>>> 26166b3efd5898d97aa809b5b934b6a82f96a3e8
 # Optional REPL history
 .node_repl_history
 
@@ -80,15 +74,8 @@ web_modules/
 
 # dotenv environment variable files
 .env
-<<<<<<< HEAD
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
-=======
 .env.*
 !.env.example
->>>>>>> 26166b3efd5898d97aa809b5b934b6a82f96a3e8
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -104,19 +91,13 @@ dist
 
 # Gatsby files
 .cache/
-# Comment in the public line in if your project uses Gatsby and not Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
-# public
 
 # vuepress build output
 .vuepress/dist
 
 # vuepress v2.x temp and cache directory
 .temp
-.cache
 
-<<<<<<< HEAD
-=======
 # Sveltekit cache directory
 .svelte-kit/
 
@@ -126,7 +107,6 @@ dist
 # vitepress cache directory
 **/.vitepress/cache
 
->>>>>>> 26166b3efd5898d97aa809b5b934b6a82f96a3e8
 # Docusaurus cache and generated files
 .docusaurus
 
@@ -139,26 +119,15 @@ dist
 # DynamoDB Local files
 .dynamodb/
 
-<<<<<<< HEAD
-=======
 # Firebase cache directory
 .firebase/
 
->>>>>>> 26166b3efd5898d97aa809b5b934b6a82f96a3e8
 # TernJS port file
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-<<<<<<< HEAD
-# yarn v2
-.yarn/cache
-.yarn/unplugged
-.yarn/build-state.yml
-.yarn/install-state.gz
-.pnp.*
-=======
 # yarn v3
 .pnp.*
 .yarn/*
@@ -171,4 +140,7 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
->>>>>>> 26166b3efd5898d97aa809b5b934b6a82f96a3e8
+
+# Local IDE/tool config
+.claude/
+.vscode/
