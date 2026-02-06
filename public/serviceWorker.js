@@ -1,4 +1,4 @@
-const CACHE_NAME = "bible-study-v142";
+const CACHE_NAME = "bible-study-v143";
 
 const coreAssets = [
   "/",
@@ -6,11 +6,9 @@ const coreAssets = [
   "/manifest.json",
   "/apple-touch-icon.png",
   "/favicon.ico",
+  "/favicon.svg",
   "/android-chrome-192x192.png",
   "/android-chrome-512x512.png",
-  "/src/styles/globals.css",
-  "/src/fonts/LibreBaskerville-Regular.ttf",
-  "/src/fonts/LibreBaskerville-Italic.ttf",
 ];
 
 // List ALL book JSON files here explicitly:
