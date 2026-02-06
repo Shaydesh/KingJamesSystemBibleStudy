@@ -85,7 +85,7 @@
 
   .detailsList {
     font-size: var(--font-size-sm, 14px);
-    padding-left: var(--space-sm, 12px);
+    padding-left: var(--space-lg, 24px);
   }
 
   .sectionHeader {

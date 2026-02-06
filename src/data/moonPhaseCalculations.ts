@@ -369,13 +369,16 @@ export function getMoonPhaseName(phase: number): string {
   // Normalize to 0-1 range
   const p = ((phase % 1) + 1) % 1;
 
-  if (p < 0.0625 || p >= 0.9375) return 'New Moon';
-  if (p < 0.1875) return 'Waxing Crescent';
-  if (p < 0.3125) return 'First Quarter';
-  if (p < 0.4375) return 'Waxing Gibbous';
-  if (p < 0.5625) return 'Full Moon';
-  if (p < 0.6875) return 'Waning Gibbous';
-  if (p < 0.8125) return 'Last Quarter';
+  // Thresholds aligned with visual rendering in MoonPhase.tsx
+  // Exact phases (New, First Quarter, Full, Last Quarter) have tight ranges
+  // Intermediate phases (crescents, gibbous) fill the gaps
+  if (p < 0.03 || p >= 0.97) return 'New Moon';
+  if (p < 0.22) return 'Waxing Crescent';
+  if (p < 0.28) return 'First Quarter';
+  if (p < 0.47) return 'Waxing Gibbous';
+  if (p < 0.53) return 'Full Moon';
+  if (p < 0.72) return 'Waning Gibbous';
+  if (p < 0.78) return 'Last Quarter';
   return 'Waning Crescent';
 }
 

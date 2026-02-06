@@ -37,6 +37,30 @@ const StrongsDefinitionModal: React.FC<StrongsDefinitionModalProps> = ({
   // History stack for back navigation
   const [strongsHistory, setStrongsHistory] = useState<StrongsData[][]>([]);
 
+  // Normalize book names from Strong's format (e.g., "2 Kings") to app format (e.g., "II Kings")
+  const normalizeBookName = (bookName: string): string => {
+    const bookNameMap: Record<string, string> = {
+      "1 Samuel": "I Samuel",
+      "2 Samuel": "II Samuel",
+      "1 Kings": "I Kings",
+      "2 Kings": "II Kings",
+      "1 Chronicles": "I Chronicles",
+      "2 Chronicles": "II Chronicles",
+      "1 Corinthians": "I Corinthians",
+      "2 Corinthians": "II Corinthians",
+      "1 Thessalonians": "I Thessalonians",
+      "2 Thessalonians": "II Thessalonians",
+      "1 Timothy": "I Timothy",
+      "2 Timothy": "II Timothy",
+      "1 Peter": "I Peter",
+      "2 Peter": "II Peter",
+      "1 John": "I John",
+      "2 John": "II John",
+      "3 John": "III John",
+    };
+    return bookNameMap[bookName] || bookName;
+  };
+
   const handleOverlayClick = (event: React.MouseEvent<HTMLDivElement>) => {
     if ((event.target as HTMLElement).classList.contains(styles.modal)) {
       closeStrongsModal();
@@ -54,7 +78,8 @@ const StrongsDefinitionModal: React.FC<StrongsDefinitionModalProps> = ({
     // Match pattern: "Book Name Chapter:Verse"
     const match = reference.match(/^(.+?)\s+(\d+):(\d+)$/);
     if (match) {
-      const [, bookName, chapter, verse] = match;
+      const [, rawBookName, chapter, verse] = match;
+      const bookName = normalizeBookName(rawBookName);
       setBookTheme(bookName);
       setSelectedChapter(parseInt(chapter) - 1);
       setVerseContext(parseInt(verse));

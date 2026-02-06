@@ -8,6 +8,28 @@
             44.422222,
             32.543333
         ],
+        "Polygon": [
+            [
+                44.419723,
+                32.5426
+            ],
+            [
+                44.419699,
+                32.541421
+            ],
+            [
+                44.422976,
+                32.541626
+            ],
+            [
+                44.422488,
+                32.543306
+            ],
+            [
+                44.419723,
+                32.5426
+            ]
+        ],
         "References": [
             {
                 "Book": "Genesis",
@@ -25,7 +47,7 @@
         "Place": "Sodom and Gomorrah",
         "Coordinates": [
             35.449223,
-            31.208490
+            31.20849
         ],
         "References": [
             {
@@ -44,7 +66,7 @@
         "Place": "Sodom and Gomorrah",
         "Coordinates": [
             35.449223,
-            31.208490
+            31.20849
         ],
         "References": [
             {
@@ -63,7 +85,7 @@
         "Place": "On the road from Sodom",
         "Coordinates": [
             35.449223,
-            31.208490
+            31.20849
         ],
         "References": [
             {
@@ -141,6 +163,68 @@
             32.6573,
             25.7188
         ],
+        "Polygon": [
+            [
+                29.73021,
+                24.8548
+            ],
+            [
+                32.76415,
+                24.45298
+            ],
+            [
+                32.98086,
+                24.45298
+            ],
+            [
+                33.19757,
+                24.45298
+            ],
+            [
+                34.28111,
+                24.45298
+            ],
+            [
+                34.28111,
+                24.65389
+            ],
+            [
+                34.28111,
+                24.8548
+            ],
+            [
+                33.84769,
+                30.68111
+            ],
+            [
+                32.76415,
+                31.08292
+            ],
+            [
+                32.11402,
+                31.28383
+            ],
+            [
+                31.03047,
+                31.48474
+            ],
+            [
+                28.21325,
+                30.68111
+            ],
+            [
+                27.99654,
+                30.4802
+            ],
+            [
+                28.21325,
+                28.06932
+            ],
+            [
+                29.73021,
+                24.8548
+            ]
+        ],
         "References": [
             {
                 "Book": "Exodus",
@@ -160,6 +244,68 @@
             32.6573,
             25.7188
         ],
+        "Polygon": [
+            [
+                29.73021,
+                24.8548
+            ],
+            [
+                32.76415,
+                24.45298
+            ],
+            [
+                32.98086,
+                24.45298
+            ],
+            [
+                33.19757,
+                24.45298
+            ],
+            [
+                34.28111,
+                24.45298
+            ],
+            [
+                34.28111,
+                24.65389
+            ],
+            [
+                34.28111,
+                24.8548
+            ],
+            [
+                33.84769,
+                30.68111
+            ],
+            [
+                32.76415,
+                31.08292
+            ],
+            [
+                32.11402,
+                31.28383
+            ],
+            [
+                31.03047,
+                31.48474
+            ],
+            [
+                28.21325,
+                30.68111
+            ],
+            [
+                27.99654,
+                30.4802
+            ],
+            [
+                28.21325,
+                28.06932
+            ],
+            [
+                29.73021,
+                24.8548
+            ]
+        ],
         "References": [
             {
                 "Book": "Exodus",
@@ -177,7 +323,7 @@
         "Place": "Wilderness of the Red Sea",
         "Coordinates": [
             33.8333,
-            29.5000
+            29.5
         ],
         "References": [
             {
@@ -195,7 +341,7 @@
         "ObjectOrOccasion": "To make a road for the Israelites and drown the Egyptians",
         "Place": "Red Sea Crossing",
         "Coordinates": [
-            34.66340,
+            34.6634,
             29.04681
         ],
         "References": [
@@ -235,6 +381,28 @@
         "Coordinates": [
             34.93,
             28.34
+        ],
+        "Polygon": [
+            [
+                33.260532,
+                29.004055
+            ],
+            [
+                33.168061,
+                28.988352
+            ],
+            [
+                33.172083,
+                28.794702
+            ],
+            [
+                33.368035,
+                28.849754
+            ],
+            [
+                33.260532,
+                29.004055
+            ]
         ],
         "References": [
             {
@@ -431,8 +599,146 @@
         "ObjectOrOccasion": "To rebuke for their murmuriungs",
         "Place": "Desert of Zin",
         "Coordinates": [
-            35.325000,
-            30.971000
+            35.325,
+            30.971
+        ],
+        "Polygon": [
+            [
+                34.22866,
+                30.84914
+            ],
+            [
+                34.22866,
+                30.82082
+            ],
+            [
+                34.22866,
+                30.7925
+            ],
+            [
+                34.22866,
+                30.76419
+            ],
+            [
+                34.39242,
+                30.39607
+            ],
+            [
+                34.42518,
+                30.39607
+            ],
+            [
+                34.45793,
+                30.39607
+            ],
+            [
+                34.49068,
+                30.39607
+            ],
+            [
+                34.52343,
+                30.39607
+            ],
+            [
+                34.55619,
+                30.39607
+            ],
+            [
+                34.58894,
+                30.39607
+            ],
+            [
+                34.62169,
+                30.39607
+            ],
+            [
+                34.65444,
+                30.39607
+            ],
+            [
+                34.6872,
+                30.39607
+            ],
+            [
+                34.71995,
+                30.39607
+            ],
+            [
+                34.7527,
+                30.39607
+            ],
+            [
+                34.78545,
+                30.39607
+            ],
+            [
+                35.01472,
+                30.42439
+            ],
+            [
+                35.14573,
+                30.56597
+            ],
+            [
+                35.21124,
+                30.70756
+            ],
+            [
+                35.21124,
+                30.73587
+            ],
+            [
+                35.21124,
+                30.76419
+            ],
+            [
+                35.21124,
+                30.7925
+            ],
+            [
+                35.21124,
+                30.82082
+            ],
+            [
+                35.21124,
+                30.84914
+            ],
+            [
+                35.21124,
+                30.87745
+            ],
+            [
+                35.17848,
+                30.99072
+            ],
+            [
+                35.14573,
+                31.10399
+            ],
+            [
+                35.11298,
+                31.10399
+            ],
+            [
+                34.49068,
+                31.07567
+            ],
+            [
+                34.32692,
+                31.01904
+            ],
+            [
+                34.29417,
+                30.99072
+            ],
+            [
+                34.22866,
+                30.87745
+            ],
+            [
+                34.22866,
+                30.84914
+            ]
         ],
         "References": [
             {
@@ -471,6 +777,100 @@
         "Coordinates": [
             35.558333,
             31.761389
+        ],
+        "Polygon": [
+            [
+                35.641497,
+                31.738839
+            ],
+            [
+                35.701387,
+                31.844513
+            ],
+            [
+                35.595213,
+                31.965858
+            ],
+            [
+                35.668632,
+                32.19519
+            ],
+            [
+                35.598618,
+                32.350868
+            ],
+            [
+                35.635348,
+                32.727494
+            ],
+            [
+                35.566054,
+                32.71703
+            ],
+            [
+                35.575584,
+                32.661326
+            ],
+            [
+                35.567754,
+                32.623829
+            ],
+            [
+                35.519762,
+                32.506111
+            ],
+            [
+                35.539992,
+                32.362357
+            ],
+            [
+                35.556018,
+                32.270368
+            ],
+            [
+                35.540053,
+                32.197291
+            ],
+            [
+                35.489048,
+                32.083101
+            ],
+            [
+                35.434166,
+                32.030584
+            ],
+            [
+                35.447941,
+                31.960009
+            ],
+            [
+                35.398864,
+                31.951947
+            ],
+            [
+                35.377756,
+                31.918242
+            ],
+            [
+                35.421166,
+                31.893264
+            ],
+            [
+                35.430094,
+                31.847714
+            ],
+            [
+                35.454051,
+                31.779867
+            ],
+            [
+                35.494221,
+                31.751456
+            ],
+            [
+                35.641497,
+                31.738839
+            ]
         ],
         "References": [
             {
@@ -525,5 +925,2148 @@
             }
         ],
         "Classification": "Old Testament"
+    },
+    {
+        "Id": 27,
+        "Miracle": "Samson Receives Water from Enhakkore",
+        "ObjectOrOccasion": "To Slake his Thirst",
+        "Place": "Lehi",
+        "Coordinates": [
+            34.936111,
+            31.591667
+        ],
+        "References": [
+            {
+                "Book": "Judges",
+                "Chapter": 15,
+                "Verse": 19,
+                "DisplayVerse": "Judg. 15:19"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 28,
+        "Miracle": "Dagon and Many Philistines Fall before the Ark",
+        "ObjectOrOccasion": "To Compel the Philistines to return it to its Rightful Keepers",
+        "Place": "Ashdod",
+        "Coordinates": [
+            34.649722,
+            31.804167
+        ],
+        "References": [
+            {
+                "Book": "I Samuel",
+                "Chapter": 5,
+                "Verse": 1,
+                "DisplayVerse": "I Sa. 5"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 29,
+        "Miracle": "Beth-Shemeshites Smitten",
+        "ObjectOrOccasion": "To Punish Irreverence",
+        "Place": "Beth-Shemesh",
+        "Coordinates": [
+            34.974167,
+            31.752778
+        ],
+        "References": [
+            {
+                "Book": "I Samuel",
+                "Chapter": 6,
+                "Verse": 19,
+                "DisplayVerse": "I Sa. 6:19"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 30,
+        "Miracle": "Thunder and Rain in Harvest Time, in Answer to Samuel's Prayer",
+        "ObjectOrOccasion": "To Inspire Reverence",
+        "Place": "Gilgal",
+        "Coordinates": [
+            35.4528,
+            31.8947
+        ],
+        "References": [
+            {
+                "Book": "I Samuel",
+                "Chapter": 12,
+                "Verse": 18,
+                "DisplayVerse": "I Sa. 12:18"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 31,
+        "Miracle": "Uzzah Struck Dead",
+        "ObjectOrOccasion": "To Punish Presumption",
+        "Place": "Perez-Uzzah",
+        "Coordinates": [
+            35.16004,
+            31.788629
+        ],
+        "References": [
+            {
+                "Book": "II Samuel",
+                "Chapter": 6,
+                "Verse": 7,
+                "DisplayVerse": "II Sa. 6:7"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 32,
+        "Miracle": "Jeroboam's Hand Withered",
+        "ObjectOrOccasion": "To Punish his Defiance of God's Messenger",
+        "Place": "Beth-el",
+        "Coordinates": [
+            35.2375,
+            31.930556
+        ],
+        "References": [
+            {
+                "Book": "I Kings",
+                "Chapter": 13,
+                "Verse": 4,
+                "DisplayVerse": "I Ki. 13:4,6"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 33,
+        "Miracle": "The Widow's Meal and Oil Multiplied",
+        "ObjectOrOccasion": "To Provide her and her Son and the Prophet with Food",
+        "Place": "Zarephath",
+        "Coordinates": [
+            35.286111,
+            33.456944
+        ],
+        "References": [
+            {
+                "Book": "I Kings",
+                "Chapter": 17,
+                "Verse": 10,
+                "DisplayVerse": "I Ki. 17:10-16"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 34,
+        "Miracle": "Ahaziah's Captains and their Fifties Consumed",
+        "ObjectOrOccasion": "To Rebuke Ahaziah's Defiance of God's Prophet",
+        "Place": "Near Samaria",
+        "Coordinates": [
+            35.1925,
+            32.2753
+        ],
+        "References": [
+            {
+                "Book": "II Kings",
+                "Chapter": 1,
+                "Verse": 9,
+                "DisplayVerse": "II Ki. 1:9-12"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 35,
+        "Miracle": "The Chariot of Fire takes Elijah to Heaven",
+        "ObjectOrOccasion": "To Show God's Especial Regard for Him",
+        "Place": "Near the Jordan",
+        "Coordinates": [
+            35.558333,
+            31.761389
+        ],
+        "Polygon": [
+            [
+                35.641497,
+                31.738839
+            ],
+            [
+                35.701387,
+                31.844513
+            ],
+            [
+                35.595213,
+                31.965858
+            ],
+            [
+                35.668632,
+                32.19519
+            ],
+            [
+                35.598618,
+                32.350868
+            ],
+            [
+                35.635348,
+                32.727494
+            ],
+            [
+                35.566054,
+                32.71703
+            ],
+            [
+                35.575584,
+                32.661326
+            ],
+            [
+                35.567754,
+                32.623829
+            ],
+            [
+                35.519762,
+                32.506111
+            ],
+            [
+                35.539992,
+                32.362357
+            ],
+            [
+                35.556018,
+                32.270368
+            ],
+            [
+                35.540053,
+                32.197291
+            ],
+            [
+                35.489048,
+                32.083101
+            ],
+            [
+                35.434166,
+                32.030584
+            ],
+            [
+                35.447941,
+                31.960009
+            ],
+            [
+                35.398864,
+                31.951947
+            ],
+            [
+                35.377756,
+                31.918242
+            ],
+            [
+                35.421166,
+                31.893264
+            ],
+            [
+                35.430094,
+                31.847714
+            ],
+            [
+                35.454051,
+                31.779867
+            ],
+            [
+                35.494221,
+                31.751456
+            ],
+            [
+                35.641497,
+                31.738839
+            ]
+        ],
+        "References": [
+            {
+                "Book": "II Kings",
+                "Chapter": 2,
+                "Verse": 11,
+                "DisplayVerse": "II Ki. 2:11"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 36,
+        "Miracle": "The Waters of Jericho made Fit to Drink",
+        "ObjectOrOccasion": "In Answer to the Prayer of the People",
+        "Place": "Jericho",
+        "Coordinates": [
+            35.444564,
+            31.871719
+        ],
+        "References": [
+            {
+                "Book": "II Kings",
+                "Chapter": 2,
+                "Verse": 19,
+                "DisplayVerse": "II Ki. 2:19-22"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 37,
+        "Miracle": "Water Provided for a large Army",
+        "ObjectOrOccasion": "",
+        "Place": "Moab",
+        "Coordinates": [
+            35.789852,
+            31.53
+        ],
+        "References": [
+            {
+                "Book": "II Kings",
+                "Chapter": 3,
+                "Verse": 16,
+                "DisplayVerse": "II Ki. 3:16-20"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 38,
+        "Miracle": "The Widow's Oil Multiplied",
+        "ObjectOrOccasion": "To Afford Means to Pay her Debts",
+        "Place": "",
+        "Coordinates": [],
+        "References": [
+            {
+                "Book": "II Kings",
+                "Chapter": 4,
+                "Verse": 1,
+                "DisplayVerse": "II Ki. 4:1-7"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 39,
+        "Miracle": "The Shunammite's Son Raised",
+        "ObjectOrOccasion": "As a Reward for her Regard for the Prophet",
+        "Place": "Shunem",
+        "Coordinates": [
+            35.334306,
+            32.605633
+        ],
+        "References": [
+            {
+                "Book": "II Kings",
+                "Chapter": 4,
+                "Verse": 32,
+                "DisplayVerse": "II Ki. 4:32-36"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 40,
+        "Miracle": "Poisonous Pottage Purified",
+        "ObjectOrOccasion": "To Supply Food for the Sons of the Prophets",
+        "Place": "Gilgal",
+        "Coordinates": [
+            35.4528,
+            31.8947
+        ],
+        "References": [
+            {
+                "Book": "II Kings",
+                "Chapter": 4,
+                "Verse": 40,
+                "DisplayVerse": "II Ki. 4:40-41"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 41,
+        "Miracle": "One Hundred Men fed with Twenty Loaves",
+        "ObjectOrOccasion": "To Supply Food for the Sons of the Prophets",
+        "Place": "Gilgal",
+        "Coordinates": [
+            35.4528,
+            31.8947
+        ],
+        "References": [
+            {
+                "Book": "II Kings",
+                "Chapter": 4,
+                "Verse": 42,
+                "DisplayVerse": "II Ki. 4:42-44"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 42,
+        "Miracle": "Naaman's Leprosy Cured",
+        "ObjectOrOccasion": "Because of his Faith",
+        "Place": "River Jordan",
+        "Coordinates": [
+            35.558333,
+            31.761389
+        ],
+        "Polygon": [
+            [
+                35.641497,
+                31.738839
+            ],
+            [
+                35.701387,
+                31.844513
+            ],
+            [
+                35.595213,
+                31.965858
+            ],
+            [
+                35.668632,
+                32.19519
+            ],
+            [
+                35.598618,
+                32.350868
+            ],
+            [
+                35.635348,
+                32.727494
+            ],
+            [
+                35.566054,
+                32.71703
+            ],
+            [
+                35.575584,
+                32.661326
+            ],
+            [
+                35.567754,
+                32.623829
+            ],
+            [
+                35.519762,
+                32.506111
+            ],
+            [
+                35.539992,
+                32.362357
+            ],
+            [
+                35.556018,
+                32.270368
+            ],
+            [
+                35.540053,
+                32.197291
+            ],
+            [
+                35.489048,
+                32.083101
+            ],
+            [
+                35.434166,
+                32.030584
+            ],
+            [
+                35.447941,
+                31.960009
+            ],
+            [
+                35.398864,
+                31.951947
+            ],
+            [
+                35.377756,
+                31.918242
+            ],
+            [
+                35.421166,
+                31.893264
+            ],
+            [
+                35.430094,
+                31.847714
+            ],
+            [
+                35.454051,
+                31.779867
+            ],
+            [
+                35.494221,
+                31.751456
+            ],
+            [
+                35.641497,
+                31.738839
+            ]
+        ],
+        "References": [
+            {
+                "Book": "II Kings",
+                "Chapter": 5,
+                "Verse": 10,
+                "DisplayVerse": "II Ki. 5:10-14"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 43,
+        "Miracle": "Gehazi made Leprous",
+        "ObjectOrOccasion": "As Punishment",
+        "Place": "Samaria",
+        "Coordinates": [
+            35.1925,
+            32.2753
+        ],
+        "References": [
+            {
+                "Book": "II Kings",
+                "Chapter": 5,
+                "Verse": 24,
+                "DisplayVerse": "II Ki. 5:24-27"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 44,
+        "Miracle": "Axe-head caused to Float",
+        "ObjectOrOccasion": "To Rescue the Prophet",
+        "Place": "Jordan",
+        "Coordinates": [
+            35.558333,
+            31.761389
+        ],
+        "Polygon": [
+            [
+                35.641497,
+                31.738839
+            ],
+            [
+                35.701387,
+                31.844513
+            ],
+            [
+                35.595213,
+                31.965858
+            ],
+            [
+                35.668632,
+                32.19519
+            ],
+            [
+                35.598618,
+                32.350868
+            ],
+            [
+                35.635348,
+                32.727494
+            ],
+            [
+                35.566054,
+                32.71703
+            ],
+            [
+                35.575584,
+                32.661326
+            ],
+            [
+                35.567754,
+                32.623829
+            ],
+            [
+                35.519762,
+                32.506111
+            ],
+            [
+                35.539992,
+                32.362357
+            ],
+            [
+                35.556018,
+                32.270368
+            ],
+            [
+                35.540053,
+                32.197291
+            ],
+            [
+                35.489048,
+                32.083101
+            ],
+            [
+                35.434166,
+                32.030584
+            ],
+            [
+                35.447941,
+                31.960009
+            ],
+            [
+                35.398864,
+                31.951947
+            ],
+            [
+                35.377756,
+                31.918242
+            ],
+            [
+                35.421166,
+                31.893264
+            ],
+            [
+                35.430094,
+                31.847714
+            ],
+            [
+                35.454051,
+                31.779867
+            ],
+            [
+                35.494221,
+                31.751456
+            ],
+            [
+                35.641497,
+                31.738839
+            ]
+        ],
+        "References": [
+            {
+                "Book": "II Kings",
+                "Chapter": 6,
+                "Verse": 6,
+                "DisplayVerse": "II Ki. 6:6"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 45,
+        "Miracle": "A Syrian Band Smitten with Blindness",
+        "ObjectOrOccasion": "To Rescue the Prophet",
+        "Place": "Dothan",
+        "Coordinates": [
+            35.239861,
+            32.413528
+        ],
+        "References": [
+            {
+                "Book": "II Kings",
+                "Chapter": 6,
+                "Verse": 19,
+                "DisplayVerse": "II Ki. 6:19"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 46,
+        "Miracle": "The Syrian Army put to Flight",
+        "ObjectOrOccasion": "To Deliver Samaria from Siege",
+        "Place": "Samaria",
+        "Coordinates": [
+            35.1925,
+            32.2753
+        ],
+        "References": [
+            {
+                "Book": "II Kings",
+                "Chapter": 7,
+                "Verse": 6,
+                "DisplayVerse": "II Ki. 7:6,7"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 47,
+        "Miracle": "The Dead Man Revived by Contact with Elisha's Remains",
+        "ObjectOrOccasion": "",
+        "Place": "",
+        "Coordinates": [],
+        "References": [
+            {
+                "Book": "II Kings",
+                "Chapter": 13,
+                "Verse": 20,
+                "DisplayVerse": "II Ki. 13:20,21"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 48,
+        "Miracle": "Sennacherib's Army Destroyed",
+        "ObjectOrOccasion": "To Deliver Jerusalem in answer to Hezekiah's Prayer",
+        "Place": "Jerusalem",
+        "Coordinates": [
+            35.2163,
+            31.7683
+        ],
+        "References": [
+            {
+                "Book": "II Kings",
+                "Chapter": 19,
+                "Verse": 35,
+                "DisplayVerse": "II Ki. 19:35"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 49,
+        "Miracle": "The Sun made to go back",
+        "ObjectOrOccasion": "As a Proof of what the Prophet had said",
+        "Place": "Jerusalem",
+        "Coordinates": [
+            35.2163,
+            31.7683
+        ],
+        "References": [
+            {
+                "Book": "II Kings",
+                "Chapter": 20,
+                "Verse": 9,
+                "DisplayVerse": "II Ki. 20:9-11"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 50,
+        "Miracle": "Uzziah made Leprous",
+        "ObjectOrOccasion": "To Punish him for Usurping the Priests' Functions",
+        "Place": "Jerusalem",
+        "Coordinates": [
+            35.2163,
+            31.7683
+        ],
+        "References": [
+            {
+                "Book": "II Chronicles",
+                "Chapter": 26,
+                "Verse": 19,
+                "DisplayVerse": "II Ch. 26:19-21"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 51,
+        "Miracle": "Saved in the Fiery Furnace",
+        "ObjectOrOccasion": "To Attest God's Power and Providence",
+        "Place": "Babylon",
+        "Coordinates": [
+            44.4275,
+            32.5425
+        ],
+        "References": [
+            {
+                "Book": "Daniel",
+                "Chapter": 3,
+                "Verse": 19,
+                "DisplayVerse": "Dan. 3:19-27"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 52,
+        "Miracle": "Daniel Saved from Lions",
+        "ObjectOrOccasion": "To Attest God's Power and Providence",
+        "Place": "Babylon",
+        "Coordinates": [
+            44.4275,
+            32.5425
+        ],
+        "References": [
+            {
+                "Book": "Daniel",
+                "Chapter": 6,
+                "Verse": 16,
+                "DisplayVerse": "Dan. 6:16-23"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 53,
+        "Miracle": "Jonah in Whale's Belly",
+        "ObjectOrOccasion": "To Punish his Attempt to Escape Duty",
+        "Place": "Mediterranean Sea, off Joppa",
+        "Coordinates": [
+            34.453039,
+            32.054481
+        ],
+        "References": [
+            {
+                "Book": "Jonah",
+                "Chapter": 1,
+                "Verse": 17,
+                "DisplayVerse": "Jon. 1:17"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 54,
+        "Miracle": "Jonah Delivered",
+        "ObjectOrOccasion": "In Answer to his Repentant Prayer",
+        "Place": "Mediterranean Sea, off Joppa",
+        "Coordinates": [
+            34.453039,
+            32.054481
+        ],
+        "References": [
+            {
+                "Book": "Jonah",
+                "Chapter": 2,
+                "Verse": 1,
+                "DisplayVerse": "Jon. 2"
+            }
+        ],
+        "Classification": "Old Testament"
+    },
+    {
+        "Id": 55,
+        "Miracle": "Water Converted into Wine",
+        "ObjectOrOccasion": "Supply",
+        "Place": "Cana",
+        "Coordinates": [
+            35.30269,
+            32.8222
+        ],
+        "References": [
+            {
+                "Book": "John",
+                "Chapter": 2,
+                "Verse": 1,
+                "DisplayVerse": "Jno. 2:1-11"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 56,
+        "Miracle": "Nobleman's Son Healed of a Fever",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Cana",
+        "Coordinates": [
+            35.30269,
+            32.8222
+        ],
+        "References": [
+            {
+                "Book": "John",
+                "Chapter": 4,
+                "Verse": 46,
+                "DisplayVerse": "Jno. 4:46-54"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 57,
+        "Miracle": "Peter's Net Filled with Immense Draught of Fish",
+        "ObjectOrOccasion": "Supply",
+        "Place": "Sea of Galilee",
+        "Coordinates": [
+            35.590033,
+            32.818906
+        ],
+        "References": [
+            {
+                "Book": "Luke",
+                "Chapter": 5,
+                "Verse": 1,
+                "DisplayVerse": "Lu. 5:1-11"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 58,
+        "Miracle": "The Man of an Unclean Spirit Healed",
+        "ObjectOrOccasion": "Casting Out Devils",
+        "Place": "Capernaum",
+        "Coordinates": [
+            35.575,
+            32.881111
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 1,
+                "Verse": 23,
+                "DisplayVerse": "Mark 1:23-26"
+            },
+            {
+                "Book": "Luke",
+                "Chapter": 4,
+                "Verse": 33,
+                "DisplayVerse": "Lu. 4:33-37"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 59,
+        "Miracle": "Peter's Mother-in-law Healed of a Fever",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Capernaum",
+        "Coordinates": [
+            35.575,
+            32.881111
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 1,
+                "Verse": 29,
+                "DisplayVerse": "Mark 1:29-31"
+            },
+            {
+                "Book": "Matthew",
+                "Chapter": 8,
+                "Verse": 14,
+                "DisplayVerse": "Mat. 8:14-17"
+            },
+            {
+                "Book": "Luke",
+                "Chapter": 4,
+                "Verse": 38,
+                "DisplayVerse": "Lu. 4:38-39"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 60,
+        "Miracle": "A Man Full of Leprosy Healed",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Capernaum",
+        "Coordinates": [
+            35.575,
+            32.881111
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 1,
+                "Verse": 40,
+                "DisplayVerse": "Mark 1:40-45"
+            },
+            {
+                "Book": "Matthew",
+                "Chapter": 8,
+                "Verse": 2,
+                "DisplayVerse": "Mat. 8:2-4"
+            },
+            {
+                "Book": "Luke",
+                "Chapter": 5,
+                "Verse": 12,
+                "DisplayVerse": "Lu. 5:12-16"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 61,
+        "Miracle": "The Man Borne by Four Healed of Palsy",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Capernaum",
+        "Coordinates": [
+            35.575,
+            32.881111
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 2,
+                "Verse": 1,
+                "DisplayVerse": "Mark 2:1-12"
+            },
+            {
+                "Book": "Matthew",
+                "Chapter": 9,
+                "Verse": 1,
+                "DisplayVerse": "Mat. 9:1-8"
+            },
+            {
+                "Book": "Luke",
+                "Chapter": 5,
+                "Verse": 17,
+                "DisplayVerse": "Lu. 5:17-26"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 62,
+        "Miracle": "The Man with Withered Hand Healed",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Jerusalem",
+        "Coordinates": [
+            35.234167,
+            31.776667
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 3,
+                "Verse": 1,
+                "DisplayVerse": "Mark 3:1-5"
+            },
+            {
+                "Book": "Luke",
+                "Chapter": 6,
+                "Verse": 6,
+                "DisplayVerse": "Lu. 6:6-10"
+            },
+            {
+                "Book": "Matthew",
+                "Chapter": 12,
+                "Verse": 9,
+                "DisplayVerse": "Mat. 12:9-13"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 63,
+        "Miracle": "The Woman Afflicted Twelve Years with Issue of Blood Healed",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Capernaum",
+        "Coordinates": [
+            35.575,
+            32.881111
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 5,
+                "Verse": 25,
+                "DisplayVerse": "Mark 5:25-34"
+            },
+            {
+                "Book": "Luke",
+                "Chapter": 8,
+                "Verse": 43,
+                "DisplayVerse": "Lu. 8:43-48"
+            },
+            {
+                "Book": "Matthew",
+                "Chapter": 9,
+                "Verse": 20,
+                "DisplayVerse": "Mat. 9:20-22"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 64,
+        "Miracle": "The Daughter of Jairus, the Ruler of the Synagogue, Raised to Life",
+        "ObjectOrOccasion": "Raising the Dead",
+        "Place": "West of the Sea of Galilee",
+        "Coordinates": [
+            35.507222,
+            32.860556
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 5,
+                "Verse": 22,
+                "DisplayVerse": "Mark 5:22-24, 35-43"
+            },
+            {
+                "Book": "Matthew",
+                "Chapter": 9,
+                "Verse": 18,
+                "DisplayVerse": "Mat. 9:18-26"
+            },
+            {
+                "Book": "Luke",
+                "Chapter": 8,
+                "Verse": 41,
+                "DisplayVerse": "Lu. 8:41-42, 49-56"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 65,
+        "Miracle": "Sight Restored to Two Blind Men",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Capernaum",
+        "Coordinates": [
+            35.575,
+            32.881111
+        ],
+        "References": [
+            {
+                "Book": "Matthew",
+                "Chapter": 9,
+                "Verse": 27,
+                "DisplayVerse": "Mat. 9:27-31"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 66,
+        "Miracle": "The Dumb Man Possessed of a Devil Healed",
+        "ObjectOrOccasion": "Casting Out Devils",
+        "Place": "Capernaum",
+        "Coordinates": [
+            35.575,
+            32.881111
+        ],
+        "References": [
+            {
+                "Book": "Matthew",
+                "Chapter": 9,
+                "Verse": 32,
+                "DisplayVerse": "Mat. 9:32-35"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 67,
+        "Miracle": "The Impotent Man Afflicted Thirty Eight Years Healed",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Jerusalem",
+        "Coordinates": [
+            35.234167,
+            31.776667
+        ],
+        "References": [
+            {
+                "Book": "John",
+                "Chapter": 5,
+                "Verse": 1,
+                "DisplayVerse": "Jno. 5:1-16"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 68,
+        "Miracle": "The Centurion's Servant Healed of Palsy",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Capernaum",
+        "Coordinates": [
+            35.575,
+            32.881111
+        ],
+        "References": [
+            {
+                "Book": "Matthew",
+                "Chapter": 8,
+                "Verse": 5,
+                "DisplayVerse": "Mat. 8:5-13"
+            },
+            {
+                "Book": "Luke",
+                "Chapter": 7,
+                "Verse": 1,
+                "DisplayVerse": "Lu. 7:1-10"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 69,
+        "Miracle": "The Only Son of a Widow Raised as They Were Bearing Him to the Grave",
+        "ObjectOrOccasion": "Raising the Dead",
+        "Place": "Nain",
+        "Coordinates": [
+            35.350139,
+            32.630694
+        ],
+        "References": [
+            {
+                "Book": "Luke",
+                "Chapter": 7,
+                "Verse": 11,
+                "DisplayVerse": "Lu. 7:11-17"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 70,
+        "Miracle": "The Wind and Sea Obey His Word",
+        "ObjectOrOccasion": "Deliverance",
+        "Place": "Sea of Galilee",
+        "Coordinates": [
+            35.590033,
+            32.818906
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 4,
+                "Verse": 35,
+                "DisplayVerse": "Mark 4:35-41"
+            },
+            {
+                "Book": "Matthew",
+                "Chapter": 8,
+                "Verse": 23,
+                "DisplayVerse": "Mat. 8:23-27"
+            },
+            {
+                "Book": "Luke",
+                "Chapter": 8,
+                "Verse": 22,
+                "DisplayVerse": "Lu. 8:22-25"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 71,
+        "Miracle": "The Two Men Possessed of Legion, Exceeding Fierce, Healed",
+        "ObjectOrOccasion": "Casting Out Devils",
+        "Place": "Gadara",
+        "Coordinates": [
+            35.679352,
+            32.655998
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 5,
+                "Verse": 1,
+                "DisplayVerse": "Mark 5:1-20"
+            },
+            {
+                "Book": "Matthew",
+                "Chapter": 8,
+                "Verse": 28,
+                "DisplayVerse": "Mat. 8:28-34"
+            },
+            {
+                "Book": "Luke",
+                "Chapter": 8,
+                "Verse": 26,
+                "DisplayVerse": "Lu. 8:26-39"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 72,
+        "Miracle": "The Demoniac Who Was Blind and Dumb Healed",
+        "ObjectOrOccasion": "Casting Out Devils",
+        "Place": "Capernaum",
+        "Coordinates": [
+            35.575,
+            32.881111
+        ],
+        "References": [
+            {
+                "Book": "Matthew",
+                "Chapter": 12,
+                "Verse": 22,
+                "DisplayVerse": "Mat. 12:22-23"
+            },
+            {
+                "Book": "Mark",
+                "Chapter": 3,
+                "Verse": 19,
+                "DisplayVerse": "Mark 3:19-30"
+            },
+            {
+                "Book": "Luke",
+                "Chapter": 11,
+                "Verse": 14,
+                "DisplayVerse": "Lu. 11:14-23"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 73,
+        "Miracle": "Five Thousand Men, Besides Women and Children, Fed",
+        "ObjectOrOccasion": "Supply",
+        "Place": "Northeast of the Sea of Galilee",
+        "Coordinates": [
+            35.63096,
+            32.91038
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 6,
+                "Verse": 35,
+                "DisplayVerse": "Mark 6:35-44"
+            },
+            {
+                "Book": "Matthew",
+                "Chapter": 14,
+                "Verse": 15,
+                "DisplayVerse": "Mat. 14:15-21"
+            },
+            {
+                "Book": "Luke",
+                "Chapter": 9,
+                "Verse": 12,
+                "DisplayVerse": "Lu. 9:12-17"
+            },
+            {
+                "Book": "John",
+                "Chapter": 6,
+                "Verse": 5,
+                "DisplayVerse": "Jno. 6:5-14"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 74,
+        "Miracle": "Peter Saved, Trying to Walk on the Sea, as Jesus Was Walking",
+        "ObjectOrOccasion": "Deliverance",
+        "Place": "Sea of Galilee",
+        "Coordinates": [
+            35.590033,
+            32.818906
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 6,
+                "Verse": 45,
+                "DisplayVerse": "Mark 6:45-52"
+            },
+            {
+                "Book": "Matthew",
+                "Chapter": 14,
+                "Verse": 28,
+                "DisplayVerse": "Mat. 14:28-31"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 75,
+        "Miracle": "The Daughter of the Syrophoenician Woman Healed",
+        "ObjectOrOccasion": "Casting Out Devils",
+        "Place": "Near Tyre",
+        "Coordinates": [
+            35.196111,
+            33.270833
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 7,
+                "Verse": 24,
+                "DisplayVerse": "Mark 7:24-30"
+            },
+            {
+                "Book": "Matthew",
+                "Chapter": 15,
+                "Verse": 22,
+                "DisplayVerse": "Mat. 15:22-28"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 76,
+        "Miracle": "Hearing and Speech Restored to a Man",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Decapolis",
+        "Coordinates": [
+            35.8,
+            32.716667
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 7,
+                "Verse": 31,
+                "DisplayVerse": "Mark 7:31-37"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 77,
+        "Miracle": "Four Thousand Men, Besides Women and Children, Fed",
+        "ObjectOrOccasion": "Supply",
+        "Place": "Decapolis",
+        "Coordinates": [
+            35.8,
+            32.716667
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 8,
+                "Verse": 1,
+                "DisplayVerse": "Mark 8:1-10"
+            },
+            {
+                "Book": "Matthew",
+                "Chapter": 15,
+                "Verse": 32,
+                "DisplayVerse": "Mat. 15:32-39"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 78,
+        "Miracle": "Sight Restored to a Man Gradually",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Bethsaida",
+        "Coordinates": [
+            35.63096,
+            32.91038
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 8,
+                "Verse": 22,
+                "DisplayVerse": "Mark 8:22-26"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 79,
+        "Miracle": "The Lunatic Boy Healed, the Disciples Having Failed",
+        "ObjectOrOccasion": "Casting Out Devils",
+        "Place": "Near Mount Hermon",
+        "Coordinates": [
+            35.693333,
+            33.246111
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 9,
+                "Verse": 14,
+                "DisplayVerse": "Mark 9:14-29"
+            },
+            {
+                "Book": "Matthew",
+                "Chapter": 17,
+                "Verse": 14,
+                "DisplayVerse": "Mat. 17:14-21"
+            },
+            {
+                "Book": "Luke",
+                "Chapter": 9,
+                "Verse": 37,
+                "DisplayVerse": "Lu. 9:37-43"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 80,
+        "Miracle": "Sight Given to a Man Who Was Born Blind",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Jerusalem",
+        "Coordinates": [
+            35.234167,
+            31.776667
+        ],
+        "References": [
+            {
+                "Book": "John",
+                "Chapter": 9,
+                "Verse": 1,
+                "DisplayVerse": "Jno. 9"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 81,
+        "Miracle": "A Woman Afflicted Eighteen Years Healed",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Galilee",
+        "Coordinates": [
+            35.41,
+            32.75
+        ],
+        "References": [
+            {
+                "Book": "Luke",
+                "Chapter": 13,
+                "Verse": 11,
+                "DisplayVerse": "Lu. 13:11-17"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 82,
+        "Miracle": "A Man of Dropsy Healed",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Galilee",
+        "Coordinates": [
+            35.41,
+            32.75
+        ],
+        "References": [
+            {
+                "Book": "Luke",
+                "Chapter": 14,
+                "Verse": 1,
+                "DisplayVerse": "Lu. 14:1-6"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 83,
+        "Miracle": "Ten Men of Leprosy Healed",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Borders of Samaria",
+        "Coordinates": [
+            35.28897,
+            32.21776
+        ],
+        "References": [
+            {
+                "Book": "Luke",
+                "Chapter": 17,
+                "Verse": 11,
+                "DisplayVerse": "Lu. 17:11-19"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 84,
+        "Miracle": "Lazarus Raised When He Had Been Dead Four Days",
+        "ObjectOrOccasion": "Raising the Dead",
+        "Place": "Bethany",
+        "Coordinates": [
+            35.255903,
+            31.771661
+        ],
+        "References": [
+            {
+                "Book": "John",
+                "Chapter": 11,
+                "Verse": 32,
+                "DisplayVerse": "Jno. 11:32-44"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 85,
+        "Miracle": "Sight Restored to Bartimaeus",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Jericho",
+        "Coordinates": [
+            35.444564,
+            31.871719
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 10,
+                "Verse": 46,
+                "DisplayVerse": "Mark 10:46-52"
+            },
+            {
+                "Book": "Matthew",
+                "Chapter": 20,
+                "Verse": 29,
+                "DisplayVerse": "Mat. 20:29-34"
+            },
+            {
+                "Book": "Luke",
+                "Chapter": 18,
+                "Verse": 35,
+                "DisplayVerse": "Lu. 18:35-43"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 86,
+        "Miracle": "The Fig Tree Withered",
+        "ObjectOrOccasion": "Judgment",
+        "Place": "Mount of Olives",
+        "Coordinates": [
+            35.245686,
+            31.777946
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 11,
+                "Verse": 12,
+                "DisplayVerse": "Mark 11:12-14, 20-24"
+            },
+            {
+                "Book": "Matthew",
+                "Chapter": 21,
+                "Verse": 18,
+                "DisplayVerse": "Mat. 21:18-21"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 87,
+        "Miracle": "The Ear of Malchus, the High Priest's Servant, Healed",
+        "ObjectOrOccasion": "Healing",
+        "Place": "Gethsemane",
+        "Coordinates": [
+            35.239425,
+            31.779419
+        ],
+        "References": [
+            {
+                "Book": "Luke",
+                "Chapter": 22,
+                "Verse": 50,
+                "DisplayVerse": "Lu. 22:50-51"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 88,
+        "Miracle": "A Great Haul of Fish",
+        "ObjectOrOccasion": "Supply",
+        "Place": "Sea of Galilee",
+        "Coordinates": [
+            35.590033,
+            32.818906
+        ],
+        "References": [
+            {
+                "Book": "John",
+                "Chapter": 21,
+                "Verse": 6,
+                "DisplayVerse": "Jno. 21:6-14"
+            }
+        ],
+        "Classification": "Gospels"
+    },
+    {
+        "Id": 89,
+        "Miracle": "Zacharias is punished for unbelief by being deprived of Speech for a Season",
+        "ObjectOrOccasion": "Angel Gabriel",
+        "Place": "Jerusalem-Temple",
+        "Coordinates": [
+            35.234167,
+            31.776667
+        ],
+        "References": [
+            {
+                "Book": "Luke",
+                "Chapter": 1,
+                "Verse": 11,
+                "DisplayVerse": "Lu. 1:11-23, 57-79"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 90,
+        "Miracle": "Curative Properties are imparted to the Pool of Bethesda",
+        "ObjectOrOccasion": "An Angel",
+        "Place": "Jerusalem",
+        "Coordinates": [
+            35.234167,
+            31.776667
+        ],
+        "References": [
+            {
+                "Book": "John",
+                "Chapter": 5,
+                "Verse": 2,
+                "DisplayVerse": "Jno. 5:2-4"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 91,
+        "Miracle": "Devils are Cast out and many Sick Persons Cured",
+        "ObjectOrOccasion": "The Apostles",
+        "Place": "Throughout Galilee",
+        "Coordinates": [
+             35.41,
+            32.75
+        ],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 6,
+                "Verse": 7,
+                "DisplayVerse": "Mark 6:7, 13"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 92,
+        "Miracle": "Devils are Cast Out",
+        "ObjectOrOccasion": "One not a Disciple",
+        "Place": "Place not recorded",
+        "Coordinates": [],
+        "References": [
+            {
+                "Book": "Mark",
+                "Chapter": 9,
+                "Verse": 38,
+                "DisplayVerse": "Mark 9:38-40"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 93,
+        "Miracle": "Devils are subject to them through the Name of JESUS",
+        "ObjectOrOccasion": "The Seventy Disciples",
+        "Place": "Galilee",
+        "Coordinates": [
+             35.41,
+            32.75
+        ],
+        "References": [
+            {
+                "Book": "Luke",
+                "Chapter": 10,
+                "Verse": 17,
+                "DisplayVerse": "Lu. 10:17"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 94,
+        "Miracle": "The Power of Speaking Languages they had not learned bestowed on the Apostles and Disciples of the Ascended JESUS",
+        "ObjectOrOccasion": "The HOLY SPIRIT",
+        "Place": "Jer.-upper room",
+        "Coordinates": [
+            35.234167,
+            31.776667
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 2,
+                "Verse": 1,
+                "DisplayVerse": "Acts 2:1-42"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 95,
+        "Miracle": "Their Commission is attested by many Signs and Wonders",
+        "ObjectOrOccasion": "The Apostles",
+        "Place": "Jerusalem",
+        "Coordinates": [
+            35.234167,
+            31.776667
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 11,
+                "Verse": 43,
+                "DisplayVerse": "Acts 11:43"
+            },
+            {
+                "Book": "Acts",
+                "Chapter": 5,
+                "Verse": 12,
+                "DisplayVerse": "Acts 5:12-16"
+            },
+            {
+                "Book": "Mark",
+                "Chapter": 16,
+                "Verse": 20,
+                "DisplayVerse": "Mark 16:20"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 96,
+        "Miracle": "A Man lame from his birth is enabled to walk and leap",
+        "ObjectOrOccasion": "St. Peter with St. John",
+        "Place": "Jer.-Beautiful Gate",
+        "Coordinates": [
+            35.234167,
+            31.776667
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 3,
+                "Verse": 1,
+                "DisplayVerse": "Acts 3:1-4:16"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 97,
+        "Miracle": "Ananias and Sapphira are struck dead for lying to the HOLY SPIRIT",
+        "ObjectOrOccasion": "St. Peter",
+        "Place": "Jerusalem",
+        "Coordinates": [
+            35.234167,
+            31.776667
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 5,
+                "Verse": 1,
+                "DisplayVerse": "Acts 5:1-11"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 98,
+        "Miracle": "Some of the Apostles, having been cast into prison, are delivered, without the doors being opened or the guard disturbed",
+        "ObjectOrOccasion": "The Angel of the Lord",
+        "Place": "Jerusalem",
+        "Coordinates": [
+            35.234167,
+            31.776667
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 5,
+                "Verse": 17,
+                "DisplayVerse": "Acts 5:17-24"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 99,
+        "Miracle": "Being full of Faith and Power, does Wonders and Miracles among the People",
+        "ObjectOrOccasion": "St. Stephen, the Deacon",
+        "Place": "Judaea",
+        "Coordinates": [
+            34.996117,
+            31.688903
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 6,
+                "Verse": 8,
+                "DisplayVerse": "Acts 6:8"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 100,
+        "Miracle": "Unclean Spirits are cast out, and many cases of Palsy, Lameness, etc., are cured",
+        "ObjectOrOccasion": "St. Philip, the Deacon",
+        "Place": "A city of Samaria",
+        "Coordinates": [
+            35.225,
+            32.030556
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 8,
+                "Verse": 6,
+                "DisplayVerse": "Acts 8:6-13"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 101,
+        "Miracle": "St. Philip, having Baptized the Eunuch is caught away and taken to Azotus",
+        "ObjectOrOccasion": "Spirit of the Lord",
+        "Place": "Near Gaza",
+        "Coordinates": [
+            34.4644,
+            31.504
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 8,
+                "Verse": 39,
+                "DisplayVerse": "Acts 8:39, 40"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 102,
+        "Miracle": "A Series of Miracles connected with the Conversion of Saul of Tarsus",
+        "ObjectOrOccasion": "The Glorified Jesus",
+        "Place": "Near Damascus",
+        "Coordinates": [
+            36.30639,
+            33.511112
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 9,
+                "Verse": 3,
+                "DisplayVerse": "Acts 9:3-18"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 103,
+        "Miracle": "Eneas, who had been confined to his bed with Palsy for eight years, is made whole",
+        "ObjectOrOccasion": "St. Peter",
+        "Place": "Lydda",
+        "Coordinates": [
+            35.04005,
+            32.39835
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 9,
+                "Verse": 33,
+                "DisplayVerse": "Acts 9:33-35"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 104,
+        "Miracle": "Dorcas (or Tabitha) is raised from the dead",
+        "ObjectOrOccasion": "St. Peter",
+        "Place": "Joppa",
+        "Coordinates": [
+            34.753039,
+            32.054481
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 9,
+                "Verse": 36,
+                "DisplayVerse": "Acts 9:36-42"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 105,
+        "Miracle": "St. Peter, being in chains and in prison, is delivered",
+        "ObjectOrOccasion": "The Angel of the Lord",
+        "Place": "Jerusalem",
+        "Coordinates": [
+            35.234167,
+            31.776667
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 12,
+                "Verse": 4,
+                "DisplayVerse": "Acts 12:4-17"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 106,
+        "Miracle": "Herod Agrippa I dies, because he fails to rebuke impious flattery",
+        "ObjectOrOccasion": "The Angel of the Lord",
+        "Place": "Caesarea",
+        "Coordinates": [
+            34.891667,
+            32.5
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 12,
+                "Verse": 21,
+                "DisplayVerse": "Acts 12:21-23"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 107,
+        "Miracle": "Elymas, the Sorcerer, trying to prevent the Conversion of Sergius Paulus, is stricken with temporary total blindness",
+        "ObjectOrOccasion": "St. Paul, the Apostle",
+        "Place": "Paphos",
+        "Coordinates": [
+            32.404167,
+            34.755667
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 13,
+                "Verse": 6,
+                "DisplayVerse": "Acts 13:6-12"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 108,
+        "Miracle": "A Man who had been such a Cripple from Birth that he never had walked is enabled to walk and leap",
+        "ObjectOrOccasion": "St. Paul",
+        "Place": "Lystra",
+        "Coordinates": [
+            32.3384,
+            37.6017
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 14,
+                "Verse": 8,
+                "DisplayVerse": "Acts 14:8-11"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 109,
+        "Miracle": "Casts out a Spirit of Divination",
+        "ObjectOrOccasion": "St. Paul",
+        "Place": "Philippi",
+        "Coordinates": [
+            24.284576,
+            41.012072
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 16,
+                "Verse": 18,
+                "DisplayVerse": "Acts 16:18"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 110,
+        "Miracle": "St. Paul and Silas having been cast into prison, their feet fast in stocks, the prison doors are opened, the stocks loosened",
+        "ObjectOrOccasion": "By an Earthquake",
+        "Place": "Philippi",
+        "Coordinates": [
+            24.284576,
+            41.012072
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 16,
+                "Verse": 23,
+                "DisplayVerse": "Acts 16:23-34"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 111,
+        "Miracle": "Special Miracles are wrought without his seeing the objects",
+        "ObjectOrOccasion": "St. Paul",
+        "Place": "Ephesus",
+        "Coordinates": [
+            27.3407,
+            37.939125
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 19,
+                "Verse": 11,
+                "DisplayVerse": "Acts 19:11, 12"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 112,
+        "Miracle": "Eutychus, killed by a fall from a window, restored to life",
+        "ObjectOrOccasion": "St. Paul",
+        "Place": "Troas",
+        "Coordinates": [
+            26.158611,
+            39.751944
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 20,
+                "Verse": 9,
+                "DisplayVerse": "Acts 20:9-12"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 113,
+        "Miracle": "A Deadly Viper proves harmless",
+        "ObjectOrOccasion": "St. Paul",
+        "Place": "Island of Melita",
+        "Coordinates": [
+            14.411732,
+            35.933464
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 28,
+                "Verse": 3,
+                "DisplayVerse": "Acts 28:3-6"
+            }
+        ],
+        "Classification": "Holy Spirit"
+    },
+    {
+        "Id": 114,
+        "Miracle": "The father of Publius, and many other Sick Persons, cured",
+        "ObjectOrOccasion": "St. Paul",
+        "Place": "Island of Melita",
+        "Coordinates": [
+            14.411732,
+            35.933464
+        ],
+        "References": [
+            {
+                "Book": "Acts",
+                "Chapter": 28,
+                "Verse": 7,
+                "DisplayVerse": "Acts 28:7-9"
+            }
+        ],
+        "Classification": "Holy Spirit"
     }
 ]

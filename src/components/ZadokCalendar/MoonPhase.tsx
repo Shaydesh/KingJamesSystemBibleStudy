@@ -71,62 +71,71 @@ const MoonPhase: React.FC<MoonPhaseProps> = ({ zadokDate, selectedDate }) => {
       );
     } else {
       // Partial illumination
+      // Draw light base (illuminated) and shadow path on top
       const isWaxing = phase < 0.5;
       const adjustedPhase = isWaxing ? phase * 2 : (phase - 0.5) * 2;
       const curveX = RADIUS * Math.cos(adjustedPhase * Math.PI);
 
-      let pathD: string;
+      let shadowPathD: string;
 
+      // For waxing moon: shadow is on the LEFT, shrinking
+      // For waning moon: shadow is on the RIGHT, growing
       if (isWaxing) {
+        // Shadow on LEFT side (counterclockwise arc)
         if (phase < 0.25) {
-          pathD = `
+          // Waxing crescent: large shadow on left
+          shadowPathD = `
             M ${CENTER} ${CENTER - RADIUS}
-            A ${RADIUS} ${RADIUS} 0 0 1 ${CENTER} ${CENTER + RADIUS}
-            A ${Math.abs(curveX)} ${RADIUS} 0 0 1 ${CENTER} ${CENTER - RADIUS}
+            A ${RADIUS} ${RADIUS} 0 0 0 ${CENTER} ${CENTER + RADIUS}
+            A ${Math.abs(curveX)} ${RADIUS} 0 0 0 ${CENTER} ${CENTER - RADIUS}
           `;
         } else {
-          pathD = `
+          // Waxing gibbous: small shadow on left
+          shadowPathD = `
             M ${CENTER} ${CENTER - RADIUS}
-            A ${RADIUS} ${RADIUS} 0 0 1 ${CENTER} ${CENTER + RADIUS}
-            A ${Math.abs(curveX)} ${RADIUS} 0 0 0 ${CENTER} ${CENTER - RADIUS}
+            A ${RADIUS} ${RADIUS} 0 0 0 ${CENTER} ${CENTER + RADIUS}
+            A ${Math.abs(curveX)} ${RADIUS} 0 0 1 ${CENTER} ${CENTER - RADIUS}
           `;
         }
       } else {
+        // Shadow on RIGHT side (clockwise arc)
         if (phase < 0.75) {
-          pathD = `
+          // Waning gibbous: small shadow on right
+          shadowPathD = `
             M ${CENTER} ${CENTER - RADIUS}
-            A ${RADIUS} ${RADIUS} 0 0 0 ${CENTER} ${CENTER + RADIUS}
-            A ${Math.abs(curveX)} ${RADIUS} 0 0 1 ${CENTER} ${CENTER - RADIUS}
+            A ${RADIUS} ${RADIUS} 0 0 1 ${CENTER} ${CENTER + RADIUS}
+            A ${Math.abs(curveX)} ${RADIUS} 0 0 0 ${CENTER} ${CENTER - RADIUS}
           `;
         } else {
-          pathD = `
+          // Waning crescent: large shadow on right
+          shadowPathD = `
             M ${CENTER} ${CENTER - RADIUS}
-            A ${RADIUS} ${RADIUS} 0 0 0 ${CENTER} ${CENTER + RADIUS}
-            A ${Math.abs(curveX)} ${RADIUS} 0 0 0 ${CENTER} ${CENTER - RADIUS}
+            A ${RADIUS} ${RADIUS} 0 0 1 ${CENTER} ${CENTER + RADIUS}
+            A ${Math.abs(curveX)} ${RADIUS} 0 0 1 ${CENTER} ${CENTER - RADIUS}
           `;
         }
       }
 
-      illuminatedPath = (
+      const shadowPath = (
         <path
-          d={pathD}
-          fill={lightColor}
+          d={shadowPathD}
+          fill={darkColor}
         />
       );
 
       return (
         <>
-          {/* Dark base */}
+          {/* Light base (illuminated portion) */}
           <circle
             cx={CENTER}
             cy={CENTER}
             r={RADIUS}
-            fill={darkColor}
+            fill={lightColor}
             stroke={strokeColor}
             strokeWidth="1.5"
           />
-          {/* Illuminated portion */}
-          {illuminatedPath}
+          {/* Shadow portion */}
+          {shadowPath}
           {/* Clean border */}
           <circle
             cx={CENTER}
