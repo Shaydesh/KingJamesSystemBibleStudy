@@ -1,0 +1,101 @@
+.toast {
+  position: fixed;
+  bottom: var(--space-lg, 24px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.content {
+  background: var(--color-surface, #f9f9f9);
+  border: 2px solid var(--color-text, #333);
+  border-radius: var(--radius-sm, 4px);
+  padding: var(--space-md, 16px) var(--space-lg, 24px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.message {
+  font-family: 'LibreBaskerville-Italic', Georgia, serif;
+  font-style: italic;
+  font-size: var(--font-size-base, 16px);
+  color: var(--color-text, #333);
+  margin: 0 0 var(--space-sm, 12px) 0;
+}
+
+.actions {
+  display: flex;
+  gap: var(--space-sm, 12px);
+  justify-content: center;
+}
+
+.refreshButton {
+  font-family: 'LibreBaskerville-Regular', Georgia, serif;
+  font-size: var(--font-size-sm, 14px);
+  background: var(--color-text, #333);
+  color: var(--color-surface, #f9f9f9);
+  border: 1px solid var(--color-text, #333);
+  padding: var(--space-xs, 6px) var(--space-md, 16px);
+  border-radius: var(--radius-sm, 4px);
+  cursor: pointer;
+  transition: var(--transition-fast, 0.15s ease);
+}
+
+.refreshButton:hover {
+  background: var(--color-text-muted, #666);
+  border-color: var(--color-text-muted, #666);
+}
+
+.dismissButton {
+  font-family: 'LibreBaskerville-Regular', Georgia, serif;
+  font-size: var(--font-size-sm, 14px);
+  background: transparent;
+  color: var(--color-text-muted, #666);
+  border: 1px solid var(--color-border, #ccc);
+  padding: var(--space-xs, 6px) var(--space-md, 16px);
+  border-radius: var(--radius-sm, 4px);
+  cursor: pointer;
+  transition: var(--transition-fast, 0.15s ease);
+}
+
+.dismissButton:hover {
+  background: var(--color-border, #ccc);
+  color: var(--color-text, #333);
+}
+
+/* Mobile adjustments */
+@media (max-width: 480px) {
+  .toast {
+    left: var(--space-sm, 12px);
+    right: var(--space-sm, 12px);
+    transform: none;
+    bottom: var(--space-md, 16px);
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .content {
+    padding: var(--space-sm, 12px) var(--space-md, 16px);
+  }
+}

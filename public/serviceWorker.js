@@ -1,4 +1,4 @@
-const CACHE_NAME = "bible-study-v143";
+const CACHE_NAME = "bible-study-v144";
 
 const coreAssets = [
   "/",
@@ -119,7 +119,14 @@ self.addEventListener("install", (event) => {
     })()
   );
 
-  self.skipWaiting(); // Activate the new service worker immediately
+  // Don't skipWaiting automatically - let the user decide when to update
+});
+
+// Listen for skip waiting message from the app
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
+    self.skipWaiting();
+  }
 });
 
 // Activate event - clean up old caches
