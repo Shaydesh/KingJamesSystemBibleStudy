@@ -144,5 +144,4 @@ vite.config.ts.timestamp-*
 # Local IDE/tool config
 .claude/
 .vscode/
-.replit
 .breakpoints

@@ -1,0 +1,14 @@
+run = "npm run dev"
+entrypoint = "src/main.tsx"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "npm run build && npx serve dist"]
+deploymentTarget = "static"
+publicDir = "dist"
+
+[[ports]]
+localPort = 5173
+externalPort = 80
