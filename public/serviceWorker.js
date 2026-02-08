@@ -1,4 +1,16 @@
-const CACHE_NAME = "bible-study-v150";
+const CACHE_NAME = "bible-study-v152";
+
+const ALL_BOOKS = [
+  "Genesis","Exodus","Leviticus","Numbers","Deuteronomy","Joshua","Judges","Ruth",
+  "1Samuel","2Samuel","1Kings","2Kings","1Chronicles","2Chronicles","Ezra","Nehemiah",
+  "Esther","Job","Psalms","Proverbs","Ecclesiastes","SongofSolomon","Isaiah","Jeremiah",
+  "Lamentations","Ezekiel","Daniel","Hosea","Joel","Amos","Obadiah","Jonah","Micah",
+  "Nahum","Habakkuk","Zephaniah","Haggai","Zechariah","Malachi","Matthew","Mark","Luke",
+  "John","Acts","Romans","1Corinthians","2Corinthians","Galatians","Ephesians",
+  "Philippians","Colossians","1Thessalonians","2Thessalonians","1Timothy","2Timothy",
+  "Titus","Philemon","Hebrews","James","1Peter","2Peter","1John","2John","3John",
+  "Jude","Revelation"
+];
 
 // Install: Take over immediately
 self.addEventListener("install", (event) => {
@@ -27,6 +39,9 @@ self.addEventListener("fetch", (event) => {
 
   // Only handle GET requests
   if (request.method !== "GET") return;
+
+  // Skip service worker file - must not cache itself
+  if (request.url.endsWith('/serviceWorker.js')) return;
 
   // Skip cross-origin requests
   if (!request.url.startsWith(self.location.origin)) return;
@@ -72,6 +87,43 @@ async function networkFirst(request) {
     return new Response("Offline", { status: 503 });
   }
 }
+
+// Background prefetch: cache all Bible books that aren't already cached
+async function prefetchBooks() {
+  const cache = await caches.open(CACHE_NAME);
+  let cached = 0;
+  let skipped = 0;
+
+  for (const book of ALL_BOOKS) {
+    const url = `/books/${book}.json`;
+    const existing = await cache.match(url);
+    if (existing) {
+      skipped++;
+      continue;
+    }
+
+    try {
+      const response = await fetch(url);
+      if (response.ok) {
+        await cache.put(url, response);
+        cached++;
+      }
+    } catch (e) {
+      // Offline or failed — stop prefetching, user can retry later
+      console.log("[SW] Prefetch stopped (offline?), cached", cached, "books");
+      return;
+    }
+  }
+
+  console.log("[SW] Prefetch complete:", cached, "new,", skipped, "already cached");
+}
+
+// Listen for prefetch message from the client
+self.addEventListener("message", (event) => {
+  if (event.data === "PREFETCH_BOOKS") {
+    event.waitUntil(prefetchBooks());
+  }
+});
 
 // Cache-first: For immutable hashed assets only
 async function cacheFirst(request) {
