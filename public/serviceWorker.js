@@ -1,8 +1,6 @@
-const CACHE_NAME = "bible-study-v145";
+const CACHE_NAME = "bible-study-v146";
 
-const coreAssets = [
-  "/",
-  "/index.html",
+const optionalCoreAssets = [
   "/manifest.json",
   "/apple-touch-icon.png",
   "/favicon.ico",
@@ -83,15 +81,31 @@ const bookAssets = [
   "/miracles/miracles.json"
 ];
 
-// Install event - cache core assets (MUST succeed) then cache books
+// Install event - cache essential assets first, then optional assets
 self.addEventListener("install", (event) => {
   event.waitUntil(
     (async () => {
       const cache = await caches.open(CACHE_NAME);
 
-      // Core assets MUST be cached - fail install if this fails
-      await cache.addAll(coreAssets);
-      console.log("✅ Core assets cached");
+      // Cache index.html first - this MUST succeed
+      try {
+        await cache.add("/index.html");
+        await cache.add("/");
+        console.log("✅ Essential assets cached");
+      } catch (err) {
+        console.error("❌ Failed to cache essential assets:", err);
+        throw err; // Fail install if index.html can't be cached
+      }
+
+      // Cache other core assets individually (failures are OK)
+      for (const asset of optionalCoreAssets) {
+        try {
+          await cache.add(asset);
+          console.log(`✅ Cached: ${asset}`);
+        } catch (err) {
+          console.warn(`⚠️ Optional asset not cached: ${asset}`, err);
+        }
+      }
 
       // Cache book assets in parallel - these can fail individually
       const bookCachePromises = bookAssets.map((url) =>
