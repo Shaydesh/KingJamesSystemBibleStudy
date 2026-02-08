@@ -8,6 +8,7 @@ import MiraclesOfJesus from "../pages/MiraclesOfJesus";
 import MiraclesOfTheHolySpirit from "../pages/MiraclesOfTheHolySpirit";
 import OldTestamentMiracles from "../pages/OldTestamentMiracles";
 import TableOfContents from "../pages/TableOfContents";
+import SacredTimes from '../pages/SacredTimes';
 import ZadokCalendar from '../pages/ZadokCalendar';
 import '../styles/globals.css';
 
@@ -31,10 +32,16 @@ export const routes = [
     category: "bible",
   },
   {
+    path: "/SacredTimes",
+    sidebar: () => <div>Sacred Times</div>,
+    main: () => <SacredTimes />,
+    category: "calendar",
+  },
+  {
     path: "/ZadokCalendar",
     sidebar: () => <div>Zadok Calendar</div>,
     main: () => <ZadokCalendar />,
-    category: "calendar", // ⬅️ Key change here
+    category: "calendar",
   },
   {
     path: "/BiblicalTimeline",

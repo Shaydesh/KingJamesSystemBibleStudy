@@ -1,0 +1,13 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  font-family: 'LibreBaskerville-Regular', Georgia, serif;
+  text-align: center;
+  font-size: var(--font-size-2xl, 32px);
+  margin-top: var(--space-md, 20px);
+  margin-bottom: var(--space-md, 20px);
+  color: var(--color-text, #333);
+}
