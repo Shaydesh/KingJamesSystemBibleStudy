@@ -1,4 +1,4 @@
-const CACHE_NAME = "bible-study-v146";
+const CACHE_NAME = "bible-study-v147";
 
 const optionalCoreAssets = [
   "/manifest.json",
@@ -83,6 +83,11 @@ const bookAssets = [
 
 // Install event - cache essential assets first, then optional assets
 self.addEventListener("install", (event) => {
+  console.log("🔄 Service worker installing:", CACHE_NAME);
+
+  // Skip waiting immediately to take over from old SW
+  self.skipWaiting();
+
   event.waitUntil(
     (async () => {
       const cache = await caches.open(CACHE_NAME);
@@ -125,7 +130,6 @@ self.addEventListener("install", (event) => {
       });
     })()
   );
-  // Don't skipWaiting - let user decide via toast
 });
 
 // Listen for skip waiting message from the app
@@ -137,18 +141,26 @@ self.addEventListener("message", (event) => {
 
 // Activate event - clean up old caches and take control
 self.addEventListener("activate", (event) => {
+  console.log("🔄 Service worker activating:", CACHE_NAME);
   event.waitUntil(
     (async () => {
       // Delete old caches
       const cacheNames = await caches.keys();
-      await Promise.all(
-        cacheNames
-          .filter((name) => name !== CACHE_NAME)
-          .map((name) => caches.delete(name))
-      );
+      const oldCaches = cacheNames.filter((name) => name !== CACHE_NAME);
+      if (oldCaches.length > 0) {
+        console.log("🗑️ Deleting old caches:", oldCaches);
+        await Promise.all(oldCaches.map((name) => caches.delete(name)));
+      }
+
       // Take control of all clients immediately
       await self.clients.claim();
       console.log("✅ Service worker activated and claimed clients");
+
+      // Notify all clients to reload for the new version
+      const clients = await self.clients.matchAll({ type: "window" });
+      clients.forEach((client) => {
+        client.postMessage({ type: "SW_UPDATED", version: CACHE_NAME });
+      });
     })()
   );
 });

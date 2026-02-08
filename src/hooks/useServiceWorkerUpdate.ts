@@ -37,6 +37,14 @@ export function useServiceWorkerUpdate() {
       navigator.serviceWorker.addEventListener('controllerchange', () => {
         window.location.reload();
       });
+
+      // Listen for SW_UPDATED message from new service worker
+      navigator.serviceWorker.addEventListener('message', (event) => {
+        if (event.data?.type === 'SW_UPDATED') {
+          console.log('Service worker updated to:', event.data.version);
+          window.location.reload();
+        }
+      });
     }
   }, []);
 
