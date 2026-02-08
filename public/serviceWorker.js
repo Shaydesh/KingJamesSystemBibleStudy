@@ -1,4 +1,4 @@
-const CACHE_NAME = "bible-study-v144";
+const CACHE_NAME = "bible-study-v145";
 
 const coreAssets = [
   "/",
@@ -11,7 +11,6 @@ const coreAssets = [
   "/android-chrome-512x512.png",
 ];
 
-// List ALL book JSON files here explicitly:
 const bookAssets = [
   "/books/Genesis.json",
   "/books/Exodus.json",
@@ -84,42 +83,35 @@ const bookAssets = [
   "/miracles/miracles.json"
 ];
 
-// Install event - cache core assets first, then cache books one by one
+// Install event - cache core assets (MUST succeed) then cache books
 self.addEventListener("install", (event) => {
   event.waitUntil(
     (async () => {
       const cache = await caches.open(CACHE_NAME);
 
-      // Cache core assets in bulk
-      try {
-        await cache.addAll(coreAssets);
-        console.log("✅ Core assets cached");
-      } catch (err) {
-        console.error("❌ Error caching core assets:", err);
-      }
+      // Core assets MUST be cached - fail install if this fails
+      await cache.addAll(coreAssets);
+      console.log("✅ Core assets cached");
 
-      // Cache book assets in parallel using Promise.allSettled
+      // Cache book assets in parallel - these can fail individually
       const bookCachePromises = bookAssets.map((url) =>
         cache.add(url).then(
-          () => console.log(`✅ Cached book: ${url}`),
-          (err) => console.warn(`⚠️ Failed to cache book ${url}:`, err)
+          () => console.log(`✅ Cached: ${url}`),
+          (err) => console.warn(`⚠️ Failed to cache ${url}:`, err)
         )
       );
 
       await Promise.allSettled(bookCachePromises);
-      console.log("✅ All books caching completed, sending message to clients");
+      console.log("✅ Book caching completed");
 
+      // Notify clients
       const clients = await self.clients.matchAll();
-      console.log(`✅ Found ${clients.length} clients to notify`);
-
-      clients.forEach((client, index) => {
-        console.log(`✅ Sending 'books-cached' message to client ${index + 1}`);
-        client.postMessage("books-cached");  // Send message to the clients
+      clients.forEach((client) => {
+        client.postMessage("books-cached");
       });
     })()
   );
-
-  // Don't skipWaiting automatically - let the user decide when to update
+  // Don't skipWaiting - let user decide via toast
 });
 
 // Listen for skip waiting message from the app
@@ -129,30 +121,32 @@ self.addEventListener("message", (event) => {
   }
 });
 
-// Activate event - clean up old caches
+// Activate event - clean up old caches and take control
 self.addEventListener("activate", (event) => {
-  const cacheWhitelist = [CACHE_NAME];
   event.waitUntil(
-    caches.keys().then((cacheNames) =>
-      Promise.all(
-        cacheNames.map((cacheName) => {
-          if (!cacheWhitelist.includes(cacheName)) {
-            return caches.delete(cacheName);
-          }
-        })
-      )
-    )
+    (async () => {
+      // Delete old caches
+      const cacheNames = await caches.keys();
+      await Promise.all(
+        cacheNames
+          .filter((name) => name !== CACHE_NAME)
+          .map((name) => caches.delete(name))
+      );
+      // Take control of all clients immediately
+      await self.clients.claim();
+      console.log("✅ Service worker activated and claimed clients");
+    })()
   );
-  self.clients.claim();
 });
 
-// URLs that should be cached on-demand (when fetched)
+// Check if URL should be cached
 const shouldCacheUrl = (url) => {
   const pathname = new URL(url).pathname;
   return (
     pathname.startsWith("/books/") ||
     pathname.startsWith("/map/") ||
     pathname.startsWith("/miracles/") ||
+    pathname.startsWith("/assets/") ||
     pathname.endsWith(".json") ||
     pathname.endsWith(".css") ||
     pathname.endsWith(".js") ||
@@ -165,39 +159,85 @@ const shouldCacheUrl = (url) => {
   );
 };
 
-// Fetch event - cache-first with selective caching
+// Fetch event - OFFLINE FIRST (cache-first strategy)
 self.addEventListener("fetch", (event) => {
-  // Handle navigation requests (SPA routing)
-  if (event.request.mode === "navigate") {
+  const { request } = event;
+
+  // Handle navigation requests (SPA routing) - always serve index.html
+  if (request.mode === "navigate") {
     event.respondWith(
-      caches.match("/index.html").then((response) => response || fetch(event.request)).catch(() => caches.match("/index.html"))
+      (async () => {
+        // Try cache first
+        const cachedIndex = await caches.match("/index.html");
+        if (cachedIndex) {
+          return cachedIndex;
+        }
+        // Fallback to network only if not in cache
+        try {
+          const networkResponse = await fetch(request);
+          return networkResponse;
+        } catch (error) {
+          // If both fail, try root path as last resort
+          const cachedRoot = await caches.match("/");
+          if (cachedRoot) {
+            return cachedRoot;
+          }
+          // Return a basic offline response
+          return new Response(
+            "<!DOCTYPE html><html><head><title>Offline</title></head><body><h1>You are offline</h1><p>Please check your connection and try again.</p></body></html>",
+            { headers: { "Content-Type": "text/html" } }
+          );
+        }
+      })()
     );
     return;
   }
 
+  // Handle all other requests - cache first, network fallback
   event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
+    (async () => {
+      // Always check cache first
+      const cachedResponse = await caches.match(request);
       if (cachedResponse) {
         return cachedResponse;
       }
-      return fetch(event.request).then((networkResponse) => {
-        // Only cache valid responses for known asset types
+
+      // Not in cache - try network
+      try {
+        const networkResponse = await fetch(request);
+
+        // Cache successful responses for known asset types
         if (
-          !networkResponse ||
-          networkResponse.status !== 200 ||
-          networkResponse.type !== "basic" ||
-          !shouldCacheUrl(event.request.url)
+          networkResponse &&
+          networkResponse.status === 200 &&
+          networkResponse.type === "basic" &&
+          shouldCacheUrl(request.url)
         ) {
-          return networkResponse;
+          const cache = await caches.open(CACHE_NAME);
+          cache.put(request, networkResponse.clone());
         }
-        const responseToCache = networkResponse.clone();
-        caches.open(CACHE_NAME).then((cache) => {
-          cache.put(event.request, responseToCache);
-        });
+
         return networkResponse;
-      });
-    }).catch(() => {
-      console.warn("Fetch failed, and no cache match:", event.request.url);
-    })
+      } catch (error) {
+        // Network failed and not in cache
+        console.warn("Offline - no cache for:", request.url);
+
+        // Return appropriate fallback based on request type
+        const url = new URL(request.url);
+
+        // For JSON requests, return empty object/array
+        if (url.pathname.endsWith(".json")) {
+          return new Response("{}", {
+            headers: { "Content-Type": "application/json" }
+          });
+        }
+
+        // For other assets, return 503 Service Unavailable
+        return new Response("Offline - resource not cached", {
+          status: 503,
+          statusText: "Service Unavailable"
+        });
+      }
+    })()
   );
 });
