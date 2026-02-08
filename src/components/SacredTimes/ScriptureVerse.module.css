@@ -1,0 +1,100 @@
+.verseContainer {
+  max-width: 600px;
+  margin: 0 auto var(--space-lg, 24px) auto;
+  text-align: left;
+}
+
+.verseContainer .reference {
+  display: block;
+  text-align: center;
+  margin-top: var(--space-sm, 8px);
+}
+
+.passageContainer {
+  max-width: 600px;
+  margin: 0 auto var(--space-lg, 24px) auto;
+  text-align: left;
+}
+
+.passageContainer .verseText {
+  margin-bottom: var(--space-md, 16px);
+}
+
+.passageContainer .verseText:last-child {
+  margin-bottom: 0;
+}
+
+.passageContainer .reference {
+  display: block;
+  text-align: center;
+  margin-top: var(--space-sm, 8px);
+}
+
+.verseText {
+  font-family: 'LibreBaskerville-Regular', Georgia, serif;
+  font-size: var(--font-size-lg, 18px);
+  color: var(--color-text, #333);
+  margin: 0;
+}
+
+.verseNumber {
+  padding-right: 4px;
+}
+
+.clickableWord {
+  cursor: pointer;
+  transition: color var(--transition-fast, 0.15s ease);
+}
+
+.clickableWord:hover {
+  color: var(--color-text-muted, #666);
+  text-decoration: underline;
+}
+
+.reference {
+  font-family: 'LibreBaskerville-Italic', Georgia, serif;
+  font-style: italic;
+  color: var(--color-text-muted, #666);
+  cursor: pointer;
+  transition: color var(--transition-fast, 0.15s ease);
+}
+
+.reference:hover {
+  color: var(--color-text, #333);
+  text-decoration: underline;
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  .verseContainer,
+  .passageContainer {
+    max-width: 500px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .verseText {
+    font-size: 22px;
+  }
+}
+
+/* Tablet screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .verseText {
+    font-size: 24px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1025px) {
+  .verseText {
+    font-size: 22px;
+  }
+}
+
+/* iOS-specific styling */
+@supports (-webkit-touch-callout: none) {
+  .verseText {
+    font-size: 24px;
+  }
+}

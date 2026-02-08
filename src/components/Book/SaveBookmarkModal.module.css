@@ -173,18 +173,6 @@
     /* Pointer cursor */
 }
 
-.clickablePhrase {
-    cursor: pointer;
-    display: inline;
-    margin-right: 2px;
-
-}
-
-.clickablePhrase:hover {
-    border-radius: 3px;
-    cursor: pointer;
-}
-
 .topicSearch {
     margin-top: 20px;
     position: relative;

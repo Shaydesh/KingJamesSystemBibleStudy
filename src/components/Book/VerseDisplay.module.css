@@ -14,9 +14,6 @@
      font-size: 20px;
  }
 
- .bibleVerseDiv :hover {
-     cursor: pointer;
- }
 
  /* /* Target iOS devices specifically */
  @supports (-webkit-touch-callout: none) {
@@ -35,5 +32,43 @@
  }
 
  .bibleVerseNumber {
-     padding-left: 10px
+     padding-left: 10px;
+     cursor: pointer;
+     transition: color 0.15s ease;
+ }
+
+ .bibleVerseNumber:hover {
+     color: #666;
+     text-decoration: underline;
+ }
+
+ .clickableWord {
+     cursor: pointer;
+     transition: color 0.15s ease;
+ }
+
+ .clickableWord:hover {
+     color: #666;
+     text-decoration: underline;
+ }
+
+ /* Mobile screens */
+ @media (max-width: 768px) {
+     .bibleVerseDiv {
+         font-size: 22px;
+     }
+ }
+
+ /* Tablet screens */
+ @media (min-width: 769px) and (max-width: 1024px) {
+     .bibleVerseDiv {
+         font-size: 24px;
+     }
+ }
+
+ /* Large screens */
+ @media (min-width: 1025px) {
+     .bibleVerseDiv {
+         font-size: 22px;
+     }
  }

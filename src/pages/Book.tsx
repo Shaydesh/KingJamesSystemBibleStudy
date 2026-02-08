@@ -88,6 +88,11 @@ const Book = () => {
             book={book}
             currentChapter={currentChapter}
             openBookmarkModal={openBookmarkModal}
+            setStrongsData={setStrongsData}
+            setStrongsModalOpen={setStrongsModalOpen}
+            setCurrentStrongsIndex={setCurrentStrongsIndex}
+            setSelectedVerse={setSelectedVerse}
+            StrongsDict={StrongsDict}
           />
 
           <ConfirmBookmarkSavedModal
@@ -114,14 +119,10 @@ const Book = () => {
             setTopic={setTopic}
             setFilteredTopics={setFilteredTopics}
             topics={topics}
-            setStrongsData={setStrongsData}
-            setStrongsModalOpen={setStrongsModalOpen}
-            setCurrentStrongsIndex={setCurrentStrongsIndex}
             bookmarkModalOpen={bookmarkModalOpen}
             selectedVerse={selectedVerse}
             book={book}
             currentChapter={currentChapter}
-            StrongsDict={StrongsDict}
             closeBookmarkModal={closeBookmarkModal}
             topic={topic}
             filteredTopics={filteredTopics}
