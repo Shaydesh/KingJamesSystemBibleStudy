@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 export function useServiceWorkerUpdate() {
   useEffect(() => {
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/serviceWorker.js', {
+      navigator.serviceWorker.register('/serviceWorker.js?v=152', {
           updateViaCache: 'none'
         })
         .then((registration) => {
