@@ -1,4 +1,4 @@
-const CACHE_NAME = "bible-study-v148";
+const CACHE_NAME = "bible-study-v149";
 const APP_SHELL = ["/", "/index.html"];
 
 // Install: Cache app shell and essential assets
