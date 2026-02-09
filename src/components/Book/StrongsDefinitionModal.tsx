@@ -264,11 +264,9 @@ const StrongsDefinitionModal: React.FC<StrongsDefinitionModalProps> = ({
                   if (strongsHistory.length > 0) {
                     // Go back to previous Strong's entry
                     handleStrongsBack();
-                  } else if (selectedVerse !== null) {
-                    // Go back to bookmark modal
-                    console.log("Back button clicked.");
+                  } else {
+                    // No history, just close the modal
                     closeStrongsModal();
-                    openBookmarkModal(selectedVerse);
                   }
                 }}
                 style={{ marginRight: "10px" }}
